@@ -1,0 +1,649 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "en/tk-dp-m",
+    "code": "tk-dp-m",
+    "language": "en",
+    "name": "DP trainer Kit (Manaphy)",
+    "series": "Trainer kits",
+    "abbreviation": "TK3M",
+    "releaseDate": "2007-09-01",
+    "cardCount": {
+      "official": 12,
+      "total": 12
+    },
+    "images": {
+      "symbol": "https://assets.tcgdex.net/univ/tk/tk-dp-m/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "tk-dp-m"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "en/tk-dp-m/1",
+      "number": "1",
+      "name": "Buizel",
+      "cardGroup": "intl/tk-dp-m/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        418
+      ],
+      "rarity": "none",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Splash About",
+          "cost": [
+            "water"
+          ],
+          "damage": "10+",
+          "text": "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-1"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/1/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278010",
+            "tcgplayer": "84017"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/2",
+      "number": "2",
+      "name": "Floatzel",
+      "cardGroup": "intl/tk-dp-m/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "water"
+      ],
+      "species": [
+        419
+      ],
+      "evolvesFrom": "Buizel",
+      "rarity": "none",
+      "illustrator": "Masahiko Ishii",
+      "attacks": [
+        {
+          "name": "Screw Tail",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+        },
+        {
+          "name": "Water Gun",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "40",
+          "text": "Does 40 damage plus 20 more damage for each Water Energy attached to Floatzel but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-2"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/2/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278012",
+            "tcgplayer": "85512"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/3",
+      "number": "3",
+      "name": "Goldeen",
+      "cardGroup": "intl/tk-dp-m/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        118
+      ],
+      "rarity": "none",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Horn Attack",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Take Down",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Goldeen does 10 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-3"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/3/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278013",
+            "tcgplayer": "85808"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/4",
+      "number": "4",
+      "name": "Manaphy",
+      "cardGroup": "intl/tk-dp-m/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        490
+      ],
+      "rarity": "none",
+      "illustrator": "Daisuke Ito",
+      "attacks": [
+        {
+          "name": "Call for Family",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+        },
+        {
+          "name": "Aqua Ring",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "30",
+          "text": "Switch Manaphy with 1 of your Benched Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-4"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/4/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "278016",
+            "tcgplayer": "87145"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/5",
+      "number": "5",
+      "name": "Piplup",
+      "cardGroup": "intl/tk-dp-m/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        393
+      ],
+      "rarity": "none",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Peck",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Water Splash",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Flip a coin. If heads, this attack does 20 more damage plus 10 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-5"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/5/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278017",
+            "tcgplayer": "88144"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/6",
+      "number": "6",
+      "name": "Prinplup",
+      "cardGroup": "intl/tk-dp-m/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        394
+      ],
+      "evolvesFrom": "Piplup",
+      "rarity": "none",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Aqua Shower",
+          "cost": [
+            "water"
+          ],
+          "text": "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+          "name": "Brine",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "text": "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-6"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/6/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278020",
+            "tcgplayer": "88369"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/7",
+      "number": "7",
+      "name": "Seaking",
+      "cardGroup": "intl/tk-dp-m/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        119
+      ],
+      "evolvesFrom": "Goldeen",
+      "rarity": "none",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Flail",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10×",
+          "text": "Does 10 damage times the number of damage counters on Seaking."
+        },
+        {
+          "name": "Horn Drill",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-7"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/7/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278022",
+            "tcgplayer": "89027"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/8",
+      "number": "8",
+      "name": "Totodile",
+      "cardGroup": "intl/tk-dp-m/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        158
+      ],
+      "rarity": "none",
+      "illustrator": "Kouki Saitou",
+      "attacks": [
+        {
+          "name": "Bite",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Shining Fang",
+          "cost": [
+            "water"
+          ],
+          "damage": "10+",
+          "text": "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-8"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/8/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278023",
+            "tcgplayer": "89999"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/9",
+      "number": "9",
+      "name": "Dusk Ball",
+      "cardGroup": "intl/tk-dp-m/9",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "none",
+      "illustrator": "Ryo Ueda",
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-9"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/9/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278026",
+            "tcgplayer": "85034"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/10",
+      "number": "10",
+      "name": "Energy Search",
+      "cardGroup": "intl/tk-dp-m/10",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "none",
+      "illustrator": "Kai Ishikawa",
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-10"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/10/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278028",
+            "tcgplayer": "85246"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/11",
+      "number": "11",
+      "name": "Potion",
+      "cardGroup": "intl/tk-dp-m/11",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "none",
+      "illustrator": "Shin-ichi Yoshikawa",
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-11"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/11/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278029",
+            "tcgplayer": "88344"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/tk-dp-m/12",
+      "number": "12",
+      "name": "Water Energy",
+      "cardGroup": "intl/tk-dp-m/12",
+      "supertype": "energy",
+      "subtypes": [
+        "basic",
+        "basic-energy"
+      ],
+      "types": [
+        "water"
+      ],
+      "rarity": "none",
+      "illustrator": "",
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "tk-dp-m-12"
+      },
+      "prints": [
+        {
+          "id": "en/tk-dp-m/12/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278031",
+            "tcgplayer": "90511"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

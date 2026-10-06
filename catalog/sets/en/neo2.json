@@ -1,0 +1,5539 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "en/neo2",
+    "code": "neo2",
+    "language": "en",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "abbreviation": "N2",
+    "releaseDate": "2001-06-01",
+    "cardCount": {
+      "official": 75,
+      "total": 75
+    },
+    "images": {
+      "logo": "https://assets.tcgdex.net/en/neo/neo2/logo.webp",
+      "symbol": "https://assets.tcgdex.net/univ/neo/neo2/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "neo2"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "en/neo2/1",
+      "number": "1",
+      "name": "Espeon",
+      "cardGroup": "intl/neo2/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        196
+      ],
+      "evolvesFrom": "Eevee",
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Bite",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Psychic",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Does 30 damage plus 10 more for each Energy Card attached to the Defending Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/1/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/1/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-1"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/1/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274512",
+            "tcgplayer": "85316"
+          }
+        },
+        {
+          "id": "en/neo2/1/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274512",
+            "tcgplayer": "85316"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/2",
+      "number": "2",
+      "name": "Forretress",
+      "cardGroup": "intl/neo2/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        205
+      ],
+      "evolvesFrom": "Pineco",
+      "rarity": "rare",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Spikes",
+          "text": "During your opponent's turn, whenever 1 of your opponent's Benched Pokémon becomes his or her Active Pokémon, Forretress does 10 damage to it. (Don't apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Rapid Spin",
+          "cost": [
+            "metal",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with their Active Pokémon; then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/2/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/2/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-2"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/2/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274513",
+            "tcgplayer": "85542"
+          }
+        },
+        {
+          "id": "en/neo2/2/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274513",
+            "tcgplayer": "85542"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/3",
+      "number": "3",
+      "name": "Hitmontop",
+      "cardGroup": "intl/neo2/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        237
+      ],
+      "rarity": "rare",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Detect",
+          "cost": [
+            "fighting"
+          ],
+          "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop."
+        },
+        {
+          "name": "Triple Kick",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "30x",
+          "text": "Flip 3 coins. This attack does 30 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/3/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/3/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-3"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/3/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274514",
+            "tcgplayer": "86110"
+          }
+        },
+        {
+          "id": "en/neo2/3/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274514",
+            "tcgplayer": "86110"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/4",
+      "number": "4",
+      "name": "Houndoom",
+      "cardGroup": "intl/neo2/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        229
+      ],
+      "evolvesFrom": "Houndour",
+      "rarity": "rare",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Crunch",
+          "cost": [
+            "darkness",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
+        },
+        {
+          "name": "Flamethrower",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Discard 1 Energy card attached to Houndoom or this attack does nothing."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/4/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/4/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-4"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/4/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274515",
+            "tcgplayer": "86197"
+          }
+        },
+        {
+          "id": "en/neo2/4/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274515",
+            "tcgplayer": "86197"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/5",
+      "number": "5",
+      "name": "Houndour",
+      "cardGroup": "intl/neo2/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        228
+      ],
+      "rarity": "rare",
+      "illustrator": "Aya Kusube",
+      "attacks": [
+        {
+          "name": "Smog",
+          "cost": [
+            "fire"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        },
+        {
+          "name": "Collect Fire",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "20",
+          "text": "If there are any Energy in your discard pile, choose 1 of them and attach it to Houndour."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/5/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/5/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-5"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/5/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274516",
+            "tcgplayer": "86216"
+          }
+        },
+        {
+          "id": "en/neo2/5/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274516",
+            "tcgplayer": "86216"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/6",
+      "number": "6",
+      "name": "Kabutops",
+      "cardGroup": "intl/neo2/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 90,
+      "types": [
+        "water"
+      ],
+      "species": [
+        141
+      ],
+      "evolvesFrom": "Kabuto",
+      "rarity": "rare",
+      "illustrator": "Kimiya Masago",
+      "attacks": [
+        {
+          "name": "Slash",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Hydrocutter",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "40x",
+          "text": "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 times the number of heads. You can't flips more than 3 coins in this way."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/6/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/6/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-6"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/6/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274517",
+            "tcgplayer": "86389"
+          }
+        },
+        {
+          "id": "en/neo2/6/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274517",
+            "tcgplayer": "86389"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/7",
+      "number": "7",
+      "name": "Magnemite",
+      "cardGroup": "intl/neo2/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        81
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "Lock-on",
+          "cost": [
+            "colorless"
+          ],
+          "text": "During your next turn, treat any tails flipped when using Magnemite's Electric Bolt attack on the Defending Pokémon as if they were heads. (Benching or evolving either Pokémon ends this effect.)"
+        },
+        {
+          "name": "Electric Bolt",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If either of them is tails, this attack does nothing (not even damage)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/7/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/7/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-7"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/7/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274518",
+            "tcgplayer": "87064"
+          }
+        },
+        {
+          "id": "en/neo2/7/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274518",
+            "tcgplayer": "87064"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/8",
+      "number": "8",
+      "name": "Politoed",
+      "cardGroup": "intl/neo2/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "water"
+      ],
+      "species": [
+        186
+      ],
+      "evolvesFrom": "Poliwhirl",
+      "rarity": "rare",
+      "illustrator": "Tomokazu Komiya",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Frog Song",
+          "text": "Whenever Politoed's attack damages the Defending Pokémon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play (including your opponent's), that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Doubleslap",
+          "cost": [
+            "water",
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40x",
+          "text": "Flip 2 coins. This attack does 40 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/8/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/8/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-8"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/8/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274519",
+            "tcgplayer": "88246"
+          }
+        },
+        {
+          "id": "en/neo2/8/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274519",
+            "tcgplayer": "88246"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/9",
+      "number": "9",
+      "name": "Poliwrath",
+      "cardGroup": "intl/neo2/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 90,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        62
+      ],
+      "evolvesFrom": "Poliwhirl",
+      "rarity": "rare",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Corkscrew Punch",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Submission",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "Poliwrath does 20 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/9/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/9/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-9"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/9/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274520",
+            "tcgplayer": "88269"
+          }
+        },
+        {
+          "id": "en/neo2/9/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274520",
+            "tcgplayer": "88269"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/10",
+      "number": "10",
+      "name": "Scizor",
+      "cardGroup": "intl/neo2/10",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        212
+      ],
+      "evolvesFrom": "Scyther",
+      "rarity": "rare",
+      "illustrator": "Kimiya Masago",
+      "attacks": [
+        {
+          "name": "False Swipe",
+          "cost": [
+            "metal"
+          ],
+          "damage": "?",
+          "text": "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10)."
+        },
+        {
+          "name": "Double Claw",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Flip 2 coins. This attack does 20 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/10/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/10/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-10"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/10/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274521",
+            "tcgplayer": "88956"
+          }
+        },
+        {
+          "id": "en/neo2/10/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274521",
+            "tcgplayer": "88956"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/11",
+      "number": "11",
+      "name": "Smeargle",
+      "cardGroup": "intl/neo2/11",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        235
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Sketch",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/11/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/11/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-11"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/11/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274522",
+            "tcgplayer": "89350"
+          }
+        },
+        {
+          "id": "en/neo2/11/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274522",
+            "tcgplayer": "89350"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/12",
+      "number": "12",
+      "name": "Tyranitar",
+      "cardGroup": "intl/neo2/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        248
+      ],
+      "evolvesFrom": "Pupitar",
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Slam",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30x",
+          "text": "Flip 2 coins. This attack does 30 times the number of heads."
+        },
+        {
+          "name": "Trample",
+          "cost": [
+            "darkness",
+            "darkness",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "For each Benched Pokémon in play (yours and your opponent's), flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/12/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/12/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-12"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/12/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274523",
+            "tcgplayer": "90113"
+          }
+        },
+        {
+          "id": "en/neo2/12/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274523",
+            "tcgplayer": "90113"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/13",
+      "number": "13",
+      "name": "Umbreon",
+      "cardGroup": "intl/neo2/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        197
+      ],
+      "evolvesFrom": "Eevee",
+      "rarity": "rare",
+      "illustrator": "Kimiya Masago",
+      "attacks": [
+        {
+          "name": "Bite",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Feint Attack",
+          "cost": [
+            "darkness",
+            "darkness",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers or any other effects on the Defending Pokémon."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/13/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/13/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-13"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/13/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274524",
+            "tcgplayer": "90137"
+          }
+        },
+        {
+          "id": "en/neo2/13/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274524",
+            "tcgplayer": "90137"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/14",
+      "number": "14",
+      "name": "Unown [A]",
+      "cardGroup": "intl/neo2/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "rare",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Anger",
+          "text": "Whenever 1 of your Pokémon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown A. If you have more than 1 Unown A in play, use only 1 Anger for each attack."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/14/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/14/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-14"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/14/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274525",
+            "tcgplayer": "90196"
+          }
+        },
+        {
+          "id": "en/neo2/14/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274525",
+            "tcgplayer": "90196"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/15",
+      "number": "15",
+      "name": "Ursaring",
+      "cardGroup": "intl/neo2/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        217
+      ],
+      "evolvesFrom": "Teddiursa",
+      "rarity": "rare",
+      "illustrator": "Naoyo Kimura",
+      "attacks": [
+        {
+          "name": "Headpress",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage)."
+        },
+        {
+          "name": "Double Lariat",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40x",
+          "text": "Flip 2 coins. This attack does 40 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/15/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/15/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-15"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/15/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274526",
+            "tcgplayer": "90249"
+          }
+        },
+        {
+          "id": "en/neo2/15/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274526",
+            "tcgplayer": "90249"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/16",
+      "number": "16",
+      "name": "Wobbuffet",
+      "cardGroup": "intl/neo2/16",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        202
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Counter",
+          "cost": [
+            "psychic"
+          ],
+          "text": "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is knocked out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/16/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/16/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-16"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/16/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274527",
+            "tcgplayer": "90612"
+          }
+        },
+        {
+          "id": "en/neo2/16/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274527",
+            "tcgplayer": "90612"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/17",
+      "number": "17",
+      "name": "Yanma",
+      "cardGroup": "intl/neo2/17",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        193
+      ],
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Shockwave",
+          "cost": [
+            "grass"
+          ],
+          "text": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon."
+        },
+        {
+          "name": "Swift",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "30",
+          "text": "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/17/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/17/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-17"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/17/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274528",
+            "tcgplayer": "90680"
+          }
+        },
+        {
+          "id": "en/neo2/17/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274528",
+            "tcgplayer": "90680"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/18",
+      "number": "18",
+      "name": "Beedrill",
+      "cardGroup": "intl/neo2/18",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        15
+      ],
+      "evolvesFrom": "Kakuna",
+      "rarity": "rare",
+      "illustrator": "Aya Kusube",
+      "attacks": [
+        {
+          "name": "Triple Poison",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Your opponent now puts 3 damage counters instead of 1 after each player's turn (even if it was already Poisoned)."
+        },
+        {
+          "name": "Pin Missile",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Flip 4 coins. This attack does 20 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/18/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/18/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-18"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/18/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274529",
+            "tcgplayer": "83767"
+          }
+        },
+        {
+          "id": "en/neo2/18/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274529",
+            "tcgplayer": "83767"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/19",
+      "number": "19",
+      "name": "Butterfree",
+      "cardGroup": "intl/neo2/19",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        12
+      ],
+      "evolvesFrom": "Metapod",
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Magic Dust",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now either Asleep, Confused, Paralyzed, or Poisoned (your choice)."
+        },
+        {
+          "name": "Hyper Reverse",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless"
+          ],
+          "text": "Does 10 damage times the number of Energy cards attached to the Defending Pokémon. After doing damage, remove a number of damage counters from Butterfree equal to the amount of damage done to the Defending Pokémon (after applying Weakness and Resistance)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/19/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/19/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-19"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/19/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274530",
+            "tcgplayer": "84061"
+          }
+        },
+        {
+          "id": "en/neo2/19/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274530",
+            "tcgplayer": "84061"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/20",
+      "number": "20",
+      "name": "Espeon",
+      "cardGroup": "intl/neo2/20",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        196
+      ],
+      "evolvesFrom": "Eevee",
+      "rarity": "rare",
+      "illustrator": "Naoyo Kimura",
+      "attacks": [
+        {
+          "name": "Quick Attack",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+        },
+        {
+          "name": "Psybeam",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/20/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/20/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-20"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/20/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274512",
+            "tcgplayer": "85320"
+          }
+        },
+        {
+          "id": "en/neo2/20/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274512",
+            "tcgplayer": "85320"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/21",
+      "number": "21",
+      "name": "Forretress",
+      "cardGroup": "intl/neo2/21",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        205
+      ],
+      "evolvesFrom": "Pineco",
+      "rarity": "rare",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Spikes",
+          "text": "During your opponent's turn, whenever 1 of your opponent's Benched Pokémon becomes his or her Active Pokémon, Forretress does 10 damage to it. (Don't apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Rapid Spin",
+          "cost": [
+            "metal",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with their Active Pokémon; then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/21/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/21/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-21"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/21/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274513",
+            "tcgplayer": "85545"
+          }
+        },
+        {
+          "id": "en/neo2/21/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274513",
+            "tcgplayer": "85545"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/22",
+      "number": "22",
+      "name": "Hitmontop",
+      "cardGroup": "intl/neo2/22",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        237
+      ],
+      "rarity": "rare",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Detect",
+          "cost": [
+            "fighting"
+          ],
+          "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop."
+        },
+        {
+          "name": "Triple Kick",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "30x",
+          "text": "Flip 3 coins. This attack does 30 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/22/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/22/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-22"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/22/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274514",
+            "tcgplayer": "86111"
+          }
+        },
+        {
+          "id": "en/neo2/22/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274514",
+            "tcgplayer": "86111"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/23",
+      "number": "23",
+      "name": "Houndoom",
+      "cardGroup": "intl/neo2/23",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        229
+      ],
+      "evolvesFrom": "Houndour",
+      "rarity": "rare",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Crunch",
+          "cost": [
+            "darkness",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
+        },
+        {
+          "name": "Flamethrower",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Discard 1 Energy card attached to Houndoom or this attack does nothing."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/23/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/23/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-23"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/23/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274515",
+            "tcgplayer": "86204"
+          }
+        },
+        {
+          "id": "en/neo2/23/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274515",
+            "tcgplayer": "86204"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/24",
+      "number": "24",
+      "name": "Houndour",
+      "cardGroup": "intl/neo2/24",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        228
+      ],
+      "rarity": "rare",
+      "illustrator": "Aya Kusube",
+      "attacks": [
+        {
+          "name": "Smog",
+          "cost": [
+            "fire"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        },
+        {
+          "name": "Collect Fire",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "20",
+          "text": "If there are any Energy in your discard pile, choose 1 of them and attach it to Houndour."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/24/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/24/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-24"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/24/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274516",
+            "tcgplayer": "86217"
+          }
+        },
+        {
+          "id": "en/neo2/24/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274516",
+            "tcgplayer": "86217"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/25",
+      "number": "25",
+      "name": "Kabutops",
+      "cardGroup": "intl/neo2/25",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 90,
+      "types": [
+        "water"
+      ],
+      "species": [
+        141
+      ],
+      "evolvesFrom": "Kabuto",
+      "rarity": "rare",
+      "illustrator": "Kimiya Masago",
+      "attacks": [
+        {
+          "name": "Slash",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Hydrocutter",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "40x",
+          "text": "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 times the number of heads. You can't flips more than 3 coins in this way."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/25/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/25/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-25"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/25/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274517",
+            "tcgplayer": "86394"
+          }
+        },
+        {
+          "id": "en/neo2/25/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274517",
+            "tcgplayer": "86394"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/26",
+      "number": "26",
+      "name": "Magnemite",
+      "cardGroup": "intl/neo2/26",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        81
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "Lock-on",
+          "cost": [
+            "colorless"
+          ],
+          "text": "During your next turn, treat any tails flipped when using Magnemite's Electric Bolt attack on the Defending Pokémon as if they were heads. (Benching or evolving either Pokémon ends this effect.)"
+        },
+        {
+          "name": "Electric Bolt",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If either of them is tails, this attack does nothing (not even damage)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/26/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/26/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-26"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/26/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274518"
+          }
+        },
+        {
+          "id": "en/neo2/26/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274518"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/27",
+      "number": "27",
+      "name": "Politoed",
+      "cardGroup": "intl/neo2/27",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "water"
+      ],
+      "species": [
+        186
+      ],
+      "evolvesFrom": "Poliwhirl",
+      "rarity": "rare",
+      "illustrator": "Tomokazu Komiya",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Frog Song",
+          "text": "Whenever Politoed's attack damages the Defending Pokémon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play (including your opponent's), that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Doubleslap",
+          "cost": [
+            "water",
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40x",
+          "text": "Flip 2 coins. This attack does 40 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/27/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/27/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-27"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/27/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274519",
+            "tcgplayer": "88249"
+          }
+        },
+        {
+          "id": "en/neo2/27/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274519",
+            "tcgplayer": "88249"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/28",
+      "number": "28",
+      "name": "Poliwrath",
+      "cardGroup": "intl/neo2/28",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 90,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        62
+      ],
+      "evolvesFrom": "Poliwhirl",
+      "rarity": "rare",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Corkscrew Punch",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Submission",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "Poliwrath does 20 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/28/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/28/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-28"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/28/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274520",
+            "tcgplayer": "88274"
+          }
+        },
+        {
+          "id": "en/neo2/28/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274520",
+            "tcgplayer": "88274"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/29",
+      "number": "29",
+      "name": "Scizor",
+      "cardGroup": "intl/neo2/29",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        212
+      ],
+      "evolvesFrom": "Scyther",
+      "rarity": "rare",
+      "illustrator": "Kimiya Masago",
+      "attacks": [
+        {
+          "name": "False Swipe",
+          "cost": [
+            "metal"
+          ],
+          "damage": "?",
+          "text": "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10)."
+        },
+        {
+          "name": "Double Claw",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Flip 2 coins. This attack does 20 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/29/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/29/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-29"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/29/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274521",
+            "tcgplayer": "88958"
+          }
+        },
+        {
+          "id": "en/neo2/29/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274521",
+            "tcgplayer": "88958"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/30",
+      "number": "30",
+      "name": "Smeargle",
+      "cardGroup": "intl/neo2/30",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        235
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Sketch",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/30/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/30/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-30"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/30/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274522",
+            "tcgplayer": "89351"
+          }
+        },
+        {
+          "id": "en/neo2/30/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274522",
+            "tcgplayer": "89351"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/31",
+      "number": "31",
+      "name": "Tyranitar",
+      "cardGroup": "intl/neo2/31",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        248
+      ],
+      "evolvesFrom": "Pupitar",
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Slam",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30x",
+          "text": "Flip 2 coins. This attack does 30 times the number of heads."
+        },
+        {
+          "name": "Trample",
+          "cost": [
+            "darkness",
+            "darkness",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "For each Benched Pokémon in play (yours and your opponent's), flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/31/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/31/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-31"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/31/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274523",
+            "tcgplayer": "90116"
+          }
+        },
+        {
+          "id": "en/neo2/31/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274523",
+            "tcgplayer": "90116"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/32",
+      "number": "32",
+      "name": "Umbreon",
+      "cardGroup": "intl/neo2/32",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        197
+      ],
+      "evolvesFrom": "Eevee",
+      "rarity": "rare",
+      "illustrator": "Naoyo Kimura",
+      "attacks": [
+        {
+          "name": "Quick Attack",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+        },
+        {
+          "name": "Pursuit",
+          "cost": [
+            "metal",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "During your opponent's next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. (Don't apply Weakness and Resistance.)"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/32/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/32/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-32"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/32/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274524",
+            "tcgplayer": "90142"
+          }
+        },
+        {
+          "id": "en/neo2/32/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274524",
+            "tcgplayer": "90142"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/33",
+      "number": "33",
+      "name": "Unown [A]",
+      "cardGroup": "intl/neo2/33",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "rare",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Anger",
+          "text": "Whenever 1 of your Pokémon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown A. If you have more than 1 Unown A in play, use only 1 Anger for each attack."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/33/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/33/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-33"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/33/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274525",
+            "tcgplayer": "90197"
+          }
+        },
+        {
+          "id": "en/neo2/33/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274525",
+            "tcgplayer": "90197"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/34",
+      "number": "34",
+      "name": "Ursaring",
+      "cardGroup": "intl/neo2/34",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        217
+      ],
+      "evolvesFrom": "Teddiursa",
+      "rarity": "rare",
+      "illustrator": "Naoyo Kimura",
+      "attacks": [
+        {
+          "name": "Headpress",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage)."
+        },
+        {
+          "name": "Double Lariat",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40x",
+          "text": "Flip 2 coins. This attack does 40 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/34/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/34/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-34"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/34/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274526",
+            "tcgplayer": "90250"
+          }
+        },
+        {
+          "id": "en/neo2/34/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274526",
+            "tcgplayer": "90250"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/35",
+      "number": "35",
+      "name": "Wobbuffet",
+      "cardGroup": "intl/neo2/35",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        202
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Counter",
+          "cost": [
+            "psychic"
+          ],
+          "text": "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is knocked out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/35/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/35/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-35"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/35/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274527",
+            "tcgplayer": "90614"
+          }
+        },
+        {
+          "id": "en/neo2/35/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274527",
+            "tcgplayer": "90614"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/36",
+      "number": "36",
+      "name": "Yanma",
+      "cardGroup": "intl/neo2/36",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        193
+      ],
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Shockwave",
+          "cost": [
+            "grass"
+          ],
+          "text": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon."
+        },
+        {
+          "name": "Swift",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "30",
+          "text": "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/36/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/36/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-36"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/36/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274528",
+            "tcgplayer": "90681"
+          }
+        },
+        {
+          "id": "en/neo2/36/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274528",
+            "tcgplayer": "90681"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/37",
+      "number": "37",
+      "name": "Corsola",
+      "cardGroup": "intl/neo2/37",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        222
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Recover",
+          "cost": [
+            "water"
+          ],
+          "text": "Discard 1 Energy attached to Corsola or this attack does nothing. Remove all damage counters from Corsola."
+        },
+        {
+          "name": "Spike Cannon",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "30x",
+          "text": "Flip 2 coins. This attack does 30 times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/37/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/37/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-37"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/37/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274548",
+            "tcgplayer": "84437"
+          }
+        },
+        {
+          "id": "en/neo2/37/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274548",
+            "tcgplayer": "84437"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/38",
+      "number": "38",
+      "name": "Eevee",
+      "cardGroup": "intl/neo2/38",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        133
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Aya Kusube",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Energy Evolution",
+          "text": "Whenever you attach an Energy card to Eevee, flip a coin. If heads, search your deck for that evolves from Eevee that is the same type as the Energy card you attached to Eevee. Shuffle your deck afterward. This power can't be used if Eevee is Asleep, Confused, or Paralyzed."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Smash Kick",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/38/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/38/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-38"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/38/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274549",
+            "tcgplayer": "85075"
+          }
+        },
+        {
+          "id": "en/neo2/38/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274549",
+            "tcgplayer": "85075"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/39",
+      "number": "39",
+      "name": "Houndour",
+      "cardGroup": "intl/neo2/39",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        228
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Bite",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Plunder",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Before doing damage, discard all Trainer cards attached to the Defending Pokémon."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/39/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/39/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-39"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/39/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274516",
+            "tcgplayer": "86218"
+          }
+        },
+        {
+          "id": "en/neo2/39/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274516",
+            "tcgplayer": "86218"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/40",
+      "number": "40",
+      "name": "Igglybuff",
+      "cardGroup": "intl/neo2/40",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        174
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Miki Tanaka",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Gaze",
+          "text": "Once during your turn (before you attack), choose 1 of your opponent's Benched Pokémon that has a Pokémon Power. That power stops working until the end of this turn. This effect ends if that Pokémon leaves the Bench. (Pokémon Power)"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/40/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/40/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-40"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/40/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274551",
+            "tcgplayer": "86257"
+          }
+        },
+        {
+          "id": "en/neo2/40/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274551",
+            "tcgplayer": "86257"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/41",
+      "number": "41",
+      "name": "Kakuna",
+      "cardGroup": "intl/neo2/41",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        14
+      ],
+      "evolvesFrom": "Weedle",
+      "rarity": "uncommon",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Secrete Poison",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "text": "During your opponent's next turn, whenever your opponent's attack damages Kakuna (even if Kakuna is knocked out), your opponent's Active Pokémon is now Poisoned and Kakuna does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/41/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/41/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-41"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/41/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274552",
+            "tcgplayer": "86408"
+          }
+        },
+        {
+          "id": "en/neo2/41/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274552",
+            "tcgplayer": "86408"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/42",
+      "number": "42",
+      "name": "Metapod",
+      "cardGroup": "intl/neo2/42",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        11
+      ],
+      "evolvesFrom": "Caterpie",
+      "rarity": "uncommon",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Harden",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "During your opponent's next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
+        },
+        {
+          "name": "Hatch",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "text": "Flip a coin. If heads, remove all damage counters from Metapod. Then, search your deck for a card that evolves from Metapod and attach that card to Metapod. This counts as evolving Metapod. Shuffle your deck afterward."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/42/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/42/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-42"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/42/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274553",
+            "tcgplayer": "87385"
+          }
+        },
+        {
+          "id": "en/neo2/42/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274553",
+            "tcgplayer": "87385"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/43",
+      "number": "43",
+      "name": "Omastar",
+      "cardGroup": "intl/neo2/43",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        139
+      ],
+      "evolvesFrom": "Omanyte",
+      "rarity": "uncommon",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Squeeze",
+          "cost": [
+            "water"
+          ],
+          "damage": "10+",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 10 damage."
+        },
+        {
+          "name": "Spike Barrage",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "20+",
+          "text": "Flip a number of coins equal to the number of Energy attached to Omastar. This attack does 20 damage plus 20 more for each heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/43/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/43/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-43"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/43/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274554",
+            "tcgplayer": "87866"
+          }
+        },
+        {
+          "id": "en/neo2/43/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274554",
+            "tcgplayer": "87866"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/44",
+      "number": "44",
+      "name": "Poliwhirl",
+      "cardGroup": "intl/neo2/44",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        61
+      ],
+      "evolvesFrom": "Poliwag",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Belly Drum",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Put 3 damage counters on Poliwhirl. If this doesn't knock out Poliwhirl, search your deck for up to 2 Basic Energy cards and attach them to Poliwhirl. Shuffle your deck afterward."
+        },
+        {
+          "name": "Water Gun",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Does 30 damage plus 10 more damage for each W Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/44/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/44/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-44"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/44/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274555",
+            "tcgplayer": "88262"
+          }
+        },
+        {
+          "id": "en/neo2/44/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274555",
+            "tcgplayer": "88262"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/45",
+      "number": "45",
+      "name": "Pupitar",
+      "cardGroup": "intl/neo2/45",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        247
+      ],
+      "evolvesFrom": "Larvitar",
+      "rarity": "uncommon",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Skull Bash",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Dust Devil",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "text": "Does 10 damage to each non- Pokémon in play. Don't apply Weakness and Resistance."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/45/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/45/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-45"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/45/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274556",
+            "tcgplayer": "88445"
+          }
+        },
+        {
+          "id": "en/neo2/45/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274556",
+            "tcgplayer": "88445"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/46",
+      "number": "46",
+      "name": "Scyther",
+      "cardGroup": "intl/neo2/46",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        123
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Kimiya Masago",
+      "attacks": [
+        {
+          "name": "Fury Cutter",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "10+",
+          "text": "Flip 4 coins. This attack does 10 damage plus 10 more damage if exactly 1 is heads, or 20 more damage if exactly 2 are heads, or 40 more damage if exactly 3 are heads, or 80 more damage if all 4 are heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/46/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/46/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-46"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/46/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274557",
+            "tcgplayer": "88994"
+          }
+        },
+        {
+          "id": "en/neo2/46/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274557",
+            "tcgplayer": "88994"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/47",
+      "number": "47",
+      "name": "Unown [D]",
+      "cardGroup": "intl/neo2/47",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Darkness",
+          "text": "Whenever a D Pokémon damages 1 of your Pokémon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown D in play. (This power even works if Unown D is Asleep, Confused, or Paralyzed.)"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/47/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/47/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-47"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/47/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274558",
+            "tcgplayer": "90203"
+          }
+        },
+        {
+          "id": "en/neo2/47/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274558",
+            "tcgplayer": "90203"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/48",
+      "number": "48",
+      "name": "Unown [F]",
+      "cardGroup": "intl/neo2/48",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "[Find]",
+          "text": "Once during your turn (before you attack), if you have Unown F, Unown I, Unown N, and Unown D on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/48/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/48/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-48"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/48/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274559",
+            "tcgplayer": "90207"
+          }
+        },
+        {
+          "id": "en/neo2/48/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274559",
+            "tcgplayer": "90207"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/49",
+      "number": "49",
+      "name": "Unown [M]",
+      "cardGroup": "intl/neo2/49",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/49/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/49/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-49"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/49/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274560",
+            "tcgplayer": "90221"
+          }
+        },
+        {
+          "id": "en/neo2/49/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274560",
+            "tcgplayer": "90221"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/50",
+      "number": "50",
+      "name": "Unown [N]",
+      "cardGroup": "intl/neo2/50",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/50/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/50/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-50"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/50/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274561",
+            "tcgplayer": "90223"
+          }
+        },
+        {
+          "id": "en/neo2/50/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274561",
+            "tcgplayer": "90223"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/51",
+      "number": "51",
+      "name": "Unown [U]",
+      "cardGroup": "intl/neo2/51",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Undo",
+          "text": "Once during your turn (before you attack), if you have Unown U, Unown N, Unown D, and Unown O on your Bench, you may return your Active Pokémon and all cards attached to it to your hand."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/51/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/51/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-51"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/51/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274562",
+            "tcgplayer": "90236"
+          }
+        },
+        {
+          "id": "en/neo2/51/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274562",
+            "tcgplayer": "90236"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/52",
+      "number": "52",
+      "name": "Xatu",
+      "cardGroup": "intl/neo2/52",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        178
+      ],
+      "evolvesFrom": "Natu",
+      "rarity": "uncommon",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Energy Cycle",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon."
+        },
+        {
+          "name": "Super Psy",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/52/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/52/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-52"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/52/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274563",
+            "tcgplayer": "90660"
+          }
+        },
+        {
+          "id": "en/neo2/52/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274563",
+            "tcgplayer": "90660"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/53",
+      "number": "53",
+      "name": "Caterpie",
+      "cardGroup": "intl/neo2/53",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        10
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Spin Tackle",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Caterpie does 10 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/53/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/53/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-53"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/53/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274564",
+            "tcgplayer": "84133"
+          }
+        },
+        {
+          "id": "en/neo2/53/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274564",
+            "tcgplayer": "84133"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/54",
+      "number": "54",
+      "name": "Dunsparce",
+      "cardGroup": "intl/neo2/54",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        206
+      ],
+      "rarity": "common",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Glare",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/54/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/54/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-54"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/54/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274565",
+            "tcgplayer": "85007"
+          }
+        },
+        {
+          "id": "en/neo2/54/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274565",
+            "tcgplayer": "85007"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/55",
+      "number": "55",
+      "name": "Hoppip",
+      "cardGroup": "intl/neo2/55",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        187
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Rolling Tackle",
+          "cost": [
+            "grass"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/55/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/55/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-55"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/55/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274566",
+            "tcgplayer": "86176"
+          }
+        },
+        {
+          "id": "en/neo2/55/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274566",
+            "tcgplayer": "86176"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/56",
+      "number": "56",
+      "name": "Kabuto",
+      "cardGroup": "intl/neo2/56",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        140
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Revive Friends",
+          "text": "Once during your turn (before you attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Work Together",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/56/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/56/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-56"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/56/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274567",
+            "tcgplayer": "86383"
+          }
+        },
+        {
+          "id": "en/neo2/56/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274567",
+            "tcgplayer": "86383"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/57",
+      "number": "57",
+      "name": "Larvitar",
+      "cardGroup": "intl/neo2/57",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        246
+      ],
+      "rarity": "common",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Bite",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/57/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/57/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-57"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/57/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274568",
+            "tcgplayer": "86632"
+          }
+        },
+        {
+          "id": "en/neo2/57/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274568",
+            "tcgplayer": "86632"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/58",
+      "number": "58",
+      "name": "Mareep",
+      "cardGroup": "intl/neo2/58",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        179
+      ],
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Thunder Jolt",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Flip a coin. If tails, Mareep does 10 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/58/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/58/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-58"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/58/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274569",
+            "tcgplayer": "87192"
+          }
+        },
+        {
+          "id": "en/neo2/58/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274569",
+            "tcgplayer": "87192"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/59",
+      "number": "59",
+      "name": "Natu",
+      "cardGroup": "intl/neo2/59",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        177
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Confuse Ray",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/59/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/59/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-59"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/59/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274570",
+            "tcgplayer": "87680"
+          }
+        },
+        {
+          "id": "en/neo2/59/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274570",
+            "tcgplayer": "87680"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/60",
+      "number": "60",
+      "name": "Omanyte",
+      "cardGroup": "intl/neo2/60",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        138
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Fossil",
+          "text": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it on your Bench. Shuffle your deck afterward. Treat that card as a Basic Pokémon. This power can't be used if Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is full)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Bind",
+          "cost": [
+            "water"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/60/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/60/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-60"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/60/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274571",
+            "tcgplayer": "87856"
+          }
+        },
+        {
+          "id": "en/neo2/60/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274571",
+            "tcgplayer": "87856"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/61",
+      "number": "61",
+      "name": "Pineco",
+      "cardGroup": "intl/neo2/61",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        204
+      ],
+      "rarity": "common",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Burst",
+          "cost": [
+            "grass"
+          ],
+          "damage": "40",
+          "text": "Flip a coin. If heads, Pineco does 40 damage to itself and 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If tails, this attack does nothing (not even damage)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/61/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/61/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-61"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/61/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274572",
+            "tcgplayer": "88122"
+          }
+        },
+        {
+          "id": "en/neo2/61/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274572",
+            "tcgplayer": "88122"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/62",
+      "number": "62",
+      "name": "Poliwag",
+      "cardGroup": "intl/neo2/62",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "water"
+      ],
+      "species": [
+        60
+      ],
+      "rarity": "common",
+      "illustrator": "Aya Kusube",
+      "attacks": [
+        {
+          "name": "Rollout",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Hypnosis",
+          "cost": [
+            "water"
+          ],
+          "text": "The Defending Pokémon is now Asleep."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/62/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/62/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-62"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/62/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274573",
+            "tcgplayer": "88254"
+          }
+        },
+        {
+          "id": "en/neo2/62/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274573",
+            "tcgplayer": "88254"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/63",
+      "number": "63",
+      "name": "Sentret",
+      "cardGroup": "intl/neo2/63",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        161
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Scout",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Look at your opponent's hand."
+        },
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/63/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/63/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-63"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/63/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274574",
+            "tcgplayer": "89061"
+          }
+        },
+        {
+          "id": "en/neo2/63/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274574",
+            "tcgplayer": "89061"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/64",
+      "number": "64",
+      "name": "Spinarak",
+      "cardGroup": "intl/neo2/64",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        167
+      ],
+      "rarity": "common",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Poison Sting",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/64/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/64/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-64"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/64/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274575",
+            "tcgplayer": "89452"
+          }
+        },
+        {
+          "id": "en/neo2/64/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274575",
+            "tcgplayer": "89452"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/65",
+      "number": "65",
+      "name": "Teddiursa",
+      "cardGroup": "intl/neo2/65",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        216
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Scratch",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Nap Time",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Remove all damage counters from Teddiursa. Teddiursa is now Asleep."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/65/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/65/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-65"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/65/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274576",
+            "tcgplayer": "89855"
+          }
+        },
+        {
+          "id": "en/neo2/65/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274576",
+            "tcgplayer": "89855"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/66",
+      "number": "66",
+      "name": "Tyrogue",
+      "cardGroup": "intl/neo2/66",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        236
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Smash Punch",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Flip a coin. If tails, this attack does nothing."
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/66/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/66/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-66"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/66/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274577",
+            "tcgplayer": "90128"
+          }
+        },
+        {
+          "id": "en/neo2/66/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274577",
+            "tcgplayer": "90128"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/67",
+      "number": "67",
+      "name": "Unown [E]",
+      "cardGroup": "intl/neo2/67",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "common",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "[Engage]",
+          "text": "When you play Unown E from your hand, your opponent may shuffle his or her hand into his or her deck and then draw 4 cards. Either way, you may shuffle your hand into your deck and draw 4 cards."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/67/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/67/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-67"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/67/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274578",
+            "tcgplayer": "90205"
+          }
+        },
+        {
+          "id": "en/neo2/67/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274578",
+            "tcgplayer": "90205"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/68",
+      "number": "68",
+      "name": "Unown [I]",
+      "cardGroup": "intl/neo2/68",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "common",
+      "illustrator": "CR CG gangs",
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/68/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/68/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-68"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/68/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274579",
+            "tcgplayer": "90213"
+          }
+        },
+        {
+          "id": "en/neo2/68/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274579",
+            "tcgplayer": "90213"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/69",
+      "number": "69",
+      "name": "Unown [O]",
+      "cardGroup": "intl/neo2/69",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "common",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Observe",
+          "text": "Once during your turn (before you attack), you may look at 5 cards from the top of your opponent's deck and put them back in the same order."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hidden Power",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/69/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/69/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-69"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/69/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274580",
+            "tcgplayer": "90225"
+          }
+        },
+        {
+          "id": "en/neo2/69/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274580",
+            "tcgplayer": "90225"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/70",
+      "number": "70",
+      "name": "Weedle",
+      "cardGroup": "intl/neo2/70",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        13
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Spike Stab",
+          "cost": [
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing (not even damage)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/70/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/70/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-70"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/70/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274581",
+            "tcgplayer": "90538"
+          }
+        },
+        {
+          "id": "en/neo2/70/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274581",
+            "tcgplayer": "90538"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/71",
+      "number": "71",
+      "name": "Wooper",
+      "cardGroup": "intl/neo2/71",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        194
+      ],
+      "rarity": "common",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Slime",
+          "cost": [
+            "water"
+          ],
+          "text": "If an attack would do damage to Wooper during your opponent's next turn, your opponent flips a coin. If tails, prevent all damage done to Wooper from that attack. (Any other effects of that attack happen.)"
+        },
+        {
+          "name": "Tail Slap",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/71/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/71/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-71"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/71/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274582",
+            "tcgplayer": "90631"
+          }
+        },
+        {
+          "id": "en/neo2/71/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274582",
+            "tcgplayer": "90631"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/72",
+      "number": "72",
+      "name": "Fossil Egg",
+      "cardGroup": "intl/neo2/72",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/72/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/72/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-72"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/72/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274583",
+            "tcgplayer": "85555"
+          }
+        },
+        {
+          "id": "en/neo2/72/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274583",
+            "tcgplayer": "85555"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/73",
+      "number": "73",
+      "name": "Hyper Devolution Spray",
+      "cardGroup": "intl/neo2/73",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/73/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/73/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-73"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/73/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274584",
+            "tcgplayer": "86245"
+          }
+        },
+        {
+          "id": "en/neo2/73/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274584",
+            "tcgplayer": "86245"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/74",
+      "number": "74",
+      "name": "Ruin Wall",
+      "cardGroup": "intl/neo2/74",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/74/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/74/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-74"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/74/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274585",
+            "tcgplayer": "88845"
+          }
+        },
+        {
+          "id": "en/neo2/74/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274585",
+            "tcgplayer": "88845"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/neo2/75",
+      "number": "75",
+      "name": "Energy Ark",
+      "cardGroup": "intl/neo2/75",
+      "supertype": "trainer",
+      "rarity": "common",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/neo/neo2/75/low.webp",
+        "large": "https://assets.tcgdex.net/en/neo/neo2/75/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "neo2-75"
+      },
+      "prints": [
+        {
+          "id": "en/neo2/75/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274586",
+            "tcgplayer": "85209"
+          }
+        },
+        {
+          "id": "en/neo2/75/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition",
+          "externalIds": {
+            "cardmarket": "274586",
+            "tcgplayer": "85209"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

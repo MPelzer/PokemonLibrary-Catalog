@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <!-- Test names use underscores for readability. -->
+    <NoWarn>$(NoWarn);CA1707</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\CatalogBuilder\CatalogBuilder.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\schema\**\*.json" LinkBase="schema" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\config\**\*.json" LinkBase="config" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

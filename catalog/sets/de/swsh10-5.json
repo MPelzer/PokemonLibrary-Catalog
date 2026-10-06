@@ -1,0 +1,6134 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "de/swsh10-5",
+    "code": "swsh10-5",
+    "language": "de",
+    "name": "Pokémon GO",
+    "series": "Schwert & Schild",
+    "abbreviation": "PGO",
+    "releaseDate": "2022-07-01",
+    "cardCount": {
+      "official": 78,
+      "total": 88
+    },
+    "images": {
+      "logo": "https://assets.tcgdex.net/de/swsh/swsh10.5/logo.webp",
+      "symbol": "https://assets.tcgdex.net/univ/swsh/swsh10.5/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "swsh10.5"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "de/swsh10-5/001",
+      "number": "001",
+      "name": "Bisasam",
+      "cardGroup": "intl/swsh10-5/001",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        1
+      ],
+      "rarity": "common",
+      "illustrator": "sowsow",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Rankenhieb",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Rasierblatt",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/001/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/001/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-001"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/001/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665235",
+            "tcgplayer": "274433"
+          }
+        },
+        {
+          "id": "de/swsh10-5/001/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665235",
+            "tcgplayer": "274433"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/002",
+      "number": "002",
+      "name": "Bisaknosp",
+      "cardGroup": "intl/swsh10-5/002",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 100,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        2
+      ],
+      "evolvesFrom": "Bisasam",
+      "rarity": "uncommon",
+      "illustrator": "zig",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Verlockendes Aroma",
+          "cost": [
+            "grass"
+          ],
+          "text": "Durchsuche dein Deck nach bis zu 2 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+          "name": "Rasierblatt",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/002/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/002/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-002"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/002/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665236",
+            "tcgplayer": "274434"
+          }
+        },
+        {
+          "id": "de/swsh10-5/002/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665236",
+            "tcgplayer": "274434"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/003",
+      "number": "003",
+      "name": "Bisaflor",
+      "cardGroup": "intl/swsh10-5/003",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 180,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        3
+      ],
+      "evolvesFrom": "Bisaknosp",
+      "rarity": "holo-rare",
+      "illustrator": "KEIICHIRO ITO",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Schwindliges Lasso",
+          "text": "Einmal während deines Zuges kannst du 1 Münze werfen. Tausche bei Kopf 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus, und das neue Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Solarstrahl",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "130"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/003/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/003/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-003"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/003/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665237",
+            "tcgplayer": "274435"
+          }
+        },
+        {
+          "id": "de/swsh10-5/003/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665237",
+            "tcgplayer": "274435"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/004",
+      "number": "004",
+      "name": "Strahlendes Bisaflor",
+      "cardGroup": "intl/swsh10-5/004",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 150,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        3
+      ],
+      "rarity": "radiant-rare",
+      "illustrator": "Misa Tsutsui",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Sonnige Blüte",
+          "text": "Einmal am Ende deines Zuges (nachdem du angegriffen hast) kannst du diese Fähigkeit einsetzen. Ziehe so lange Karten, bis du 4 Karten auf deiner Hand hast."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Pollengefahr",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless"
+          ],
+          "damage": "90",
+          "text": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, verwirrt und vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/004/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/004/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-004"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/004/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665238",
+            "tcgplayer": "274465"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/005",
+      "number": "005",
+      "name": "Alola-Kokowei V",
+      "cardGroup": "intl/swsh10-5/005",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 240,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        103
+      ],
+      "rarity": "holo-rare-v",
+      "illustrator": "MUGENUP",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "In die Höhe sprießen",
+          "cost": [
+            "grass"
+          ],
+          "text": "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach bis zu 5 {G}-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+          "name": "Kopfschwung",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "Diese Attacke fügt für jede an dieses Pokémon angelegte {G}-Energie 1 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/005/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/005/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-005"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/005/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665239",
+            "tcgplayer": "276943"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/006",
+      "number": "006",
+      "name": "Webarak",
+      "cardGroup": "intl/swsh10-5/006",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        167
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Giftstachel",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10",
+          "text": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/006/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/006/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-006"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/006/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665655",
+            "tcgplayer": "276944"
+          }
+        },
+        {
+          "id": "de/swsh10-5/006/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665655",
+            "tcgplayer": "276944"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/007",
+      "number": "007",
+      "name": "Ariados",
+      "cardGroup": "intl/swsh10-5/007",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 110,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        168
+      ],
+      "evolvesFrom": "Webarak",
+      "rarity": "uncommon",
+      "illustrator": "Misa Tsutsui",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Giftige Verwicklung",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert und vergiftet."
+        },
+        {
+          "name": "Absorber",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Heile 50 Schadenspunkte bei diesem Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/007/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/007/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-007"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/007/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665656",
+            "tcgplayer": "276945"
+          }
+        },
+        {
+          "id": "de/swsh10-5/007/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665656",
+            "tcgplayer": "276945"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/008",
+      "number": "008",
+      "name": "Glumanda",
+      "cardGroup": "intl/swsh10-5/008",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        4
+      ],
+      "rarity": "common",
+      "illustrator": "saino misaki",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Feuerspitze",
+          "cost": [
+            "fire"
+          ],
+          "damage": "10",
+          "text": "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/008/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/008/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-008"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/008/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665242",
+            "tcgplayer": "274436"
+          }
+        },
+        {
+          "id": "de/swsh10-5/008/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665242",
+            "tcgplayer": "274436"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/009",
+      "number": "009",
+      "name": "Glutexo",
+      "cardGroup": "intl/swsh10-5/009",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        5
+      ],
+      "evolvesFrom": "Glumanda",
+      "rarity": "uncommon",
+      "illustrator": "Shiburingaru",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Kratzer",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Flammenwurf",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "100",
+          "text": "Lege 1 {R}-Energie von diesem Pokémon auf deinen Ablagestapel."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/009/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/009/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-009"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/009/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665243",
+            "tcgplayer": "274438"
+          }
+        },
+        {
+          "id": "de/swsh10-5/009/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665243",
+            "tcgplayer": "274438"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/010",
+      "number": "010",
+      "name": "Glurak",
+      "cardGroup": "intl/swsh10-5/010",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 170,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        6
+      ],
+      "evolvesFrom": "Glutexo",
+      "rarity": "holo-rare",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Lichterloh brennen",
+          "text": "Jede an deine Pokémon angelegte Basis-{R}-Energie liefert {R}{R}-Energie. Du kannst immer nur jeweils 1 Fähigkeit Lichterloh brennen einsetzen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Flammenblitz",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "170",
+          "text": "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/010/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/010/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-010"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/010/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665244",
+            "tcgplayer": "274439"
+          }
+        },
+        {
+          "id": "de/swsh10-5/010/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665244",
+            "tcgplayer": "274439"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/011",
+      "number": "011",
+      "name": "Strahlendes Glurak",
+      "cardGroup": "intl/swsh10-5/011",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 160,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        6
+      ],
+      "rarity": "radiant-rare",
+      "illustrator": "Shigenori Negishi",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Herzrasen",
+          "text": "Die Kosten der Attacken dieses Pokémon verringern sich für jede von deinem Gegner genommene Preiskarte um {C}."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Brandbombe",
+          "cost": [
+            "fire",
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "250",
+          "text": "Während deines nächsten Zuges kann dieses Pokémon Brandbombe nicht einsetzen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/011/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/011/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-011"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/011/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665245",
+            "tcgplayer": "274467"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/012",
+      "number": "012",
+      "name": "Lavados",
+      "cardGroup": "intl/swsh10-5/012",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 120,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        146
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Pani Kobayashi",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Feuer-Symbol",
+          "text": "Die Attacken deiner Basis-{R}-Pokémon, außer Lavados, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Feuerflügel",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "110"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/012/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/012/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-012"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/012/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665246",
+            "tcgplayer": "276953"
+          }
+        },
+        {
+          "id": "de/swsh10-5/012/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665246",
+            "tcgplayer": "276953"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/013",
+      "number": "013",
+      "name": "Camaub",
+      "cardGroup": "intl/swsh10-5/013",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        322
+      ],
+      "rarity": "common",
+      "illustrator": "Shibuzoh.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Stampfer",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "50+",
+          "text": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/013/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/013/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-013"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/013/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665657",
+            "tcgplayer": "276947"
+          }
+        },
+        {
+          "id": "de/swsh10-5/013/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665657",
+            "tcgplayer": "276947"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/014",
+      "number": "014",
+      "name": "Camerupt",
+      "cardGroup": "intl/swsh10-5/014",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 140,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        323
+      ],
+      "evolvesFrom": "Camaub",
+      "rarity": "uncommon",
+      "illustrator": "yuu",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Splitterbombe",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "text": "Diese Attacke fügt 2 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Hitzestoß",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "120"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/014/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/014/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-014"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/014/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665658",
+            "tcgplayer": "276948"
+          }
+        },
+        {
+          "id": "de/swsh10-5/014/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665658",
+            "tcgplayer": "276948"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/015",
+      "number": "015",
+      "name": "Schiggy",
+      "cardGroup": "intl/swsh10-5/015",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        7
+      ],
+      "rarity": "common",
+      "illustrator": "sowsow",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "water"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/015/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/015/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-015"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/015/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665247",
+            "tcgplayer": "274445"
+          }
+        },
+        {
+          "id": "de/swsh10-5/015/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665247",
+            "tcgplayer": "274445"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/016",
+      "number": "016",
+      "name": "Schillok",
+      "cardGroup": "intl/swsh10-5/016",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "water"
+      ],
+      "species": [
+        8
+      ],
+      "evolvesFrom": "Schiggy",
+      "rarity": "uncommon",
+      "illustrator": "kurumitsu",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "water"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Hydropumpe",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50+",
+          "text": "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 10 Schadenspunkte mehr zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/016/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/016/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-016"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/016/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665249",
+            "tcgplayer": "274451"
+          }
+        },
+        {
+          "id": "de/swsh10-5/016/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665249",
+            "tcgplayer": "274451"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/017",
+      "number": "017",
+      "name": "Turtok",
+      "cardGroup": "intl/swsh10-5/017",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 170,
+      "types": [
+        "water"
+      ],
+      "species": [
+        9
+      ],
+      "evolvesFrom": "Schillok",
+      "rarity": "holo-rare",
+      "illustrator": "NC Empire",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Vitalitätsquelle",
+          "text": "Einmal während deines Zuges kannst du dein Deck nach bis zu 6 Energiekarten durchsuchen und sie beliebig an deine Pokémon anlegen. Mische anschließend dein Deck. Wenn du diese Fähigkeit einsetzt, endet dein Zug."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hydropumpe",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "90+",
+          "text": "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 30 Schadenspunkte mehr zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/017/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/017/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-017"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/017/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665250",
+            "tcgplayer": "274453"
+          }
+        },
+        {
+          "id": "de/swsh10-5/017/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665250",
+            "tcgplayer": "274453"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/018",
+      "number": "018",
+      "name": "Strahlendes Turtok",
+      "cardGroup": "intl/swsh10-5/018",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 150,
+      "types": [
+        "water"
+      ],
+      "species": [
+        9
+      ],
+      "rarity": "radiant-rare",
+      "illustrator": "Masakazu Fukuda",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Pumpschuss",
+          "text": "Du musst 1 {W}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners legen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Sintflutkanone",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "170",
+          "text": "Während deines nächsten Zuges kann dieses Pokémon Sintflutkanone nicht einsetzen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/018/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/018/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-018"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/018/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665251",
+            "tcgplayer": "274468"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/019",
+      "number": "019",
+      "name": "Flegmon",
+      "cardGroup": "intl/swsh10-5/019",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        79
+      ],
+      "rarity": "common",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Stillhalten",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+          "name": "Idealer Tag zum Angeln",
+          "cost": [
+            "water"
+          ],
+          "text": "Nimm 1 Itemkarte aus deinem Ablagestapel auf deine Hand."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/019/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/019/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-019"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/019/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665659",
+            "tcgplayer": "276949"
+          }
+        },
+        {
+          "id": "de/swsh10-5/019/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665659",
+            "tcgplayer": "276949"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/020",
+      "number": "020",
+      "name": "Lahmus",
+      "cardGroup": "intl/swsh10-5/020",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 120,
+      "types": [
+        "water"
+      ],
+      "species": [
+        80
+      ],
+      "evolvesFrom": "Flegmon",
+      "rarity": "uncommon",
+      "illustrator": "Mina Nakai",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Taumeltackle",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Beide Aktiven Pokémon schlafen jetzt."
+        },
+        {
+          "name": "Zwielichtinspiration",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Du kannst diese Attacke nur einsetzen, wenn dein Gegner genau 1 verbleibende Preiskarte hat. Nimm 2 Preiskarten."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/020/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/020/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-020"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/020/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665660",
+            "tcgplayer": "276950"
+          }
+        },
+        {
+          "id": "de/swsh10-5/020/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665660",
+            "tcgplayer": "276950"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/021",
+      "number": "021",
+      "name": "Karpador",
+      "cardGroup": "intl/swsh10-5/021",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "water"
+      ],
+      "species": [
+        129
+      ],
+      "rarity": "common",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Muntere Truppe",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach beliebig vielen Karpador, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+          "name": "Furiose Flosse",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Diese Attacke fügt für jedes Karpador und Garados in deinem Ablagestapel 30 Schadenspunkte mehr zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/021/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/021/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-021"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/021/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665252",
+            "tcgplayer": "276951"
+          }
+        },
+        {
+          "id": "de/swsh10-5/021/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665252",
+            "tcgplayer": "276951"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/022",
+      "number": "022",
+      "name": "Garados",
+      "cardGroup": "intl/swsh10-5/022",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 170,
+      "types": [
+        "water"
+      ],
+      "species": [
+        130
+      ],
+      "evolvesFrom": "Karpador",
+      "rarity": "holo-rare",
+      "illustrator": "Mitsuhiro Arita",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Chaos anrichten",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Lege pro Kopf die obersten 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+        },
+        {
+          "name": "Wilder Platscher",
+          "cost": [
+            "water",
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "230",
+          "text": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/022/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/022/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-022"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/022/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665253",
+            "tcgplayer": "276955"
+          }
+        },
+        {
+          "id": "de/swsh10-5/022/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665253",
+            "tcgplayer": "276955"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/023",
+      "number": "023",
+      "name": "Lapras",
+      "cardGroup": "intl/swsh10-5/023",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 120,
+      "types": [
+        "water"
+      ],
+      "species": [
+        131
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Eisstrahl",
+          "cost": [
+            "water"
+          ],
+          "damage": "20",
+          "text": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+          "name": "Surfer",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "110"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/023/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/023/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-023"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/023/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665661",
+            "tcgplayer": "276957"
+          }
+        },
+        {
+          "id": "de/swsh10-5/023/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665661",
+            "tcgplayer": "276957"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/024",
+      "number": "024",
+      "name": "Arktos",
+      "cardGroup": "intl/swsh10-5/024",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 120,
+      "types": [
+        "water"
+      ],
+      "species": [
+        144
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Jiro Sasumo",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Eis-Symbol",
+          "text": "Die Attacken deiner Basis-{W}-Pokémon, außer Arktos, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Polarwind",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "110"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/024/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/024/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-024"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/024/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665255",
+            "tcgplayer": "276959"
+          }
+        },
+        {
+          "id": "de/swsh10-5/024/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665255",
+            "tcgplayer": "276959"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/025",
+      "number": "025",
+      "name": "Reißlaus",
+      "cardGroup": "intl/swsh10-5/025",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        767
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Rückzack",
+          "text": "Wenn dein Gegner mindestens 1 Pokémon-V im Spiel hat, hat dieses Pokémon keine Rückzugskosten."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Nagen",
+          "cost": [
+            "water"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/025/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/025/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-025"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/025/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665257",
+            "tcgplayer": "274457"
+          }
+        },
+        {
+          "id": "de/swsh10-5/025/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665257",
+            "tcgplayer": "274457"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/026",
+      "number": "026",
+      "name": "Tectass",
+      "cardGroup": "intl/swsh10-5/026",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 130,
+      "types": [
+        "water"
+      ],
+      "species": [
+        768
+      ],
+      "evolvesFrom": "Reißlaus",
+      "rarity": "holo-rare",
+      "illustrator": "otumami",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Überrumpler",
+          "cost": [
+            "water"
+          ],
+          "damage": "20+",
+          "text": "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        },
+        {
+          "name": "Schlitzer",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "100"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/026/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/026/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-026"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/026/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665258",
+            "tcgplayer": "274459"
+          }
+        },
+        {
+          "id": "de/swsh10-5/026/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665258",
+            "tcgplayer": "274459"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/027",
+      "number": "027",
+      "name": "Pikachu",
+      "cardGroup": "intl/swsh10-5/027",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        25
+      ],
+      "rarity": "common",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Kumpel-Blitz",
+          "cost": [
+            "lightning",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 30 Schadenspunkte mehr zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/027/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/027/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-027"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/027/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665260",
+            "tcgplayer": "276946"
+          }
+        },
+        {
+          "id": "de/swsh10-5/027/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665260",
+            "tcgplayer": "276946"
+          }
+        },
+        {
+          "id": "de/swsh10-5/027/holo~foil-kosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-kosmos"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/028",
+      "number": "028",
+      "name": "Pikachu",
+      "cardGroup": "intl/swsh10-5/028",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        25
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Narumi Sato",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Stromstoß",
+          "cost": [
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "90",
+          "text": "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/028/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/028/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-028"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/028/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665261",
+            "tcgplayer": "274461"
+          }
+        },
+        {
+          "id": "de/swsh10-5/028/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665261",
+            "tcgplayer": "274461"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/029",
+      "number": "029",
+      "name": "Zapdos",
+      "cardGroup": "intl/swsh10-5/029",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 120,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        145
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Yuya Oka",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Elektro-Symbol",
+          "text": "Die Attacken deiner Basis-{L}-Pokémon, außer Zapdos, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Stromball",
+          "cost": [
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "110"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/029/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/029/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-029"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/029/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665264",
+            "tcgplayer": "276954"
+          }
+        },
+        {
+          "id": "de/swsh10-5/029/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665264",
+            "tcgplayer": "276954"
+          }
+        },
+        {
+          "id": "de/swsh10-5/029/normal~stamp-jesse-parker",
+          "finish": "normal",
+          "tags": [
+            "stamp-jesse-parker"
+          ],
+          "externalIds": {
+            "cardmarket": "815464",
+            "tcgplayer": "637603"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/030",
+      "number": "030",
+      "name": "Mewtu V",
+      "cardGroup": "intl/swsh10-5/030",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 220,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        150
+      ],
+      "rarity": "holo-rare-v",
+      "illustrator": "Nurikabe",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Super-Psischlag",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "50"
+        },
+        {
+          "name": "Transferbruch",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "160",
+          "text": "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/030/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/030/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-030"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/030/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665266",
+            "tcgplayer": "276960"
+          }
+        },
+        {
+          "id": "de/swsh10-5/030/holo~stamp-player-rewards-program",
+          "finish": "holo",
+          "tags": [
+            "stamp-player-rewards-program"
+          ],
+          "externalIds": {
+            "cardmarket": "728200",
+            "tcgplayer": "513796"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/031",
+      "number": "031",
+      "name": "Mewtu VSTAR",
+      "cardGroup": "intl/swsh10-5/031",
+      "supertype": "pokemon",
+      "subtypes": [
+        "vstar",
+        "v"
+      ],
+      "hp": 280,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        150
+      ],
+      "evolvesFrom": "Mewtu-V",
+      "rarity": "holo-rare-vstar",
+      "illustrator": "PLANETA Mochizuki",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Psiwerfer",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "90×",
+          "text": "Lege bis zu 3 {P}-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 90 Schadenspunkte zu."
+        },
+        {
+          "name": "Sternen-Raid",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "Diese Attacke fügt jedem Pokémon-V deines Gegners 120 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/031/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/031/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-031"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/031/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665267",
+            "tcgplayer": "276963"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/032",
+      "number": "032",
+      "name": "Natu",
+      "cardGroup": "intl/swsh10-5/032",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        177
+      ],
+      "rarity": "common",
+      "illustrator": "HYOGONOSUKE",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Nickerchen",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Heile 20 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+          "name": "Pikser",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/032/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/032/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-032"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/032/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665662",
+            "tcgplayer": "276966"
+          }
+        },
+        {
+          "id": "de/swsh10-5/032/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665662",
+            "tcgplayer": "276966"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/033",
+      "number": "033",
+      "name": "Xatu",
+      "cardGroup": "intl/swsh10-5/033",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 110,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        178
+      ],
+      "evolvesFrom": "Natu",
+      "rarity": "uncommon",
+      "illustrator": "Hataya",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Präzisionswelle",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Diese Attacke fügt 1 Pokémon-V deines Gegners 90 Schadenspunkte zu. Dieser Schaden wird durch Schwäche und Resistenz nicht verändert."
+        },
+        {
+          "name": "Gedankenverbiegung",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 0,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/033/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/033/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-033"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/033/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665663",
+            "tcgplayer": "276969"
+          }
+        },
+        {
+          "id": "de/swsh10-5/033/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665663",
+            "tcgplayer": "276969"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/034",
+      "number": "034",
+      "name": "Lunastein",
+      "cardGroup": "intl/swsh10-5/034",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        337
+      ],
+      "rarity": "uncommon",
+      "illustrator": "miki kudo",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Kreiszug",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten."
+        },
+        {
+          "name": "Mondkinese",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Diese Attacke fügt für jede an dieses Pokémon angelegte {P}-Energie 30 Schadenspunkte mehr zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/034/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/034/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-034"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/034/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665664",
+            "tcgplayer": "276972"
+          }
+        },
+        {
+          "id": "de/swsh10-5/034/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665664",
+            "tcgplayer": "276972"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/035",
+      "number": "035",
+      "name": "Feelinara",
+      "cardGroup": "intl/swsh10-5/035",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 120,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        700
+      ],
+      "evolvesFrom": "Evoli",
+      "rarity": "holo-rare",
+      "illustrator": "Atsushi Furusawa",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Souvenir",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+          "name": "Wundersamer Schein",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "90+",
+          "text": "Wenn das Aktive Pokémon deines Gegners ein {N}-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/035/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/035/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-035"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/035/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665665",
+            "tcgplayer": "276976"
+          }
+        },
+        {
+          "id": "de/swsh10-5/035/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665665",
+            "tcgplayer": "276976"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/036",
+      "number": "036",
+      "name": "Onix",
+      "cardGroup": "intl/swsh10-5/036",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 120,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        95
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Felsgrab",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+        },
+        {
+          "name": "Wütendes Winden",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50×",
+          "text": "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 50 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/036/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/036/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-036"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/036/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665666",
+            "tcgplayer": "276981"
+          }
+        },
+        {
+          "id": "de/swsh10-5/036/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665666",
+            "tcgplayer": "276981"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/037",
+      "number": "037",
+      "name": "Larvitar",
+      "cardGroup": "intl/swsh10-5/037",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        246
+      ],
+      "rarity": "common",
+      "illustrator": "sui",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Zertrümmerer",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/037/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/037/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-037"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/037/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665667",
+            "tcgplayer": "276984"
+          }
+        },
+        {
+          "id": "de/swsh10-5/037/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665667",
+            "tcgplayer": "276984"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/038",
+      "number": "038",
+      "name": "Pupitar",
+      "cardGroup": "intl/swsh10-5/038",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        247
+      ],
+      "evolvesFrom": "Larvitar",
+      "rarity": "uncommon",
+      "illustrator": "Sumiyoshi Kizuki",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Kugelhagel",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Diese Attacke fügt auch jedem Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Tackle",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/038/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/038/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-038"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/038/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665668",
+            "tcgplayer": "276990"
+          }
+        },
+        {
+          "id": "de/swsh10-5/038/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665668",
+            "tcgplayer": "276990"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/039",
+      "number": "039",
+      "name": "Sonnfel",
+      "cardGroup": "intl/swsh10-5/039",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        338
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Sekio",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Sonnenenergie",
+          "text": "Einmal während deines Zuges kannst du 1 {P}-Energiekarte aus deinem Ablagestapel an 1 deiner Lunastein anlegen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Rundumangriff",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/039/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/039/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-039"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/039/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665669",
+            "tcgplayer": "276993"
+          }
+        },
+        {
+          "id": "de/swsh10-5/039/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665669",
+            "tcgplayer": "276993"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/040",
+      "number": "040",
+      "name": "Meistagrif V",
+      "cardGroup": "intl/swsh10-5/040",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 230,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        534
+      ],
+      "rarity": "holo-rare-v",
+      "illustrator": "Ayaka Yoshida",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Konter",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "20+",
+          "text": "Wenn diesem Pokémon während des letzten Zuges deines Gegners durch eine Attacke Schaden zugefügt wurde, fügt diese Attacke genauso viel Schaden mehr zu."
+        },
+        {
+          "name": "Wuchtschlag",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "90+",
+          "text": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 90 Schadenspunkte mehr zu und das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/040/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/040/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-040"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/040/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665670",
+            "tcgplayer": "276999"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/041",
+      "number": "041",
+      "name": "Alola-Rattfratz",
+      "cardGroup": "intl/swsh10-5/041",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        19
+      ],
+      "rarity": "common",
+      "illustrator": "KIYOTAKA OSHIYAMA",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Hyperzahn",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/041/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/041/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-041"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/041/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665671",
+            "tcgplayer": "277002"
+          }
+        },
+        {
+          "id": "de/swsh10-5/041/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665671",
+            "tcgplayer": "277002"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/042",
+      "number": "042",
+      "name": "Alola-Rattikarl",
+      "cardGroup": "intl/swsh10-5/042",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 120,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        20
+      ],
+      "evolvesFrom": "Alola-Rattfratz",
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Dampf machen",
+          "cost": [
+            "darkness"
+          ],
+          "text": "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+          "name": "Superzahn",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "Lege so lange Schadensmarken auf das Aktive Pokémon deines Gegners, bis seine verbleibenden KP gleich 10 sind."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/042/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/042/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-042"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/042/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665672",
+            "tcgplayer": "277003"
+          }
+        },
+        {
+          "id": "de/swsh10-5/042/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665672",
+            "tcgplayer": "277003"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/043",
+      "number": "043",
+      "name": "Despotar",
+      "cardGroup": "intl/swsh10-5/043",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 180,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        248
+      ],
+      "evolvesFrom": "Pupitar",
+      "rarity": "holo-rare",
+      "illustrator": "Nisota Niso",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Tobender Hagel",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10×",
+          "text": "Diese Attacke fügt für jede Schadensmarke auf allen Pokémon auf deiner Bank 10 Schadenspunkte zu."
+        },
+        {
+          "name": "Erdbeben",
+          "cost": [
+            "darkness",
+            "darkness",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "180",
+          "text": "Diese Attacke fügt auch jedem Pokémon auf deiner Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/043/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/043/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-043"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/043/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665673",
+            "tcgplayer": "277007"
+          }
+        },
+        {
+          "id": "de/swsh10-5/043/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665673",
+            "tcgplayer": "277007"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/044",
+      "number": "044",
+      "name": "Stahlos",
+      "cardGroup": "intl/swsh10-5/044",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 180,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        208
+      ],
+      "evolvesFrom": "Onix",
+      "rarity": "uncommon",
+      "illustrator": "GOSSAN",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Bodyslam",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+          "name": "Eisensprenger",
+          "cost": [
+            "metal",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "170",
+          "text": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/044/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/044/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-044"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/044/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665674",
+            "tcgplayer": "277012"
+          }
+        },
+        {
+          "id": "de/swsh10-5/044/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665674",
+            "tcgplayer": "277012"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/045",
+      "number": "045",
+      "name": "Meltan",
+      "cardGroup": "intl/swsh10-5/045",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        808
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Donnerschock",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/045/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/045/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-045"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/045/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665268",
+            "tcgplayer": "277027"
+          }
+        },
+        {
+          "id": "de/swsh10-5/045/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665268",
+            "tcgplayer": "277027"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/046",
+      "number": "046",
+      "name": "Melmetal",
+      "cardGroup": "intl/swsh10-5/046",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 160,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        809
+      ],
+      "evolvesFrom": "Meltan",
+      "rarity": "holo-rare",
+      "illustrator": "Shigenori Negishi",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Kopfnuss",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60"
+        },
+        {
+          "name": "Schmetterschwung",
+          "cost": [
+            "metal",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte mehr pro Kopf zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/046/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/046/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-046"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/046/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665269",
+            "tcgplayer": "277016"
+          }
+        },
+        {
+          "id": "de/swsh10-5/046/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665269",
+            "tcgplayer": "277016"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/047",
+      "number": "047",
+      "name": "Melmetal V",
+      "cardGroup": "intl/swsh10-5/047",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 220,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        809
+      ],
+      "rarity": "holo-rare-v",
+      "illustrator": "sadaji",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Armaufladung",
+          "cost": [
+            "metal",
+            "metal"
+          ],
+          "damage": "50",
+          "text": "Du kannst 1 {M}-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
+        },
+        {
+          "name": "Megahieb",
+          "cost": [
+            "metal",
+            "metal",
+            "metal"
+          ],
+          "damage": "140"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/047/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/047/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-047"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/047/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665270",
+            "tcgplayer": "277019"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/048",
+      "number": "048",
+      "name": "Melmetal VMAX",
+      "cardGroup": "intl/swsh10-5/048",
+      "supertype": "pokemon",
+      "subtypes": [
+        "vmax"
+      ],
+      "hp": 330,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        809
+      ],
+      "evolvesFrom": "Melmetal-V",
+      "rarity": "holo-rare-vmax",
+      "illustrator": "PLANETA Tsuji",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Giga-Koloss",
+          "cost": [
+            "metal",
+            "metal",
+            "metal"
+          ],
+          "damage": "160+",
+          "text": "Diese Attacke fügt für jede an dieses Pokémon angelegte extra {M}-Energie (zusätzlich zu den Kosten dieser Attacke) 60 Schadenspunkte mehr zu. Du kannst auf diese Weise höchstens 120 Schadenspunkte mehr zufügen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/048/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/048/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-048"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/048/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665271",
+            "tcgplayer": "277023"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/049",
+      "number": "049",
+      "name": "Dragoran V",
+      "cardGroup": "intl/swsh10-5/049",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 230,
+      "types": [
+        "dragon"
+      ],
+      "species": [
+        149
+      ],
+      "rarity": "holo-rare-v",
+      "illustrator": "kawayoo",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Hyperstrahl",
+          "cost": [
+            "water",
+            "lightning"
+          ],
+          "damage": "60",
+          "text": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        },
+        {
+          "name": "Zertrümmernder Schweif",
+          "cost": [
+            "water",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "160"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/049/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/049/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-049"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/049/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665675",
+            "tcgplayer": "276962"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/050",
+      "number": "050",
+      "name": "Dragoran VSTAR",
+      "cardGroup": "intl/swsh10-5/050",
+      "supertype": "pokemon",
+      "subtypes": [
+        "vstar",
+        "v"
+      ],
+      "hp": 280,
+      "types": [
+        "dragon"
+      ],
+      "species": [
+        149
+      ],
+      "evolvesFrom": "Dragoran-V",
+      "rarity": "holo-rare-vstar",
+      "illustrator": "PLANETA Tsuji",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Gigastoß",
+          "cost": [
+            "water",
+            "lightning",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "250",
+          "text": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+        },
+        {
+          "name": "Drachenstern",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Schau dir die obersten 12 Karten deines Decks an und lege beliebig viele {W}- oder {L}-Energiekarten, die du dort findest, beliebig an deine Pokémon an. Mische die anderen Karten zurück in dein Deck. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/050/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/050/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-050"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/050/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665676",
+            "tcgplayer": "276964"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/051",
+      "number": "051",
+      "name": "Chaneira",
+      "cardGroup": "intl/swsh10-5/051",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 130,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        113
+      ],
+      "rarity": "uncommon",
+      "illustrator": "ryoma uratsuka",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Köstliches Ei",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Heile 30 Schadenspunkte bei 1 Pokémon auf deiner Bank."
+        },
+        {
+          "name": "Sanfter Hieb",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/051/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/051/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-051"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/051/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665272",
+            "tcgplayer": "276965"
+          }
+        },
+        {
+          "id": "de/swsh10-5/051/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665272",
+            "tcgplayer": "276965"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/052",
+      "number": "052",
+      "name": "Heiteira",
+      "cardGroup": "intl/swsh10-5/052",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 200,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        242
+      ],
+      "evolvesFrom": "Chaneira",
+      "rarity": "holo-rare",
+      "illustrator": "Teeziro",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Anreicherndes Ei",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Heile allen Schaden bei 1 Pokémon auf deiner Bank."
+        },
+        {
+          "name": "Zen-Kopfstoß",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "100"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/052/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/052/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-052"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/052/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665274",
+            "tcgplayer": "276967"
+          }
+        },
+        {
+          "id": "de/swsh10-5/052/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665274",
+            "tcgplayer": "276967"
+          }
+        },
+        {
+          "id": "de/swsh10-5/052/holo~foil-kosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-kosmos"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/053",
+      "number": "053",
+      "name": "Ditto",
+      "cardGroup": "intl/swsh10-5/053",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        132
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Misa Tsutsui",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Plötzliche Transformation",
+          "text": "Dieses Pokémon kann die Attacken 1 beliebigen Basis-Pokémon in deinem Ablagestapel, außer Pokémon, die ein Regelfeld haben (Pokémon-V, Pokémon-GX usw. haben Regelfelder), einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/053/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/053/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-053"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/053/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665275",
+            "tcgplayer": "276971"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/054",
+      "number": "054",
+      "name": "Evoli",
+      "cardGroup": "intl/swsh10-5/054",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        133
+      ],
+      "rarity": "common",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Jammerstimme",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte und mischt sie in sein Deck."
+        },
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/054/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/054/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-054"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/054/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665277",
+            "tcgplayer": "276973"
+          }
+        },
+        {
+          "id": "de/swsh10-5/054/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665277",
+            "tcgplayer": "276973"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/055",
+      "number": "055",
+      "name": "Relaxo",
+      "cardGroup": "intl/swsh10-5/055",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 150,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        143
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Rückentzug",
+          "text": "Solange dieses Pokémon in der Aktiven Position ist, kann sich das Aktive Pokémon deines Gegners nicht zurückziehen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kollaps",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "150",
+          "text": "Dieses Pokémon schläft jetzt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/055/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/055/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-055"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/055/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665278",
+            "tcgplayer": "276974"
+          }
+        },
+        {
+          "id": "de/swsh10-5/055/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665278",
+            "tcgplayer": "276974"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/056",
+      "number": "056",
+      "name": "Griffel",
+      "cardGroup": "intl/swsh10-5/056",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        190
+      ],
+      "rarity": "common",
+      "illustrator": "Sanosuke Sakuma",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Hetzen",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
+        },
+        {
+          "name": "Hieb",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/056/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/056/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-056"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/056/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665280",
+            "tcgplayer": "276975"
+          }
+        },
+        {
+          "id": "de/swsh10-5/056/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665280",
+            "tcgplayer": "276975"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/057",
+      "number": "057",
+      "name": "Ambidiffel",
+      "cardGroup": "intl/swsh10-5/057",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        424
+      ],
+      "evolvesFrom": "Griffel",
+      "rarity": "common",
+      "illustrator": "Scav",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Primaten-Geschick",
+          "text": "Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1 Münze. Verhindere jenen Schaden bei Kopf."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Volldampfwurf",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "60×",
+          "text": "Wirf für jede an dieses Pokémon angelegte Energie 1 Münze. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/057/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/057/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-057"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/057/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665281",
+            "tcgplayer": "276978"
+          }
+        },
+        {
+          "id": "de/swsh10-5/057/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665281",
+            "tcgplayer": "276978"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/058",
+      "number": "058",
+      "name": "Letarking V",
+      "cardGroup": "intl/swsh10-5/058",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 230,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        289
+      ],
+      "rarity": "holo-rare-v",
+      "illustrator": "Saki Hayashiro",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Faulpelz",
+          "text": "Wenn du genau 2, 4 oder 6 verbleibende Preiskarten hast, kann dieses Pokémon nicht angreifen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schwerer Einschlag",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "260"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/058/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/058/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-058"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/058/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665677",
+            "tcgplayer": "276980"
+          }
+        },
+        {
+          "id": "de/swsh10-5/058/normal~stamp-gabriel-fernandez",
+          "finish": "normal",
+          "tags": [
+            "stamp-gabriel-fernandez"
+          ],
+          "externalIds": {
+            "cardmarket": "833048",
+            "tcgplayer": "541774"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/059",
+      "number": "059",
+      "name": "Bidiza",
+      "cardGroup": "intl/swsh10-5/059",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        399
+      ],
+      "rarity": "common",
+      "illustrator": "Tomokazu Komiya",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Bodycheck",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/059/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/059/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-059"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/059/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665282",
+            "tcgplayer": "276982"
+          }
+        },
+        {
+          "id": "de/swsh10-5/059/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665282",
+            "tcgplayer": "276982"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/060",
+      "number": "060",
+      "name": "Bidifas",
+      "cardGroup": "intl/swsh10-5/060",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 110,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        400
+      ],
+      "evolvesFrom": "Bidiza",
+      "rarity": "common",
+      "illustrator": "KIYOTAKA OSHIYAMA",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Beruhigender Damm",
+          "text": "Solange sich dieses Pokémon auf deiner Bank befindet, können Karten in deinem Deck nicht durch Effekte von Attacken, Fähigkeiten, Itemkarten oder Unterstützerkarten deines Gegners auf den Ablagestapel gelegt werden."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Einhämmern",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "80"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/060/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/060/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-060"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/060/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665283",
+            "tcgplayer": "276983"
+          }
+        },
+        {
+          "id": "de/swsh10-5/060/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665283",
+            "tcgplayer": "276983"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/061",
+      "number": "061",
+      "name": "Dusselgurr",
+      "cardGroup": "intl/swsh10-5/061",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        519
+      ],
+      "rarity": "common",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Heuler",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+        },
+        {
+          "name": "Flattern",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/061/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/061/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-061"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/061/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665678",
+            "tcgplayer": "276985"
+          }
+        },
+        {
+          "id": "de/swsh10-5/061/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665678",
+            "tcgplayer": "276985"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/062",
+      "number": "062",
+      "name": "Navitaub",
+      "cardGroup": "intl/swsh10-5/062",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        520
+      ],
+      "evolvesFrom": "Dusselgurr",
+      "rarity": "common",
+      "illustrator": "0313",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Aero-Ass",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+        },
+        {
+          "name": "Flattern",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/062/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/062/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-062"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/062/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665679",
+            "tcgplayer": "276988"
+          }
+        },
+        {
+          "id": "de/swsh10-5/062/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665679",
+            "tcgplayer": "276988"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/063",
+      "number": "063",
+      "name": "Fasasnob",
+      "cardGroup": "intl/swsh10-5/063",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 140,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        521
+      ],
+      "evolvesFrom": "Navitaub",
+      "rarity": "uncommon",
+      "illustrator": "GIDORA",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Windstoß",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Hurrikanschwinge",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70×",
+          "text": "Wirf 4 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/063/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/063/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-063"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/063/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665680",
+            "tcgplayer": "276989"
+          }
+        },
+        {
+          "id": "de/swsh10-5/063/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665680",
+            "tcgplayer": "276989"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/064",
+      "number": "064",
+      "name": "Blanche",
+      "cardGroup": "intl/swsh10-5/064",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Anesaki Dynamic",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/064/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/064/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-064"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/064/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665285",
+            "tcgplayer": "276991"
+          }
+        },
+        {
+          "id": "de/swsh10-5/064/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665285",
+            "tcgplayer": "276991"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/065",
+      "number": "065",
+      "name": "Candela",
+      "cardGroup": "intl/swsh10-5/065",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryuta Fuse",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/065/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/065/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-065"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/065/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665286",
+            "tcgplayer": "276992"
+          }
+        },
+        {
+          "id": "de/swsh10-5/065/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665286",
+            "tcgplayer": "276992"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/066",
+      "number": "066",
+      "name": "Ei-Brutmaschine",
+      "cardGroup": "intl/swsh10-5/066",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "sadaji",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/066/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/066/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-066"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/066/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665681",
+            "tcgplayer": "276994"
+          }
+        },
+        {
+          "id": "de/swsh10-5/066/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665681",
+            "tcgplayer": "276994"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/067",
+      "number": "067",
+      "name": "Lockmodul",
+      "cardGroup": "intl/swsh10-5/067",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "ORBITALLINK Inc.",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/067/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/067/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-067"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/067/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665287",
+            "tcgplayer": "276995"
+          }
+        },
+        {
+          "id": "de/swsh10-5/067/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665287",
+            "tcgplayer": "276995"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/068",
+      "number": "068",
+      "name": "PokéStop",
+      "cardGroup": "intl/swsh10-5/068",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Studio Bora Inc.",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/068/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/068/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-068"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/068/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665288",
+            "tcgplayer": "276996"
+          }
+        },
+        {
+          "id": "de/swsh10-5/068/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665288",
+            "tcgplayer": "276996"
+          }
+        },
+        {
+          "id": "de/swsh10-5/068/normal~stamp-shao-tong-yen",
+          "finish": "normal",
+          "tags": [
+            "stamp-shao-tong-yen"
+          ],
+          "externalIds": {
+            "cardmarket": "833226",
+            "tcgplayer": "542083"
+          }
+        },
+        {
+          "id": "de/swsh10-5/068/normal~stamp-sakuya-ota",
+          "finish": "normal",
+          "tags": [
+            "stamp-sakuya-ota"
+          ],
+          "externalIds": {
+            "cardmarket": "815426"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/069",
+      "number": "069",
+      "name": "Sonderbonbon",
+      "cardGroup": "intl/swsh10-5/069",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ayaka Yoshida",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/069/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/069/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-069"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/069/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665682",
+            "tcgplayer": "276997"
+          }
+        },
+        {
+          "id": "de/swsh10-5/069/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665682",
+            "tcgplayer": "276997"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/070",
+      "number": "070",
+      "name": "Spark",
+      "cardGroup": "intl/swsh10-5/070",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Naoki Saito",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/070/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/070/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-070"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/070/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "665289",
+            "tcgplayer": "276998"
+          }
+        },
+        {
+          "id": "de/swsh10-5/070/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "cardmarket": "665289",
+            "tcgplayer": "276998"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/071",
+      "number": "071",
+      "name": "Alola-Kokowei V",
+      "cardGroup": "intl/swsh10-5/071",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 240,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        103
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "MUGENUP",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "In die Höhe sprießen",
+          "cost": [
+            "grass"
+          ],
+          "text": "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach bis zu 5 {G}-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+          "name": "Kopfschwung",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "Diese Attacke fügt für jede an dieses Pokémon angelegte {G}-Energie 1 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/071/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/071/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-071"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/071/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665683",
+            "tcgplayer": "277000"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/072",
+      "number": "072",
+      "name": "Mewtu V",
+      "cardGroup": "intl/swsh10-5/072",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 220,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        150
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Super-Psischlag",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "50"
+        },
+        {
+          "name": "Transferbruch",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "160",
+          "text": "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/072/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/072/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-072"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/072/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665290",
+            "tcgplayer": "274470"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/073",
+      "number": "073",
+      "name": "Meistagrif V",
+      "cardGroup": "intl/swsh10-5/073",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 230,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        534
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "Ayaka Yoshida",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Konter",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "20+",
+          "text": "Wenn diesem Pokémon während des letzten Zuges deines Gegners durch eine Attacke Schaden zugefügt wurde, fügt diese Attacke genauso viel Schaden mehr zu."
+        },
+        {
+          "name": "Wuchtschlag",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "90+",
+          "text": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 90 Schadenspunkte mehr zu und das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/073/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/073/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-073"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/073/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665684",
+            "tcgplayer": "277001"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/074",
+      "number": "074",
+      "name": "Meistagrif V",
+      "cardGroup": "intl/swsh10-5/074",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 230,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        534
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "N-DESIGN Inc.",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Konter",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "20+",
+          "text": "Wenn diesem Pokémon während des letzten Zuges deines Gegners durch eine Attacke Schaden zugefügt wurde, fügt diese Attacke genauso viel Schaden mehr zu."
+        },
+        {
+          "name": "Wuchtschlag",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "90+",
+          "text": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 90 Schadenspunkte mehr zu und das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/074/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/074/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-074"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/074/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665685",
+            "tcgplayer": "277004"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/075",
+      "number": "075",
+      "name": "Melmetal V",
+      "cardGroup": "intl/swsh10-5/075",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 220,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        809
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "sadaji",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Armaufladung",
+          "cost": [
+            "metal",
+            "metal"
+          ],
+          "damage": "50",
+          "text": "Du kannst 1 {M}-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
+        },
+        {
+          "name": "Megahieb",
+          "cost": [
+            "metal",
+            "metal",
+            "metal"
+          ],
+          "damage": "140"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/075/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/075/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-075"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/075/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665686",
+            "tcgplayer": "277005"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/076",
+      "number": "076",
+      "name": "Dragoran V",
+      "cardGroup": "intl/swsh10-5/076",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 230,
+      "types": [
+        "dragon"
+      ],
+      "species": [
+        149
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "5ban Graphics",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Hyperstrahl",
+          "cost": [
+            "water",
+            "lightning"
+          ],
+          "damage": "60",
+          "text": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        },
+        {
+          "name": "Zertrümmernder Schweif",
+          "cost": [
+            "water",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "160"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/076/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/076/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-076"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/076/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665687",
+            "tcgplayer": "277006"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/077",
+      "number": "077",
+      "name": "Letarking V",
+      "cardGroup": "intl/swsh10-5/077",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "v"
+      ],
+      "hp": 230,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        289
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "Saki Hayashiro",
+      "regulationMark": "F",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Faulpelz",
+          "text": "Wenn du genau 2, 4 oder 6 verbleibende Preiskarten hast, kann dieses Pokémon nicht angreifen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schwerer Einschlag",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "260"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/077/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/077/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-077"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/077/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665688",
+            "tcgplayer": "277008"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/078",
+      "number": "078",
+      "name": "Forschung des Professors",
+      "cardGroup": "intl/swsh10-5/078",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "Yusuke Kozaki",
+      "regulationMark": "D",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/078/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/078/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-078"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/078/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "665689",
+            "tcgplayer": "277009"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/079",
+      "number": "079",
+      "name": "Mewtu VSTAR",
+      "cardGroup": "intl/swsh10-5/079",
+      "supertype": "pokemon",
+      "subtypes": [
+        "vstar",
+        "v"
+      ],
+      "hp": 280,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        150
+      ],
+      "evolvesFrom": "Mewtu VSTAR",
+      "rarity": "secret-rare",
+      "illustrator": "PLANETA Mochizuki",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Psiwerfer",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "90×",
+          "text": "Lege bis zu 3 {P}-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 90 Schadenspunkte zu."
+        },
+        {
+          "name": "Sternen-Raid",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "Diese Attacke fügt jedem Pokémon-V deines Gegners 120 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/079/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/079/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-079"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/079/holo~foil-rainbow",
+          "finish": "holo",
+          "tags": [
+            "foil-rainbow"
+          ],
+          "externalIds": {
+            "cardmarket": "665690",
+            "tcgplayer": "277011"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/080",
+      "number": "080",
+      "name": "Melmetal VMAX",
+      "cardGroup": "intl/swsh10-5/080",
+      "supertype": "pokemon",
+      "subtypes": [
+        "vmax"
+      ],
+      "hp": 330,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        809
+      ],
+      "evolvesFrom": "Melmetal-V",
+      "rarity": "secret-rare",
+      "illustrator": "PLANETA Tsuji",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Giga-Koloss",
+          "cost": [
+            "metal",
+            "metal",
+            "metal"
+          ],
+          "damage": "160+",
+          "text": "Diese Attacke fügt für jede an dieses Pokémon angelegte extra {M}-Energie (zusätzlich zu den Kosten dieser Attacke) 60 Schadenspunkte mehr zu. Du kannst auf diese Weise höchstens 120 Schadenspunkte mehr zufügen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/080/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/080/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-080"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/080/holo~foil-rainbow",
+          "finish": "holo",
+          "tags": [
+            "foil-rainbow"
+          ],
+          "externalIds": {
+            "cardmarket": "665691",
+            "tcgplayer": "277013"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/081",
+      "number": "081",
+      "name": "Dragoran VSTAR",
+      "cardGroup": "intl/swsh10-5/081",
+      "supertype": "pokemon",
+      "subtypes": [
+        "vstar",
+        "v"
+      ],
+      "hp": 280,
+      "types": [
+        "dragon"
+      ],
+      "species": [
+        149
+      ],
+      "evolvesFrom": "Dragoran-V",
+      "rarity": "secret-rare",
+      "illustrator": "PLANETA Tsuji",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Gigastoß",
+          "cost": [
+            "water",
+            "lightning",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "250",
+          "text": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+        },
+        {
+          "name": "Drachenstern",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Schau dir die obersten 12 Karten deines Decks an und lege beliebig viele {W}- oder {L}-Energiekarten, die du dort findest, beliebig an deine Pokémon an. Mische die anderen Karten zurück in dein Deck. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/081/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/081/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-081"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/081/holo~foil-rainbow",
+          "finish": "holo",
+          "tags": [
+            "foil-rainbow"
+          ],
+          "externalIds": {
+            "cardmarket": "665692",
+            "tcgplayer": "277014"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/082",
+      "number": "082",
+      "name": "Blanche",
+      "cardGroup": "intl/swsh10-5/082",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "Anesaki Dynamic",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/082/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/082/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-082"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/082/holo~foil-rainbow",
+          "finish": "holo",
+          "tags": [
+            "foil-rainbow"
+          ],
+          "externalIds": {
+            "cardmarket": "665693",
+            "tcgplayer": "277015"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/083",
+      "number": "083",
+      "name": "Candela",
+      "cardGroup": "intl/swsh10-5/083",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "Ryuta Fuse",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/083/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/083/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-083"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/083/holo~foil-rainbow",
+          "finish": "holo",
+          "tags": [
+            "foil-rainbow"
+          ],
+          "externalIds": {
+            "cardmarket": "665694",
+            "tcgplayer": "277017"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/084",
+      "number": "084",
+      "name": "Forschung des Professors",
+      "cardGroup": "intl/swsh10-5/084",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "Yusuke Kozaki",
+      "regulationMark": "D",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/084/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/084/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-084"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/084/holo~foil-rainbow",
+          "finish": "holo",
+          "tags": [
+            "foil-rainbow"
+          ],
+          "externalIds": {
+            "cardmarket": "665695",
+            "tcgplayer": "277018"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/085",
+      "number": "085",
+      "name": "Spark",
+      "cardGroup": "intl/swsh10-5/085",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "Naoki Saito",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/085/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/085/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-085"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/085/holo~foil-rainbow",
+          "finish": "holo",
+          "tags": [
+            "foil-rainbow"
+          ],
+          "externalIds": {
+            "cardmarket": "665696",
+            "tcgplayer": "277020"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/086",
+      "number": "086",
+      "name": "Mewtu VSTAR",
+      "cardGroup": "intl/swsh10-5/086",
+      "supertype": "pokemon",
+      "subtypes": [
+        "vstar",
+        "v"
+      ],
+      "hp": 280,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        150
+      ],
+      "evolvesFrom": "Mewtu-V",
+      "rarity": "secret-rare",
+      "illustrator": "PLANETA Mochizuki",
+      "regulationMark": "F",
+      "attacks": [
+        {
+          "name": "Psiwerfer",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "90×",
+          "text": "Lege bis zu 3 {P}-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 90 Schadenspunkte zu."
+        },
+        {
+          "name": "Sternen-Raid",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "Diese Attacke fügt jedem Pokémon-V deines Gegners 120 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/086/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/086/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-086"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/086/holo~foil-gold",
+          "finish": "holo",
+          "tags": [
+            "foil-gold"
+          ],
+          "externalIds": {
+            "cardmarket": "665697",
+            "tcgplayer": "277024"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/087",
+      "number": "087",
+      "name": "Ei-Brutmaschine",
+      "cardGroup": "intl/swsh10-5/087",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "sadaji",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/087/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/087/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-087"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/087/holo~foil-gold",
+          "finish": "holo",
+          "tags": [
+            "foil-gold"
+          ],
+          "externalIds": {
+            "cardmarket": "665698",
+            "tcgplayer": "277025"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/swsh10-5/088",
+      "number": "088",
+      "name": "Lockmodul",
+      "cardGroup": "intl/swsh10-5/088",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "ORBITALLINK Inc.",
+      "regulationMark": "F",
+      "images": {
+        "small": "https://assets.tcgdex.net/de/swsh/swsh10.5/088/low.webp",
+        "large": "https://assets.tcgdex.net/de/swsh/swsh10.5/088/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "swsh10.5-088"
+      },
+      "prints": [
+        {
+          "id": "de/swsh10-5/088/holo~foil-gold",
+          "finish": "holo",
+          "tags": [
+            "foil-gold"
+          ],
+          "externalIds": {
+            "cardmarket": "665699",
+            "tcgplayer": "277026"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

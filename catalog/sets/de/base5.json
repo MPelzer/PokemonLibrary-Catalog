@@ -1,0 +1,5398 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "de/base5",
+    "code": "base5",
+    "language": "de",
+    "name": "Team Rocket",
+    "series": "Grund",
+    "abbreviation": "RO",
+    "releaseDate": "2000-04-24",
+    "cardCount": {
+      "official": 82,
+      "total": 83
+    },
+    "images": {
+      "symbol": "https://assets.tcgdex.net/univ/base/base5/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "base5"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "de/base5/1",
+      "number": "1",
+      "name": "Dunkles Simsala",
+      "cardGroup": "intl/base5/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        65
+      ],
+      "evolvesFrom": "Kadabra",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Teleportstoß",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Du kannst Dunkles Simsala mit einem Pokémon auf deiner Bank austauschen. (Füge die Schadenspunkte vor dem Auswechseln der Pokémon zu.)"
+        },
+        {
+          "name": "Verstandesschock",
+          "cost": [
+            "psychic",
+            "psychic",
+            "psychic"
+          ],
+          "damage": "40",
+          "text": "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "base5-1"
+      },
+      "prints": [
+        {
+          "id": "de/base5/1/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274054",
+            "tcgplayer": "84559"
+          }
+        },
+        {
+          "id": "de/base5/1/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/2",
+      "number": "2",
+      "name": "Dunkles Arbok",
+      "cardGroup": "intl/base5/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        24
+      ],
+      "evolvesFrom": "Rettan",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Starren",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "text": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.) Falls dieses Pokémon über Pokémon-Power verfügt, funktioniert diese Fähigkeit bis zum Ende des nächsten gegnerischen Zuges nicht mehr."
+        },
+        {
+          "name": "Giftige Dämpfe",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet. Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-2"
+      },
+      "prints": [
+        {
+          "id": "de/base5/2/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274055",
+            "tcgplayer": "84563"
+          }
+        },
+        {
+          "id": "de/base5/2/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/3",
+      "number": "3",
+      "name": "Dunkles Turtok",
+      "cardGroup": "intl/base5/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        9
+      ],
+      "evolvesFrom": "Schillok",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Hydrokanone",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "30+",
+          "text": "Fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf Dunkles Turtok abgelegte {W}-Energie zu, die nicht zum Zahlen für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
+        },
+        {
+          "name": "Raketenstart",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Dunkles Turtok fügt sich selbst 10 Schadenspunkte zu. Wirf eine Münze. Verhindere bei Kopf allen Schaden, der Dunkles Turtok während des nächsten Zuges deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-3"
+      },
+      "prints": [
+        {
+          "id": "de/base5/3/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274056",
+            "tcgplayer": "84568"
+          }
+        },
+        {
+          "id": "de/base5/3/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/4",
+      "number": "4",
+      "name": "Dunkles Glurak",
+      "cardGroup": "intl/base5/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        6
+      ],
+      "evolvesFrom": "Glutexo",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Nagelschnipp",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Dauerfeuerball",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "50x",
+          "text": "Wirf eine Anzahl Münzen gleich der Anzahl {R}-Energiekarten auf Dunkles Glurak. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 50 Schadenspunkte zu. Entferne soviele {R}-Energiekarten von Dunkles Glurak wie „Kopf“ geworfen wurde."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "base5-4"
+      },
+      "prints": [
+        {
+          "id": "de/base5/4/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274057",
+            "tcgplayer": "84572"
+          }
+        },
+        {
+          "id": "de/base5/4/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/5",
+      "number": "5",
+      "name": "Dunkles Dragoran",
+      "cardGroup": "intl/base5/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        149
+      ],
+      "evolvesFrom": "Dragonir",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Lakaien zusammenrufen",
+          "text": "Wenn du Dunkles Dragoran von deiner Hand spielst, darfst du dein Deck nach bis zu zwei Basis-Pokémonkarten durchsuchen und sie auf deine Bank legen. Mische dein Deck danach."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Riesenschweif",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-5"
+      },
+      "prints": [
+        {
+          "id": "de/base5/5/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274058",
+            "tcgplayer": "84584"
+          }
+        },
+        {
+          "id": "de/base5/5/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/6",
+      "number": "6",
+      "name": "Dunkles Digdri",
+      "cardGroup": "intl/base5/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        51
+      ],
+      "evolvesFrom": "Digda",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Erdloch",
+          "text": "Jedesmal, wenn sich das aktive Pokémon deines Gegners zurückzieht, wirft dein Gegner eine Münze. Bei „Zahl“ fügt diese Fähigkeit diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistenz nicht anwenden.) Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Digdri schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Niederreissen",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "20+",
+          "text": "Dein Gegner wirft eine Münze. Bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-6"
+      },
+      "prints": [
+        {
+          "id": "de/base5/6/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274059",
+            "tcgplayer": "84588"
+          }
+        },
+        {
+          "id": "de/base5/6/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/7",
+      "number": "7",
+      "name": "Dunkles Golbat",
+      "cardGroup": "intl/base5/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        42
+      ],
+      "evolvesFrom": "Zubat",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Überraschungsangriff",
+          "text": "Wenn du Dunkles Golbat von deiner Hand spielst, kannst du ein Pokémon deines Gegners wählen. In diesem Fall fügt Dunkles Golbat diesem Pokémon 10 Schadenspunkte zu. (Schwäche und Resistenz anwenden.)"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Huschen",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "text": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-7"
+      },
+      "prints": [
+        {
+          "id": "de/base5/7/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274060",
+            "tcgplayer": "84601"
+          }
+        },
+        {
+          "id": "de/base5/7/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/8",
+      "number": "8",
+      "name": "Dunkles Garados",
+      "cardGroup": "intl/base5/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        130
+      ],
+      "evolvesFrom": "Karpador",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Letzter Strahl",
+          "text": "Wirf eine Münze, wenn Dunkles Garados durch einen Angriff kampfunfähig gemacht wird. Bei „Kopf“ fügt diese Fähigkeit dem Pokémon, das Dunkles Garados kampfunfähig gemacht hat, für jede auf Dunkles Garados abgelegte {W}-Energie 20 Schadenspunkte zu. Schwäche und Resistenz anwenden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Garados schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Eisstrahl",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-8"
+      },
+      "prints": [
+        {
+          "id": "de/base5/8/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274061",
+            "tcgplayer": "84606"
+          }
+        },
+        {
+          "id": "de/base5/8/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base5/8/holo~stamp-vorveroffentlichung",
+          "finish": "holo",
+          "tags": [
+            "stamp-vorveroffentlichung"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/9",
+      "number": "9",
+      "name": "Dunkles Hypno",
+      "cardGroup": "intl/base5/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        97
+      ],
+      "evolvesFrom": "Traumato",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Psyhieb",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Bankmanipulation",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Dein Gegner wirft eine Anzahl Münzen, die der Anzahl Pokémon auf seiner oder ihrer Bank entspricht. Dieser Angriff fügt jedesmal, wenn die Münze „Zahl“ zeigt, 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-9"
+      },
+      "prints": [
+        {
+          "id": "de/base5/9/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274062",
+            "tcgplayer": "84613"
+          }
+        },
+        {
+          "id": "de/base5/9/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/10",
+      "number": "10",
+      "name": "Dunkles Machomei",
+      "cardGroup": "intl/base5/10",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        68
+      ],
+      "evolvesFrom": "Maschock",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Megahieb",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Austoben",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "text": "Dein Gegner mischt sein oder ihr aktives Pokémon und alle darauf abgelegten Karten in sein oder ihr Deck. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf der Bank hat."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "base5-10"
+      },
+      "prints": [
+        {
+          "id": "de/base5/10/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274063",
+            "tcgplayer": "84619"
+          }
+        },
+        {
+          "id": "de/base5/10/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/11",
+      "number": "11",
+      "name": "Dunkles Magneton",
+      "cardGroup": "intl/base5/11",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        82
+      ],
+      "evolvesFrom": "Magnetilo",
+      "rarity": "rare",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Überschallknall",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        },
+        {
+          "name": "Magnetische Linien",
+          "cost": [
+            "lightning",
+            "lightning"
+          ],
+          "damage": "30",
+          "text": "Falls auf dem verteidigenden Pokémon irgendwelche Basis-Energiekarten abgelegt sind, wähle eine von ihnen. Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und lege diese Energiekarte darauf ab."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-11"
+      },
+      "prints": [
+        {
+          "id": "de/base5/11/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274064",
+            "tcgplayer": "84624"
+          }
+        },
+        {
+          "id": "de/base5/11/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/12",
+      "number": "12",
+      "name": "Dunkles Lahmus",
+      "cardGroup": "intl/base5/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        80
+      ],
+      "evolvesFrom": "Flegmon",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "An Land ziehen",
+          "text": "Wenn du Dunkles Lahmus von deiner Hand spielst, wähle bis zu drei Basis-Pokémon- und/oder Evolutionskarten von deinem Ablagestapel und nimm sie auf deine Hand."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Launischer Angriff",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "40",
+          "text": "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-12"
+      },
+      "prints": [
+        {
+          "id": "de/base5/12/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274065",
+            "tcgplayer": "84654"
+          }
+        },
+        {
+          "id": "de/base5/12/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/13",
+      "number": "13",
+      "name": "Dunkles Giflor",
+      "cardGroup": "intl/base5/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        45
+      ],
+      "evolvesFrom": "Duflor",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Heuschnupfen",
+          "text": "Es können keine Trainerkarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Giflor schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Blätterwirbelsturm",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "30x",
+          "text": "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu. Falls du zweimal oder öfter „Kopf“ wirfst, ist Dunkles Giflor jetzt verwirrt (nach der Schadensverteilung)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-13"
+      },
+      "prints": [
+        {
+          "id": "de/base5/13/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274066",
+            "tcgplayer": "84667"
+          }
+        },
+        {
+          "id": "de/base5/13/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/14",
+      "number": "14",
+      "name": "Dunkles Smogmog",
+      "cardGroup": "intl/base5/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        110
+      ],
+      "evolvesFrom": "Smogon",
+      "rarity": "rare",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Massenexplosion",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Fügt 20 Schadenspunkte mal die Gesamtanzahl der Smogons, Smogmogs und Dunklen Smogmogs im Spiel zu. (Schwäche und Resistenz anwenden.) Danach fügt dieser Angriff jedem Smogon, Smogmog und Dunklen Smogmog (selbst deinen eigenen) 20 Schadenspunkte zu. Schwäche und Resistenz nicht anwenden."
+        },
+        {
+          "name": "Betäubungsgas",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet; bei „Zahl“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-14"
+      },
+      "prints": [
+        {
+          "id": "de/base5/14/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274067",
+            "tcgplayer": "84671"
+          }
+        },
+        {
+          "id": "de/base5/14/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/15",
+      "number": "15",
+      "name": "Hier kommt Team Rocket!",
+      "cardGroup": "intl/base5/15",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "base5-15"
+      },
+      "prints": [
+        {
+          "id": "de/base5/15/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274068",
+            "tcgplayer": "86073"
+          }
+        },
+        {
+          "id": "de/base5/15/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/16",
+      "number": "16",
+      "name": "Rockets Überraschungsangriff",
+      "cardGroup": "intl/base5/16",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "base5-16"
+      },
+      "prints": [
+        {
+          "id": "de/base5/16/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274069",
+            "tcgplayer": "88791"
+          }
+        },
+        {
+          "id": "de/base5/16/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/17",
+      "number": "17",
+      "name": "Regenbogen-Energie",
+      "cardGroup": "intl/base5/17",
+      "supertype": "energy",
+      "rarity": "rare",
+      "illustrator": "Takumi Akabane",
+      "externalIds": {
+        "tcgdex": "base5-17"
+      },
+      "prints": [
+        {
+          "id": "de/base5/17/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274070",
+            "tcgplayer": "88550"
+          }
+        },
+        {
+          "id": "de/base5/17/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/18",
+      "number": "18",
+      "name": "Dunkles Simsala",
+      "cardGroup": "intl/base5/18",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        65
+      ],
+      "evolvesFrom": "Kadabra",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Teleportstoß",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Du kannst Dunkles Simsala mit einem Pokémon auf deiner Bank austauschen. (Füge die Schadenspunkte vor dem Auswechseln der Pokémon zu.)"
+        },
+        {
+          "name": "Verstandesschock",
+          "cost": [
+            "psychic",
+            "psychic",
+            "psychic"
+          ],
+          "damage": "40",
+          "text": "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "base5-18"
+      },
+      "prints": [
+        {
+          "id": "de/base5/18/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274054",
+            "tcgplayer": "84560"
+          }
+        },
+        {
+          "id": "de/base5/18/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/19",
+      "number": "19",
+      "name": "Dunkles Arbok",
+      "cardGroup": "intl/base5/19",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        24
+      ],
+      "evolvesFrom": "Rettan",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Starren",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "text": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.) Falls dieses Pokémon über Pokémon-Power verfügt, funktioniert diese Fähigkeit bis zum Ende des nächsten gegnerischen Zuges nicht mehr."
+        },
+        {
+          "name": "Giftige Dämpfe",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet. Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-19"
+      },
+      "prints": [
+        {
+          "id": "de/base5/19/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274055",
+            "tcgplayer": "84564"
+          }
+        },
+        {
+          "id": "de/base5/19/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base5/19/normal~stamp-wotc",
+          "finish": "normal",
+          "tags": [
+            "stamp-wotc"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/20",
+      "number": "20",
+      "name": "Dunkles Turtok",
+      "cardGroup": "intl/base5/20",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        9
+      ],
+      "evolvesFrom": "Schillok",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Hydrokanone",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "30+",
+          "text": "Fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf Dunkles Turtok abgelegte {W}-Energie zu, die nicht zum Zahlen für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
+        },
+        {
+          "name": "Raketenstart",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Dunkles Turtok fügt sich selbst 10 Schadenspunkte zu. Wirf eine Münze. Verhindere bei Kopf allen Schaden, der Dunkles Turtok während des nächsten Zuges deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-20"
+      },
+      "prints": [
+        {
+          "id": "de/base5/20/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274056",
+            "tcgplayer": "84570"
+          }
+        },
+        {
+          "id": "de/base5/20/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/21",
+      "number": "21",
+      "name": "Dunkles Glurak",
+      "cardGroup": "intl/base5/21",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        6
+      ],
+      "evolvesFrom": "Glutexo",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Nagelschnipp",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Dauerfeuerball",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "50x",
+          "text": "Wirf eine Anzahl Münzen gleich der Anzahl {R}-Energiekarten auf Dunkles Glurak. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 50 Schadenspunkte zu. Entferne soviele {R}-Energiekarten von Dunkles Glurak wie „Kopf“ geworfen wurde."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "base5-21"
+      },
+      "prints": [
+        {
+          "id": "de/base5/21/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274057",
+            "tcgplayer": "84573"
+          }
+        },
+        {
+          "id": "de/base5/21/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/22",
+      "number": "22",
+      "name": "Dunkles Dragoran",
+      "cardGroup": "intl/base5/22",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        149
+      ],
+      "evolvesFrom": "Dragonir",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Lakaien zusammenrufen",
+          "text": "Wenn du Dunkles Dragoran von deiner Hand spielst, darfst du dein Deck nach bis zu zwei Basis-Pokémonkarten durchsuchen und sie auf deine Bank legen. Mische dein Deck danach."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Riesenschweif",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-22"
+      },
+      "prints": [
+        {
+          "id": "de/base5/22/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274058",
+            "tcgplayer": "84586"
+          }
+        },
+        {
+          "id": "de/base5/22/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/23",
+      "number": "23",
+      "name": "Dunkles Digdri",
+      "cardGroup": "intl/base5/23",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        51
+      ],
+      "evolvesFrom": "Digda",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Erdloch",
+          "text": "Jedesmal, wenn sich das aktive Pokémon deines Gegners zurückzieht, wirft dein Gegner eine Münze. Bei „Zahl“ fügt diese Fähigkeit diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistenz nicht anwenden.) Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Digdri schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Niederreissen",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "20+",
+          "text": "Dein Gegner wirft eine Münze. Bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-23"
+      },
+      "prints": [
+        {
+          "id": "de/base5/23/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274059",
+            "tcgplayer": "84589"
+          }
+        },
+        {
+          "id": "de/base5/23/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/24",
+      "number": "24",
+      "name": "Dunkles Golbat",
+      "cardGroup": "intl/base5/24",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        42
+      ],
+      "evolvesFrom": "Zubat",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Überraschungsangriff",
+          "text": "Wenn du Dunkles Golbat von deiner Hand spielst, kannst du ein Pokémon deines Gegners wählen. In diesem Fall fügt Dunkles Golbat diesem Pokémon 10 Schadenspunkte zu. (Schwäche und Resistenz anwenden.)"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Huschen",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "text": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-24"
+      },
+      "prints": [
+        {
+          "id": "de/base5/24/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274060",
+            "tcgplayer": "84602"
+          }
+        },
+        {
+          "id": "de/base5/24/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/25",
+      "number": "25",
+      "name": "Dunkles Garados",
+      "cardGroup": "intl/base5/25",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        130
+      ],
+      "evolvesFrom": "Karpador",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Letzter Strahl",
+          "text": "Wirf eine Münze, wenn Dunkles Garados durch einen Angriff kampfunfähig gemacht wird. Bei „Kopf“ fügt diese Fähigkeit dem Pokémon, das Dunkles Garados kampfunfähig gemacht hat, für jede auf Dunkles Garados abgelegte {W}-Energie 20 Schadenspunkte zu. Schwäche und Resistenz anwenden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Garados schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Eisstrahl",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-25"
+      },
+      "prints": [
+        {
+          "id": "de/base5/25/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274061",
+            "tcgplayer": "84607"
+          }
+        },
+        {
+          "id": "de/base5/25/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/26",
+      "number": "26",
+      "name": "Dunkles Hypno",
+      "cardGroup": "intl/base5/26",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        97
+      ],
+      "evolvesFrom": "Traumato",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Psyhieb",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Bankmanipulation",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Dein Gegner wirft eine Anzahl Münzen, die der Anzahl Pokémon auf seiner oder ihrer Bank entspricht. Dieser Angriff fügt jedesmal, wenn die Münze „Zahl“ zeigt, 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-26"
+      },
+      "prints": [
+        {
+          "id": "de/base5/26/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274062",
+            "tcgplayer": "84614"
+          }
+        },
+        {
+          "id": "de/base5/26/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/27",
+      "number": "27",
+      "name": "Dunkles Machomei",
+      "cardGroup": "intl/base5/27",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        68
+      ],
+      "evolvesFrom": "Maschock",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Megahieb",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Austoben",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "text": "Dein Gegner mischt sein oder ihr aktives Pokémon und alle darauf abgelegten Karten in sein oder ihr Deck. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf der Bank hat."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "base5-27"
+      },
+      "prints": [
+        {
+          "id": "de/base5/27/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274063",
+            "tcgplayer": "84620"
+          }
+        },
+        {
+          "id": "de/base5/27/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/28",
+      "number": "28",
+      "name": "Dunkles Magneton",
+      "cardGroup": "intl/base5/28",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        82
+      ],
+      "evolvesFrom": "Magnetilo",
+      "rarity": "rare",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Überschallknall",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        },
+        {
+          "name": "Magnetische Linien",
+          "cost": [
+            "lightning",
+            "lightning"
+          ],
+          "damage": "20",
+          "text": "Falls auf dem verteidigenden Pokémon irgendwelche Basis-Energiekarten abgelegt sind, wähle eine von ihnen. Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und lege diese Energiekarte darauf ab."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-28"
+      },
+      "prints": [
+        {
+          "id": "de/base5/28/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274064",
+            "tcgplayer": "84625"
+          }
+        },
+        {
+          "id": "de/base5/28/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/29",
+      "number": "29",
+      "name": "Dunkles Lahmus",
+      "cardGroup": "intl/base5/29",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        80
+      ],
+      "evolvesFrom": "Flegmon",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "An Land ziehen",
+          "text": "Wenn du Dunkles Lahmus von deiner Hand spielst, wähle bis zu drei Basis-Pokémon- und/oder Evolutionskarten von deinem Ablagestapel und nimm sie auf deine Hand."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Launischer Angriff",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "40",
+          "text": "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-29"
+      },
+      "prints": [
+        {
+          "id": "de/base5/29/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274065",
+            "tcgplayer": "84655"
+          }
+        },
+        {
+          "id": "de/base5/29/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/30",
+      "number": "30",
+      "name": "Dunkles Giflor",
+      "cardGroup": "intl/base5/30",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        45
+      ],
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Heuschnupfen",
+          "text": "Es können keine Trainerkarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Giflor schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Blätterwirbelsturm",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "30x",
+          "text": "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu. Falls du zweimal oder öfter „Kopf“ wirfst, ist Dunkles Giflor jetzt verwirrt (nach der Schadensverteilung)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-30"
+      },
+      "prints": [
+        {
+          "id": "de/base5/30/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274066",
+            "tcgplayer": "84668"
+          }
+        },
+        {
+          "id": "de/base5/30/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/31",
+      "number": "31",
+      "name": "Dunkles Smogmog",
+      "cardGroup": "intl/base5/31",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        110
+      ],
+      "evolvesFrom": "Smogon",
+      "rarity": "rare",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Massenexplosion",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Fügt 20 Schadenspunkte mal die Gesamtanzahl der Smogons, Smogmogs und Dunklen Smogmogs im Spiel zu. (Schwäche und Resistenz anwenden.) Danach fügt dieser Angriff jedem Smogon, Smogmog und Dunklen Smogmog (selbst deinen eigenen) 20 Schadenspunkte zu. Schwäche und Resistenz nicht anwenden."
+        },
+        {
+          "name": "Betäubungsgas",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet; bei „Zahl“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-31"
+      },
+      "prints": [
+        {
+          "id": "de/base5/31/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274067",
+            "tcgplayer": "84672"
+          }
+        },
+        {
+          "id": "de/base5/31/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/32",
+      "number": "32",
+      "name": "Dunkles Glutexo",
+      "cardGroup": "intl/base5/32",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        5
+      ],
+      "evolvesFrom": "Glumanda",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Schweifschlag",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Feuerball",
+          "cost": [
+            "fire",
+            "fire",
+            "fire"
+          ],
+          "damage": "70",
+          "text": "Diesen Angriff nur spielen, wenn {R}-Energiekarten auf Dunkles Glutexo abgelegt sind. Wirf eine Münze. Entferne bei „Kopf“ eine dieser Energiekarten. Bei „Zahl“ richtet dieser Angriff nichts aus (nicht einmal Schadenspunkte)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-32"
+      },
+      "prints": [
+        {
+          "id": "de/base5/32/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274085",
+            "tcgplayer": "84574"
+          }
+        },
+        {
+          "id": "de/base5/32/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base5/32/normal~stamp-w-promo",
+          "finish": "normal",
+          "tags": [
+            "stamp-w-promo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/33",
+      "number": "33",
+      "name": "Dunkles Dragonir",
+      "cardGroup": "intl/base5/33",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        148
+      ],
+      "evolvesFrom": "Dratini",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Evolutionslicht",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) darfst du dein Deck nach einer Evolutionskarte durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach. Diese Fähigkeit kann nicht gespielt werden, falls Dunkles Dragonir schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schwanzstreich",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-33"
+      },
+      "prints": [
+        {
+          "id": "de/base5/33/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274086",
+            "tcgplayer": "84580"
+          }
+        },
+        {
+          "id": "de/base5/33/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/34",
+      "number": "34",
+      "name": "Dunkles Lektrobal",
+      "cardGroup": "intl/base5/34",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        101
+      ],
+      "evolvesFrom": "Voltobal",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Fegetackle",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Energiebombe",
+          "cost": [
+            "lightning",
+            "lightning"
+          ],
+          "damage": "30",
+          "text": "Nimm alle auf Dunkles Lektrobal abgelegten Energiekarten und lege sie (wie du willst) auf dein(e) Pokémon auf der Bank. Falls du keine Pokémon auf der Bank hast, entferne alle auf Dunkles Lektrobal angelegten Energiekarten."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-34"
+      },
+      "prints": [
+        {
+          "id": "de/base5/34/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274087",
+            "tcgplayer": "84590"
+          }
+        },
+        {
+          "id": "de/base5/34/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/35",
+      "number": "35",
+      "name": "Dunkles Flamara",
+      "cardGroup": "intl/base5/35",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        136
+      ],
+      "evolvesFrom": "Evoli",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Raserei",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Dunkles Flamara zu."
+        },
+        {
+          "name": "Spiel mit dem Feuer",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "30+",
+          "text": "Diesen Angriff nur spielen, wenn {R}-Energiekarten auf Dunkles Flamara abgelegt sind. Wirf eine Münze. Entferne bei „Kopf“ eine dieser Energiekarten und dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-35"
+      },
+      "prints": [
+        {
+          "id": "de/base5/35/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274088",
+            "tcgplayer": "84597"
+          }
+        },
+        {
+          "id": "de/base5/35/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/36",
+      "number": "36",
+      "name": "Dunkles Duflor",
+      "cardGroup": "intl/base5/36",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        44
+      ],
+      "evolvesFrom": "Myrapla",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Pollengestank",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) darfst du eine Münze werfen. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt; bei „Zahl“ ist dein aktives Pokémon jetzt verwirrt. Diese Fähigkeit kann nicht gespielt werden, falls Dunkles Duflor schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Giftpuder",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-36"
+      },
+      "prints": [
+        {
+          "id": "de/base5/36/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274089",
+            "tcgplayer": "84600"
+          }
+        },
+        {
+          "id": "de/base5/36/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/37",
+      "number": "37",
+      "name": "Dunkles Entoron",
+      "cardGroup": "intl/base5/37",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        55
+      ],
+      "evolvesFrom": "Enton",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Drittes Auge",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Entferne eine auf Dunkles Entoron abgelegte Energiekarte, um bis zu drei Karten zu ziehen."
+        },
+        {
+          "name": "Super-Psychoschlag",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-37"
+      },
+      "prints": [
+        {
+          "id": "de/base5/37/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274090",
+            "tcgplayer": "84604"
+          }
+        },
+        {
+          "id": "de/base5/37/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/38",
+      "number": "38",
+      "name": "Dunkles Blitza",
+      "cardGroup": "intl/base5/38",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        135
+      ],
+      "evolvesFrom": "Evoli",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Blitzaufleuchten",
+          "cost": [
+            "lightning"
+          ],
+          "damage": "20",
+          "text": "Falls das verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ richtet dieser Angriff nichts aus."
+        },
+        {
+          "name": "Donnerangriff",
+          "cost": [
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ fügt sich Dunkles Blitza selbst 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-38"
+      },
+      "prints": [
+        {
+          "id": "de/base5/38/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274091",
+            "tcgplayer": "84617"
+          }
+        },
+        {
+          "id": "de/base5/38/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/39",
+      "number": "39",
+      "name": "Dunkles Kadabra",
+      "cardGroup": "intl/base5/39",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        64
+      ],
+      "evolvesFrom": "Abra",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Materieaustausch",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) darfst du eine Karte von deiner Hand ablegen, um eine Karte zu ziehen. Diese Fähigkeit kann nicht gespielt werden, falls Dunkles Kadabra schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Verstandesschock",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-39"
+      },
+      "prints": [
+        {
+          "id": "de/base5/39/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274092",
+            "tcgplayer": "84618"
+          }
+        },
+        {
+          "id": "de/base5/39/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/40",
+      "number": "40",
+      "name": "Dunkles Maschock",
+      "cardGroup": "intl/base5/40",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        67
+      ],
+      "evolvesFrom": "Machollo",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Wegzerren",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wähle vor der Schadensverteilung ein Pokémon auf der Bank deines Gegners und tausche es mit dem verteidigenden Pokémon aus. Füge die Schadenspunkte dem neuen verteidigenden Pokémon zu. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf der Bank hat."
+        },
+        {
+          "name": "Schlag versetzen",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er oder sie eines von ihnen und wechselt es mit dem verteidigenden Pokémon aus. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-40"
+      },
+      "prints": [
+        {
+          "id": "de/base5/40/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274093",
+            "tcgplayer": "84621"
+          }
+        },
+        {
+          "id": "de/base5/40/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/41",
+      "number": "41",
+      "name": "Dunkles Sleimok",
+      "cardGroup": "intl/base5/41",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        89
+      ],
+      "evolvesFrom": "Sleima",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Klebrige Schmiere",
+          "text": "Solange Dunkles Sleimok dein aktives Pokémon ist, zahlt dein Gegner {C}{C} mehr Rückzugskosten für sein oder ihr aktives Pokémon. Diese Fähigkeit verliert seine Wirkung, solange Dunkles Sleimok schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schlammbadhieb",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base5-41"
+      },
+      "prints": [
+        {
+          "id": "de/base5/41/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274094",
+            "tcgplayer": "84630"
+          }
+        },
+        {
+          "id": "de/base5/41/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/42",
+      "number": "42",
+      "name": "Dunkles Snobilikat",
+      "cardGroup": "intl/base5/42",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        53
+      ],
+      "evolvesFrom": "Mauzi",
+      "rarity": "uncommon",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Versuchung",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf eine Münze. Wähle bei „Kopf“ ein Pokémon auf der Bank deines Gegners und tausche es mit dem verteidigenden Pokémon aus. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf der Bank hat."
+        },
+        {
+          "name": "Giftkrallen",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-42"
+      },
+      "prints": [
+        {
+          "id": "de/base5/42/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274095",
+            "tcgplayer": "84639"
+          }
+        },
+        {
+          "id": "de/base5/42/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/43",
+      "number": "43",
+      "name": "Dunkles Rasaff",
+      "cardGroup": "intl/base5/43",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        57
+      ],
+      "evolvesFrom": "Menki",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Wahnsinn",
+          "text": "Falls Dunkles Rasaff irgendwelchen Schaden (sogar sich selbst) zufügt, während es verwirrt ist, fügt es 30 zusätzliche Schadenspunkte zu."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Wahnsinnsangriff",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "40",
+          "text": "Dunkles Rasaff ist jetzt verwirrt (nach der Schadensverteilung)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-43"
+      },
+      "prints": [
+        {
+          "id": "de/base5/43/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274096",
+            "tcgplayer": "84641"
+          }
+        },
+        {
+          "id": "de/base5/43/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/44",
+      "number": "44",
+      "name": "Dunkles Gallopa",
+      "cardGroup": "intl/base5/44",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        78
+      ],
+      "evolvesFrom": "Ponita",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Rückwärtskick",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Flammensäule",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "30",
+          "text": "Du darfst eine auf Dunkles Gallopa abgelegte {R}-Energiekarte entfernen, wenn du diesen Angriff einsetzt. In diesem Fall und falls dein Gegner Pokémon auf der Bank hat, wähle eines von ihnen und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-44"
+      },
+      "prints": [
+        {
+          "id": "de/base5/44/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274097",
+            "tcgplayer": "84648"
+          }
+        },
+        {
+          "id": "de/base5/44/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/45",
+      "number": "45",
+      "name": "Dunkles Aquana",
+      "cardGroup": "intl/base5/45",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        134
+      ],
+      "evolvesFrom": "Evoli",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Biss",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Strudel",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Falls auf dem verteidigenden Pokémon irgendwelche Energiekarten abgelegt sind, wähle eine von ihnen und entferne sie."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-45"
+      },
+      "prints": [
+        {
+          "id": "de/base5/45/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274098",
+            "tcgplayer": "84665"
+          }
+        },
+        {
+          "id": "de/base5/45/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/46",
+      "number": "46",
+      "name": "Dunkles Schillok",
+      "cardGroup": "intl/base5/46",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        8
+      ],
+      "evolvesFrom": "Schiggy",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Duplexhieb",
+          "cost": [
+            "water"
+          ],
+          "damage": "10x",
+          "text": "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
+        },
+        {
+          "name": "Spiegelpanzer",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "text": "Falls ein Angriff Dunkles Schillok während des nächsten Zuge deines Gegners Schaden zufügt (selbst wenn Dunkles Schillok kampfunfähig gemacht wird), greift Dunkles Schillok das verteidigende Pokémon mit der gleichen Schadensmenge an."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-46"
+      },
+      "prints": [
+        {
+          "id": "de/base5/46/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274099",
+            "tcgplayer": "84670"
+          }
+        },
+        {
+          "id": "de/base5/46/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/47",
+      "number": "47",
+      "name": "Karpador",
+      "cardGroup": "intl/base5/47",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "water"
+      ],
+      "species": [
+        129
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Plumps",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Rasche Evolution",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "text": "Durchsuche dein Deck nach einer Evolutionskarte mit dem Namen Garados oder Dunkles Garados und lege sie auf Karpador. (Dies zählt als eine Entwicklung für Karpador.) Mische dein Deck danach."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-47"
+      },
+      "prints": [
+        {
+          "id": "de/base5/47/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274100",
+            "tcgplayer": "87021"
+          }
+        },
+        {
+          "id": "de/base5/47/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/48",
+      "number": "48",
+      "name": "Porygon",
+      "cardGroup": "intl/base5/48",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        137
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Keiji Kinebuchi",
+      "attacks": [
+        {
+          "name": "Umwandlung 1",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Falls das verteidigende Pokémon eine Schwäche hat, darfst du sie in einen Typ deiner Wahl außer Farblos ändern."
+        },
+        {
+          "name": "Psystrahl",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-48"
+      },
+      "prints": [
+        {
+          "id": "de/base5/48/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274101",
+            "tcgplayer": "88304"
+          }
+        },
+        {
+          "id": "de/base5/48/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/49",
+      "number": "49",
+      "name": "Abra",
+      "cardGroup": "intl/base5/49",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        63
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Plötzlich verschwinden",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Mische Abra in dein Deck. (Entferne alle Karten von Abra.)"
+        },
+        {
+          "name": "Psychoschock",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-49"
+      },
+      "prints": [
+        {
+          "id": "de/base5/49/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274102",
+            "tcgplayer": "83445"
+          }
+        },
+        {
+          "id": "de/base5/49/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/50",
+      "number": "50",
+      "name": "Glumanda",
+      "cardGroup": "intl/base5/50",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        4
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Feuer sammeln",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) darfst du eine {R}-Energiekarte von einem deiner anderen Pokémon wegnehmen und sie unter Glumanda legen. Diese Fähigkeit kann nicht gespielt werden, falls Glumanda schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Feuerschweif",
+          "cost": [
+            "fire"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-50"
+      },
+      "prints": [
+        {
+          "id": "de/base5/50/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274103",
+            "tcgplayer": "84204"
+          }
+        },
+        {
+          "id": "de/base5/50/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/51",
+      "number": "51",
+      "name": "Dunkles Rattikarl",
+      "cardGroup": "intl/base5/51",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        20
+      ],
+      "evolvesFrom": "Rattfratz",
+      "rarity": "common",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Nagen",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Hyperzahn",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-51"
+      },
+      "prints": [
+        {
+          "id": "de/base5/51/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274104",
+            "tcgplayer": "84649"
+          }
+        },
+        {
+          "id": "de/base5/51/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/52",
+      "number": "52",
+      "name": "Digda",
+      "cardGroup": "intl/base5/52",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        50
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Schaufel unter",
+          "cost": [
+            "fighting"
+          ],
+          "text": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        },
+        {
+          "name": "Kratzer",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-52"
+      },
+      "prints": [
+        {
+          "id": "de/base5/52/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274105",
+            "tcgplayer": "84819"
+          }
+        },
+        {
+          "id": "de/base5/52/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/53",
+      "number": "53",
+      "name": "Dratini",
+      "cardGroup": "intl/base5/53",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        147
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Wickel",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-53"
+      },
+      "prints": [
+        {
+          "id": "de/base5/53/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274106",
+            "tcgplayer": "84928"
+          }
+        },
+        {
+          "id": "de/base5/53/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/54",
+      "number": "54",
+      "name": "Traumato",
+      "cardGroup": "intl/base5/54",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        96
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Fernhypnose",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) darfst du eine Münze werfen. Bei „Kopf“ schläft das verteidigende Pokémon jetzt; bei „Zahl“ schläft dein aktives Pokémon jetzt. Die Fähigkeit kann nicht eingesetzt werden, falls Traumato schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Alptraum",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon schläft jetzt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-54"
+      },
+      "prints": [
+        {
+          "id": "de/base5/54/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274107",
+            "tcgplayer": "84969"
+          }
+        },
+        {
+          "id": "de/base5/54/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/55",
+      "number": "55",
+      "name": "Evoli",
+      "cardGroup": "intl/base5/55",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        133
+      ],
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Sandwirbel",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Falls das verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ richtet dieser Angriff nichts aus."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-55"
+      },
+      "prints": [
+        {
+          "id": "de/base5/55/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274108",
+            "tcgplayer": "85078"
+          }
+        },
+        {
+          "id": "de/base5/55/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/56",
+      "number": "56",
+      "name": "Rettan",
+      "cardGroup": "intl/base5/56",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        23
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Biss",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Giftstachel",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-56"
+      },
+      "prints": [
+        {
+          "id": "de/base5/56/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274109",
+            "tcgplayer": "85099"
+          }
+        },
+        {
+          "id": "de/base5/56/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/57",
+      "number": "57",
+      "name": "Sleima",
+      "cardGroup": "intl/base5/57",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        88
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Giftwolke",
+          "cost": [
+            "grass"
+          ],
+          "text": "Das verteidigende Pokémon schläft jetzt."
+        },
+        {
+          "name": "Klebrige Hände",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "10+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt gelähmt; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-57"
+      },
+      "prints": [
+        {
+          "id": "de/base5/57/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274110",
+            "tcgplayer": "85905"
+          }
+        },
+        {
+          "id": "de/base5/57/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/58",
+      "number": "58",
+      "name": "Smogon",
+      "cardGroup": "intl/base5/58",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        109
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Giftwolke",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-58"
+      },
+      "prints": [
+        {
+          "id": "de/base5/58/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274111",
+            "tcgplayer": "86491"
+          }
+        },
+        {
+          "id": "de/base5/58/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/59",
+      "number": "59",
+      "name": "Machollo",
+      "cardGroup": "intl/base5/59",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        66
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Hieb",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Kicks",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-59"
+      },
+      "prints": [
+        {
+          "id": "de/base5/59/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274112",
+            "tcgplayer": "86987"
+          }
+        },
+        {
+          "id": "de/base5/59/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/60",
+      "number": "60",
+      "name": "Magnetilo",
+      "cardGroup": "intl/base5/60",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        81
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Magnetismus",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Magnetilo, Magneton und Dunkle Magneton auf deiner Bank zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-60"
+      },
+      "prints": [
+        {
+          "id": "de/base5/60/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274113",
+            "tcgplayer": "87068"
+          }
+        },
+        {
+          "id": "de/base5/60/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/61",
+      "number": "61",
+      "name": "Menki",
+      "cardGroup": "intl/base5/61",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        56
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Schabernack",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Mische das Deck deines Gegners."
+        },
+        {
+          "name": "Zorn",
+          "cost": [
+            "colorless",
+            "fighting"
+          ],
+          "damage": "20+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-61"
+      },
+      "prints": [
+        {
+          "id": "de/base5/61/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274114",
+            "tcgplayer": "87170"
+          }
+        },
+        {
+          "id": "de/base5/61/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/62",
+      "number": "62",
+      "name": "Mauzi",
+      "cardGroup": "intl/base5/62",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        52
+      ],
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Münzenwurf",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Wähle ein Pokémon deines Gegners und wirf eine Münze. Bei „Kopf“ fügt dieser Angriff diesem Pokémon 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-62"
+      },
+      "prints": [
+        {
+          "id": "de/base5/62/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274115",
+            "tcgplayer": "87313"
+          }
+        },
+        {
+          "id": "de/base5/62/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/63",
+      "number": "63",
+      "name": "Myrapla",
+      "cardGroup": "intl/base5/63",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        43
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Schlafpuder",
+          "cost": [
+            "grass"
+          ],
+          "text": "Das verteidigende Pokémon schläft jetzt."
+        },
+        {
+          "name": "Giftpuder",
+          "cost": [
+            "grass"
+          ],
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-63"
+      },
+      "prints": [
+        {
+          "id": "de/base5/63/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274116",
+            "tcgplayer": "87837"
+          }
+        },
+        {
+          "id": "de/base5/63/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/64",
+      "number": "64",
+      "name": "Ponita",
+      "cardGroup": "intl/base5/64",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        77
+      ],
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Glut",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Entferne eine auf Ponita abgelegte {R}-Energiekarte, um diesen Angriff einzusetzen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-64"
+      },
+      "prints": [
+        {
+          "id": "de/base5/64/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274117",
+            "tcgplayer": "88281"
+          }
+        },
+        {
+          "id": "de/base5/64/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/65",
+      "number": "65",
+      "name": "Enton",
+      "cardGroup": "intl/base5/65",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        54
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Schwindelgefühl",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Ziehe eine Karte."
+        },
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "colorless",
+            "water"
+          ],
+          "damage": "20+",
+          "text": "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Enton abgelegte {W}-Energie zu, die nicht zum Zahlen für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-65"
+      },
+      "prints": [
+        {
+          "id": "de/base5/65/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274118",
+            "tcgplayer": "88431"
+          }
+        },
+        {
+          "id": "de/base5/65/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/66",
+      "number": "66",
+      "name": "Rattfratz",
+      "cardGroup": "intl/base5/66",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        19
+      ],
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Hinterlist",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) darfst du einen deiner Preise mit der obersten Karte deines Decks austauschen. Diese Fähigkeit kann nicht gespielt werden, falls Rattfratz schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Ruckzuckhieb",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-66"
+      },
+      "prints": [
+        {
+          "id": "de/base5/66/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274119",
+            "tcgplayer": "88611"
+          }
+        },
+        {
+          "id": "de/base5/66/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/67",
+      "number": "67",
+      "name": "Flegmon",
+      "cardGroup": "intl/base5/67",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        79
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Nickerchen",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einer {P}-Energiekarte und lege sie unter Flegmon. Mische dein Deck danach."
+        },
+        {
+          "name": "Kopfnuss",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-67"
+      },
+      "prints": [
+        {
+          "id": "de/base5/67/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274120",
+            "tcgplayer": "89322"
+          }
+        },
+        {
+          "id": "de/base5/67/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/68",
+      "number": "68",
+      "name": "Schiggy",
+      "cardGroup": "intl/base5/68",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        7
+      ],
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Panzerangriff",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-68"
+      },
+      "prints": [
+        {
+          "id": "de/base5/68/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274121",
+            "tcgplayer": "89484"
+          }
+        },
+        {
+          "id": "de/base5/68/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/69",
+      "number": "69",
+      "name": "Voltobal",
+      "cardGroup": "intl/base5/69",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        100
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Geschwindigkeitsball",
+          "cost": [
+            "lightning"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-69"
+      },
+      "prints": [
+        {
+          "id": "de/base5/69/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274122",
+            "tcgplayer": "90409"
+          }
+        },
+        {
+          "id": "de/base5/69/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/70",
+      "number": "70",
+      "name": "Zubat",
+      "cardGroup": "intl/base5/70",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        41
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Ramme",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Biss",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base5-70"
+      },
+      "prints": [
+        {
+          "id": "de/base5/70/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274123",
+            "tcgplayer": "90767"
+          }
+        },
+        {
+          "id": "de/base5/70/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/71",
+      "number": "71",
+      "name": "Hier kommt Team Rocket!",
+      "cardGroup": "intl/base5/71",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "base5-71"
+      },
+      "prints": [
+        {
+          "id": "de/base5/71/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274068",
+            "tcgplayer": "86074"
+          }
+        },
+        {
+          "id": "de/base5/71/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/72",
+      "number": "72",
+      "name": "Rockets Überraschungsangriff",
+      "cardGroup": "intl/base5/72",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "base5-72"
+      },
+      "prints": [
+        {
+          "id": "de/base5/72/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274069",
+            "tcgplayer": "88792"
+          }
+        },
+        {
+          "id": "de/base5/72/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/73",
+      "number": "73",
+      "name": "Der Boss hat immer Recht",
+      "cardGroup": "intl/base5/73",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "base5-73"
+      },
+      "prints": [
+        {
+          "id": "de/base5/73/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274126",
+            "tcgplayer": "89894"
+          }
+        },
+        {
+          "id": "de/base5/73/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/74",
+      "number": "74",
+      "name": "Herausforderung!",
+      "cardGroup": "intl/base5/74",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "externalIds": {
+        "tcgdex": "base5-74"
+      },
+      "prints": [
+        {
+          "id": "de/base5/74/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274127",
+            "tcgplayer": "84159"
+          }
+        },
+        {
+          "id": "de/base5/74/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/75",
+      "number": "75",
+      "name": "Bagger",
+      "cardGroup": "intl/base5/75",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Sumiyoshi Kizuki",
+      "externalIds": {
+        "tcgdex": "base5-75"
+      },
+      "prints": [
+        {
+          "id": "de/base5/75/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274128",
+            "tcgplayer": "84815"
+          }
+        },
+        {
+          "id": "de/base5/75/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/76",
+      "number": "76",
+      "name": "Die Rache des falschen Profess",
+      "cardGroup": "intl/base5/76",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "base5-76"
+      },
+      "prints": [
+        {
+          "id": "de/base5/76/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274129",
+            "tcgplayer": "86270"
+          }
+        },
+        {
+          "id": "de/base5/76/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/77",
+      "number": "77",
+      "name": "Nächtliche Müllabfuhr",
+      "cardGroup": "intl/base5/77",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Sumiyoshi Kizuki",
+      "externalIds": {
+        "tcgdex": "base5-77"
+      },
+      "prints": [
+        {
+          "id": "de/base5/77/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274130",
+            "tcgplayer": "87755"
+          }
+        },
+        {
+          "id": "de/base5/77/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/78",
+      "number": "78",
+      "name": "Uhu-Gasangriff",
+      "cardGroup": "intl/base5/78",
+      "supertype": "trainer",
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "externalIds": {
+        "tcgdex": "base5-78"
+      },
+      "prints": [
+        {
+          "id": "de/base5/78/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274131",
+            "tcgplayer": "85841"
+          }
+        },
+        {
+          "id": "de/base5/78/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/79",
+      "number": "79",
+      "name": "Schlaf!",
+      "cardGroup": "intl/base5/79",
+      "supertype": "trainer",
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "externalIds": {
+        "tcgdex": "base5-79"
+      },
+      "prints": [
+        {
+          "id": "de/base5/79/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274132",
+            "tcgplayer": "89301"
+          }
+        },
+        {
+          "id": "de/base5/79/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/80",
+      "number": "80",
+      "name": "Regenbogen-Energie",
+      "cardGroup": "intl/base5/80",
+      "supertype": "energy",
+      "subtypes": [
+        "special-energy"
+      ],
+      "rarity": "rare",
+      "illustrator": "Takumi Akabane",
+      "externalIds": {
+        "tcgdex": "base5-80"
+      },
+      "prints": [
+        {
+          "id": "de/base5/80/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274070",
+            "tcgplayer": "88551"
+          }
+        },
+        {
+          "id": "de/base5/80/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/81",
+      "number": "81",
+      "name": "Hyperheiler-Energie",
+      "cardGroup": "intl/base5/81",
+      "supertype": "energy",
+      "subtypes": [
+        "special-energy"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "base5-81"
+      },
+      "prints": [
+        {
+          "id": "de/base5/81/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274134",
+            "tcgplayer": "85584"
+          }
+        },
+        {
+          "id": "de/base5/81/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/82",
+      "number": "82",
+      "name": "Trank-Energie",
+      "cardGroup": "intl/base5/82",
+      "supertype": "energy",
+      "subtypes": [
+        "special-energy"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "base5-82"
+      },
+      "prints": [
+        {
+          "id": "de/base5/82/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274135",
+            "tcgplayer": "88350"
+          }
+        },
+        {
+          "id": "de/base5/82/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base5/83",
+      "number": "83",
+      "name": "Dunkles Raichu",
+      "cardGroup": "intl/base5/83",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        26
+      ],
+      "evolvesFrom": "Pikachu",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Überraschungsdonner",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ wirf eine weitere Münze. Falls die zweite Münze ebenfalls „Kopf“ zeigt, fügt dieser Angriff jedem Pokémon auf der gegnerischen Bank 20 Schadenspunkte zu. Falls die zweite Münze „Zahl“ zeigt, fügt dieser Angriff jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base5-83"
+      },
+      "prints": [
+        {
+          "id": "de/base5/83/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274136",
+            "tcgplayer": "84647"
+          }
+        },
+        {
+          "id": "de/base5/83/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

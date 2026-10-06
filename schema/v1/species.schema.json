@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MPelzer/PokemonLibrary/schemas/catalog/v1/species.schema.json",
+  "title": "Pokémon species and lore",
+  "type": "object",
+  "required": ["formatVersion", "species"],
+  "properties": {
+    "formatVersion": { "$ref": "common.schema.json#/$defs/formatVersion" },
+    "species": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["dex", "names", "provenance"],
+        "properties": {
+          "dex": { "type": "integer", "minimum": 1 },
+          "generation": { "type": "integer", "minimum": 1 },
+          "names": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "types": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/key" } },
+          "evolutionChain": { "type": "array", "items": { "type": "integer", "minimum": 1 } },
+          "flavorText": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "provenance": { "$ref": "common.schema.json#/$defs/provenance" },
+          "fieldProvenance": { "$ref": "common.schema.json#/$defs/fieldProvenance" }
+        }
+      }
+    }
+  }
+}

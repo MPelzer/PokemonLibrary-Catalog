@@ -1,0 +1,1786 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "en/dc1",
+    "code": "dc1",
+    "language": "en",
+    "name": "Double Crisis",
+    "series": "XY",
+    "abbreviation": "DCR",
+    "releaseDate": "2015-03-25",
+    "cardCount": {
+      "official": 34,
+      "total": 34
+    },
+    "images": {
+      "logo": "https://assets.tcgdex.net/en/xy/dc1/logo.webp",
+      "symbol": "https://assets.tcgdex.net/univ/xy/dc1/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "dc1"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "en/dc1/1",
+      "number": "1",
+      "name": "Team Magma's Numel",
+      "cardGroup": "intl/dc1/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        322
+      ],
+      "rarity": "common",
+      "illustrator": "Akira Komayama",
+      "attacks": [
+        {
+          "name": "Ember",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Discard an Energy attached to this Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/1/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/1/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-1"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/1/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/2",
+      "number": "2",
+      "name": "Team Magma's Camerupt",
+      "cardGroup": "intl/dc1/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 110,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        323
+      ],
+      "evolvesFrom": "Team Magma's Numel",
+      "rarity": "rare",
+      "illustrator": "Shin Nagasawa",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Burning Draft",
+          "text": "Once during your turn (before your attack), you may attach a {F} or {R} Energy card from your discard pile to this Pokémon."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Flame Ball",
+          "cost": [
+            "fire",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/2/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/2/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-2"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/2/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/3",
+      "number": "3",
+      "name": "Team Aqua's Spheal",
+      "cardGroup": "intl/dc1/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        363
+      ],
+      "rarity": "common",
+      "illustrator": "Sanosuke Sakuma",
+      "attacks": [
+        {
+          "name": "Water Gun",
+          "cost": [
+            "water"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/3/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/3/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-3"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/3/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/4",
+      "number": "4",
+      "name": "Team Aqua's Sealeo",
+      "cardGroup": "intl/dc1/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "water"
+      ],
+      "species": [
+        364
+      ],
+      "evolvesFrom": "Team Aqua's Spheal",
+      "rarity": "common",
+      "illustrator": "Naoki Saito",
+      "attacks": [
+        {
+          "name": "Splatter",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "text": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+          "name": "Hail Storm",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60＋",
+          "text": "If your opponent's Active Pokémon is a Team Magma Pokémon, this attack does 60 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/4/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/4/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-4"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/4/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/5",
+      "number": "5",
+      "name": "Team Aqua's Walrein",
+      "cardGroup": "intl/dc1/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 140,
+      "types": [
+        "water"
+      ],
+      "species": [
+        365
+      ],
+      "evolvesFrom": "Team Aqua's Sealeo",
+      "rarity": "rare",
+      "illustrator": "Hitoshi Ariga",
+      "attacks": [
+        {
+          "name": "Power Blow",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "30×",
+          "text": "This attack does 30 damage times the amount of Energy attached to this Pokémon."
+        },
+        {
+          "name": "Dual Blizzard",
+          "cost": [
+            "water",
+            "water",
+            "water",
+            "colorless"
+          ],
+          "text": "Discard 2 {W} Energy attached to this Pokémon. This attack does 80 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/5/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/5/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-5"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/5/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/6",
+      "number": "6",
+      "name": "Team Aqua's Kyogre EX",
+      "cardGroup": "intl/dc1/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex-upper"
+      ],
+      "hp": 190,
+      "types": [
+        "water"
+      ],
+      "species": [
+        382
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "nagimiso",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Power Saver",
+          "text": "If there are 4 or fewer Team Aqua Pokémon in play, this Pokémon can't attack."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Aqua Impact",
+          "cost": [
+            "water",
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "80＋",
+          "text": "This attack does 20 more damage for each {C} in your opponent's Active Pokémon's Retreat Cost."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/6/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/6/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-6"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/6/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/7",
+      "number": "7",
+      "name": "Team Aqua's Grimer",
+      "cardGroup": "intl/dc1/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        88
+      ],
+      "rarity": "common",
+      "illustrator": "kawayoo",
+      "attacks": [
+        {
+          "name": "Pound",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Mud-Slap",
+          "cost": [
+            "psychic",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/7/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/7/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-7"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/7/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/8",
+      "number": "8",
+      "name": "Team Aqua's Muk",
+      "cardGroup": "intl/dc1/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 110,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        89
+      ],
+      "evolvesFrom": "Team Aqua's Grimer",
+      "rarity": "rare",
+      "illustrator": "Kouki Saitou",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Sludge Festival",
+          "text": "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is {C} more."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Pester",
+          "cost": [
+            "psychic",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60＋",
+          "text": "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 60 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/8/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/8/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-8"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/8/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/9",
+      "number": "9",
+      "name": "Team Aqua's Seviper",
+      "cardGroup": "intl/dc1/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        336
+      ],
+      "rarity": "common",
+      "illustrator": "Naoki Saito",
+      "attacks": [
+        {
+          "name": "Venomous Fang",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+        },
+        {
+          "name": "Venom Tail",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "If your opponent's Active Pokémon is affected by a Special Condition, discard an Energy attached to that Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/9/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/9/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-9"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/9/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/10",
+      "number": "10",
+      "name": "Team Magma's Baltoy",
+      "cardGroup": "intl/dc1/10",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        343
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Telekinesis",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "This attack does 20 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/10/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/10/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-10"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/10/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/11",
+      "number": "11",
+      "name": "Team Magma's Claydol",
+      "cardGroup": "intl/dc1/11",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        344
+      ],
+      "evolvesFrom": "Team Magma's Baltoy",
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Magma Switch",
+          "text": "Once during your turn (before your attack), you may move a basic Energy from 1 of your Pokémon to 1 of your Team Magma Pokémon."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Power Beam",
+          "cost": [
+            "psychic",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/11/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/11/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-11"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/11/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/12",
+      "number": "12",
+      "name": "Team Magma's Aron",
+      "cardGroup": "intl/dc1/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        304
+      ],
+      "rarity": "common",
+      "illustrator": "Akira Komayama",
+      "attacks": [
+        {
+          "name": "Gnaw",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/12/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/12/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-12"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/12/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/13",
+      "number": "13",
+      "name": "Team Magma's Lairon",
+      "cardGroup": "intl/dc1/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        305
+      ],
+      "evolvesFrom": "Team Magma's Aron",
+      "rarity": "common",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Gnaw",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Take Down",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "This Pokémon does 10 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/13/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/13/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-13"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/13/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/14",
+      "number": "14",
+      "name": "Team Magma's Aggron",
+      "cardGroup": "intl/dc1/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 140,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        306
+      ],
+      "evolvesFrom": "Team Magma's Lairon",
+      "rarity": "rare",
+      "illustrator": "TOKIYA",
+      "attacks": [
+        {
+          "name": "Rock Stomp",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "40×",
+          "text": "Discard as many {F} Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of {F} Energy you discarded."
+        },
+        {
+          "name": "Boulder Storm",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "120",
+          "text": "This attack does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/14/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/14/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-14"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/14/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/15",
+      "number": "15",
+      "name": "Team Magma's Groudon EX",
+      "cardGroup": "intl/dc1/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex-upper"
+      ],
+      "hp": 190,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        383
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "nagimiso",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Power Saver",
+          "text": "If there are 4 or fewer Team Magma Pokémon in play, this Pokémon can't attack."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Magma Quake",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "80＋",
+          "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/15/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/15/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-15"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/15/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/16",
+      "number": "16",
+      "name": "Team Aqua's Poochyena",
+      "cardGroup": "intl/dc1/16",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        261
+      ],
+      "rarity": "common",
+      "illustrator": "Kouki Saitou",
+      "attacks": [
+        {
+          "name": "Roar",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon."
+        },
+        {
+          "name": "Bite",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/16/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/16/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-16"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/16/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/17",
+      "number": "17",
+      "name": "Team Magma's Poochyena",
+      "cardGroup": "intl/dc1/17",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        261
+      ],
+      "rarity": "common",
+      "illustrator": "TOKIYA",
+      "attacks": [
+        {
+          "name": "Infiltrate",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Your opponent reveals his or her hand."
+        },
+        {
+          "name": "Bite",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/17/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/17/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-17"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/17/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/18",
+      "number": "18",
+      "name": "Team Aqua's Mightyena",
+      "cardGroup": "intl/dc1/18",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 100,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        262
+      ],
+      "evolvesFrom": "Team Aqua's Poochyena",
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Teampact",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "30×",
+          "text": "Flip a coin for each Team Aqua Pokémon you have in play. This attack does 30 damage times the number of heads."
+        },
+        {
+          "name": "Crunch",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "80",
+          "text": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/18/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/18/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-18"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/18/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/19",
+      "number": "19",
+      "name": "Team Magma's Mightyena",
+      "cardGroup": "intl/dc1/19",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 100,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        262
+      ],
+      "evolvesFrom": "Team Magma's Poochyena",
+      "rarity": "common",
+      "illustrator": "Hitoshi Ariga",
+      "attacks": [
+        {
+          "name": "Bite",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Hostile Fang",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "80＋",
+          "text": "If your opponent's Active Pokémon is a Team Aqua Pokémon, this attack does 40 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/19/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/19/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-19"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/19/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/20",
+      "number": "20",
+      "name": "Team Aqua's Carvanha",
+      "cardGroup": "intl/dc1/20",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        318
+      ],
+      "rarity": "common",
+      "illustrator": "Sanosuke Sakuma",
+      "attacks": [
+        {
+          "name": "Fin Smack",
+          "cost": [
+            "darkness"
+          ],
+          "damage": "10×",
+          "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/20/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/20/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-20"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/20/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/21",
+      "number": "21",
+      "name": "Team Aqua's Sharpedo",
+      "cardGroup": "intl/dc1/21",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        319
+      ],
+      "evolvesFrom": "Team Aqua's Carvanha",
+      "rarity": "rare",
+      "illustrator": "kawayoo",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "Aqua Search",
+          "text": "Once during your turn (before your attack), you may search your deck for a Team Aqua Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Sharp Fang",
+          "cost": [
+            "darkness",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 0,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/21/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/21/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-21"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/21/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/22",
+      "number": "22",
+      "name": "Team Magma's Zangoose",
+      "cardGroup": "intl/dc1/22",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        335
+      ],
+      "rarity": "common",
+      "illustrator": "Shin Nagasawa",
+      "attacks": [
+        {
+          "name": "Call for Family",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Search your deck for up to 2 Basic Team Magma Pokémon and put them onto your Bench. Shuffle your deck afterward."
+        },
+        {
+          "name": "Team Play",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20×",
+          "text": "This attack does 20 damage times the number of Team Magma Pokémon on your Bench."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/22/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/22/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-22"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/22/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/23",
+      "number": "23",
+      "name": "Aqua Diffuser",
+      "cardGroup": "intl/dc1/23",
+      "supertype": "trainer",
+      "subtypes": [
+        "tool"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Toyste Beach",
+      "attacks": [
+        {
+          "name": "Aqua Diffuser",
+          "cost": [
+            "water"
+          ],
+          "text": "Your opponent's Active Pokémon is now Confused and Poisoned."
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/23/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/23/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-23"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/23/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/24",
+      "number": "24",
+      "name": "Magma Pointer",
+      "cardGroup": "intl/dc1/24",
+      "supertype": "trainer",
+      "subtypes": [
+        "tool"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Toyste Beach",
+      "attacks": [
+        {
+          "name": "Magma Pointer",
+          "cost": [
+            "fighting"
+          ],
+          "text": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/24/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/24/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-24"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/24/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/25",
+      "number": "25",
+      "name": "Team Aqua Admin",
+      "cardGroup": "intl/dc1/25",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "GAME FREAK inc.",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/25/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/25/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-25"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/25/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/26",
+      "number": "26",
+      "name": "Team Aqua Grunt",
+      "cardGroup": "intl/dc1/26",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "GAME FREAK inc.",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/26/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/26/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-26"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/26/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/27",
+      "number": "27",
+      "name": "Team Aqua's Great Ball",
+      "cardGroup": "intl/dc1/27",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Toyste Beach",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/27/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/27/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-27"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/27/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/28",
+      "number": "28",
+      "name": "Team Aqua's Secret Base",
+      "cardGroup": "intl/dc1/28",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/28/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/28/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-28"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/28/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/29",
+      "number": "29",
+      "name": "Team Magma Admin",
+      "cardGroup": "intl/dc1/29",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "GAME FREAK inc.",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/29/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/29/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-29"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/29/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/30",
+      "number": "30",
+      "name": "Team Magma Grunt",
+      "cardGroup": "intl/dc1/30",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "GAME FREAK inc.",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/30/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/30/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-30"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/30/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/31",
+      "number": "31",
+      "name": "Team Magma's Great Ball",
+      "cardGroup": "intl/dc1/31",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Toyste Beach",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/31/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/31/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-31"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/31/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/32",
+      "number": "32",
+      "name": "Team Magma's Secret Base",
+      "cardGroup": "intl/dc1/32",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/32/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/32/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-32"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/32/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/33",
+      "number": "33",
+      "name": "Double Aqua Energy",
+      "cardGroup": "intl/dc1/33",
+      "supertype": "energy",
+      "subtypes": [
+        "special-energy"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "5ban Graphics",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/33/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/33/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-33"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/33/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/dc1/34",
+      "number": "34",
+      "name": "Double Magma Energy",
+      "cardGroup": "intl/dc1/34",
+      "supertype": "energy",
+      "subtypes": [
+        "special-energy"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "5ban Graphics",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/xy/dc1/34/low.webp",
+        "large": "https://assets.tcgdex.net/en/xy/dc1/34/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "dc1-34"
+      },
+      "prints": [
+        {
+          "id": "en/dc1/34/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

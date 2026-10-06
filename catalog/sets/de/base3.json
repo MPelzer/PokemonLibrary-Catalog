@@ -1,0 +1,4412 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "de/base3",
+    "code": "base3",
+    "language": "de",
+    "name": "Fossil",
+    "series": "Grund",
+    "abbreviation": "FO",
+    "releaseDate": "1999-10-10",
+    "cardCount": {
+      "official": 62,
+      "total": 62
+    },
+    "images": {
+      "symbol": "https://assets.tcgdex.net/univ/base/base3/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "base3"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "de/base3/1",
+      "number": "1",
+      "name": "Aerodactyl",
+      "cardGroup": "intl/base3/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        142
+      ],
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Urzeit-Power",
+          "text": "Es können keine weiteren Evolutionskarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Aerodactyl schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Flügelschlag",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-1"
+      },
+      "prints": [
+        {
+          "id": "de/base3/1/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/1/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/1/holo~foil-kosmos~stamp-vorveroffentlichung",
+          "finish": "holo",
+          "tags": [
+            "foil-kosmos",
+            "stamp-vorveroffentlichung"
+          ]
+        },
+        {
+          "id": "de/base3/1/holo~foil-sternenlicht~stamp-vorveroffentlichung",
+          "finish": "holo",
+          "tags": [
+            "foil-sternenlicht",
+            "stamp-vorveroffentlichung"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/2",
+      "number": "2",
+      "name": "Arktos",
+      "cardGroup": "intl/base3/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        144
+      ],
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Gefriertrocknung",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Blizzard",
+          "cost": [
+            "water",
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "50",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff jedem deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-2"
+      },
+      "prints": [
+        {
+          "id": "de/base3/2/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/2/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/3",
+      "number": "3",
+      "name": "Ditto",
+      "cardGroup": "intl/base3/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        132
+      ],
+      "rarity": "rare",
+      "illustrator": "Keiji Kinebuchi",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Wandler",
+          "text": "Falls Ditto dein aktives Pokémon ist, behandele es genauso wie die Karte des verteidigenden Pokémon, einschließlich Typ, Kraftpunkte, Schwäche usw., außer dass Ditto sich nicht entwickeln lässt, diese Pokémon-Power immer hat und jede auf Ditto abgelegte Energiekarte als Energie jeder beliebigen Art behandelt werden darf. Ditto ist kein Abbild eines anderen Pokémon, wenn Ditto schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-3"
+      },
+      "prints": [
+        {
+          "id": "de/base3/3/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/3/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/4",
+      "number": "4",
+      "name": "Dragoran",
+      "cardGroup": "intl/base3/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        149
+      ],
+      "evolvesFrom": "Dragonir",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Einfliegen",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Dragoran auf deiner Bank sitzt, es mit dem aktiven Pokémon austauschen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Slam",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40x",
+          "text": "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 40 Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-4"
+      },
+      "prints": [
+        {
+          "id": "de/base3/4/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/4/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/5",
+      "number": "5",
+      "name": "Gengar",
+      "cardGroup": "intl/base3/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        94
+      ],
+      "evolvesFrom": "Alpollo",
+      "rarity": "rare",
+      "illustrator": "Keiji Kinebuchi",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Fluchen",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Schadensmarke von einem Pokémon deines Gegners auf ein anderes verschieben (selbst wenn du dieses Pokémon damit kampfunfähig machst). Diese Fähigkeit kann nicht eingesetzt werden, falls Gengar schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Finsteres Gemüt",
+          "cost": [
+            "psychic",
+            "psychic",
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-5"
+      },
+      "prints": [
+        {
+          "id": "de/base3/5/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/5/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/6",
+      "number": "6",
+      "name": "Alpollo",
+      "cardGroup": "intl/base3/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        93
+      ],
+      "evolvesFrom": "Nebulak",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Durchschaubarkeit",
+          "text": "Immer wenn Alpollo angegriffen wird, kannst du eine Münze werfen. Bei „Kopf“ verhindere alle Auswirkungen dieses Angriffs auf Alpollo (einschließlich der Schadenspunkte). Diese Fähigkeit verliert ihre Wirkung, solange Alpollo schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Alptraum",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon schläft jetzt."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base3-6"
+      },
+      "prints": [
+        {
+          "id": "de/base3/6/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/6/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/7",
+      "number": "7",
+      "name": "Kicklee",
+      "cardGroup": "intl/base3/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        106
+      ],
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Streckkick",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "text": "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        },
+        {
+          "name": "Turmkick",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-7"
+      },
+      "prints": [
+        {
+          "id": "de/base3/7/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/7/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/8",
+      "number": "8",
+      "name": "Hypno",
+      "cardGroup": "intl/base3/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        97
+      ],
+      "evolvesFrom": "Traumato",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Vorhersagung",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Schaue dir bis zu drei der obersten Karten vom Deck deines Gegners oder deinem eigenen Deck an, und lege sie in beliebiger Reihenfolge wieder auf das Deck zurück."
+        },
+        {
+          "name": "Finsteres Gemüt",
+          "cost": [
+            "psychic",
+            "psychic",
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-8"
+      },
+      "prints": [
+        {
+          "id": "de/base3/8/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/8/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/9",
+      "number": "9",
+      "name": "Kabutops",
+      "cardGroup": "intl/base3/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        141
+      ],
+      "evolvesFrom": "Kabuto",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Scharfe Sichel",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Absorber",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "40",
+          "text": "Entferne von Kabutops Schadensmarken in Höhe der Hälfte des Schadens (auf die nächsten 10 aufgerundet), der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz abgerechnet wurden). Falls Kabutops weniger Schadensmarken als diese Anzahl hat, entferne sie alle."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-9"
+      },
+      "prints": [
+        {
+          "id": "de/base3/9/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/9/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/10",
+      "number": "10",
+      "name": "Lapras",
+      "cardGroup": "intl/base3/10",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        131
+      ],
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "water"
+          ],
+          "damage": "10+",
+          "text": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Lapras abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
+        },
+        {
+          "name": "Konfusstrahl",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-10"
+      },
+      "prints": [
+        {
+          "id": "de/base3/10/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/10/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/11",
+      "number": "11",
+      "name": "Magneton",
+      "cardGroup": "intl/base3/11",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        82
+      ],
+      "evolvesFrom": "Magnetilo",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Überschallknall",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        },
+        {
+          "name": "Finale",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "100",
+          "text": "Fügt jedem Pokémon auf der Bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Magneton fügt sich selbst 100 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-11"
+      },
+      "prints": [
+        {
+          "id": "de/base3/11/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/11/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/12",
+      "number": "12",
+      "name": "Lavados",
+      "cardGroup": "intl/base3/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        146
+      ],
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Lauffeuer",
+          "cost": [
+            "fire"
+          ],
+          "text": "Du kannst beliebig viele {R}-Energiekarten von Lavados entfernen, wenn du diesen Angriff einsetzt. Lege danach die gleiche Anzahl der obersten Karten vom Deck deines Gegners auf den Ablagestapel."
+        },
+        {
+          "name": "Sturzflugbombardierung",
+          "cost": [
+            "fire",
+            "fire",
+            "fire",
+            "fire"
+          ],
+          "damage": "80",
+          "text": "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-12"
+      },
+      "prints": [
+        {
+          "id": "de/base3/12/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/12/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/13",
+      "number": "13",
+      "name": "Sleimok",
+      "cardGroup": "intl/base3/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        89
+      ],
+      "evolvesFrom": "Sleima",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Giftgas",
+          "text": "Ignoriere alle Pokémon-Power außer den Giftgasen. Diese Fähigkeit verliert ihre Wirkung, solange Sleimok schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schlammbad",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-13"
+      },
+      "prints": [
+        {
+          "id": "de/base3/13/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/13/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/14",
+      "number": "14",
+      "name": "Raichu",
+      "cardGroup": "intl/base3/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        26
+      ],
+      "evolvesFrom": "Pikachu",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Gigaschock",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "30",
+          "text": "Wähle drei Pokémon auf der Bank deines Gegners. Dieser Angriff fügt jedem von ihnen 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Falls dein Gegner weniger als drei Pokémon auf der Bank hat, teile die Schadenspunkte an jedes von ihnen aus."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-14"
+      },
+      "prints": [
+        {
+          "id": "de/base3/14/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/14/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/15",
+      "number": "15",
+      "name": "Zapdos",
+      "cardGroup": "intl/base3/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        145
+      ],
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Gewitter",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "40",
+          "text": "Wirf eine Münze für jedes Pokémon auf der Bank deines Gegners. Bei „Kopf“ fügt dieser Angriff diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Danach fügt sich Zapdos jedesmal, wenn die Münze „Kopf“ zeigt, selbst 10 Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-15"
+      },
+      "prints": [
+        {
+          "id": "de/base3/15/holo~foil-galaxie",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/15/holo~foil-galaxie~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/15/holo~foil-kosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-kosmos"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/16",
+      "number": "16",
+      "name": "Aerodactyl",
+      "cardGroup": "intl/base3/16",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        142
+      ],
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Urzeit-Power",
+          "text": "Es können keine weiteren Evolutionskarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Aerodactyl schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Flügelschlag",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-16"
+      },
+      "prints": [
+        {
+          "id": "de/base3/16/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/16/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/16/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/17",
+      "number": "17",
+      "name": "Arktos",
+      "cardGroup": "intl/base3/17",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        144
+      ],
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Gefriertrocknung",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Blizzard",
+          "cost": [
+            "water",
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "50",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff jedem deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-17"
+      },
+      "prints": [
+        {
+          "id": "de/base3/17/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/17/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/17/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/18",
+      "number": "18",
+      "name": "Ditto",
+      "cardGroup": "intl/base3/18",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        132
+      ],
+      "rarity": "rare",
+      "illustrator": "Keiji Kinebuchi",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Wandler",
+          "text": "Falls Ditto dein aktives Pokémon ist, behandele es genauso wie die Karte des verteidigenden Pokémon, einschließlich Typ, Kraftpunkte, Schwäche usw., außer dass Ditto sich nicht entwickeln lässt, diese Pokémon-Power immer hat und jede auf Ditto abgelegte Energiekarte als Energie jeder beliebigen Art behandelt werden darf. Ditto ist kein Abbild eines anderen Pokémon, wenn Ditto schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-18"
+      },
+      "prints": [
+        {
+          "id": "de/base3/18/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/18/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/18/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/19",
+      "number": "19",
+      "name": "Dragoran",
+      "cardGroup": "intl/base3/19",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        149
+      ],
+      "evolvesFrom": "Dragonir",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Einfliegen",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Dragoran auf deiner Bank sitzt, es mit dem aktiven Pokémon austauschen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Slam",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40x",
+          "text": "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 40 Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-19"
+      },
+      "prints": [
+        {
+          "id": "de/base3/19/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/19/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/19/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/20",
+      "number": "20",
+      "name": "Gengar",
+      "cardGroup": "intl/base3/20",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        94
+      ],
+      "evolvesFrom": "Alpollo",
+      "rarity": "rare",
+      "illustrator": "Keiji Kinebuchi",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Fluchen",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Schadensmarke von einem Pokémon deines Gegners auf ein anderes verschieben (selbst wenn du dieses Pokémon damit kampfunfähig machst). Diese Fähigkeit kann nicht eingesetzt werden, falls Gengar schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Finsteres Gemüt",
+          "cost": [
+            "psychic",
+            "psychic",
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-20"
+      },
+      "prints": [
+        {
+          "id": "de/base3/20/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/20/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/20/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/21",
+      "number": "21",
+      "name": "Alpollo",
+      "cardGroup": "intl/base3/21",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        93
+      ],
+      "evolvesFrom": "Nebulak",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Durchschaubarkeit",
+          "text": "Immer wenn Alpollo angegriffen wird, kannst du eine Münze werfen. Bei „Kopf“ verhindere alle Auswirkungen dieses Angriffs auf Alpollo (einschließlich der Schadenspunkte). Diese Fähigkeit verliert ihre Wirkung, solange Alpollo schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Alptraum",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon schläft jetzt."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base3-21"
+      },
+      "prints": [
+        {
+          "id": "de/base3/21/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/21/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/21/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/22",
+      "number": "22",
+      "name": "Kicklee",
+      "cardGroup": "intl/base3/22",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        106
+      ],
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Streckkick",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "text": "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        },
+        {
+          "name": "Turmkick",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-22"
+      },
+      "prints": [
+        {
+          "id": "de/base3/22/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/22/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/22/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/23",
+      "number": "23",
+      "name": "Hypno",
+      "cardGroup": "intl/base3/23",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        97
+      ],
+      "evolvesFrom": "Traumato",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Vorhersagung",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Schaue dir bis zu drei der obersten Karten vom Deck deines Gegners oder deinem eigenen Deck an, und lege sie in beliebiger Reihenfolge wieder auf das Deck zurück."
+        },
+        {
+          "name": "Finsteres Gemüt",
+          "cost": [
+            "psychic",
+            "psychic",
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-23"
+      },
+      "prints": [
+        {
+          "id": "de/base3/23/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/23/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/23/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/24",
+      "number": "24",
+      "name": "Kabutops",
+      "cardGroup": "intl/base3/24",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        141
+      ],
+      "evolvesFrom": "Kabuto",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Scharfe Sichel",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Absorber",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "40",
+          "text": "Entferne von Kabutops Schadensmarken in Höhe der Hälfte des Schadens (auf die nächsten 10 aufgerundet), der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz abgerechnet wurden). Falls Kabutops weniger Schadensmarken als diese Anzahl hat, entferne sie alle."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-24"
+      },
+      "prints": [
+        {
+          "id": "de/base3/24/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/24/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/24/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/25",
+      "number": "25",
+      "name": "Lapras",
+      "cardGroup": "intl/base3/25",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        131
+      ],
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "water"
+          ],
+          "damage": "10+",
+          "text": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Lapras abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
+        },
+        {
+          "name": "Konfusstrahl",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-25"
+      },
+      "prints": [
+        {
+          "id": "de/base3/25/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/25/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/25/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/26",
+      "number": "26",
+      "name": "Magneton",
+      "cardGroup": "intl/base3/26",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        82
+      ],
+      "evolvesFrom": "Magnetilo",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Überschallknall",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        },
+        {
+          "name": "Finale",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "100",
+          "text": "Fügt jedem Pokémon auf der Bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Magneton fügt sich selbst 100 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-26"
+      },
+      "prints": [
+        {
+          "id": "de/base3/26/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/26/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/26/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/27",
+      "number": "27",
+      "name": "Lavados",
+      "cardGroup": "intl/base3/27",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        146
+      ],
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Lauffeuer",
+          "cost": [
+            "fire"
+          ],
+          "text": "Du kannst beliebig viele {R}-Energiekarten von Lavados entfernen, wenn du diesen Angriff einsetzt. Lege danach die gleiche Anzahl der obersten Karten vom Deck deines Gegners auf den Ablagestapel."
+        },
+        {
+          "name": "Sturzflugbombardierung",
+          "cost": [
+            "fire",
+            "fire",
+            "fire",
+            "fire"
+          ],
+          "damage": "80",
+          "text": "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-27"
+      },
+      "prints": [
+        {
+          "id": "de/base3/27/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/27/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/27/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/28",
+      "number": "28",
+      "name": "Sleimok",
+      "cardGroup": "intl/base3/28",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        89
+      ],
+      "evolvesFrom": "Sleima",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Giftgas",
+          "text": "Ignoriere alle Pokémon-Power außer den Giftgasen. Diese Fähigkeit verliert ihre Wirkung, solange Sleimok schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schlammbad",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-28"
+      },
+      "prints": [
+        {
+          "id": "de/base3/28/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/28/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/28/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/29",
+      "number": "29",
+      "name": "Raichu",
+      "cardGroup": "intl/base3/29",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        26
+      ],
+      "evolvesFrom": "Pikachu",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Gigaschock",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "30",
+          "text": "Wähle drei Pokémon auf der Bank deines Gegners. Dieser Angriff fügt jedem von ihnen 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Falls dein Gegner weniger als drei Pokémon auf der Bank hat, teile die Schadenspunkte an jedes von ihnen aus."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-29"
+      },
+      "prints": [
+        {
+          "id": "de/base3/29/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/29/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/29/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/30",
+      "number": "30",
+      "name": "Zapdos",
+      "cardGroup": "intl/base3/30",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        145
+      ],
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Gewitter",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "40",
+          "text": "Wirf eine Münze für jedes Pokémon auf der Bank deines Gegners. Bei „Kopf“ fügt dieser Angriff diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Danach fügt sich Zapdos jedesmal, wenn die Münze „Kopf“ zeigt, selbst 10 Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-30"
+      },
+      "prints": [
+        {
+          "id": "de/base3/30/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/30/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/30/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/31",
+      "number": "31",
+      "name": "Arbok",
+      "cardGroup": "intl/base3/31",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        24
+      ],
+      "evolvesFrom": "Rettan",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Terrorschlag",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ und falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit dem verteidigenden Pokémon aus. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
+        },
+        {
+          "name": "Giftzahn",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-31"
+      },
+      "prints": [
+        {
+          "id": "de/base3/31/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/31/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/31/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/32",
+      "number": "32",
+      "name": "Austos",
+      "cardGroup": "intl/base3/32",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        91
+      ],
+      "evolvesFrom": "Muschas",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Schnapper",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ hat dieser Angriff keine Auswirkungen (und fügt auch keine Schadenspunkte zu)."
+        },
+        {
+          "name": "Dornkanone",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "30x",
+          "text": "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-32"
+      },
+      "prints": [
+        {
+          "id": "de/base3/32/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/32/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/32/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/33",
+      "number": "33",
+      "name": "Nebulak",
+      "cardGroup": "intl/base3/33",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        92
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Schlecker",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Energieverwandlung",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "text": "Nimm bis zu zwei Energiekarten von deinem Ablagestapel auf deine Hand. Nebulak fügt sich selbst 10 Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base3-33"
+      },
+      "prints": [
+        {
+          "id": "de/base3/33/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/33/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/33/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/34",
+      "number": "34",
+      "name": "Golbat",
+      "cardGroup": "intl/base3/34",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        42
+      ],
+      "evolvesFrom": "Zubat",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Flügelschlag",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Blutsauger",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Entferne von Golbat Schadensmarken in Höhe des Schadens, der dem verteidigenden Pokémon zugefügt wurde (nachdem Schaden und Resistenz abgerechnet wurden). Falls Golbat weniger Schadensmarken als diese Anzahl hat, entferne sie alle."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base3-34"
+      },
+      "prints": [
+        {
+          "id": "de/base3/34/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/34/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/34/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/35",
+      "number": "35",
+      "name": "Entoron",
+      "cardGroup": "intl/base3/35",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        55
+      ],
+      "evolvesFrom": "Enton",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Psyschock",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Hyperstrahl",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Falls das verteidigende Pokémon irgendwelche darauf abgelegten Energiekarten hat, wähle eine von ihnen und entferne sie."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-35"
+      },
+      "prints": [
+        {
+          "id": "de/base3/35/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/35/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/35/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/36",
+      "number": "36",
+      "name": "Geowaz",
+      "cardGroup": "intl/base3/36",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        76
+      ],
+      "evolvesFrom": "Georok",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Lawine",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "60"
+        },
+        {
+          "name": "Finale",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "100",
+          "text": "Fügt jedem Pokémon auf der Bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Geowaz fügt sich selbst 100 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "externalIds": {
+        "tcgdex": "base3-36"
+      },
+      "prints": [
+        {
+          "id": "de/base3/36/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/36/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/36/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/37",
+      "number": "37",
+      "name": "Georok",
+      "cardGroup": "intl/base3/37",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        75
+      ],
+      "evolvesFrom": "Kleinstein",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Härtner",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "text": "Immer wenn Georok während des nächsten gegnerischen Zuges 30 oder weniger Schadenspunkte zugefügt werden (nachdem Schwäche und Resistenz abgerechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        },
+        {
+          "name": "Steinwurf",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-37"
+      },
+      "prints": [
+        {
+          "id": "de/base3/37/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/37/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/37/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/38",
+      "number": "38",
+      "name": "Kingler",
+      "cardGroup": "intl/base3/38",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        99
+      ],
+      "evolvesFrom": "Krabby",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Dreschflegel",
+          "cost": [
+            "water"
+          ],
+          "damage": "10x",
+          "text": "Fügt 10 Schadenspunkte mal die Anzahl der Schadensmarken auf Kingler zu."
+        },
+        {
+          "name": "Krabbhammer",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "base3-38"
+      },
+      "prints": [
+        {
+          "id": "de/base3/38/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/38/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/38/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/39",
+      "number": "39",
+      "name": "Magmar",
+      "cardGroup": "intl/base3/39",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        126
+      ],
+      "evolvesFrom": "Magby",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Rauchwolke",
+          "cost": [
+            "fire"
+          ],
+          "damage": "10",
+          "text": "Falls das verteidigende Pokémon während des nächsten Zuges anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        },
+        {
+          "name": "Smog",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-39"
+      },
+      "prints": [
+        {
+          "id": "de/base3/39/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/39/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/39/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/40",
+      "number": "40",
+      "name": "Amoroso",
+      "cardGroup": "intl/base3/40",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        139
+      ],
+      "evolvesFrom": "Amonitas",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Amoroso abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
+        },
+        {
+          "name": "Dornkanone",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "30x",
+          "text": "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-40"
+      },
+      "prints": [
+        {
+          "id": "de/base3/40/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/40/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/40/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/41",
+      "number": "41",
+      "name": "Sandamer",
+      "cardGroup": "intl/base3/41",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        28
+      ],
+      "evolvesFrom": "Sandan",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Schlitzer",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Kratzfurie",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "20x",
+          "text": "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 20 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-41"
+      },
+      "prints": [
+        {
+          "id": "de/base3/41/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/41/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/41/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/42",
+      "number": "42",
+      "name": "Seemon",
+      "cardGroup": "intl/base3/42",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        117
+      ],
+      "evolvesFrom": "Seeper",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Seemon abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
+        },
+        {
+          "name": "Agilität",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Seemon (einschließlich der Schadenspunkte)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-42"
+      },
+      "prints": [
+        {
+          "id": "de/base3/42/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/42/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/42/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/43",
+      "number": "43",
+      "name": "Lahmus",
+      "cardGroup": "intl/base3/43",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        80
+      ],
+      "evolvesFrom": "Flegmon",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Seltsames Verhalten",
+          "text": "Bist du am Zug, kannst du (vor deinem Angriff) beliebig oft eine Schadensmarke von einem deiner Pokémon auf Lahmus verschieben, solange du Lahmus damit nicht kampfunfähig machst. Diese Fähigkeit kann nicht eingesetzt werden, falls Lahmus schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Psyschock",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-43"
+      },
+      "prints": [
+        {
+          "id": "de/base3/43/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/43/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/43/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/44",
+      "number": "44",
+      "name": "Tentoxa",
+      "cardGroup": "intl/base3/44",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        73
+      ],
+      "evolvesFrom": "Tentacha",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Superschall",
+          "cost": [
+            "water"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+          "name": "Quallenstich",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base3-44"
+      },
+      "prints": [
+        {
+          "id": "de/base3/44/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/44/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/44/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/45",
+      "number": "45",
+      "name": "Smogmog",
+      "cardGroup": "intl/base3/45",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        110
+      ],
+      "evolvesFrom": "Smogon",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Smog",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+          "name": "Finale",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "Fügt jedem Pokémon auf der Bank eines jeden Spielers 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Smogmog fügt sich selbst 60 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-45"
+      },
+      "prints": [
+        {
+          "id": "de/base3/45/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/45/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/45/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/46",
+      "number": "46",
+      "name": "Rettan",
+      "cardGroup": "intl/base3/46",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        23
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Giftspucke",
+          "cost": [
+            "grass"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+          "name": "Wickel",
+          "cost": [
+            "colorless",
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-46"
+      },
+      "prints": [
+        {
+          "id": "de/base3/46/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/46/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/46/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/47",
+      "number": "47",
+      "name": "Kleinstein",
+      "cardGroup": "intl/base3/47",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        74
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Steinhagel",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "10x",
+          "text": "Wirf eine Münze, bis du „Zahl“ wirfst. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-47"
+      },
+      "prints": [
+        {
+          "id": "de/base3/47/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/47/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/47/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/48",
+      "number": "48",
+      "name": "Sleima",
+      "cardGroup": "intl/base3/48",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        88
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Übler Dreck",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Komprimator",
+          "cost": [
+            "grass"
+          ],
+          "text": "Aller Schaden, der Sleima während des nächsten Zuges durch Angriffe deines Gegners zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-48"
+      },
+      "prints": [
+        {
+          "id": "de/base3/48/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/48/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/48/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/49",
+      "number": "49",
+      "name": "Seeper",
+      "cardGroup": "intl/base3/49",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "water"
+      ],
+      "species": [
+        116
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Rauchwolke",
+          "cost": [
+            "water"
+          ],
+          "damage": "10",
+          "text": "Falls das verteidigende Pokémon während des nächsten gegnerischen Zuges anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base3-49"
+      },
+      "prints": [
+        {
+          "id": "de/base3/49/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/49/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/49/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/50",
+      "number": "50",
+      "name": "Kabuto",
+      "cardGroup": "intl/base3/50",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 30,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        140
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Kabuto-Harnisch",
+          "text": "Immer wenn ein Angriff (auch dein eigener) Kabuto Schaden zufügt (nachdem Schwäche und Resistenz abgerechnet wurden), fügt dieser Angriff Kabuto nur die Hälfte des Schadens (auf die nächsten 10 aufgerundet) zu. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.) Diese Fähigkeit verliert ihre Wirkung, solange Kabuto schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kratzer",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-50"
+      },
+      "prints": [
+        {
+          "id": "de/base3/50/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "273911",
+            "tcgplayer": "44452"
+          }
+        },
+        {
+          "id": "de/base3/50/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/50/normal~stamp-wotc",
+          "finish": "normal",
+          "tags": [
+            "stamp-wotc"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/51",
+      "number": "51",
+      "name": "Krabby",
+      "cardGroup": "intl/base3/51",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        98
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Familienruf",
+          "cost": [
+            "water"
+          ],
+          "text": "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Krabby und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine Bank voll ist.)"
+        },
+        {
+          "name": "Eiserner Griff",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "base3-51"
+      },
+      "prints": [
+        {
+          "id": "de/base3/51/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/51/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/51/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/52",
+      "number": "52",
+      "name": "Amonitas",
+      "cardGroup": "intl/base3/52",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 40,
+      "types": [
+        "water"
+      ],
+      "species": [
+        138
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Hellseherei",
+          "text": "Dein Gegner spielt mit einer offenen Hand. Diese Fähigkeit verliert ihre Wirkung, solange Amonitas schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "water"
+          ],
+          "damage": "10+",
+          "text": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Amonitas abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-52"
+      },
+      "prints": [
+        {
+          "id": "de/base3/52/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/52/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/52/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/53",
+      "number": "53",
+      "name": "Enton",
+      "cardGroup": "intl/base3/53",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        54
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Kopfweh",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Dein Gegner kann während des nächsten Zuges keine Trainerkarten spielen."
+        },
+        {
+          "name": "Kratzfurie",
+          "cost": [
+            "water"
+          ],
+          "damage": "10x",
+          "text": "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-53"
+      },
+      "prints": [
+        {
+          "id": "de/base3/53/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/53/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/53/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/54",
+      "number": "54",
+      "name": "Muschas",
+      "cardGroup": "intl/base3/54",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "water"
+      ],
+      "species": [
+        90
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Superschall",
+          "cost": [
+            "water"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+          "name": "In Muschel verstecken",
+          "cost": [
+            "water"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ verhindere allen Schaden, der Muschas während des nächsten Zuges deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-54"
+      },
+      "prints": [
+        {
+          "id": "de/base3/54/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/54/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/54/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/55",
+      "number": "55",
+      "name": "Flegmon",
+      "cardGroup": "intl/base3/55",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        79
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Dahindöser",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ entferne eine Schadensmarke von Flegmon. Dieser Angriff kann nicht eingesetzt werden, falls auf Flegmon keine Schadensmarken liegen."
+        },
+        {
+          "name": "Aasfresser",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "text": "Entferne eine auf Flegmon abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Nimm eine Trainerkarte aus deinem Ablagestapel auf deine Hand."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "base3-55"
+      },
+      "prints": [
+        {
+          "id": "de/base3/55/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/55/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/55/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/56",
+      "number": "56",
+      "name": "Tentacha",
+      "cardGroup": "intl/base3/56",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "water"
+      ],
+      "species": [
+        72
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Rückmarsch",
+          "text": "Jederzeit während deines Zuges (vor deinem Angriff) kannst du Tentacha zurück auf deine Hand nehmen. (Lege alle auf Tentacha abgelegten Karten ab.) Diese Fähigkeit kann weder während des Zuges, in dem Tentacha ins Spiel kommt, noch wenn Tentacha schläft, verwirrt oder gelähmt ist, eingesetzt werden."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Säure",
+          "cost": [
+            "water"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base3-56"
+      },
+      "prints": [
+        {
+          "id": "de/base3/56/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/56/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/56/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/57",
+      "number": "57",
+      "name": "Zubat",
+      "cardGroup": "intl/base3/57",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        41
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Superschall",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+          "name": "Blutsauger",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Entferne von Zubat Schadensmarken in Höhe des Schadens, der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz abgerechnet wurden). Falls Zubat weniger weniger Schadensmarken als diese Anzahl hat, entferne sie alle."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "base3-57"
+      },
+      "prints": [
+        {
+          "id": "de/base3/57/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/57/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/57/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/58",
+      "number": "58",
+      "name": "Mr. Fuji",
+      "cardGroup": "intl/base3/58",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "base3-58"
+      },
+      "prints": [
+        {
+          "id": "de/base3/58/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/58/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/58/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/59",
+      "number": "59",
+      "name": "Energiesuche",
+      "cardGroup": "intl/base3/59",
+      "supertype": "trainer",
+      "rarity": "common",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "base3-59"
+      },
+      "prints": [
+        {
+          "id": "de/base3/59/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/59/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/59/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/60",
+      "number": "60",
+      "name": "Spieler",
+      "cardGroup": "intl/base3/60",
+      "supertype": "trainer",
+      "rarity": "common",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "base3-60"
+      },
+      "prints": [
+        {
+          "id": "de/base3/60/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/60/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/60/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/61",
+      "number": "61",
+      "name": "Wiederverwertung",
+      "cardGroup": "intl/base3/61",
+      "supertype": "trainer",
+      "rarity": "common",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "base3-61"
+      },
+      "prints": [
+        {
+          "id": "de/base3/61/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/61/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/61/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/base3/62",
+      "number": "62",
+      "name": "Geheimnis-Fossil",
+      "cardGroup": "intl/base3/62",
+      "supertype": "trainer",
+      "hp": 10,
+      "rarity": "common",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "base3-62"
+      },
+      "prints": [
+        {
+          "id": "de/base3/62/normal~foil-galaxie",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie"
+          ]
+        },
+        {
+          "id": "de/base3/62/normal~foil-galaxie~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "foil-galaxie",
+            "stamp-1-auflage"
+          ]
+        },
+        {
+          "id": "de/base3/62/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

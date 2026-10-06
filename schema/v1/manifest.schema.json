@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MPelzer/PokemonLibrary/schemas/catalog/v1/manifest.schema.json",
+  "title": "Catalog manifest",
+  "type": "object",
+  "required": ["formatVersion", "catalogVersion", "createdAt", "languages", "sources", "files"],
+  "properties": {
+    "formatVersion": { "$ref": "common.schema.json#/$defs/formatVersion" },
+    "catalogVersion": { "type": "string", "pattern": "^[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}\\.[0-9]+$" },
+    "createdAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "languages": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/lang" }, "minItems": 1, "uniqueItems": true },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "tiers"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/sourceId" },
+          "name": { "type": "string", "minLength": 1 },
+          "url": { "$ref": "common.schema.json#/$defs/url" },
+          "tiers": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": { "$ref": "common.schema.json#/$defs/dataCategory" },
+            "additionalProperties": { "$ref": "common.schema.json#/$defs/tier" }
+          }
+        }
+      }
+    },
+    "files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["path", "kind", "sha256"],
+        "properties": {
+          "path": { "type": "string", "pattern": "^[a-z0-9/_.-]+\\.json$" },
+          "kind": { "enum": ["vocabulary", "species", "set", "prices"] },
+          "setId": { "$ref": "common.schema.json#/$defs/setId" },
+          "sha256": { "$ref": "common.schema.json#/$defs/sha256" }
+        },
+        "if": { "properties": { "kind": { "enum": ["set", "prices"] } } },
+        "then": { "required": ["setId"] }
+      }
+    }
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "formatVersion": "1.0",
+  "rarities": [
+    {
+      "key": "none",
+      "names": {
+        "en": "None",
+        "de": "Keine"
+      },
+      "rank": 0
+    },
+    {
+      "key": "common",
+      "names": {
+        "en": "Common",
+        "de": "Häufig"
+      },
+      "rank": 10
+    },
+    {
+      "key": "uncommon",
+      "names": {
+        "en": "Uncommon",
+        "de": "Ungewöhnlich"
+      },
+      "rank": 20
+    },
+    {
+      "key": "promo",
+      "names": {
+        "en": "Promo",
+        "de": "Promo"
+      },
+      "rank": 25
+    },
+    {
+      "key": "rare",
+      "names": {
+        "en": "Rare",
+        "de": "Selten"
+      },
+      "rank": 30
+    },
+    {
+      "key": "holo-rare",
+      "names": {
+        "en": "Holo Rare",
+        "de": "Holografisch Selten"
+      },
+      "rank": 40
+    },
+    {
+      "key": "classic-collection",
+      "names": {
+        "en": "Classic Collection",
+        "de": "Classic Collection"
+      },
+      "rank": 45
+    },
+    {
+      "key": "rare-prime",
+      "names": {
+        "en": "Rare PRIME",
+        "de": "Selten, Primus"
+      },
+      "rank": 50
+    },
+    {
+      "key": "holo-rare-lv-x",
+      "names": {
+        "en": "Holo Rare LV.X",
+        "de": "Selten, Holografisch LV.X"
+      },
+      "rank": 50
+    },
+    {
+      "key": "holo-rare-v",
+      "names": {
+        "en": "Holo Rare V",
+        "de": "Holografisch Selten V"
+      },
+      "rank": 50
+    },
+    {
+      "key": "double-rare",
+      "names": {
+        "en": "Double Rare",
+        "de": "Doppelselten"
+      },
+      "rank": 50
+    },
+    {
+      "key": "legend",
+      "names": {
+        "en": "LEGEND",
+        "de": "LEGENDE"
+      },
+      "rank": 55
+    },
+    {
+      "key": "holo-rare-vmax",
+      "names": {
+        "en": "Holo Rare VMAX",
+        "de": "Holografisch Selten VMAX"
+      },
+      "rank": 55
+    },
+    {
+      "key": "holo-rare-vstar",
+      "names": {
+        "en": "Holo Rare VSTAR",
+        "de": "Holografisch Selten VSTAR"
+      },
+      "rank": 55
+    },
+    {
+      "key": "ace-spec-rare",
+      "names": {
+        "en": "ACE SPEC Rare",
+        "de": "ASS-KLASSE"
+      },
+      "rank": 55
+    },
+    {
+      "key": "radiant-rare",
+      "names": {
+        "en": "Radiant Rare",
+        "de": "Selten, Strahlend"
+      },
+      "rank": 55
+    },
+    {
+      "key": "amazing-rare",
+      "names": {
+        "en": "Amazing Rare",
+        "de": "Atemberaubend Selten"
+      },
+      "rank": 55
+    },
+    {
+      "key": "pikachu-rare",
+      "names": {
+        "en": "Pikachu Rare",
+        "de": "Pikachu Rare"
+      },
+      "rank": 55
+    },
+    {
+      "key": "ultra-rare",
+      "names": {
+        "en": "Ultra Rare",
+        "de": "Ultraselten"
+      },
+      "rank": 60
+    },
+    {
+      "key": "illustration-rare",
+      "names": {
+        "en": "Illustration Rare",
+        "de": "Selten, Illustration"
+      },
+      "rank": 60
+    },
+    {
+      "key": "full-art-trainer",
+      "names": {
+        "en": "Full Art Trainer",
+        "de": "Vollbild-Trainer"
+      },
+      "rank": 60
+    },
+    {
+      "key": "shiny-rare",
+      "names": {
+        "en": "Shiny Rare",
+        "de": "Shiny Rare"
+      },
+      "rank": 60
+    },
+    {
+      "key": "futuristic-rare",
+      "names": {
+        "en": "Futuristic Rare",
+        "de": "Futuristic Rare"
+      },
+      "rank": 60
+    },
+    {
+      "key": "rgb-rare",
+      "names": {
+        "en": "RGB Rare",
+        "de": "RGB Rare"
+      },
+      "rank": 60
+    },
+    {
+      "key": "mega-attack-rare",
+      "names": {
+        "en": "Mega Attack Rare",
+        "de": "Mega Attack Rare"
+      },
+      "rank": 60
+    },
+    {
+      "key": "shiny-rare-v",
+      "names": {
+        "en": "Shiny Rare V",
+        "de": "Shiny Rare V"
+      },
+      "rank": 62
+    },
+    {
+      "key": "shiny-rare-vmax",
+      "names": {
+        "en": "Shiny Rare VMAX",
+        "de": "Shiny Rare VMAX"
+      },
+      "rank": 64
+    },
+    {
+      "key": "shiny-ultra-rare",
+      "names": {
+        "en": "Shiny Ultra Rare",
+        "de": "Ultraselten, Schillernd"
+      },
+      "rank": 70
+    },
+    {
+      "key": "special-illustration-rare",
+      "names": {
+        "en": "Special Illustration Rare",
+        "de": "Selten, besondere Illustration"
+      },
+      "rank": 70
+    },
+    {
+      "key": "secret-rare",
+      "names": {
+        "en": "Secret Rare",
+        "de": "Versteckt Selten"
+      },
+      "rank": 75
+    },
+    {
+      "key": "hyper-rare",
+      "names": {
+        "en": "Hyper Rare",
+        "de": "Hyperselten"
+      },
+      "rank": 80
+    },
+    {
+      "key": "black-white-rare",
+      "names": {
+        "en": "Black White Rare",
+        "de": "Schwarz-Weiß Selten"
+      },
+      "rank": 80
+    },
+    {
+      "key": "mega-hyper-rare",
+      "names": {
+        "en": "Mega Hyper Rare",
+        "de": "Mega Hyperselten"
+      },
+      "rank": 85
+    }
+  ],
+  "finishes": [
+    {
+      "key": "normal",
+      "names": {
+        "en": "Normal",
+        "de": "Normal"
+      }
+    },
+    {
+      "key": "holo",
+      "names": {
+        "en": "Holo",
+        "de": "Holo"
+      }
+    },
+    {
+      "key": "reverse",
+      "names": {
+        "en": "Reverse Holo",
+        "de": "Reverse Holo"
+      }
+    },
+    {
+      "key": "lenticular",
+      "names": {
+        "en": "Lenticular",
+        "de": "Lentikular"
+      }
+    },
+    {
+      "key": "metal",
+      "names": {
+        "en": "Metal",
+        "de": "Metall"
+      }
+    }
+  ],
+  "editions": [
+    {
+      "key": "first-edition",
+      "names": {
+        "en": "1st Edition",
+        "de": "1. Auflage"
+      }
+    }
+  ],
+  "supertypes": [
+    {
+      "key": "pokemon",
+      "names": {
+        "en": "Pokémon",
+        "de": "Pokémon"
+      }
+    },
+    {
+      "key": "trainer",
+      "names": {
+        "en": "Trainer",
+        "de": "Trainer"
+      }
+    },
+    {
+      "key": "energy",
+      "names": {
+        "en": "Energy",
+        "de": "Energie"
+      }
+    }
+  ],
+  "types": [
+    {
+      "key": "grass",
+      "names": {
+        "en": "Grass",
+        "de": "Pflanze"
+      }
+    },
+    {
+      "key": "fire",
+      "names": {
+        "en": "Fire",
+        "de": "Feuer"
+      }
+    },
+    {
+      "key": "water",
+      "names": {
+        "en": "Water",
+        "de": "Wasser"
+      }
+    },
+    {
+      "key": "lightning",
+      "names": {
+        "en": "Lightning",
+        "de": "Elektro"
+      }
+    },
+    {
+      "key": "psychic",
+      "names": {
+        "en": "Psychic",
+        "de": "Psycho"
+      }
+    },
+    {
+      "key": "fighting",
+      "names": {
+        "en": "Fighting",
+        "de": "Kampf"
+      }
+    },
+    {
+      "key": "darkness",
+      "names": {
+        "en": "Darkness",
+        "de": "Unlicht"
+      }
+    },
+    {
+      "key": "metal",
+      "names": {
+        "en": "Metal",
+        "de": "Metall"
+      }
+    },
+    {
+      "key": "fairy",
+      "names": {
+        "en": "Fairy",
+        "de": "Fee"
+      }
+    },
+    {
+      "key": "dragon",
+      "names": {
+        "en": "Dragon",
+        "de": "Drache"
+      }
+    },
+    {
+      "key": "colorless",
+      "names": {
+        "en": "Colorless",
+        "de": "Farblos"
+      }
+    }
+  ],
+  "subtypes": [
+    {
+      "key": "basic",
+      "names": {
+        "en": "Basic",
+        "de": "Basis"
+      }
+    },
+    {
+      "key": "stage1",
+      "names": {
+        "en": "Stage 1",
+        "de": "Phase 1"
+      }
+    },
+    {
+      "key": "stage2",
+      "names": {
+        "en": "Stage 2",
+        "de": "Phase 2"
+      }
+    },
+    {
+      "key": "baby",
+      "names": {
+        "en": "Baby",
+        "de": "Baby"
+      }
+    },
+    {
+      "key": "restored",
+      "names": {
+        "en": "Restored",
+        "de": "Erweckt"
+      }
+    },
+    {
+      "key": "level-up",
+      "names": {
+        "en": "LEVEL-UP",
+        "de": "Level-Up"
+      }
+    },
+    {
+      "key": "break",
+      "names": {
+        "en": "BREAK",
+        "de": "TURBO"
+      }
+    },
+    {
+      "key": "mega",
+      "names": {
+        "en": "MEGA",
+        "de": "MEGA"
+      }
+    },
+    {
+      "key": "vmax",
+      "names": {
+        "en": "VMAX",
+        "de": "VMAX"
+      }
+    },
+    {
+      "key": "vstar",
+      "names": {
+        "en": "VSTAR",
+        "de": "VSTAR"
+      }
+    },
+    {
+      "key": "v-union",
+      "names": {
+        "en": "V-UNION",
+        "de": "V-UNION"
+      }
+    },
+    {
+      "key": "ex",
+      "names": {
+        "en": "ex",
+        "de": "ex"
+      }
+    },
+    {
+      "key": "ex-upper",
+      "names": {
+        "en": "EX",
+        "de": "EX"
+      }
+    },
+    {
+      "key": "v",
+      "names": {
+        "en": "V",
+        "de": "V"
+      }
+    },
+    {
+      "key": "gx",
+      "names": {
+        "en": "GX",
+        "de": "GX"
+      }
+    },
+    {
+      "key": "tag-team-gx",
+      "names": {
+        "en": "TAG TEAM-GX",
+        "de": "TAG TEAM-GX"
+      }
+    },
+    {
+      "key": "sp",
+      "names": {
+        "en": "SP",
+        "de": "SP"
+      }
+    },
+    {
+      "key": "prime",
+      "names": {
+        "en": "Prime",
+        "de": "Primus"
+      }
+    },
+    {
+      "key": "legend",
+      "names": {
+        "en": "Legend",
+        "de": "Legende"
+      }
+    },
+    {
+      "key": "supporter",
+      "names": {
+        "en": "Supporter",
+        "de": "Unterstützer"
+      }
+    },
+    {
+      "key": "item",
+      "names": {
+        "en": "Item",
+        "de": "Item"
+      }
+    },
+    {
+      "key": "tool",
+      "names": {
+        "en": "Pokémon Tool",
+        "de": "Pokémon-Ausrüstung"
+      }
+    },
+    {
+      "key": "stadium",
+      "names": {
+        "en": "Stadium",
+        "de": "Stadion"
+      }
+    },
+    {
+      "key": "technical-machine",
+      "names": {
+        "en": "Technical Machine",
+        "de": "Technische Maschine"
+      }
+    },
+    {
+      "key": "rockets-secret-machine",
+      "names": {
+        "en": "Rocket's Secret Machine",
+        "de": "Rockets Geheimmaschine"
+      }
+    },
+    {
+      "key": "basic-energy",
+      "names": {
+        "en": "Basic Energy",
+        "de": "Basis-Energie"
+      }
+    },
+    {
+      "key": "special-energy",
+      "names": {
+        "en": "Special Energy",
+        "de": "Spezial-Energie"
+      }
+    }
+  ],
+  "dataCategories": [
+    "metadata",
+    "text",
+    "images",
+    "prices",
+    "lore",
+    "pullRates"
+  ]
+}

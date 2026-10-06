@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MPelzer/PokemonLibrary/schemas/catalog/v1/prices.schema.json",
+  "title": "Prices and weekly price history per print and source",
+  "type": "object",
+  "required": ["formatVersion", "setId", "prices"],
+  "properties": {
+    "formatVersion": { "$ref": "common.schema.json#/$defs/formatVersion" },
+    "setId": { "$ref": "common.schema.json#/$defs/setId" },
+    "prices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["printId", "source", "currency", "languageSpecific", "current"],
+        "properties": {
+          "printId": { "$ref": "common.schema.json#/$defs/printId" },
+          "source": { "$ref": "common.schema.json#/$defs/sourceId" },
+          "via": { "$ref": "common.schema.json#/$defs/sourceId" },
+          "currency": { "type": "string", "pattern": "^[A-Z]{3}$", "description": "ISO 4217" },
+          "languageSpecific": { "type": "boolean" },
+          "current": {
+            "type": "object",
+            "required": ["date", "market"],
+            "properties": {
+              "date": { "$ref": "common.schema.json#/$defs/date" },
+              "market": { "type": "number", "minimum": 0 },
+              "low": { "type": "number", "minimum": 0 }
+            }
+          },
+          "history": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "prefixItems": [
+                { "$ref": "common.schema.json#/$defs/date" },
+                { "type": "number", "minimum": 0 }
+              ],
+              "items": false,
+              "minItems": 2
+            }
+          }
+        }
+      }
+    }
+  }
+}

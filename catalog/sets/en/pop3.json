@@ -1,0 +1,1195 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "en/pop3",
+    "code": "pop3",
+    "language": "en",
+    "name": "POP Series 3",
+    "series": "POP",
+    "abbreviation": "P3",
+    "releaseDate": "2006-04-01",
+    "cardCount": {
+      "official": 17,
+      "total": 17
+    },
+    "images": {
+      "logo": "https://assets.tcgdex.net/en/pop/pop3/logo.webp",
+      "symbol": "https://assets.tcgdex.net/univ/pop/pop3/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "pop3"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "en/pop3/1",
+      "number": "1",
+      "name": "Blastoise",
+      "cardGroup": "intl/pop3/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 120,
+      "types": [
+        "water"
+      ],
+      "species": [
+        9
+      ],
+      "evolvesFrom": "Wartortle",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Smash Turn",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "After your attack, you may switch Blastoise with 1 of your Benched Pokémon."
+        },
+        {
+          "name": "Rocket Tackle",
+          "cost": [
+            "water",
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent's next turn."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/1/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/1/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-1"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/1/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "83891",
+            "cardmarket": "277449"
+          }
+        },
+        {
+          "id": "en/pop3/1/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "83891",
+            "cardmarket": "277449"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/2",
+      "number": "2",
+      "name": "Flareon",
+      "cardGroup": "intl/pop3/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        136
+      ],
+      "evolvesFrom": "Eevee",
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Quick Attack",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+        },
+        {
+          "name": "Fire Spin",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "Discard 2 basic Energy cards attached to Flareon or this attack does nothing."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/2/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/2/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-2"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/2/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "85495",
+            "cardmarket": "277450"
+          }
+        },
+        {
+          "id": "en/pop3/2/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "85495",
+            "cardmarket": "277450"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/3",
+      "number": "3",
+      "name": "Jolteon",
+      "cardGroup": "intl/pop3/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        135
+      ],
+      "evolvesFrom": "Eevee",
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Thundershock",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+          "name": "Pin Missile",
+          "cost": [
+            "lightning",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20×",
+          "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 0,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/3/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/3/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-3"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/3/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "86342",
+            "cardmarket": "277451"
+          }
+        },
+        {
+          "id": "en/pop3/3/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "86342",
+            "cardmarket": "277451"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/4",
+      "number": "4",
+      "name": "Minun",
+      "cardGroup": "intl/pop3/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        312
+      ],
+      "rarity": "rare",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Cheer Up",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Draw a card. If you have Plusle in play, draw 2 cards instead."
+        },
+        {
+          "name": "Negative Ion",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance)."
+        },
+        {
+          "name": "Power Bolt",
+          "cost": [
+            "lightning",
+            "lightning"
+          ],
+          "text": "Choose 1 of your opponent's Pokémon that has any Poké-Powers. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/4/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/4/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-4"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/4/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "87487",
+            "cardmarket": "277452"
+          }
+        },
+        {
+          "id": "en/pop3/4/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "87487",
+            "cardmarket": "277452"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/5",
+      "number": "5",
+      "name": "Plusle",
+      "cardGroup": "intl/pop3/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        311
+      ],
+      "rarity": "rare",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Cheer Up",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Draw a card. If you have Minun in play, draw 2 cards instead."
+        },
+        {
+          "name": "Positive Ion",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        },
+        {
+          "name": "Body Bolt",
+          "cost": [
+            "lightning",
+            "lightning"
+          ],
+          "text": "Choose 1 of your opponent's Pokémon that has any Poké-Bodies. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/5/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/5/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-5"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/5/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "88167",
+            "cardmarket": "277453"
+          }
+        },
+        {
+          "id": "en/pop3/5/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "88167",
+            "cardmarket": "277453"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/6",
+      "number": "6",
+      "name": "Vaporeon",
+      "cardGroup": "intl/pop3/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        134
+      ],
+      "evolvesFrom": "Eevee",
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Bite",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Water Gun",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Does 30 damage plus 20 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/6/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/6/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-6"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/6/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "90283",
+            "cardmarket": "277454"
+          }
+        },
+        {
+          "id": "en/pop3/6/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "90283",
+            "cardmarket": "277454"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/7",
+      "number": "7",
+      "name": "Combusken",
+      "cardGroup": "intl/pop3/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        256
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Scratch",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Flamethrower",
+          "cost": [
+            "fire",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Discard a Fire Energy attached to Combusken."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/7/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/7/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-7"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/7/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "84405",
+            "cardmarket": "277455"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/8",
+      "number": "8",
+      "name": "Donphan",
+      "cardGroup": "intl/pop3/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        232
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Tomoaki Imakuni",
+      "attacks": [
+        {
+          "name": "Sniff Out",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Put any 1 card from your discard pile into your hand."
+        },
+        {
+          "name": "Fury Attack",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30×",
+          "text": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/8/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/8/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-8"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/8/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "84874",
+            "cardmarket": "277456"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/9",
+      "number": "9",
+      "name": "Forretress",
+      "cardGroup": "intl/pop3/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        205
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Toxic",
+          "cost": [
+            "grass",
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/9/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/9/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-9"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/9/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "85549",
+            "cardmarket": "277457"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/10",
+      "number": "10",
+      "name": "High Pressure System",
+      "cardGroup": "intl/pop3/10",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ken Ikuji",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/10/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/10/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-10"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/10/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "86077",
+            "cardmarket": "277458"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/11",
+      "number": "11",
+      "name": "Low Pressure System",
+      "cardGroup": "intl/pop3/11",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Shin-ichi Yoshikawa",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/11/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/11/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-11"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/11/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "86847",
+            "cardmarket": "277459"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/12",
+      "number": "12",
+      "name": "Ditto",
+      "cardGroup": "intl/pop3/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        132
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Duplicate",
+          "text": "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Duplicate Poké-Power each turn."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Psybeam",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/12/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/12/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-12"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/12/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "84842",
+            "cardmarket": "277460"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/13",
+      "number": "13",
+      "name": "Eevee",
+      "cardGroup": "intl/pop3/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        133
+      ],
+      "rarity": "common",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Take Down",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Eevee does 10 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/13/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/13/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-13"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/13/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "85083",
+            "cardmarket": "277461"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/14",
+      "number": "14",
+      "name": "Ivysaur",
+      "cardGroup": "intl/pop3/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        2
+      ],
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Gouge",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        },
+        {
+          "name": "Poisonpowder",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "The Defending Pokémon is now Poisoned."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/14/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/14/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-14"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/14/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "86299",
+            "cardmarket": "277462"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/15",
+      "number": "15",
+      "name": "Marshtomp",
+      "cardGroup": "intl/pop3/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        259
+      ],
+      "evolvesFrom": "Mudkip",
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Mud Slap",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Double-edge",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Marshtomp does 10 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/15/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/15/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-15"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/15/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "87236",
+            "cardmarket": "277463"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/16",
+      "number": "16",
+      "name": "Pichu Bros.",
+      "cardGroup": "intl/pop3/16",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        172
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Bustle",
+          "cost": [
+            "lightning",
+            "lightning"
+          ],
+          "damage": "20×",
+          "text": "Flip 2 coins. This attack does 20 damage times the number of heads. If either coin is heads, the Defending Pokémon is now Confused."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/16/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/16/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-16"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/16/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "88024",
+            "cardmarket": "277464"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop3/17",
+      "number": "17",
+      "name": "Ho-Oh ex",
+      "cardGroup": "intl/pop3/17",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "ex-upper"
+      ],
+      "hp": 110,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        250
+      ],
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Golden Wing",
+          "text": "If Ho-Oh ex would be Knocked Out by damage from an opponent's attack, you may move up to 2 Energy attached to Ho-Oh ex to your Pokémon in any way you like."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Rainbow Burn",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Does 10 damage plus 20 more damage for each type of basic Energy card attached to Ho-Oh ex."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop3/17/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop3/17/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop3-17"
+      },
+      "prints": [
+        {
+          "id": "en/pop3/17/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "86129",
+            "cardmarket": "277465"
+          }
+        },
+        {
+          "id": "en/pop3/17/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "97809",
+            "cardmarket": "277465"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

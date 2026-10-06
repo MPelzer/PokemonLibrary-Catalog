@@ -1,0 +1,6202 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "de/ex12",
+    "code": "ex12",
+    "language": "de",
+    "name": "EX Legend Maker",
+    "series": "EX",
+    "abbreviation": "LM",
+    "releaseDate": "2006-02-13",
+    "cardCount": {
+      "official": 92,
+      "total": 93
+    },
+    "images": {
+      "symbol": "https://assets.tcgdex.net/univ/ex/ex12/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "ex12"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "de/ex12/1",
+      "number": "1",
+      "name": "Aerodactyl",
+      "cardGroup": "intl/ex12/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        142
+      ],
+      "evolvesFrom": "Geheimnis-Fossil",
+      "rarity": "rare",
+      "illustrator": "Hajime Kusajima",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Reaktiver Schutz",
+          "text": "Jeder Schaden, der Aerodactyl durch Angriffe gegnerischer Pokémon zugefügt wird, wird für jede an Aerodactyl angelegte Reaktions-Energiekarte um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Mächtiger Schlag",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Aerodactyl angelegte Energie zu."
+        },
+        {
+          "name": "Geschwindigkeitsschlag",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen inklusive Schaden, die Aerodactyl von gegnerischen Pokémon-ex zugefügt werden."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "ex12-1"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/1/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/1/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/2",
+      "number": "2",
+      "name": "Stolloss",
+      "cardGroup": "intl/ex12/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 110,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        306
+      ],
+      "evolvesFrom": "Stollrak",
+      "rarity": "rare",
+      "illustrator": "Hisao Nakamura",
+      "attacks": [
+        {
+          "name": "Schwerer Hieb",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70-",
+          "text": "Dieser Angriff fügt 70 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Stolloss zu. Wenn mindestens eine Reaktions-Energiekarte an Stollos angelegt ist, fügt dieser Angriff stattdessen 70 Schadenspunkte zu."
+        },
+        {
+          "name": "Zermalmende Ranke",
+          "cost": [
+            "fighting",
+            "metal",
+            "colorless",
+            "colorless"
+          ],
+          "text": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Stolloss kann Zermalmende Ranke in deinem nächsten Zug nicht benutzen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 4,
+      "externalIds": {
+        "tcgdex": "ex12-2"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/2/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/2/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/3",
+      "number": "3",
+      "name": "Wielie",
+      "cardGroup": "intl/ex12/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        346
+      ],
+      "evolvesFrom": "Liliep",
+      "rarity": "rare",
+      "illustrator": "Hajime Kusajima",
+      "attacks": [
+        {
+          "name": "Devolutionswelle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Zähle die Anzahl der an Wielie angelegten Reaktions-Energiekarten und wähle danach entwickelte Pokémon deines Gegners bis zu dieser Anzahl aus. Entferne die höchste Evolutionskarte von jedem der gewählten Pokémon. Danach mischt dein Gegner diese in sein Deck."
+        },
+        {
+          "name": "Linearer Angriff",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "text": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Lehmschuss",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-3"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/3/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/3/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/4",
+      "number": "4",
+      "name": "Enekoro",
+      "cardGroup": "intl/ex12/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        301
+      ],
+      "evolvesFrom": "Eneco",
+      "rarity": "rare",
+      "illustrator": "Naoyo Kimura",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Reaktiver Wechsel",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Reaktions-Energiekarte, die an 1 deiner Pokémon angelegt ist, an ein anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Enekoro von einem Speziellen Zustand betroffen ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Energie-Verbindung",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Enekoro an."
+        },
+        {
+          "name": "Schweifvertrimmer",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-4"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/4/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/4/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/5",
+      "number": "5",
+      "name": "Gengar",
+      "cardGroup": "intl/ex12/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        94
+      ],
+      "evolvesFrom": "Alpollo",
+      "rarity": "rare",
+      "illustrator": "Kouki Saitou",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Schattenfluch",
+          "text": "Wenn Gengar durch die Schadenspunkte eines gegnerischen Angriffs kampfunfähig gemacht würde, kannst du 3 Schadensmarken auf 1 gegnerisches Pokémon legen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Reaktionsfluch",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Verteile 2 Schadensmarken auf die Pokémon deines Gegners. Wenn an Gengar mindestens eine Reaktionsenergiekarte angelegt ist, verteile stattdessen 4 Schadensmarken."
+        },
+        {
+          "name": "Super-Psischlag",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "damage": "60"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-5"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/5/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/5/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/5/holo~stamp-arenen-herausforderung",
+          "finish": "holo",
+          "tags": [
+            "stamp-arenen-herausforderung"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/6",
+      "number": "6",
+      "name": "Geowaz",
+      "cardGroup": "intl/ex12/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 120,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        76
+      ],
+      "evolvesFrom": "Georok",
+      "rarity": "rare",
+      "illustrator": "Hajime Kusajima",
+      "attacks": [
+        {
+          "name": "Reparieren",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche deinen Ablagestapel nach 1 {F}-Energiekarte und lege sie an Geowaz an. Wenn du das machst, entferne 2 Schadensmarken von Geowaz."
+        },
+        {
+          "name": "Wütender Linearer Angriff",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "text": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte für jede Schadensmarke auf Geowaz zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Rollende Felsen",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "Resistenz hat keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "ex12-6"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/6/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/6/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/6/holo~stamp-regional-championships",
+          "finish": "holo",
+          "tags": [
+            "stamp-regional-championships"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/7",
+      "number": "7",
+      "name": "Kabutops",
+      "cardGroup": "intl/ex12/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 110,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        141
+      ],
+      "evolvesFrom": "Kabuto",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Uralter Panzer",
+          "text": "Solange du Amonitas oder Amoroso im Spiel hast, wird jeder Schaden, der Kabutops durch Angriffe zugefügt wird, um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Energiestrom",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "30",
+          "text": "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an Kabutops an."
+        },
+        {
+          "name": "Extrakrallen",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50+",
+          "text": "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-7"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/7/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/7/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/8",
+      "number": "8",
+      "name": "Lapras",
+      "cardGroup": "intl/ex12/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        131
+      ],
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Unterstützende Navigation",
+          "text": "Einmal während deines Zuges, wenn du Lapras von deiner Hand auf die Bank legst, kannst du dein Deck nach einer Unterstützerkarte durchsuchen. Zeige sie deinem Gegner und nimm sie danach auf die Hand. Mische dein Deck danach."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Surfer",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-8"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/8/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/8/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/9",
+      "number": "9",
+      "name": "Machomei",
+      "cardGroup": "intl/ex12/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 120,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        68
+      ],
+      "evolvesFrom": "Maschock",
+      "rarity": "rare",
+      "illustrator": "Kouki Saitou",
+      "attacks": [
+        {
+          "name": "Entgleisen",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Lege eine Spezialenergiekarte, die an das Verteidigende Pokémon angelegt ist, auf den Ablagestapel des Gegners."
+        },
+        {
+          "name": "Schneller Schlag",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60+",
+          "text": "Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Machomei angelegte Reaktionsenergiekarte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-9"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/9/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/9/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/10",
+      "number": "10",
+      "name": "Mew",
+      "cardGroup": "intl/ex12/10",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        151
+      ],
+      "rarity": "rare",
+      "illustrator": "Kouki Saitou",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Typen-Wechsel",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) kannst du ein Verteidigendes Pokémon auswählen. Mew ist nun bis zum Ende deines Zuges ein Pokémon desselben Typs (oder Typen, wenn das Pokémon mehr als einen Typ hat). Diese Poké-Power kann nicht benutzt werden, wenn Mew von einem Speziellen Zustand betroffen ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Vereinigende Explosion",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Wenn an Mew und dem Verteidigenden Pokémon unterschiedlich viel Energie angelegt ist, beträgt der Grundschaden dieses Angriffs 20 Schadenspunkte anstelle von 50 Schadenspunkten."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-10"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/10/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/10/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/11",
+      "number": "11",
+      "name": "Sleimok",
+      "cardGroup": "intl/ex12/11",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        89
+      ],
+      "evolvesFrom": "Sleima",
+      "rarity": "rare",
+      "illustrator": "Midori Harada",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Duftnote",
+          "text": "Solange Sleimok dein Aktives Pokémon ist, können die Pokémon aller Spieler keine Poké-Power benutzen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Giftring",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Das Verteidigende Pokémon ist jetzt vergiftet. Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+          "name": "Schleimwurf",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-11"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/11/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/11/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/12",
+      "number": "12",
+      "name": "Tengulist",
+      "cardGroup": "intl/ex12/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 110,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        275
+      ],
+      "evolvesFrom": "Blanas",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Entwickelnder Fächer",
+          "text": "Einmal während deines Zuges, wenn du Tengulist von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 deiner entwickelten Pokémon (außer Tengulist) auswählen und es mit allen angelegten Karten zurück auf die Hand nehmen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Reaktiver Niederschlag",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wenn mindestens eine Reaktions-Energiekarte an Tengulist angelegt ist, ist das Verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+          "name": "Überkreuzzerschneider",
+          "cost": [
+            "darkness",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40+",
+          "text": "Wenn das Verteidigende Pokémon ein entwickeltes Pokémon ist, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-12"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/12/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/12/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/13",
+      "number": "13",
+      "name": "Sarzenia",
+      "cardGroup": "intl/ex12/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        71
+      ],
+      "evolvesFrom": "Ultrigaria",
+      "rarity": "rare",
+      "illustrator": "Sumiyoshi Kizuki",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Nektarschote",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 entwickeltes Pokémon der Phase 2 auf der Bank deines Gegners mit 1 der Verteidigenden Pokémon austauschen. Dein Gegner wählt das Pokémon aus, das ausgetauscht wird. Diese Poké-Power kann nicht benutzt werden, wenn Sarzenia von einem Speziellen Zustand betroffen ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schlafgift",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Das Verteidigende Pokémon ist jetzt vergiftet und schläft."
+        },
+        {
+          "name": "Scharfes Blatt",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40+",
+          "text": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-13"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/13/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/13/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/14",
+      "number": "14",
+      "name": "Wailord",
+      "cardGroup": "intl/ex12/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 120,
+      "types": [
+        "water"
+      ],
+      "species": [
+        321
+      ],
+      "evolvesFrom": "Wailmer",
+      "rarity": "rare",
+      "illustrator": "Kouki Saitou",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Reaktiver Transporter",
+          "text": "Solange an Wailord mindestens eine Reaktions-Energiekarte angelegt ist, sind die Rückzugskosten deiner {W}-Pokémon (außer Pokémon-ex) 0."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hypnospritzer",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+          "name": "Auf Freunde verlassen",
+          "cost": [
+            "colorless",
+            "colorless",
+            "water",
+            "water"
+          ],
+          "damage": "40+",
+          "text": "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jedes entwickelte Pokémon der Phase 1 auf deiner Bank zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 4,
+      "externalIds": {
+        "tcgdex": "ex12-14"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/14/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/14/holo~stamp-set-logo",
+          "finish": "holo",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/15",
+      "number": "15",
+      "name": "Absol",
+      "cardGroup": "intl/ex12/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        359
+      ],
+      "rarity": "rare",
+      "illustrator": "Midori Harada",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Glänzendes Horn",
+          "text": "Solange Absol das einzige Pokémon ist, das du im Spiel hast, können die Basis-Pokémon deines Gegners nicht angreifen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Extraruf",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einem Pokémon-ex, zeige es deinem Gegner und nimm es danach auf deine Hand. Mische dein Deck danach."
+        },
+        {
+          "name": "Finte",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "text": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-15"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/15/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/15/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/16",
+      "number": "16",
+      "name": "Girafarig",
+      "cardGroup": "intl/ex12/16",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        203
+      ],
+      "rarity": "rare",
+      "illustrator": "Aya Kusube",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Heck-Sensor",
+          "text": "Kein Aktives Basis-Pokémon (außer Pokémon-ex) kann seine Poké-Power einsetzen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Voraussicht",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Schau dir die 5 obersten Karten des Decks eines Spielers an und lege die Karten in beliebiger Reihenfolge auf dieses Deck zurück."
+        },
+        {
+          "name": "Behinderung",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wenn an dem Verteidigenden Pokémon eine Spezial-Energiekarte angelegt ist, ist das Verteidigende Pokémon jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-16"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/16/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/16/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/16/normal~stamp-jason-klaczynski",
+          "finish": "normal",
+          "tags": [
+            "stamp-jason-klaczynski"
+          ]
+        },
+        {
+          "id": "de/ex12/16/normal~stamp-miska-saari",
+          "finish": "normal",
+          "tags": [
+            "stamp-miska-saari"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/17",
+      "number": "17",
+      "name": "Saganabyss",
+      "cardGroup": "intl/ex12/17",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        368
+      ],
+      "evolvesFrom": "Perlu",
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Reaktiver Energieschub",
+          "text": "Jede Reaktions-Energiekarte, die an allen deinen Aalabyss und Saganabyss angelegt ist, produziert 2 Energie jedes Energietyps, hat aber keinen anderen Effekt als Energie zu liefern."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hydropumpe",
+          "cost": [
+            "colorless",
+            "water"
+          ],
+          "damage": "30+",
+          "text": "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Saganabyss angelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "ex12-17"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/17/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/17/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/18",
+      "number": "18",
+      "name": "Aalabyss",
+      "cardGroup": "intl/ex12/18",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        367
+      ],
+      "evolvesFrom": "Perlu",
+      "rarity": "rare",
+      "illustrator": "Midori Harada",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Reaktiver Generator",
+          "text": "Einmal während deines Zuges (vor deinem Angriff), wenn an Aalabyss keine Reaktions-Energiekarte angelegt ist, kannst du dein Deck nach einer Reaktions-Energiekarte durchsuchen und an Aalabyss anlegen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Aalabyss von einem Speziellen Zustand betroffen ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Abbeißen",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40+",
+          "text": "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-18"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/18/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/18/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/19",
+      "number": "19",
+      "name": "Lanturn",
+      "cardGroup": "intl/ex12/19",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        171
+      ],
+      "evolvesFrom": "Lampi",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Doppelte Rüstung",
+          "text": "Solange an Lanturn eine {W}-Energie angelegt ist, ist Lanturn ein Pokémon vom Typ {W} und {L}."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Rasierflosse",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "30"
+        },
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40+",
+          "text": "Dieser Angriff fügt 40 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Lanturn angelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-19"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/19/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/19/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/20",
+      "number": "20",
+      "name": "Lunastein",
+      "cardGroup": "intl/ex12/20",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        337
+      ],
+      "rarity": "rare",
+      "illustrator": "Hisao Nakamura",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Sonnenschatten",
+          "text": "Solange du Sonnfel im Spiel hast, können die {R}-Pokémon beider Spieler (außer Pokémon-ex) keine Poké-Power benutzen"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Mondführung",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einer Trainerkarte (keine Unterstützerkarte), zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+          "name": "Psychoschock",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-20"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/20/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/20/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/20/normal~stamp-miska-saari",
+          "finish": "normal",
+          "tags": [
+            "stamp-miska-saari"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/21",
+      "number": "21",
+      "name": "Magmar",
+      "cardGroup": "intl/ex12/21",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        126
+      ],
+      "rarity": "rare",
+      "illustrator": "Sumiyoshi Kizuki",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Stufen der Evolution",
+          "text": "Solange Magmar ein entwickeltes Pokémon ist, zählen alle Energiekarten, die an Magmar angelegt sind, als {R}-Energiekarten anstelle ihres normalen Typs."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Linearer Angriff",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Brennendes Gefühl",
+          "cost": [
+            "fire",
+            "fire",
+            "fire"
+          ],
+          "damage": "40",
+          "text": "Wenn auf dem verteidigenden Pokémon bereits eine Schadensmarke liegt, ist es jetzt verbrannt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-21"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/21/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/21/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/22",
+      "number": "22",
+      "name": "Magneton",
+      "cardGroup": "intl/ex12/22",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        82
+      ],
+      "evolvesFrom": "Magnetilo",
+      "rarity": "rare",
+      "illustrator": "Hisao Nakamura",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Reaktive Aufladung",
+          "text": "Wenn Magneton durch die Schadenspunkte eines gegnerischen Angriffs kampfunfähig gemacht würde, kannst du eine beliebige Anzahl an Reaktions-Energiekarten von Magneton beliebig auf deine anderen Pokémon verteilen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Potenzierte Kraft",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Wenn an Magneton mindestens eine Reaktions-Energiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Magnetilo oder Magneton zu, das sich im Spiel befindet (deine und die deines Gegners)."
+        },
+        {
+          "name": "Magnetstoß",
+          "cost": [
+            "lightning",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-22"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/22/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/22/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/23",
+      "number": "23",
+      "name": "Amoroso",
+      "cardGroup": "intl/ex12/23",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "water"
+      ],
+      "species": [
+        139
+      ],
+      "evolvesFrom": "Amonitas",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Uralte Fangzähne",
+          "text": "Solange du Kabuto, Kabutops oder Kabutops-ex im Spiel hast, fügen die Angriffe von Amoroso 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Wegzerren",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Bevor der Schaden zugefügt wird, kannst du 1 Pokémon auf der Bank deines Gegners gegen das Verteidigende Pokémon austauschen. Dein Gegner entscheidet, welches Verteidigende Pokémon ausgetauscht wird."
+        },
+        {
+          "name": "Hydroplatscher",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-23"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/23/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/23/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/24",
+      "number": "24",
+      "name": "Pinsir",
+      "cardGroup": "intl/ex12/24",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        127
+      ],
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Glänzendes Horn",
+          "text": "Solange Pinsir das einzige Pokémon ist, das du im Spiel hast, können die Basis-Pokémon deines Gegners nicht angreifen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hilfeschrei",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einem {G}-Pokémon (außer Pokémon-ex), zeige es deinem Gegner und nimm es auf deine Hand. Mische dein Deck danach."
+        },
+        {
+          "name": "Überkopfwurf",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Dieser Angriff fügt 1 deiner Pokémon auf der Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-24"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/24/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/24/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/25",
+      "number": "25",
+      "name": "Sonnfel",
+      "cardGroup": "intl/ex12/25",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        338
+      ],
+      "rarity": "rare",
+      "illustrator": "Hisao Nakamura",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Mondschatten",
+          "text": "Solange du Lunastein im Spiel hast, können die -Pokémon aller Spieler (außer Pokémon-ex) keine Poké-Power benutzen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Familienruf",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einem Lunastein und lege es auf die Bank. Mische dein Deck danach."
+        },
+        {
+          "name": "Hyperstrahl",
+          "cost": [
+            "fighting"
+          ],
+          "text": "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte von dem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-25"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/25/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/25/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/25/normal~stamp-jeremy-scharff-kim",
+          "finish": "normal",
+          "tags": [
+            "stamp-jeremy-scharff-kim"
+          ]
+        },
+        {
+          "id": "de/ex12/25/normal~stamp-miska-saari",
+          "finish": "normal",
+          "tags": [
+            "stamp-miska-saari"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/26",
+      "number": "26",
+      "name": "Pandir",
+      "cardGroup": "intl/ex12/26",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        327
+      ],
+      "rarity": "rare",
+      "illustrator": "Motofumi Fujiwara",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Ablenkendes Muster",
+          "text": "Solange Pandir dein Aktives Pokémon ist, wirf jedes Mal, wenn ein Basis-Pokémon deines Gegners angreifen will, 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkung. Du kannst nicht mehr als 1 Ablenkendes Muster Poké-Body pro Zug einsetzen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Launischer Zug",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf so lange eine Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Ziehe für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, 2 Karten."
+        },
+        {
+          "name": "Austeiler",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wirf 1 Münze. Bei „Zahl“ fügt sich Pandir selbst 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-26"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/26/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/26/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/27",
+      "number": "27",
+      "name": "Qurtel",
+      "cardGroup": "intl/ex12/27",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        324
+      ],
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Hilfeschrei",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einem {R}-Pokémon (außer Pokémon-ex), zeige es deinem Gegner und nimm es auf deine Hand. Mische dein Deck danach."
+        },
+        {
+          "name": "Feuerwerk",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wirf 1 Münze. Lege bei „Zahl“ eine an Qurtel angelegte {R}-Energie auf deinen Ablagestapel."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-27"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/27/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/27/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/28",
+      "number": "28",
+      "name": "Woingenau",
+      "cardGroup": "intl/ex12/28",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        202
+      ],
+      "rarity": "rare",
+      "illustrator": "Kouki Saitou",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Stufen der Evolution",
+          "text": "Solange Woingenau ein entwickeltes Pokémon ist, muss dein Gegner zusätzlich 1  bezahlen, wenn er sein Aktives Pokémon zurückziehen will."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Zermahlen",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10x",
+          "text": "Dieser Angriff fügt für jede an Woingenau angelegte Energie 10 Schadenspunkte zu."
+        },
+        {
+          "name": "Wegsperre",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "text": "Lege am Ende des nächsten Zuges deines Gegners 7 Schadensmarken auf das Verteidigende Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-28"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/28/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/28/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/29",
+      "number": "29",
+      "name": "Anorith",
+      "cardGroup": "intl/ex12/29",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        347
+      ],
+      "evolvesFrom": "Klauenfossil",
+      "rarity": "uncommon",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Einfluss",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach Amonitas, Kabuto, Aerodactyl, Liliep oder Anorith und lege bis zu 2 von ihnen auf deine Bank. Mische danach dein Deck. Behandle die neuen Pokémon wie Basis-Pokémon."
+        },
+        {
+          "name": "Verlängerte Klauen",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wenn an Anorith mindestens eine Reaktions-Energiekarte angelegt ist, fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-29"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/29/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/29/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/30",
+      "number": "30",
+      "name": "Panekon",
+      "cardGroup": "intl/ex12/30",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        268
+      ],
+      "evolvesFrom": "Waumpel",
+      "rarity": "uncommon",
+      "illustrator": "Sachiko Adachi",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Erscheinen",
+          "text": "Einmal während deines Zuges (vor deinem Angriff), wenn Panekon dein Aktives Pokémon ist, wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach einer Karte, die sich aus Panekon entwickelt, und lege diese auf Panekon. (Dies zählt als Entwickeln.) Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Panekon von einem Speziellem Zustand betroffen ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-30"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/30/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/30/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/31",
+      "number": "31",
+      "name": "Dummisel",
+      "cardGroup": "intl/ex12/31",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        206
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Hajime Kusajima",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Stillstand",
+          "text": "Solange Dummisel dein Aktives Pokémon ist, können Dummisel deines Gegners nicht angreifen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Tiefer Zug",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Ziehe die untersten 2 Karten deines Decks."
+        },
+        {
+          "name": "Stolpernder Wechsel",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Das Verteidigende Pokémon ist jetzt verwirrt. Du kannst Dummisel gegen 1 Pokémon auf deiner Bank austauschen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-31"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/31/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/31/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/32",
+      "number": "32",
+      "name": "Lektrobal",
+      "cardGroup": "intl/ex12/32",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        101
+      ],
+      "evolvesFrom": "Voltobal",
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Superschall",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Das Verteidigende Pokémon ist jetzt verwirrt."
+        },
+        {
+          "name": "Sturzflug",
+          "cost": [
+            "lightning",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40+",
+          "text": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "ex12-32"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/32/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/32/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/33",
+      "number": "33",
+      "name": "Wiesenior",
+      "cardGroup": "intl/ex12/33",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        162
+      ],
+      "evolvesFrom": "Wiesor",
+      "rarity": "uncommon",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Bodyslam",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Wellenreiten",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf deiner Bank zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-33"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/33/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/33/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/34",
+      "number": "34",
+      "name": "Georok",
+      "cardGroup": "intl/ex12/34",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        75
+      ],
+      "evolvesFrom": "Kleinstein",
+      "rarity": "uncommon",
+      "illustrator": "Sumiyoshi Kizuki",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Exoskelett",
+          "text": "Alle Schadenspunkte, die Georok durch Angriffe zugefügt werden, werden um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Steinhagel",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Dieser Angriff fügt 2 gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu (1 falls nur 1 vorhanden). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-34"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/34/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/34/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/35",
+      "number": "35",
+      "name": "Alpollo",
+      "cardGroup": "intl/ex12/35",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        93
+      ],
+      "evolvesFrom": "Nebulak",
+      "rarity": "uncommon",
+      "illustrator": "Aya Kusube",
+      "attacks": [
+        {
+          "name": "Zeitspirale",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Falls dein Gegner mindestens 1 entwickeltes Pokémon im Spiel hat, wähle 1 seiner entwickelten Pokémon und wirf 1 Münze. Bei „Kopf“ entferne die höchste Evolutionskarte von diesem Pokémon. Dein Gegner mischt diese Karte in sein Deck."
+        },
+        {
+          "name": "Spuk",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "Lege 2 Schadensmarken auf das Verteidigende Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-35"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/35/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/35/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/36",
+      "number": "36",
+      "name": "Kabuto",
+      "cardGroup": "intl/ex12/36",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        140
+      ],
+      "evolvesFrom": "Geheimnis-Fossil",
+      "rarity": "uncommon",
+      "illustrator": "Takao Unno",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Uralter Schutz",
+          "text": "Jedes deiner Amonitas, Amoroso, Kabuto, Kabutops und Kabutops ex hat keine Schwäche mehr."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Granitkopf",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Im nächsten Zug deines Gegners wird Schaden, der Kabuto durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-36"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/36/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/36/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/37",
+      "number": "37",
+      "name": "Kecleon",
+      "cardGroup": "intl/ex12/37",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        352
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Tomokazu Komiya",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Reaktive Farben",
+          "text": "Wenn an Kecleon mindestens eine Reaktions-Energiekarte angelegt ist, ist es vom Typ {G}, {R}, {W}, {L}, {P} und {F}."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Zungenpeitsche",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Ruckzuckhieb",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-37"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/37/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/37/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/38",
+      "number": "38",
+      "name": "Stollrak",
+      "cardGroup": "intl/ex12/38",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        305
+      ],
+      "evolvesFrom": "Stollunior",
+      "rarity": "uncommon",
+      "illustrator": "Naoyo Kimura",
+      "attacks": [
+        {
+          "name": "Ruhe",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Entferne alle Speziellen Zustände und 5 Schadensmarken von Stollrak (entferne alle, wenn weniger als 5 auf Stollrak liegen). Stollrak schläft jetzt."
+        },
+        {
+          "name": "Bodyslam",
+          "cost": [
+            "metal",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-38"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/38/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/38/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/39",
+      "number": "39",
+      "name": "Maschock",
+      "cardGroup": "intl/ex12/39",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        67
+      ],
+      "evolvesFrom": "Machollo",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Verfolgungswahn",
+          "text": "Solange Maschock verwirrt ist, fügen Maschocks Angriffe dem Verteidigenden Pokémon 50 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Verteilter Tritt",
+          "cost": [
+            "fighting"
+          ],
+          "text": "Dieser Angriff fügt jedem Verteidigendem Pokémon 20 Schadenspunkte zu."
+        },
+        {
+          "name": "Magnum-Schlag",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-39"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/39/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/39/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/40",
+      "number": "40",
+      "name": "Traunfugil",
+      "cardGroup": "intl/ex12/40",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        200
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Yukiko Baba",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Tiefer Schlaf",
+          "text": "Solange Traunfugil dein Aktives Pokémon ist, wirft jeder Spieler für jedes seiner Pokémon, das schläft, am Ende jedes Zuges 2 Münzen. Wenn mindestens eine davon „Zahl“ zeigt, schläft das betreffende Pokémon weiter."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Wiederbringende Trance",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Nimm eine an Traunfugil angelegte Energiekarte zurück auf die Hand. Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+          "name": "Traumfresser",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "Du kannst diesen Angriff nur dann einsetzen, wenn das Verteidigende Pokémon schläft."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-40"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/40/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/40/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/41",
+      "number": "41",
+      "name": "Blanas",
+      "cardGroup": "intl/ex12/41",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        274
+      ],
+      "evolvesFrom": "Samurzel",
+      "rarity": "uncommon",
+      "illustrator": "Katsura Tabata",
+      "attacks": [
+        {
+          "name": "Pfund",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Plündern",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Bevor der Schaden zugefügt wird, lege alle an dem Verteidigenden Pokémon angelegten Trainerkarten auf den Ablagestapel."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-41"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/41/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/41/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/42",
+      "number": "42",
+      "name": "Roselia",
+      "cardGroup": "intl/ex12/42",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        315
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Reaktiver Duft",
+          "text": "Solange mindestens eine Reaktions-Energiekarte an Roselia angelegt ist, entferne zwischen den Zügen 1 Schadensmarke von jedem deiner Pokémon (außer Pokémon-ex), an denen mindestens eine Reaktions-Energiekarte angelegt ist. Du kannst pro Zug nicht mehr als 1 Reaktiver Duft Poké-Body einsetzen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Springendes Gift",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Tausche 1 Pokémon auf der Bank deines Gegners gegen 1 Verteidigendes Pokémon aus. Dein Gegner entscheidet, welches Verteidigende Pokémon ausgetauscht wird. Das neue Verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-42"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/42/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/42/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/42/normal~stamp-jason-klaczynski",
+          "finish": "normal",
+          "tags": [
+            "stamp-jason-klaczynski"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/43",
+      "number": "43",
+      "name": "Seejong",
+      "cardGroup": "intl/ex12/43",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        364
+      ],
+      "evolvesFrom": "Seemops",
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Kraft-Kreislauf",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) durchsuche deinen Ablagestapel nach einer Basis-Energiekarte, zeige sie deinem Gegner und lege sie auf dein Deck. Wenn du das machst, lege eine Schadensmarke auf Seejong. Diese Poké-Power kann nicht benutzt werden, wenn Seejong von einem Speziellen Zustand betroffen ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Sprungangriff",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-43"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/43/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/43/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/44",
+      "number": "44",
+      "name": "Tangela",
+      "cardGroup": "intl/ex12/44",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        114
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Aya Kusube",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Reaktive Heilung",
+          "text": "Immer wenn du eine Reaktions-Energiekarte von deiner Hand an Tangela anlegst, entferne alle Schadensmarken von Tangela."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Einschnürende Ranken",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+        },
+        {
+          "name": "Sanfte Umarmung",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "water",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-44"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/44/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/44/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/45",
+      "number": "45",
+      "name": "Tentoxa",
+      "cardGroup": "intl/ex12/45",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        73
+      ],
+      "evolvesFrom": "Tentacha",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Reaktiver Schild",
+          "text": "Solange an Tentoxa mindestens eine Reaktions-Energiekarte angelegt ist, verhindere alle Effekte, inklusive Schaden, die deinen Tentoxa im Spiel durch Angriffe der Pokémon-ex deines Gegners zugefügt werden."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Wasserpfeil",
+          "cost": [
+            "water"
+          ],
+          "text": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Zornschläge",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "ex12-45"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/45/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/45/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/45/normal~stamp-vorveroffentlichung",
+          "finish": "normal",
+          "tags": [
+            "stamp-vorveroffentlichung"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/46",
+      "number": "46",
+      "name": "Vibrava",
+      "cardGroup": "intl/ex12/46",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        329
+      ],
+      "evolvesFrom": "Knacklion",
+      "rarity": "uncommon",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Superschall",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+          "name": "Doppelschuss",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Wenn an Vibrava mindestens eine Reaktions-Energiekarte angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "colorless",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-46"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/46/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/46/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/47",
+      "number": "47",
+      "name": "Ultrigaria",
+      "cardGroup": "intl/ex12/47",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        70
+      ],
+      "evolvesFrom": "Knofensa",
+      "rarity": "uncommon",
+      "illustrator": "Katsura Tabata",
+      "attacks": [
+        {
+          "name": "Schlafsamen",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+          "name": "Rankenhieb",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-47"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/47/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/47/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/48",
+      "number": "48",
+      "name": "Stollunior",
+      "cardGroup": "intl/ex12/48",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        304
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Selbstaufladung",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Lege eine {M}-Energiekarte von deiner Hand an Stollunior an."
+        },
+        {
+          "name": "Kopfnuss",
+          "cost": [
+            "metal",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-48"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/48/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/48/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/49",
+      "number": "49",
+      "name": "Knofensa",
+      "cardGroup": "intl/ex12/49",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        69
+      ],
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Schlafpuder",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Das verteidigende Pokémon schläft jetzt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-49"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/49/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/49/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/50",
+      "number": "50",
+      "name": "Lampi",
+      "cardGroup": "intl/ex12/50",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        170
+      ],
+      "rarity": "common",
+      "illustrator": "Sachiko Adachi",
+      "attacks": [
+        {
+          "name": "Zufälliger Funke",
+          "cost": [
+            "lightning"
+          ],
+          "text": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Kugelblitz",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-50"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/50/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/50/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/51",
+      "number": "51",
+      "name": "Perlu",
+      "cardGroup": "intl/ex12/51",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        366
+      ],
+      "rarity": "common",
+      "illustrator": "Sachiko Adachi",
+      "attacks": [
+        {
+          "name": "Eisenabwehr",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Perlu zugefügt werden."
+        },
+        {
+          "name": "Perlenplatscher",
+          "cost": [
+            "water"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-51"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/51/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/51/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/52",
+      "number": "52",
+      "name": "Nebulak",
+      "cardGroup": "intl/ex12/52",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        92
+      ],
+      "rarity": "common",
+      "illustrator": "Hajime Kusajima",
+      "attacks": [
+        {
+          "name": "Schlecker",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Smog",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-52"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/52/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/52/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/53",
+      "number": "53",
+      "name": "Kleinstein",
+      "cardGroup": "intl/ex12/53",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        74
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Finale",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Dieser Angriff fügt allen Pokémon auf der Bank 10 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Kleinstein fügt sich selbst 50 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-53"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/53/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/53/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/54",
+      "number": "54",
+      "name": "Sleima",
+      "cardGroup": "intl/ex12/54",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        88
+      ],
+      "rarity": "common",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Aufstieg",
+          "cost": [
+            "grass"
+          ],
+          "text": "Durchsuche dein Deck nach 1 Karte, die sich aus Sleima entwickelt, und lege sie auf Sleima. (Das zählt als Entwickeln von Sleima.) Mische dein Deck danach."
+        },
+        {
+          "name": "Schleimwurf",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-54"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/54/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/54/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/55",
+      "number": "55",
+      "name": "Fukano",
+      "cardGroup": "intl/ex12/55",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        58
+      ],
+      "rarity": "common",
+      "illustrator": "Kanako Eo",
+      "attacks": [
+        {
+          "name": "Bodyslam",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Feuerhauch",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-55"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/55/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/55/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/56",
+      "number": "56",
+      "name": "Liliep",
+      "cardGroup": "intl/ex12/56",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        345
+      ],
+      "evolvesFrom": "Wurzelfossil",
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Zarte Tentakel",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wenn an Liliep mindestens eine Reaktions-Energiekarte angelegt ist, entferne 2 Schadensmarken von Liliep."
+        },
+        {
+          "name": "Konfustrahl",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Das Verteidigende Pokémon ist jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-56"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/56/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/56/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/57",
+      "number": "57",
+      "name": "Machollo",
+      "cardGroup": "intl/ex12/57",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        66
+      ],
+      "rarity": "common",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Tempohieb",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "10",
+          "text": "Dieser Angriff fügt 1 gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-57"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/57/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/57/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/58",
+      "number": "58",
+      "name": "Magby",
+      "cardGroup": "intl/ex12/58",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        240
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Baby Evolution",
+          "text": "Einmal während deines Zuges (vor deinem Angriff), kannst du Magmar von deiner Hand auf Magby legen (das zählt als Entwickeln von Magby). Entferne alle Schadensmarken von Magby."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Entzünden",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wenn die Volle Flamme im Spiel ist, ist das Verteidigende Pokémon jetzt verbrannt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-58"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/58/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/58/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/59",
+      "number": "59",
+      "name": "Magnetilo",
+      "cardGroup": "intl/ex12/59",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        81
+      ],
+      "rarity": "common",
+      "illustrator": "Hiroki Fuchino",
+      "attacks": [
+        {
+          "name": "Magnetwirbel",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkung. Bei „Kopf“ lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-59"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/59/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/59/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/60",
+      "number": "60",
+      "name": "Amonitas",
+      "cardGroup": "intl/ex12/60",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        138
+      ],
+      "evolvesFrom": "Geheimnis-Fossil",
+      "rarity": "common",
+      "illustrator": "Kenkichi Toyama",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Uralte Tentakel",
+          "text": "Schaden, der den Pokémon deines Gegners durch Amonitas, Amoroso, Kabuto, Kabutops oder Kabutops ex zugefügt wird, wird durch Resistenzen nicht verringert."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Aufwärtsstoß",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-60"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/60/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/60/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/61",
+      "number": "61",
+      "name": "Samurzel",
+      "cardGroup": "intl/ex12/61",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        273
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Kraft aufziehen",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einer Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+          "name": "Dauerrollen",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10x",
+          "text": "Wirf so lange eine Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-61"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/61/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/61/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/62",
+      "number": "62",
+      "name": "Wiesor",
+      "cardGroup": "intl/ex12/62",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        161
+      ],
+      "rarity": "common",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Kratzer",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Ruckzuckhieb",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-62"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/62/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/62/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/63",
+      "number": "63",
+      "name": "Shuppet",
+      "cardGroup": "intl/ex12/63",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        353
+      ],
+      "rarity": "common",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Kopfnuss",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Irrlicht",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-63"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/63/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/63/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/64",
+      "number": "64",
+      "name": "Eneco",
+      "cardGroup": "intl/ex12/64",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        300
+      ],
+      "rarity": "common",
+      "illustrator": "Satoshi Ohta",
+      "attacks": [
+        {
+          "name": "Wichtige Aufgaben",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einer Reaktions-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+          "name": "Draufspringen",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-64"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/64/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/64/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/64/normal~stamp-kraze-club",
+          "finish": "normal",
+          "tags": [
+            "stamp-kraze-club"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/65",
+      "number": "65",
+      "name": "Seemops",
+      "cardGroup": "intl/ex12/65",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        363
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Ramme",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-65"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/65/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/65/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/66",
+      "number": "66",
+      "name": "Tentacha",
+      "cardGroup": "intl/ex12/66",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        72
+      ],
+      "rarity": "common",
+      "illustrator": "Tomoaki Imakuni",
+      "attacks": [
+        {
+          "name": "Giftstachel",
+          "cost": [
+            "water"
+          ],
+          "text": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-66"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/66/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/66/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/67",
+      "number": "67",
+      "name": "Knacklion",
+      "cardGroup": "intl/ex12/67",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        328
+      ],
+      "rarity": "common",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Kieselwurf",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Dieser Angriff fügt 1 der Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Doppelkneifzange",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-67"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/67/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/67/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/68",
+      "number": "68",
+      "name": "Voltobal",
+      "cardGroup": "intl/ex12/68",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        100
+      ],
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Donnerwelle",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Hüpfender Ball",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Voltobal fügt sich selbst 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-68"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/68/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/68/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/69",
+      "number": "69",
+      "name": "Wailmer",
+      "cardGroup": "intl/ex12/69",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        320
+      ],
+      "rarity": "common",
+      "illustrator": "Sumiyoshi Kizuki",
+      "attacks": [
+        {
+          "name": "Doppeltes Tackle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Dieser Angriff fügt jedem Verteidigendem Pokémon 20 Schadenspunkte zu"
+        },
+        {
+          "name": "Whirlpool",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wirf 1 Münze. Bei „Kopf“ lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "ex12-69"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/69/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/69/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/70",
+      "number": "70",
+      "name": "Waumpel",
+      "cardGroup": "intl/ex12/70",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        265
+      ],
+      "rarity": "common",
+      "illustrator": "Yukiko Baba",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Giftige Abrechnung",
+          "text": "Wenn Waumpel dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Waumpel kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "An den Fäden ziehen",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Tausche 1 Pokémon auf der Bank deines Gegners gegen 1 Verteidigendes Pokémon aus. Dein Gegner entscheidet, welches Verteidigende Pokémon ausgetauscht wird."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-70"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/70/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/70/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/71",
+      "number": "71",
+      "name": "Isso",
+      "cardGroup": "intl/ex12/71",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        360
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Baby Evolution",
+          "text": "Einmal während deines Zuges (vor deinem Angriff) kannst du Woingenau von deiner Hand auf Isso legen (das zählt als Entwickeln von Isso). Entferne alle Schadensmarken von Isso."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Verwirrende Welle",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Isso und das Verteidigende Pokémon sind jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-71"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/71/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/71/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/72",
+      "number": "72",
+      "name": "Verfluchter Stein",
+      "cardGroup": "intl/ex12/72",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "externalIds": {
+        "tcgdex": "ex12-72"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/72/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/72/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/72/normal~stamp-jason-klaczynski",
+          "finish": "normal",
+          "tags": [
+            "stamp-jason-klaczynski"
+          ]
+        },
+        {
+          "id": "de/ex12/72/normal~stamp-miska-saari",
+          "finish": "normal",
+          "tags": [
+            "stamp-miska-saari"
+          ]
+        },
+        {
+          "id": "de/ex12/72/normal~stamp-akira-miyazaki",
+          "finish": "normal",
+          "tags": [
+            "stamp-akira-miyazaki"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/73",
+      "number": "73",
+      "name": "Feldarbeiter",
+      "cardGroup": "intl/ex12/73",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "ex12-73"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/73/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/73/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/73/normal~stamp-jun-hasebe",
+          "finish": "normal",
+          "tags": [
+            "stamp-jun-hasebe"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/74",
+      "number": "74",
+      "name": "Volle Flamme",
+      "cardGroup": "intl/ex12/74",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "externalIds": {
+        "tcgdex": "ex12-74"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/74/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/74/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/74/normal~stamp-jimmy-ballard",
+          "finish": "normal",
+          "tags": [
+            "stamp-jimmy-ballard"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/75",
+      "number": "75",
+      "name": "Riesiger Baumstumpf",
+      "cardGroup": "intl/ex12/75",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "externalIds": {
+        "tcgdex": "ex12-75"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/75/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/75/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/75/normal~stamp-jimmy-ballard",
+          "finish": "normal",
+          "tags": [
+            "stamp-jimmy-ballard"
+          ]
+        },
+        {
+          "id": "de/ex12/75/normal~stamp-tom-roos",
+          "finish": "normal",
+          "tags": [
+            "stamp-tom-roos"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/76",
+      "number": "76",
+      "name": "Energiebaum",
+      "cardGroup": "intl/ex12/76",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "externalIds": {
+        "tcgdex": "ex12-76"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/76/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/76/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/76/normal~stamp-hiroki-yano",
+          "finish": "normal",
+          "tags": [
+            "stamp-hiroki-yano"
+          ]
+        },
+        {
+          "id": "de/ex12/76/normal~stamp-jun-hasebe",
+          "finish": "normal",
+          "tags": [
+            "stamp-jun-hasebe"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/77",
+      "number": "77",
+      "name": "Seltsame Höhle",
+      "cardGroup": "intl/ex12/77",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "externalIds": {
+        "tcgdex": "ex12-77"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/77/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/77/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/78",
+      "number": "78",
+      "name": "Klauenfossil",
+      "cardGroup": "intl/ex12/78",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "hp": 40,
+      "rarity": "common",
+      "illustrator": "Ryo Ueda",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Gezackter Stein",
+          "text": "Wenn Klauenfossil dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Klauenfossil dadurch kampfunfähig wird), legst du 1 Schadensmarke auf das Angreifende Pokémon."
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "ex12-78"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/78/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/78/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/79",
+      "number": "79",
+      "name": "Geheimnis-Fossil",
+      "cardGroup": "intl/ex12/79",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "hp": 50,
+      "rarity": "common",
+      "illustrator": "Ryo Ueda",
+      "externalIds": {
+        "tcgdex": "ex12-79"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/79/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/79/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/80",
+      "number": "80",
+      "name": "Wurzelfossil",
+      "cardGroup": "intl/ex12/80",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "hp": 40,
+      "rarity": "common",
+      "illustrator": "Ryo Ueda",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Schwammiger Stein",
+          "text": "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Wurzelfossil."
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "ex12-80"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/80/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/80/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/81",
+      "number": "81",
+      "name": "Regenbogen Energie",
+      "cardGroup": "intl/ex12/81",
+      "supertype": "energy",
+      "subtypes": [
+        "special-energy"
+      ],
+      "rarity": "rare",
+      "illustrator": "Takumi Akabane",
+      "externalIds": {
+        "tcgdex": "ex12-81"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/81/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/81/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        },
+        {
+          "id": "de/ex12/81/normal~stamp-jeremy-scharff-kim",
+          "finish": "normal",
+          "tags": [
+            "stamp-jeremy-scharff-kim"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/82",
+      "number": "82",
+      "name": "Reaktions-Energie",
+      "cardGroup": "intl/ex12/82",
+      "supertype": "energy",
+      "subtypes": [
+        "special-energy"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Takumi Akabane",
+      "externalIds": {
+        "tcgdex": "ex12-82"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/82/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "de/ex12/82/normal~stamp-set-logo",
+          "finish": "normal",
+          "tags": [
+            "stamp-set-logo"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/83",
+      "number": "83",
+      "name": "Arkani-ex",
+      "cardGroup": "intl/ex12/83",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex"
+      ],
+      "hp": 120,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        59
+      ],
+      "evolvesFrom": "Fukano",
+      "rarity": "rare",
+      "illustrator": "Hikaru Koike",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Feuriges Heilmittel",
+          "text": "Immer wenn du eine {R}-Energiekarte von deiner Hand an Arkani ex anlegst, entferne 1 Schadensmarke und alle Speziellen Zustände von Arkani ex."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Überrennen",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Dieser Angriff fügt 1 gegnerischen Pokémon auf der Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Flammenwirbel",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "100",
+          "text": "Lege 2 -Energie oder 1 Reaktions-Energiekarte, die an Arkani ex angelegt ist, auf deinen Ablagestapel."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-83"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/83/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/84",
+      "number": "84",
+      "name": "Armaldo-ex",
+      "cardGroup": "intl/ex12/84",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex"
+      ],
+      "hp": 160,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        348
+      ],
+      "evolvesFrom": "Anorith",
+      "rarity": "rare",
+      "illustrator": "Kimiya Masago",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Doppelte Rüstung",
+          "text": "Solange an Armaldo ex mindestens eine Reaktions-Energiekarte angelegt ist, ist Armaldo ex ein Pokémon vom Typ {G} und {F}."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Spiralsauger",
+          "cost": [
+            "colorless",
+            "fighting"
+          ],
+          "damage": "40",
+          "text": "Entferne 2 Schadensmarken von Armaldo ex."
+        },
+        {
+          "name": "Wirbelsturmschlag",
+          "cost": [
+            "colorless",
+            "colorless",
+            "fighting"
+          ],
+          "damage": "70",
+          "text": "Wenn das Verteidigende Pokémon mindestens eine Resistenz hat, beträgt der Grundschaden dieses Angriffs 100 Schadenspunkte anstelle von 70 Schadenspunkten."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "ex12-84"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/84/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/85",
+      "number": "85",
+      "name": "Banette-ex",
+      "cardGroup": "intl/ex12/85",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        354
+      ],
+      "evolvesFrom": "Shuppet",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Zwielichtige Aktion",
+          "text": "Einmal während deines Zuges (vor deinem Angriff), wenn Banette ex dein Aktives Pokémon ist, verschiebe 1 Schadensmarke von 1 Pokémon (deins oder deines Gegners) auf ein anderes Pokémon (deins oder deines Gegners). Diese Poké-Power kann nicht benutzt werden, wenn Banette ex von einem Speziellen Zustand betroffen ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schattengesang",
+          "cost": [
+            "colorless",
+            "psychic"
+          ],
+          "damage": "30+",
+          "text": "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede Unterstützerkarte in deinem Ablagestapel zu. Es lassen sich so nicht mehr als 60 Schadenspunkte hinzufügen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-85"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/85/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/85/holo~stamp-jeremy-scharff-kim",
+          "finish": "holo",
+          "tags": [
+            "stamp-jeremy-scharff-kim"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/86",
+      "number": "86",
+      "name": "Pudox-ex",
+      "cardGroup": "intl/ex12/86",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex"
+      ],
+      "hp": 140,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        269
+      ],
+      "evolvesFrom": "Panekon",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Bodyguard",
+          "text": "Verhindere alle Effekte von Angriffen inklusive Schaden, die Pudox ex von gegnerischen Pokémon-ex zugefügt werden."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Silberhauch",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Während deines nächsten Zuges, wenn ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        },
+        {
+          "name": "Schneidender Wind",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-86"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/86/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/87",
+      "number": "87",
+      "name": "Libelldra-ex",
+      "cardGroup": "intl/ex12/87",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex"
+      ],
+      "hp": 150,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        330
+      ],
+      "evolvesFrom": "Vibrava",
+      "rarity": "rare",
+      "illustrator": "Ryo Ueda",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Entstehungsladung",
+          "text": "Einmal während deines Zuges, wenn du Libelldra ex von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du deinen Ablagestapel nach bis zu 2 Energiekarten durchsuchen und sie an Libelldra ex anlegen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Reaktiver Schuss",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "40+",
+          "text": "Du kannst eine beliebige Anzahl von Reaktions-Energiekarten, die an Libelldra ex angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte für jede abgelegte Reaktions-Energiekarte zu."
+        },
+        {
+          "name": "Drachenklaue",
+          "cost": [
+            "grass",
+            "lightning",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "100"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "colorless",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "ex12-87"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/87/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/88",
+      "number": "88",
+      "name": "Mew-ex",
+      "cardGroup": "intl/ex12/88",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex"
+      ],
+      "hp": 90,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        151
+      ],
+      "rarity": "rare",
+      "illustrator": "Ryo Ueda",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Anpassungsfähigkeit",
+          "text": "Mew ex kann die Angriffe von allen Pokémon, die sich im Spiel befinden, als seine eigenen Angriffe durchführen (Du brauchst trotzdem die notwendige Energie, um den Angriff durchzuführen)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Energieauswechsler",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "Durchsuche dein Deck nach einer Energiekarte und lege sie an Mew ex an. Mische dein Deck danach. Danach kannst du Mew ex gegen ein Pokémon auf deiner Bank austauschen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-88"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/88/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "de/ex12/88/holo~stamp-jason-klaczynski",
+          "finish": "holo",
+          "tags": [
+            "stamp-jason-klaczynski"
+          ]
+        },
+        {
+          "id": "de/ex12/88/holo~stamp-tom-roos",
+          "finish": "holo",
+          "tags": [
+            "stamp-tom-roos"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/89",
+      "number": "89",
+      "name": "Walraisa-ex",
+      "cardGroup": "intl/ex12/89",
+      "supertype": "pokemon",
+      "subtypes": [
+        "ex"
+      ],
+      "hp": 150,
+      "types": [
+        "water"
+      ],
+      "species": [
+        365
+      ],
+      "evolvesFrom": "Seejong",
+      "rarity": "rare",
+      "illustrator": "Kimiya Masago",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Eisige Aura",
+          "text": "Solange Walraisa ex dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Aktive Pokémon (deins und die deines Gegners), mit der Ausnahme von {W}-Pokémon."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Wasserpfeil",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "text": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+          "name": "Eiswurf",
+          "cost": [
+            "water",
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "80",
+          "text": "Wenn das Verteidigende Pokémon ein -Pokémon ist, beträgt der Grundschaden 120 Schadenspunkte anstelle von 80 Schadenspunkten."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        },
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "ex12-89"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/89/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/90",
+      "number": "90",
+      "name": "Regice ☆",
+      "cardGroup": "intl/ex12/90",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "water"
+      ],
+      "species": [
+        378
+      ],
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Eisbarriere",
+          "cost": [
+            "water"
+          ],
+          "damage": "10",
+          "text": "Verhindere alle Effekte von Angriffen inklusive Schaden, die Regice ☆ von gegnerischen Pokémon-ex zugefügt werden."
+        },
+        {
+          "name": "Finaler Schneesturm",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wenn dein Gegner nur noch einen Preis übrig hat und Regice ☆ das einzige Pokémon ist, das du im Spiel hast, fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "ex12-90"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/90/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/91",
+      "number": "91",
+      "name": "Regirock ☆",
+      "cardGroup": "intl/ex12/91",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        377
+      ],
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Umgraben",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "10",
+          "text": "Entferne 1 Schadensmarke von Regirock ☆."
+        },
+        {
+          "name": "Finaler Schuss",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wenn dein Gegner nur noch einen Preis übrig hat und Regirock ☆ das einzige Pokémon ist, das du im Spiel hast, beträgt der Grundschaden dieses Angriffs 100 Schadenspunkte anstelle von 30 Schadenspunkten."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "ex12-91"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/91/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/92",
+      "number": "92",
+      "name": "Registeel ☆",
+      "cardGroup": "intl/ex12/92",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        379
+      ],
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Angriffsbarriere",
+          "cost": [
+            "metal"
+          ],
+          "damage": "10",
+          "text": "Im nächsten Zug deines Gegners wird Schaden, der Registeel ☆ durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+          "name": "Finaler Laser",
+          "cost": [
+            "metal",
+            "metal",
+            "colorless"
+          ],
+          "text": "Lege 3 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon. Wenn dein Gegner nur noch einen Preis übrig hat, und Registeel ☆ das einzige Pokémon ist, das du im Spiel hast, lege stattdessen 6 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "ex12-92"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/92/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/ex12/93",
+      "number": "93",
+      "name": "Pikachu δ",
+      "cardGroup": "intl/ex12/93",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        25
+      ],
+      "rarity": "rare",
+      "illustrator": "Ryo Ueda",
+      "attacks": [
+        {
+          "name": "Donnerwelle",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Eisenschweif",
+          "cost": [
+            "metal",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Wirf so lange eine Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "ex12-93"
+      },
+      "prints": [
+        {
+          "id": "de/ex12/93/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MPelzer/PokemonLibrary/schemas/catalog/v1/set.schema.json",
+  "title": "Language-specific set with its cards and prints",
+  "type": "object",
+  "required": ["formatVersion", "set", "cards"],
+  "properties": {
+    "formatVersion": { "$ref": "common.schema.json#/$defs/formatVersion" },
+    "set": { "$ref": "#/$defs/set" },
+    "cards": { "type": "array", "items": { "$ref": "#/$defs/card" } }
+  },
+  "$defs": {
+    "set": {
+      "type": "object",
+      "required": ["id", "code", "language", "name", "provenance"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/setId" },
+        "code": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "language": { "$ref": "common.schema.json#/$defs/lang" },
+        "name": { "type": "string", "minLength": 1 },
+        "series": { "type": "string" },
+        "abbreviation": { "type": "string" },
+        "releaseDate": { "$ref": "common.schema.json#/$defs/date" },
+        "cardCount": {
+          "type": "object",
+          "properties": {
+            "official": { "type": "integer", "minimum": 0 },
+            "total": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "images": { "$ref": "#/$defs/images" },
+        "externalIds": { "$ref": "common.schema.json#/$defs/externalIds" },
+        "pullRates": { "type": "array", "items": { "$ref": "#/$defs/pullRate" } },
+        "provenance": { "$ref": "common.schema.json#/$defs/provenance" },
+        "fieldProvenance": { "$ref": "common.schema.json#/$defs/fieldProvenance" },
+        "withdrawn": { "$ref": "common.schema.json#/$defs/withdrawn" }
+      }
+    },
+    "card": {
+      "type": "object",
+      "required": ["id", "number", "name", "supertype", "rarity", "prints", "provenance"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/cardId" },
+        "number": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "cardGroup": { "$ref": "common.schema.json#/$defs/cardGroup" },
+        "supertype": { "$ref": "common.schema.json#/$defs/key" },
+        "subtypes": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/key" } },
+        "hp": { "type": "integer", "minimum": 0 },
+        "types": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/key" } },
+        "species": { "type": "array", "items": { "type": "integer", "minimum": 1 } },
+        "evolvesFrom": { "type": "string" },
+        "rarity": { "$ref": "common.schema.json#/$defs/key" },
+        "illustrator": { "type": ["string", "null"] },
+        "regulationMark": { "type": "string" },
+        "abilities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "kind": { "$ref": "common.schema.json#/$defs/key" },
+              "name": { "type": "string" },
+              "text": { "type": "string" }
+            }
+          }
+        },
+        "attacks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "cost": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/key" } },
+              "damage": { "type": "string" },
+              "text": { "type": "string" }
+            }
+          }
+        },
+        "weaknesses": { "$ref": "#/$defs/typeModifiers" },
+        "resistances": { "$ref": "#/$defs/typeModifiers" },
+        "retreatCost": { "type": "integer", "minimum": 0 },
+        "images": { "$ref": "#/$defs/images" },
+        "pullRate": { "$ref": "#/$defs/pullRate" },
+        "externalIds": { "$ref": "common.schema.json#/$defs/externalIds" },
+        "prints": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/print" } },
+        "provenance": { "$ref": "common.schema.json#/$defs/provenance" },
+        "fieldProvenance": { "$ref": "common.schema.json#/$defs/fieldProvenance" },
+        "withdrawn": { "$ref": "common.schema.json#/$defs/withdrawn" }
+      }
+    },
+    "print": {
+      "type": "object",
+      "required": ["id", "finish"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/printId" },
+        "finish": { "$ref": "common.schema.json#/$defs/key" },
+        "edition": { "$ref": "common.schema.json#/$defs/key" },
+        "tags": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/key" }, "uniqueItems": true },
+        "externalIds": { "$ref": "common.schema.json#/$defs/externalIds" },
+        "withdrawn": { "$ref": "common.schema.json#/$defs/withdrawn" }
+      }
+    },
+    "pullRate": {
+      "type": "object",
+      "required": ["packsPerHit", "provenance"],
+      "properties": {
+        "rarity": { "$ref": "common.schema.json#/$defs/key" },
+        "packsPerHit": { "type": "number", "exclusiveMinimum": 0, "description": "On average one hit every N packs" },
+        "provenance": { "$ref": "common.schema.json#/$defs/provenance" }
+      }
+    },
+    "images": {
+      "type": "object",
+      "properties": {
+        "small": { "$ref": "common.schema.json#/$defs/url" },
+        "large": { "$ref": "common.schema.json#/$defs/url" },
+        "logo": { "$ref": "common.schema.json#/$defs/url" },
+        "symbol": { "$ref": "common.schema.json#/$defs/url" }
+      }
+    },
+    "typeModifiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type"],
+        "properties": {
+          "type": { "$ref": "common.schema.json#/$defs/key" },
+          "value": { "type": "string" }
+        }
+      }
+    }
+  }
+}

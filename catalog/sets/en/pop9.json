@@ -1,0 +1,1246 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "en/pop9",
+    "code": "pop9",
+    "language": "en",
+    "name": "POP Series 9",
+    "series": "POP",
+    "abbreviation": "P9",
+    "releaseDate": "2009-03-01",
+    "cardCount": {
+      "official": 17,
+      "total": 17
+    },
+    "images": {
+      "logo": "https://assets.tcgdex.net/en/pop/pop9/logo.webp",
+      "symbol": "https://assets.tcgdex.net/univ/pop/pop9/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "pop9"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "en/pop9/1",
+      "number": "1",
+      "name": "Garchomp",
+      "cardGroup": "intl/pop9/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 130,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        445
+      ],
+      "evolvesFrom": "Gabite",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Dragon Rage",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "80",
+          "text": "Flip 2 coins. If either of them is tails, this attack does nothing."
+        },
+        {
+          "name": "Jet Sword",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "100",
+          "text": "Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "colorless",
+          "value": "+30"
+        }
+      ],
+      "retreatCost": 0,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/1/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/1/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-1"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/1/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "85622",
+            "cardmarket": "278552"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/2",
+      "number": "2",
+      "name": "Manaphy",
+      "cardGroup": "intl/pop9/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        490
+      ],
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Dive",
+          "cost": [
+            "water"
+          ],
+          "text": "Look at the top 7 cards of your deck, choose 1 of them, and put it into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward."
+        },
+        {
+          "name": "Water Glow",
+          "cost": [
+            "water"
+          ],
+          "text": "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Remove from Manaphy the number of damage counters equal to the damage you did to that Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/2/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/2/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-2"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/2/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "87147",
+            "cardmarket": "278553"
+          }
+        },
+        {
+          "id": "en/pop9/2/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "87147",
+            "cardmarket": "278553"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/3",
+      "number": "3",
+      "name": "Raichu",
+      "cardGroup": "intl/pop9/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        26
+      ],
+      "evolvesFrom": "Pikachu",
+      "rarity": "rare",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Slam",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30×",
+          "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+          "name": "High Volt",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "60",
+          "text": "If Raichu evolved from Pikachu during this turn, this attack's base damage is 100 instead of 60."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+20"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/3/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/3/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-3"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/3/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "88514",
+            "cardmarket": "278554"
+          }
+        },
+        {
+          "id": "en/pop9/3/reverse",
+          "finish": "reverse",
+          "externalIds": {
+            "tcgplayer": "88514",
+            "cardmarket": "278554"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/4",
+      "number": "4",
+      "name": "Regigigas",
+      "cardGroup": "intl/pop9/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 100,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        486
+      ],
+      "rarity": "rare",
+      "illustrator": "Kent Kanetsuna",
+      "attacks": [
+        {
+          "name": "Body Slam",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+          "name": "Double Stomp",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50+",
+          "text": "Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 4,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/4/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/4/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-4"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/4/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "88664",
+            "cardmarket": "278555"
+          }
+        },
+        {
+          "id": "en/pop9/4/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "88664",
+            "cardmarket": "278555"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/5",
+      "number": "5",
+      "name": "Rotom",
+      "cardGroup": "intl/pop9/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        479
+      ],
+      "rarity": "rare",
+      "illustrator": "Masakazu Fukuda",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Type Shift",
+          "text": "Once during your turn (before your attack), you may use this power. Rotom's type is Psychic until the end of your turn."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Poltergeist",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Look at your opponent's hand. This attack does 30 damage plus 10 more damage for each Trainer, Supporter, and Stadium card in your opponent's hand."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "+20"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "colorless",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/5/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/5/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-5"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/5/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "88837",
+            "cardmarket": "278556"
+          }
+        },
+        {
+          "id": "en/pop9/5/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "88837",
+            "cardmarket": "278556"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/6",
+      "number": "6",
+      "name": "Buizel",
+      "cardGroup": "intl/pop9/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        418
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Whirlpool",
+          "cost": [
+            "water"
+          ],
+          "text": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+        },
+        {
+          "name": "Super Fast",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "30",
+          "text": "If you have Pachirisu in play, flip a coin. If heads, prevent all effects of an attack, including damage, done to Buizel during your opponent's next turn."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/6/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/6/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-6"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/6/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "84020",
+            "cardmarket": "278557"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/7",
+      "number": "7",
+      "name": "Croagunk",
+      "cardGroup": "intl/pop9/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        453
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Knock Off",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it."
+        },
+        {
+          "name": "Nimble",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "If you have Turtwig in play, remove from Croagunk the number of damage counters equal to the damage you did to the Defending Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/7/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/7/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-7"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/7/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "84476",
+            "cardmarket": "278558"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/8",
+      "number": "8",
+      "name": "Gabite",
+      "cardGroup": "intl/pop9/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        444
+      ],
+      "evolvesFrom": "Gible",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Burrow",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent's next turn."
+        },
+        {
+          "name": "Distored Wave",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "Before doing damage, remove 2 damage counters from the Defending Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "colorless",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/8/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/8/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-8"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/8/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "85598",
+            "cardmarket": "278559"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/9",
+      "number": "9",
+      "name": "Lopunny",
+      "cardGroup": "intl/pop9/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        428
+      ],
+      "evolvesFrom": "Buneary",
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Jump Kick",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+          "name": "Jazzed",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "If Lopunny evolved from Buneary during this turn, remove all damage counters from Lopunny."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/9/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/9/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-9"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/9/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "86825",
+            "cardmarket": "278560"
+          }
+        },
+        {
+          "id": "en/pop9/9/holo",
+          "finish": "holo",
+          "externalIds": {
+            "tcgplayer": "86825",
+            "cardmarket": "278560"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/10",
+      "number": "10",
+      "name": "Pachirisu",
+      "cardGroup": "intl/pop9/10",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        417
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Thunder Wave",
+          "cost": [
+            "lightning"
+          ],
+          "damage": "10",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+          "name": "Poison Berry",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "If you have Croagunk in play, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Poisoned."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+20"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/10/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/10/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-10"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/10/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "87902",
+            "cardmarket": "278561"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/11",
+      "number": "11",
+      "name": "Pichu",
+      "cardGroup": "intl/pop9/11",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        172
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Baby Evolution",
+          "text": "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Find a Friend",
+          "text": "Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+10"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/11/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/11/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-11"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/11/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "88020",
+            "cardmarket": "278562"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/12",
+      "number": "12",
+      "name": "Buneary",
+      "cardGroup": "intl/pop9/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        427
+      ],
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Dizzy Punch",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10×",
+          "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+        },
+        {
+          "name": "Defense Curl",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Flip a coin. If heads, prevent all damage done to Buneary by attacks during your opponent's next turn."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/12/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/12/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-12"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/12/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "84042",
+            "cardmarket": "278563"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/13",
+      "number": "13",
+      "name": "Chimchar",
+      "cardGroup": "intl/pop9/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        390
+      ],
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Serial Swipes",
+          "cost": [
+            "fire"
+          ],
+          "damage": "10×",
+          "text": "Flip 4 coins. This attack does 10 damage times the number of heads."
+        },
+        {
+          "name": "Sleepy",
+          "cost": [
+            "fire",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40+",
+          "text": "If you have Piplup in play, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Asleep."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/13/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/13/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-13"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/13/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "84289",
+            "cardmarket": "278564"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/14",
+      "number": "14",
+      "name": "Gible",
+      "cardGroup": "intl/pop9/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        443
+      ],
+      "rarity": "common",
+      "illustrator": "Hiroki Fuchino",
+      "attacks": [
+        {
+          "name": "Push Down",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "colorless",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/14/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/14/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-14"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/14/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "85700",
+            "cardmarket": "278565"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/15",
+      "number": "15",
+      "name": "Pikachu",
+      "cardGroup": "intl/pop9/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        25
+      ],
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Growl",
+          "cost": [
+            "colorless"
+          ],
+          "text": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+        },
+        {
+          "name": "Numb",
+          "cost": [
+            "lightning",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "If Pikachu evolved from Pichu during this turn, the Defending Pokémon is now Paralyzed."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+10"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/15/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/15/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-15"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/15/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "88092",
+            "cardmarket": "278566"
+          }
+        },
+        {
+          "id": "en/pop9/15/normal~stamp-pokemon-day",
+          "finish": "normal",
+          "tags": [
+            "stamp-pokemon-day"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/16",
+      "number": "16",
+      "name": "Piplup",
+      "cardGroup": "intl/pop9/16",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        393
+      ],
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Water Sport",
+          "cost": [
+            "water"
+          ],
+          "damage": "10+",
+          "text": "If Piplup has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus more 10 more damage."
+        },
+        {
+          "name": "Wavelet",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "If you have Buizel in play, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/16/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/16/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-16"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/16/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "88150",
+            "cardmarket": "278567"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop9/17",
+      "number": "17",
+      "name": "Turtwig",
+      "cardGroup": "intl/pop9/17",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        387
+      ],
+      "rarity": "common",
+      "illustrator": "Midori Harada",
+      "attacks": [
+        {
+          "name": "Absorb",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10",
+          "text": "Remove 1 damage counter from Turtwig."
+        },
+        {
+          "name": "Parboil",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40+",
+          "text": "If you have Chimchar in play, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Burned."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "+10"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "water",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop9/17/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop9/17/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop9-17"
+      },
+      "prints": [
+        {
+          "id": "en/pop9/17/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "90078",
+            "cardmarket": "278568"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

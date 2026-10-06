@@ -1,0 +1,7341 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "de/neo4",
+    "code": "neo4",
+    "language": "de",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "abbreviation": "N4",
+    "releaseDate": "2002-02-28",
+    "cardCount": {
+      "official": 105,
+      "total": 113
+    },
+    "images": {
+      "symbol": "https://assets.tcgdex.net/univ/neo/neo4/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "neo4"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "de/neo4/1",
+      "number": "1",
+      "name": "Dunkles Ampharos",
+      "cardGroup": "intl/neo4/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        181
+      ],
+      "evolvesFrom": "Dunkles Waaty",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Leitfähigkeit",
+          "text": "Immer wenn dein Gegner eine Energiekarte aus seiner Hand an ein Pokémon anlegt, fügt diese Power diesem Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz nicht an.) Diese Fähigkeit verliert ihre Wirkung, solange du mehr als 1 Dunkles Ampharos im Spiel hast oder während Dunkles Ampharos schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Schock-Blitz",
+          "cost": [
+            "lightning",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Lege alle an Dunkles Ampharos angelegten {L}-Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-1"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/1/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274653",
+            "tcgplayer": "84561"
+          }
+        },
+        {
+          "id": "de/neo4/1/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/2",
+      "number": "2",
+      "name": "Dunkles Iksbat",
+      "cardGroup": "intl/neo4/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        169
+      ],
+      "evolvesFrom": "Dunkles Golbat",
+      "rarity": "rare",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Überraschungsbiss",
+          "text": "Wenn du Dunkles Iksbat aus deiner Hand spielst, kannst du 1 der Pokémon deines Gegners wählen. Diese Power fügt diesem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz nicht an.)"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Finsteres Aussaugen",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "text": "Wirf für jedes Pokémon deines Gegners eine Münze. Immer wenn „Kopf“ fällt, fügt dieser Angriff dem entsprechenden Pokémon 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an. Zähle, wie oft du insgesamt „Kopf“ geworfen hast, und entferne so viele Schadensmarken von Dunkles Iksbat. Falls Dunkles Iksbat weniger Schadensmarken hat, entferne alle."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-2"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/2/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274654",
+            "tcgplayer": "84576"
+          }
+        },
+        {
+          "id": "de/neo4/2/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/3",
+      "number": "3",
+      "name": "Dunkles Donphan",
+      "cardGroup": "intl/neo4/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        232
+      ],
+      "evolvesFrom": "Phanpy",
+      "rarity": "rare",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Stoßzahnstoß",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "text": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wirf eine Münze. Bringe bei „Kopf“ das verteidigende Pokémon und alle daran angelegten Karten auf die Hand deines Gegners zurück. Bei „Zahl“ wählt dein Gegner eins seiner Pokémon auf der Bank und tauscht es mit dem verteidigenden Pokémon aus."
+        },
+        {
+          "name": "Riesenstoßzahn",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "neo4-3"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/3/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274655",
+            "tcgplayer": "84579"
+          }
+        },
+        {
+          "id": "de/neo4/3/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/4",
+      "number": "4",
+      "name": "Dunkles Psiana",
+      "cardGroup": "intl/neo4/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        196
+      ],
+      "evolvesFrom": "Evoli",
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Klauen ausfahren",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        },
+        {
+          "name": "Psyspritzer",
+          "cost": [
+            "psychic",
+            "colorless",
+            "colorless"
+          ],
+          "text": "Fügt jedem der Pokémon deines Gegners 10 Schadenspunkte für jede an dieses Pokémon angelegte Energiekarte zu. Wende Schwäche und Resistenz nicht an."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-4"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/4/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274656",
+            "tcgplayer": "84592"
+          }
+        },
+        {
+          "id": "de/neo4/4/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/5",
+      "number": "5",
+      "name": "Dunkles Impergator",
+      "cardGroup": "intl/neo4/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        160
+      ],
+      "evolvesFrom": "Tyracroc",
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Angst einjagen",
+          "text": "Solange Dunkles Impergator dein aktives Pokémon ist, funktioniert keine Power eines Baby Pokémon deines Gegners und die Baby-Pokémon deines Gegners können nicht angreifen. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Impergator schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Brechschlag",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "50",
+          "text": "Wirf eine Münze, falls an das verteidigende Pokémon mindestens eine Energiekarte angelegt ist. Wähle bei „Kopf“ eine dieser Karten und lege sie auf den Ablagestapel deines Gegners."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "neo4-5"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/5/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274657",
+            "tcgplayer": "84594"
+          }
+        },
+        {
+          "id": "de/neo4/5/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/6",
+      "number": "6",
+      "name": "Dunkles Gengar",
+      "cardGroup": "intl/neo4/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        94
+      ],
+      "evolvesFrom": "Alpollo",
+      "rarity": "rare",
+      "illustrator": "Aya Kusube",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Tiefer Schlaf",
+          "text": "Solange mindestens ein Dunkles Gengar im Spiel ist, wirft jeder Spieler für jedes seiner Pokémon, das schläft, am Ende jedes Zuges zwei Münzen. Wenn mindestens eine davon „Zahl“ zeigt, schläft das betroffene Pokémon weiter. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Gengar schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hereinziehen",
+          "cost": [
+            "psychic",
+            "psychic",
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, darfst du eins davon wählen und mit dem verteidigenden Pokémon austauschen (bevor der Schaden und andere Effekte dieses Angriffs zugefügt werden). Auf jeden Fall schläft das verteidigende Pokémon jetzt."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-6"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/6/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274658",
+            "tcgplayer": "84599"
+          }
+        },
+        {
+          "id": "de/neo4/6/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/7",
+      "number": "7",
+      "name": "Dunkles Hundemon",
+      "cardGroup": "intl/neo4/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        229
+      ],
+      "evolvesFrom": "Hunduster",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Schauriges Heulen",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wenn die Bank deines Gegners nicht voll ist, schaue dir die Karten auf seiner Hand an. Falls dein Gegner mindestens ein Baby-Pokémon oder Basis-Pokémon auf der Hand hat, wähle eines davon und lege es auf seine Bank. Tausche dieses Pokémon dann mit dem verteidigenden Pokémon aus."
+        },
+        {
+          "name": "Finsteres Feuer",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Falls mindestens eine {D}-Energiekarte an Dunkles Hundemon angelegt ist, lege eine davon auf deinen Ablagestapel, und dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte zu (plus 10 weitere für die abgelegte {D}-Energiekarte). Sonst fügt dieser Angriff 30 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-7"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/7/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274659",
+            "tcgplayer": "84610"
+          }
+        },
+        {
+          "id": "de/neo4/7/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/8",
+      "number": "8",
+      "name": "Dunkles Porygon2",
+      "cardGroup": "intl/neo4/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        233
+      ],
+      "evolvesFrom": "Porygon",
+      "rarity": "rare",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Räumliche Abweichung",
+          "text": "Du kannst immer einmal in deinem Zug (vor deinem Angriff) eine Münze werfen. Wähle bei „Kopf“ eine Stadion-Karte aus deinem Ablagestapel und bringe sie ins Spiel. (Wenn bereits eine Stadion-Karte im Spiel ist, lege diese auf den Ablagestapel ihres Besitzers.) Diese Fähigkeit kann nicht verwendet werden, wenn Dunkles Porygon2 schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Krümmungsangriff",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Verhindere bei „Kopf“ allen Schaden, der Dunkles Porygon2 während des nächsten Zugs deines Gegners durch Angriffe zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-8"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/8/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274660",
+            "tcgplayer": "84640"
+          }
+        },
+        {
+          "id": "de/neo4/8/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/9",
+      "number": "9",
+      "name": "Dunkles Scherox",
+      "cardGroup": "intl/neo4/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        212
+      ],
+      "evolvesFrom": "Sichlor",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Bedrohen",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Wirf eine Münze. Schaue dir bei „Kopf“ die Karten auf der Hand deines Gegners an. Wenn er darunter mindestens eine Trainerkarte hat, wähle eine davon. Dein Gegner mischt diese Karte in sein Deck."
+        },
+        {
+          "name": "Schlitzer",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-9"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/9/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274661",
+            "tcgplayer": "84652"
+          }
+        },
+        {
+          "id": "de/neo4/9/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/10",
+      "number": "10",
+      "name": "Dunkles Tornupto",
+      "cardGroup": "intl/neo4/10",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 80,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        157
+      ],
+      "evolvesFrom": "Igelavar",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Klauenschlag",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Brausende Flammen",
+          "cost": [
+            "fire"
+          ],
+          "damage": "40x",
+          "text": "Du kannst eine beliebige Anzahl an dein Pokémon angelegte {R}-Energiekarten auf deinen Ablagestapel legen. Wirf für jede {R}-Energiekarte, die du auf diese Weise auf deinen Ablagestapel gelegt hast, eine Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-10"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/10/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274662",
+            "tcgplayer": "84659"
+          }
+        },
+        {
+          "id": "de/neo4/10/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/11",
+      "number": "11",
+      "name": "Dunkles Despotar",
+      "cardGroup": "intl/neo4/11",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 90,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        248
+      ],
+      "evolvesFrom": "Pupitar",
+      "rarity": "rare",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Bergzertrümmerer",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "20x",
+          "text": "Wirf so viele Münzen, wie an Dunkles Despotar {F}-Energiekarten angelegt sind. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Lege dann für jedes Mal „Kopf“ die oberste Karte vom Deck deines Gegners auf den Ablagestapel."
+        },
+        {
+          "name": "Wegschleudern",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, fügt dieser Angriff 30 Schadenspunkte statt 50 zu und du bestimmst ein Pokémon auf der Bank deines Gegners. Dieser Angriff fügt diesem Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "neo4-11"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/11/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274663",
+            "tcgplayer": "84660"
+          }
+        },
+        {
+          "id": "de/neo4/11/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/12",
+      "number": "12",
+      "name": "Helles Arkani",
+      "cardGroup": "intl/neo4/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 100,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        59
+      ],
+      "evolvesFrom": "Fukano",
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Wegtreiben",
+          "text": "Solange Helles Arkani dein aktives Pokémon ist, und falls dein Gegner mindestens ein Pokémon auf der Bank hat, wählt dein Gegner einmal in deinem Zug (vor deinem Angriff) eines von ihnen und tauscht es mit dem verteidigenden Pokémon. Diese Fähigkeit kann nicht verwendet werden, falls Helles Arkani schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Sanfte Flammen",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Wenn das verteidigende Pokémon ein Baby-Pokémon ist, fügt dieser Angriff 10 Schadenspunkte statt 50 zu. Wenn das verteidigende Pokémon ein Basis-Pokémon ist, fügt dieser Angriff 30 Schadenspunkte statt 50 zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-12"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/12/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274664",
+            "tcgplayer": "86734"
+          }
+        },
+        {
+          "id": "de/neo4/12/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/13",
+      "number": "13",
+      "name": "Helles Azumarill",
+      "cardGroup": "intl/neo4/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        184
+      ],
+      "evolvesFrom": "Marill",
+      "rarity": "rare",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Blubber",
+          "cost": [
+            "water"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Blubbsprung",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze, wenn du mindestens ein Pokémon auf der Bank hast. Nimm bei „Kopf“ zwei an Helles Azumarill angelegte Energiekarten und lege sie an eines deiner Pokémon auf der Bank an. Bringe dann Helles Azumarill und alle darin angelegten Karten auf deine Hand zurück."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-13"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/13/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274665",
+            "tcgplayer": "86735"
+          }
+        },
+        {
+          "id": "de/neo4/13/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/14",
+      "number": "14",
+      "name": "Helles Dragoran",
+      "cardGroup": "intl/neo4/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        149
+      ],
+      "evolvesFrom": "Dragonir",
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Wundersamer Wind",
+          "text": "Solange Helles Dragoran dein aktives Pokémon ist, erzeugt jede Spezialenergiekarte {C}-Energie statt ihres normalen Typs, und alle ihre anderen Effekte funktionieren nicht. Diese Fähigkeit verliert ihre Wirkung, solange Helles Dragoran schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Leichte Wellen",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Verhindere alle Auswirkungen von Angriffen (außer Schaden), der Helles Dragoran während des nächsten Zuges deines Gegners zugefügt wird."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-14"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/14/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274666",
+            "tcgplayer": "86738"
+          }
+        },
+        {
+          "id": "de/neo4/14/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/15",
+      "number": "15",
+      "name": "Helles Togetic",
+      "cardGroup": "intl/neo4/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        176
+      ],
+      "evolvesFrom": "Togepi",
+      "rarity": "rare",
+      "illustrator": "Naoyo Kimura",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Gabe",
+          "text": "Wenn du Helles Togetic aus deiner Hand spielst, darf dein Gegner sein Deck nach einer Pokémon-Ausrüstungskarte durchsuchen, dir diese Karte zeigen und auf seine Hand nehmen. Unabhängig davon darfst du das selbe tun. Danach mischt jeder Spieler, der sein Deck durchsucht hat, sein Deck."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Bitterkuss",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Dein Gegner kann eine Karte ziehen."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-15"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/15/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274667",
+            "tcgplayer": "86750"
+          }
+        },
+        {
+          "id": "de/neo4/15/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/16",
+      "number": "16",
+      "name": "Wunder-Energie",
+      "cardGroup": "intl/neo4/16",
+      "supertype": "energy",
+      "subtypes": [
+        "special-energy"
+      ],
+      "rarity": "rare",
+      "illustrator": "Milky Isobe",
+      "externalIds": {
+        "tcgdex": "neo4-16"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/16/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274668",
+            "tcgplayer": "87496"
+          }
+        },
+        {
+          "id": "de/neo4/16/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/17",
+      "number": "17",
+      "name": "Dunkles Ariados",
+      "cardGroup": "intl/neo4/17",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        168
+      ],
+      "evolvesFrom": "Webarak",
+      "rarity": "rare",
+      "illustrator": "Toshinao Aoki",
+      "attacks": [
+        {
+          "name": "Falle stellen",
+          "cost": [
+            "grass"
+          ],
+          "text": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle eines von diesen und tausche es mit dem verteidigenden Pokémon aus. Wirf dann eine Münze. Bei „Kopf“ ist das neue verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+          "name": "Giftfesselung",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "30",
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet. Wirf eine Münze. Bei „Kopf“ kann sich das verteidigende Pokémon bis zum Ende des nächsten Zuges deines Gegners nicht zurückziehen, und wenn der Effekt eines Angriffs, einer Pokémon-Power oder Trainerkarte das aktive Pokémon dieses Spielers ändern würde, hat dieser Teil des Effekts dann keine Wirkung."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-17"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/17/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274669",
+            "tcgplayer": "84566"
+          }
+        },
+        {
+          "id": "de/neo4/17/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/18",
+      "number": "18",
+      "name": "Dunkles Magcargo",
+      "cardGroup": "intl/neo4/18",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        219
+      ],
+      "evolvesFrom": "Schneckmag",
+      "rarity": "rare",
+      "illustrator": "Toshinao Aoki",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Heißer Boden",
+          "text": "Solange Dunkles Magcargo dein aktives Pokémon ist, fügt diese Fähigkeit immer, wenn ein Spieler ein Baby-Pokémon oder ein Basis-Pokémon aus seiner Hand auf seine Bank legt, diesem Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz nicht an.) Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Magcargo schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Flammenball",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "20",
+          "text": "Du kannst eine an Dunkles Magcargo angelegte {R}-Energiekarte auf deinen Ablagestapel legen, wenn du diesen Angriff verwendest. Falls du dies tust und falls dein Gegner mindestens ein Pokémon auf der Bank hat, bestimmme eines von diesen. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "neo4-18"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/18/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274670",
+            "tcgplayer": "84622"
+          }
+        },
+        {
+          "id": "de/neo4/18/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/19",
+      "number": "19",
+      "name": "Dunkles Amoroso",
+      "cardGroup": "intl/neo4/19",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        139
+      ],
+      "evolvesFrom": "Amonitas",
+      "rarity": "rare",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Urzeitwasser",
+          "cost": [
+            "water"
+          ],
+          "text": "Wenn dein Gegner mindestens ein entwickeltes Pokémon im Spiel hat, wähle eines von diesen und wirf eine Münze. Bei „Kopf“ nimmt dein Gegner die Entwicklungskarte der höchsten Phase von diesem Pokémon und mischt sie in sein Deck."
+        },
+        {
+          "name": "Finsteres Tentakel",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Während des nächsten Zuges deines Gegners kann sich das verteidigende Pokémon nicht entwickeln, außer durch Effekte von Angriffen und Pokémon-Powers. (Wenn das Pokémon auf die Bank kommt, endet dadurch dieser Effekt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-19"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/19/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274671",
+            "tcgplayer": "84635"
+          }
+        },
+        {
+          "id": "de/neo4/19/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/20",
+      "number": "20",
+      "name": "Dunkles Laschoking",
+      "cardGroup": "intl/neo4/20",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        199
+      ],
+      "evolvesFrom": "Flegmon",
+      "rarity": "rare",
+      "illustrator": "Tomokazu Komiya",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Gerissenheit",
+          "text": "Du kannst immer einmal in deinem Zug (vor deinem Angriff) eine Münze werfen. Schaue dir bei 'Kopf' die oberste Karte des Decks deines Gegners an. Du kannst dann bestimmen, dass dein Gegner sein Deck mischen muss. Diese Fähigkeit kann nicht verwendet werden, wenn Dunkles Laschoking schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Verstandesschock",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "30",
+          "text": "Wende Schwäche und Resistenz bei diesem Angriff nicht an."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-20"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/20/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274672",
+            "tcgplayer": "84656"
+          }
+        },
+        {
+          "id": "de/neo4/20/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/21",
+      "number": "21",
+      "name": "Dunkles Ursaring",
+      "cardGroup": "intl/neo4/21",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        217
+      ],
+      "evolvesFrom": "Teddiursa",
+      "rarity": "rare",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Provozieren",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Schau dir die Karten auf der Hand deines Gegners an. Wenn er mindestens ein Baby-Pokémon und/oder Basis-Pokémon darunter hat, kannst du eine beliebige Anzahl davon auf die Bank deines Gegners legen (solange dort Platz ist). Dann schaut sich dein Gegner die Karten auf deiner Hand an. Wenn du mindestens ein Baby-Pokémon und/oder Basis-Pokémon auf der Hand hast, kann dein Gegner eine beliebige Anzahl davon auf deine Bank legen (solange dort Platz ist)."
+        },
+        {
+          "name": "Kampfrausch",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Wirf für jedes Pokémon im Spiel (deine und die deines Gegners) eine Münze. Für jedes Mal „Kopf“ fügt dieser Angriff dem entsprechenden Pokémon 20 Schadenspunkte zu. Wende Schwäche und Resistenz bei diesem Angriff nicht an."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-21"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/21/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274673",
+            "tcgplayer": "84663"
+          }
+        },
+        {
+          "id": "de/neo4/21/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/22",
+      "number": "22",
+      "name": "Helles Dragonir",
+      "cardGroup": "intl/neo4/22",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        148
+      ],
+      "evolvesFrom": "Dratini",
+      "rarity": "rare",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Heilendes Licht",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Entferne von jedem deiner Pokémon, auf dem Schadensmarken liegen, eine der Schadensmarken."
+        },
+        {
+          "name": "Schützende Welle",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Helles Dragonir zugefügt werden."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-22"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/22/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274674",
+            "tcgplayer": "86737"
+          }
+        },
+        {
+          "id": "de/neo4/22/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/23",
+      "number": "23",
+      "name": "Helles Lanturn",
+      "cardGroup": "intl/neo4/23",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        171
+      ],
+      "evolvesFrom": "Lampi",
+      "rarity": "rare",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Scheinwerfer",
+          "cost": [
+            "lightning"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ darf jeder Spieler eine Karte von seinem Ablagestapel auswählen und auf seine Hand nehmen."
+        },
+        {
+          "name": "Funkensprung",
+          "cost": [
+            "lightning",
+            "lightning"
+          ],
+          "damage": "30",
+          "text": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle eines von diesen, und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-23"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/23/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274675",
+            "tcgplayer": "86742"
+          }
+        },
+        {
+          "id": "de/neo4/23/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/24",
+      "number": "24",
+      "name": "Helles Ledian",
+      "cardGroup": "intl/neo4/24",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        166
+      ],
+      "evolvesFrom": "Ledyba",
+      "rarity": "rare",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Blitzberührung",
+          "cost": [
+            "grass"
+          ],
+          "text": "Falls du mindestens ein Pokémon auf deiner Bank hast, tausche eines von diesen mit Helles Ledian. Solange dieses Pokémon dein aktives Pokémon ist, kann es nicht schlafen, verwirrt, gelähmt oder vergiftet sein. (Alle anderen Effekte von Angriffen, Pokémon-Powers und Trainerkarten finden immer noch statt.)"
+        },
+        {
+          "name": "Kometenhieb",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-24"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/24/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274676",
+            "tcgplayer": "86743"
+          }
+        },
+        {
+          "id": "de/neo4/24/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/25",
+      "number": "25",
+      "name": "Helles Machomei",
+      "cardGroup": "intl/neo4/25",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        68
+      ],
+      "evolvesFrom": "Maschock",
+      "rarity": "rare",
+      "illustrator": "Miki Tanaka",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Kampfpartner",
+          "text": "Wenn du Helles Machomei aus deiner Hand spielst und es auf deine Bank legst, entferne 3 Schadensmarken von deinem aktiven Pokémon. Wenn es weniger Schadensmarken hat, entferne alle. Tausche dann Helles Machomei mit deinem aktiven Pokémon."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Niederprügler",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "50",
+          "text": "Wirf eine Münze, wenn das verteidigende Pokémon „Dunkles“ in seinem Namen hat oder ein {D}-Pokémon ist. Bei „Kopf“ fügt dieser Angriff 100 Schadenspunkte statt 50 zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-25"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/25/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274677",
+            "tcgplayer": "86744"
+          }
+        },
+        {
+          "id": "de/neo4/25/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/26",
+      "number": "26",
+      "name": "Helles Keifel",
+      "cardGroup": "intl/neo4/26",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "water"
+      ],
+      "species": [
+        221
+      ],
+      "evolvesFrom": "Quiekel",
+      "rarity": "rare",
+      "illustrator": "Yukiko Baba",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Wuschelwolle",
+          "text": "Wirf eine Münze, wenn Helles Keifel dein aktives Pokémon ist und im Zug deines Gegners von einem Angriff deines Gegners Schaden nimmt (selbst wenn es kampfunfähig ist). Bei „Kopf“ schläft das verteidigende Pokémon jetzt. Diese Fähigkeit verliert ihre Wirkung, falls Helles Keifel bereits schläft, verwirrt oder gelähmt ist, wenn dein Gegner angreift."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Umwerfen",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Falls eine Stadion-Karte im Spiel ist, darfst du sie auf den Ablagestapel ihres Besitzers legen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "neo4-26"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/26/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274678",
+            "tcgplayer": "86747"
+          }
+        },
+        {
+          "id": "de/neo4/26/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/27",
+      "number": "27",
+      "name": "Icognito G",
+      "cardGroup": "intl/neo4/27",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "rare",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Give [Give]",
+          "text": "Einmal in deinem Zug (vor deinem Angriff), wenn du Icognito [G], Icognito [I], Icognito [V] und Icognito [E] auf deiner Bank hast, kannst du eine Münze werfen. Durchsuche bei „Kopf“ dein Deck nach einer Basis-Energiekarte und lege sie an eines deiner Pokémon an. Mische dein Deck danach."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-27"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/27/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274679",
+            "tcgplayer": "90209"
+          }
+        },
+        {
+          "id": "de/neo4/27/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/28",
+      "number": "28",
+      "name": "Icognito H",
+      "cardGroup": "intl/neo4/28",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "rare",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Help [Help]",
+          "text": "Du kannst immer einmal in deinem Zug (vor deinem Angriff), wenn du Icognito [H], Icognito [E], Icognito [L] und Icognito [P] auf deiner Bank hast, die Karten auf deiner Hand in dein Deck mischen und danach genauso viele Karten neu ziehen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-28"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/28/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274680",
+            "tcgplayer": "90211"
+          }
+        },
+        {
+          "id": "de/neo4/28/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/29",
+      "number": "29",
+      "name": "Icognito W",
+      "cardGroup": "intl/neo4/29",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "rare",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Want [Want]",
+          "text": "Du kannst immer einmal in deinem Zug (vor deinem Angriff), wenn du Icognito [W], Icognito [A], Icognito [N], und Icognito [T] auf deiner Bank hast, eine Münze werfen. Nimm bei „Kopf“ eine Trainerkarte von deinem Ablagestapel auf deine Hand."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-29"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/29/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274681",
+            "tcgplayer": "90240"
+          }
+        },
+        {
+          "id": "de/neo4/29/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/30",
+      "number": "30",
+      "name": "Icognito X",
+      "cardGroup": "intl/neo4/30",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "rare",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "XXXXX [XXXXX]",
+          "text": "Immer wenn eines deiner Pokémon, die „Icognito“ in ihrem Namen haben, seinen Kraftreserve-Angriff verwendet, wirf so lange eine Münze, bis „Zahl“ kommt. Dieser Angriff fügt pro geworfenem „Kopf“ 10 Schadenspunkte mehr zu. Wenn du mehr als ein 1 Icognito [X] im Spiel hast, verwende [XXXXX] in jedem Zug nur einmal."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-30"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/30/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274682",
+            "tcgplayer": "90242"
+          }
+        },
+        {
+          "id": "de/neo4/30/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/31",
+      "number": "31",
+      "name": "Chaneira",
+      "cardGroup": "intl/neo4/31",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        113
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Duplexhieb",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+          "name": "Eierwurf",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "80",
+          "text": "Wirf zwei Münzen. Wenn mindestens eine von beiden „Zahl“ zeigt, hat dieser Angriff keine Auswirkungen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-31"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/31/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274683",
+            "tcgplayer": "84170"
+          }
+        },
+        {
+          "id": "de/neo4/31/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/32",
+      "number": "32",
+      "name": "Dunkles Tyracroc",
+      "cardGroup": "intl/neo4/32",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        159
+      ],
+      "evolvesFrom": "Karnimani",
+      "rarity": "uncommon",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Verschlingen",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "20",
+          "text": "Das verteidigende Pokémon kann sich nicht während des nächsten Zuges deines Gegners zurückziehen. Wenn das verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, anzugreifen, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. (Kommt eins der beiden Pokémon auf die Bank, endet dieser Effekt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-32"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/32/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274684",
+            "tcgplayer": "84578"
+          }
+        },
+        {
+          "id": "de/neo4/32/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/33",
+      "number": "33",
+      "name": "Dunkles Kokowei",
+      "cardGroup": "intl/neo4/33",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        103
+      ],
+      "evolvesFrom": "Owei",
+      "rarity": "uncommon",
+      "illustrator": "Toshinao Aoki",
+      "attacks": [
+        {
+          "name": "Dreifache Kopfnuss",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10x",
+          "text": "Wirf drei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+          "name": "Maxi-Explosion",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Wirf so viele Münzen, wie Energiekarten an das aktive Pokémon deines Gegners angelegt sind. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-33"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/33/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274685"
+          }
+        },
+        {
+          "id": "de/neo4/33/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/34",
+      "number": "34",
+      "name": "Dunkles Waaty",
+      "cardGroup": "intl/neo4/34",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        180
+      ],
+      "evolvesFrom": "Voltilamm",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Starkstrom",
+          "cost": [
+            "lightning"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ kann der Gegner während seines nächsten Zuges keine Trainer-Karten spielen."
+        },
+        {
+          "name": "Betäubungswelle",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wenn das verteidigende Pokémon eine Pokémon-Power hat, funktioniert diese Power bis zum Ende deines nächsten Zuges nicht."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-34"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/34/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274686",
+            "tcgplayer": "84595"
+          }
+        },
+        {
+          "id": "de/neo4/34/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/35",
+      "number": "35",
+      "name": "Dunkles Forstellka",
+      "cardGroup": "intl/neo4/35",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        205
+      ],
+      "evolvesFrom": "Tannza",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Aufrüsten",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Falls Dunkles Forstellka bis zum Ende deines nächsten Zuges durch Schaden eines Angriffs kampfunfähig würde, wirf eine Münze. Bei „Kopf“ ist Dunkles Forstellka nicht kampfunfähig, und seine verbleibenden KP sind stattdessen 10."
+        },
+        {
+          "name": "Explosion",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "60",
+          "text": "Dunkles Forstellka fügt sich selbst 60 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-35"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/35/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274687",
+            "tcgplayer": "84598"
+          }
+        },
+        {
+          "id": "de/neo4/35/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/36",
+      "number": "36",
+      "name": "Dunkles Alpollo",
+      "cardGroup": "intl/neo4/36",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        93
+      ],
+      "evolvesFrom": "Nebulak",
+      "rarity": "uncommon",
+      "illustrator": "Aya Kusube",
+      "attacks": [
+        {
+          "name": "Rückruf",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Lege eine Baby-Pokémon- oder Basis-Pokémonkarte vom Ablagestapel deines Gegners auf seine Bank. Lege eine Schadensmarke auf dieses Pokémon. (Du kannst diesen Angriff nicht verwenden, solange deine Bank voll ist.)"
+        },
+        {
+          "name": "Umzingeln",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ schläft das verteidigende Pokémon jetzt. Bei „Zahl“ kann sich das verteidigende Pokémon während des nächsten Zuges deines Gegners nicht zurückziehen."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-36"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/36/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274688",
+            "tcgplayer": "84609"
+          }
+        },
+        {
+          "id": "de/neo4/36/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/37",
+      "number": "37",
+      "name": "Dunkles Amonitas",
+      "cardGroup": "intl/neo4/37",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 40,
+      "types": [
+        "water"
+      ],
+      "species": [
+        138
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Aquakanone",
+          "cost": [
+            "water"
+          ],
+          "text": "Wähle eines der Pokémon deines Gegners. Dieser Angriff fügt für jede an Dunkles Amonitas angelegte {W}-Energiekarte 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an. Du kannst auf diese Weise nicht mehr als 30 Schadenspunkte verursachen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-37"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/37/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274689",
+            "tcgplayer": "84634"
+          }
+        },
+        {
+          "id": "de/neo4/37/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/38",
+      "number": "38",
+      "name": "Dunkles Pupitar",
+      "cardGroup": "intl/neo4/38",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        247
+      ],
+      "evolvesFrom": "Larvitar",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Steintackle",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "40",
+          "text": "Dunkles Pupitar fügt sich selber 10 Schadenspunkte zu. Dunkles Pupitar kann in deinem nächsten Zug diesen Angriff nicht verwenden."
+        },
+        {
+          "name": "Explosive Entwicklung",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon deines Gegners 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an. Durchsuche dann dein Deck nach einer Entwicklungskarte „Dunkles Despotar“ und lege diese auf Dunkles Pupitar. (Dies zählt als Entwickeln von Dunkles Pupitar.) Mische dein Deck nach."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-38"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/38/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274690",
+            "tcgplayer": "84642"
+          }
+        },
+        {
+          "id": "de/neo4/38/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/39",
+      "number": "39",
+      "name": "Dunkles Igelavar",
+      "cardGroup": "intl/neo4/39",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        156
+      ],
+      "evolvesFrom": "Feurigel",
+      "rarity": "uncommon",
+      "illustrator": "Mitsuhiro Arita",
+      "attacks": [
+        {
+          "name": "Einäschern",
+          "cost": [
+            "fire"
+          ],
+          "text": "Zeige die oberste Karte des Decks deines Gegners allen Spielern. Wenn es eine Trainer-Karte ist, lege diese auf seinen Ablagestapel."
+        },
+        {
+          "name": "Fließendes Magma",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "20x",
+          "text": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. (Wenn weniger als 5 Karten in deinem Deck sind, lege sie alle ab.) Dieser Angriff fügt für jede so abgeworfene {R}-Energiekarte 20 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-39"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/39/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274691",
+            "tcgplayer": "84645"
+          }
+        },
+        {
+          "id": "de/neo4/39/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/40",
+      "number": "40",
+      "name": "Dunkles Knuddeluff",
+      "cardGroup": "intl/neo4/40",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        40
+      ],
+      "evolvesFrom": "Pummeluff",
+      "rarity": "uncommon",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Finsteres Lied",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ schläft das verteidigende Pokémon jetzt. Bei „Zahl“ ist das verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+          "name": "Wachrütteln",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Wenn das verteidigende Pokémon schläft oder verwirrt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu. Danach schläft das verteidigende Pokémon nicht mehr bzw. ist nicht länger verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-40"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/40/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274692",
+            "tcgplayer": "84674"
+          }
+        },
+        {
+          "id": "de/neo4/40/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/41",
+      "number": "41",
+      "name": "Skaraborn",
+      "cardGroup": "intl/neo4/41",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        214
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "Rempelhorn",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "30+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-41"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/41/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274693",
+            "tcgplayer": "86060"
+          }
+        },
+        {
+          "id": "de/neo4/41/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/42",
+      "number": "42",
+      "name": "Kicklee",
+      "cardGroup": "intl/neo4/42",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        106
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Tritt-Kombination",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "20x",
+          "text": "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+          "name": "Hackentrick",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "60",
+          "text": "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-42"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/42/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274694",
+            "tcgplayer": "86103"
+          }
+        },
+        {
+          "id": "de/neo4/42/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/43",
+      "number": "43",
+      "name": "Hunduster",
+      "cardGroup": "intl/neo4/43",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        228
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Falle",
+          "cost": [
+            "darkness"
+          ],
+          "text": "Das verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+          "name": "Ausfall",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-43"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/43/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274695",
+            "tcgplayer": "86219"
+          }
+        },
+        {
+          "id": "de/neo4/43/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/44",
+      "number": "44",
+      "name": "Pummeluff",
+      "cardGroup": "intl/neo4/44",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        39
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Ausdehnen",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Aller Schaden, der Pummeluff im nächsten Zug deines Gegners zugefügt wird, wird um 10 reduziert (nach Verrechnung von Schwäche und Resistenz)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-44"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/44/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274696",
+            "tcgplayer": "86311"
+          }
+        },
+        {
+          "id": "de/neo4/44/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/45",
+      "number": "45",
+      "name": "Helles Jugong",
+      "cardGroup": "intl/neo4/45",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        87
+      ],
+      "evolvesFrom": "Jurob",
+      "rarity": "uncommon",
+      "illustrator": "Masako Yamashita",
+      "attacks": [
+        {
+          "name": "Eisiger Atem",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ schläft das verteidigende Pokémon jetzt."
+        },
+        {
+          "name": "Eissäule",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "40",
+          "text": "Verhindere bis zum Ende des nächsten Zuges deines Gegners, solange Helles Jugong dein aktives Pokémon ist, allen Schaden, den Angriffe den Pokémon auf deiner Bank zufügen. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-45"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/45/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274697",
+            "tcgplayer": "86736"
+          }
+        },
+        {
+          "id": "de/neo4/45/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/46",
+      "number": "46",
+      "name": "Helles Flamara",
+      "cardGroup": "intl/neo4/46",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        136
+      ],
+      "evolvesFrom": "Evoli",
+      "rarity": "uncommon",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Aufwärmen",
+          "cost": [
+            "fire"
+          ],
+          "text": "Falls du mindestens ein Pokémon auf deiner Bank hast, durchsuche dein Deck nach einer {R}-Energiekarte und lege diese an eines dieser Pokémon an. Mische dein Deck danach."
+        },
+        {
+          "name": "Brennende Flamme",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Wirf zwei Münzen. Lege pro „Kopf“ eine an Helles Flamara angelegte {R}-Energiekarte auf deinen Ablagestapel oder dieser Angriff hat keine Auswirkungen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte für jeden „Kopf“ zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-46"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/46/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274698",
+            "tcgplayer": "86739"
+          }
+        },
+        {
+          "id": "de/neo4/46/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/47",
+      "number": "47",
+      "name": "Helles Entoron",
+      "cardGroup": "intl/neo4/47",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        55
+      ],
+      "evolvesFrom": "Enton",
+      "rarity": "uncommon",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Flossenschlag",
+          "cost": [
+            "water"
+          ],
+          "text": "Dein Gegner schaut sich die obersten 3 Karten seines Decks an. Wenn darunter Basis-Energiekarten sind, darf er eine beliebige Anzahl davon dir zeigen und auf seine Hand nehmen. Du machst dasselbe. Unabhängig davon mischen danach alle Spieler ihr Deck."
+        },
+        {
+          "name": "Kernexplosion",
+          "cost": [
+            "psychic",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte für jede an das verteidigende Pokémon angelegte Spezial-Energiekarte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-47"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/47/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274699",
+            "tcgplayer": "86740"
+          }
+        },
+        {
+          "id": "de/neo4/47/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/48",
+      "number": "48",
+      "name": "Helles Blitza",
+      "cardGroup": "intl/neo4/48",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        135
+      ],
+      "evolvesFrom": "Evoli",
+      "rarity": "uncommon",
+      "illustrator": "Naoyo Kimura",
+      "attacks": [
+        {
+          "name": "Aufpassimpuls",
+          "cost": [
+            "lightning"
+          ],
+          "text": "Immer wenn im nächsten Zug deines Gegners Helles Blitza (nach der Verrechnung von Schwäche und Resistenz) 30 oder mehr Schadenspunkte zugefügt werden, verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        },
+        {
+          "name": "Donnernadel",
+          "cost": [
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20x",
+          "text": "Wirf drei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Wenn du zweimal oder öfter „Kopf“ wirfst, ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-48"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/48/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274700",
+            "tcgplayer": "86741"
+          }
+        },
+        {
+          "id": "de/neo4/48/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/49",
+      "number": "49",
+      "name": "Helles Maschock",
+      "cardGroup": "intl/neo4/49",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        67
+      ],
+      "evolvesFrom": "Machollo",
+      "rarity": "uncommon",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Heimkehr",
+          "cost": [
+            "fighting"
+          ],
+          "text": "Falls du mindestens ein Pokémon auf deiner Bank hast, mische eines davon und alle daran angelegten Karten in dein Deck zurück."
+        },
+        {
+          "name": "Sanfter Tritt",
+          "cost": [
+            "fighting",
+            "fighting"
+          ],
+          "damage": "40",
+          "text": "Wenn auf dem verteidigenden Pokémon keine Schadensmarke liegt, fügt dieser Angriff 40 Schadenspunkte zu. Hat es welche, fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-49"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/49/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274701",
+            "tcgplayer": "86745"
+          }
+        },
+        {
+          "id": "de/neo4/49/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/50",
+      "number": "50",
+      "name": "Helles Vulnona",
+      "cardGroup": "intl/neo4/50",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        38
+      ],
+      "evolvesFrom": "Vulpix",
+      "rarity": "uncommon",
+      "illustrator": "Masako Yamashita",
+      "attacks": [
+        {
+          "name": "Leitende Flamme",
+          "cost": [
+            "fire",
+            "fire",
+            "fire"
+          ],
+          "damage": "50",
+          "text": "Lege eine Baby-Pokémon- oder eine Basis-Pokémon-Karte aus deinem Ablagestapel auf deine Bank. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist.)"
+        },
+        {
+          "name": "Feuersturm",
+          "cost": [
+            "fire",
+            "fire",
+            "fire"
+          ],
+          "damage": "50",
+          "text": "Lege eine an Helles Vulnona angelegte {R}-Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-50"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/50/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274702",
+            "tcgplayer": "86746"
+          }
+        },
+        {
+          "id": "de/neo4/50/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/51",
+      "number": "51",
+      "name": "Helles Lahmus",
+      "cardGroup": "intl/neo4/51",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        80
+      ],
+      "evolvesFrom": "Flegmon",
+      "rarity": "uncommon",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Herausfischen",
+          "cost": [
+            "psychic"
+          ],
+          "text": "Dein Gegner darf bis zu drei Baby-Pokémon, Basis-Pokémon- und/oder Evolutionskarten aus seinem Ablagestapel wählen und in sein Deck mischen. Unabhängig davon darfst du dasselbe tun."
+        },
+        {
+          "name": "Herumspritzen",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Wenn an das verteidigende Pokémon mehr Energie angelegt ist, als an Helles Lahmus, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu. Sonst fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-51"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/51/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274703",
+            "tcgplayer": "86748"
+          }
+        },
+        {
+          "id": "de/neo4/51/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/52",
+      "number": "52",
+      "name": "Helles Aquana",
+      "cardGroup": "intl/neo4/52",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        134
+      ],
+      "evolvesFrom": "Evoli",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Wegwaschen",
+          "cost": [
+            "water"
+          ],
+          "text": "Wirf eine Münze, wenn du mindestens ein Pokémon auf deiner Bank hast. Entferne bei „Kopf“ alle Schadensmarken von einem Pokémon auf deiner Bank und lege alle an es angelegten Energiekarten auf deinen Ablagestapel."
+        },
+        {
+          "name": "Hypnodusche",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Das verteidigende Pokémon schläft jetzt. Entferne eine Schadensmarke von allen Pokémon auf der Bank (deinen und denen deines Gegners), auf denen Schadensmarken liegen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-52"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/52/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274704",
+            "tcgplayer": "86751"
+          }
+        },
+        {
+          "id": "de/neo4/52/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/53",
+      "number": "53",
+      "name": "Helles Omot",
+      "cardGroup": "intl/neo4/53",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        49
+      ],
+      "evolvesFrom": "Bluzuk",
+      "rarity": "uncommon",
+      "illustrator": "Masako Yamashita",
+      "attacks": [
+        {
+          "name": "Seltsame Flügel",
+          "cost": [
+            "grass"
+          ],
+          "text": "Dein Gegner darf eine Baby-Pokémon-,Basis-Pokémon- oder Evolutionskarte aus seinem Ablagestapel wählen und auf seine Hand nehmen. Unabhängig davon darfst du dasselbe tun."
+        },
+        {
+          "name": "Übereinstimmen",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Wenn an Helles Omot und das verteidigende Pokémon eine unterschiedliche Anzahl Energiekarten angelegt sind, hat dieser Angriff keine Auswirkungen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-53"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/53/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274705",
+            "tcgplayer": "86752"
+          }
+        },
+        {
+          "id": "de/neo4/53/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/54",
+      "number": "54",
+      "name": "Helles Knuddeluff",
+      "cardGroup": "intl/neo4/54",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        40
+      ],
+      "evolvesFrom": "Pummeluff",
+      "rarity": "uncommon",
+      "illustrator": "Naoyo Kimura",
+      "attacks": [
+        {
+          "name": "Entwicklungslied",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Dein Gegner darf eines seiner Pokémon wählen und sein Deck nach einer Karte durchsuchen, die aus diesem Pokémon entsteht. Dein Gegner legt diese Karte an dieses Pokémon an. Dies zählt als Entwickeln dieses Pokémons. Unabhängig davon darfst du dasselbe tun, und jeder Spieler, der sein Deck durchsucht hat, mischt sein Deck danach."
+        },
+        {
+          "name": "Bodyslam",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-54"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/54/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274706",
+            "tcgplayer": "86753"
+          }
+        },
+        {
+          "id": "de/neo4/54/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/55",
+      "number": "55",
+      "name": "Sichlor",
+      "cardGroup": "intl/neo4/55",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        123
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Agilität",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Sichlor zugefügt werden."
+        },
+        {
+          "name": "Scharfe Sichel",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "40"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-55"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/55/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274707",
+            "tcgplayer": "88995"
+          }
+        },
+        {
+          "id": "de/neo4/55/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/56",
+      "number": "56",
+      "name": "Togepi",
+      "cardGroup": "intl/neo4/56",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        175
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Charme",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wenn das verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wird aller Schaden, den es zufügt, um 10 reduziert (vor der Verrechnung von Schwäche und Resistenz)."
+        },
+        {
+          "name": "Zackenballtackle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Togepi fügt sich selber 10 Schadenspunkte zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-56"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/56/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274708",
+            "tcgplayer": "89930"
+          }
+        },
+        {
+          "id": "de/neo4/56/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/57",
+      "number": "57",
+      "name": "Icognito C",
+      "cardGroup": "intl/neo4/57",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Chase [Chase]",
+          "text": "Solange Icognito [C] dein aktives Pokémon ist, wirf immer ,wenn das aktive Pokémon deines Gegners versucht sich zurückzuziehen, eine Münze. Lege bei „Kopf“ 1 Schadensmarke auf dieses Pokémon. Wende Schwäche und Resistenz an."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-57"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/57/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274709",
+            "tcgplayer": "90201"
+          }
+        },
+        {
+          "id": "de/neo4/57/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/58",
+      "number": "58",
+      "name": "Icognito P",
+      "cardGroup": "intl/neo4/58",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Perform [Perform]",
+          "text": "Wenn ein Angriff im letzten Zug deines Gegners Icognito P Schaden zugefügt hat und icognito P dein Aktives Pokémon war, fügt Icognito Ps Angriff Kraftreserve dem verteidigenden Pokémon entsprechend viel zusätzlichen Schaden zu. Diese Power kann selbst dann verwendet werden, wenn Icognito P verwirrt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-58"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/58/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274710",
+            "tcgplayer": "90227"
+          }
+        },
+        {
+          "id": "de/neo4/58/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/59",
+      "number": "59",
+      "name": "Icognito Q",
+      "cardGroup": "intl/neo4/59",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Quicken [Quicken]",
+          "text": "Du kannst immer einmal in deinem Zug (vor deinem Angriff) eine Münze werfen. Verhindere bei „Kopf“ alle Auswirkungen von Angriffen (einschließlich Schaden), die allen deinen Pokémon mit „Icognito“ in ihrem Namen im nächsten Zug deines Gegners zugefügt werden. Wenn du mehr als ein Icognito [Q] im Spiel hast, verwende nur ein [Quicken] pro Zug. Diese Power kann selbst dann verwendet werden, wenn Icognito [Q] schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-59"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/59/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274711",
+            "tcgplayer": "90229"
+          }
+        },
+        {
+          "id": "de/neo4/59/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/60",
+      "number": "60",
+      "name": "Icognito Z",
+      "cardGroup": "intl/neo4/60",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "uncommon",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Zoom [Zoom]",
+          "text": "Solange Icognito [Z] auf deiner Bank ist, bezahlst du keine Energiekosten, um ein Pokémon mit Icognito im Namen zurückzuziehen."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-60"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/60/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274712",
+            "tcgplayer": "90246"
+          }
+        },
+        {
+          "id": "de/neo4/60/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/61",
+      "number": "61",
+      "name": "Feurigel",
+      "cardGroup": "intl/neo4/61",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        155
+      ],
+      "rarity": "common",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Rauchwolke",
+          "cost": [
+            "fire"
+          ],
+          "damage": "10",
+          "text": "Wenn das verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-61"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/61/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274713",
+            "tcgplayer": "84546"
+          }
+        },
+        {
+          "id": "de/neo4/61/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/62",
+      "number": "62",
+      "name": "Dunkles Octillery",
+      "cardGroup": "intl/neo4/62",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        224
+      ],
+      "evolvesFrom": "Remoraid",
+      "rarity": "common",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Tintenstrahl",
+          "cost": [
+            "water"
+          ],
+          "damage": "20+",
+          "text": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Dunkles Octillery angelegte Energiekarte, die nicht verwendet wurde, um für die Energiekosten dieses Angriffs zu bezahlen, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
+        },
+        {
+          "name": "Tentakelumarmung",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ bezahlt dein Gegner während seines nächsten Zuges {C} mehr, wenn er das verteidigende Pokémon zurückziehen will."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-62"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/62/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274714",
+            "tcgplayer": "84632"
+          }
+        },
+        {
+          "id": "de/neo4/62/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/63",
+      "number": "63",
+      "name": "Dratini",
+      "cardGroup": "intl/neo4/63",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        147
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Häuten",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Entferne eine Schadensmarke von Dratini."
+        },
+        {
+          "name": "Furienschlag",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10x",
+          "text": "Wirf zwei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-63"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/63/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274715",
+            "tcgplayer": "84929"
+          }
+        },
+        {
+          "id": "de/neo4/63/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/64",
+      "number": "64",
+      "name": "Owei",
+      "cardGroup": "intl/neo4/64",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        102
+      ],
+      "rarity": "common",
+      "illustrator": "Toshinao Aoki",
+      "attacks": [
+        {
+          "name": "Schlafpuder",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon schläft jetzt."
+        },
+        {
+          "name": "Psyschock",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-64"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/64/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274716",
+            "tcgplayer": "85342"
+          }
+        },
+        {
+          "id": "de/neo4/64/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/65",
+      "number": "65",
+      "name": "Nebulak",
+      "cardGroup": "intl/neo4/65",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        92
+      ],
+      "rarity": "common",
+      "illustrator": "Aya Kusube",
+      "attacks": [
+        {
+          "name": "Nachtmahr",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Das verteidigende Pokémon schläft jetzt."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-65"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/65/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274717",
+            "tcgplayer": "85647"
+          }
+        },
+        {
+          "id": "de/neo4/65/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/66",
+      "number": "66",
+      "name": "Girafarig",
+      "cardGroup": "intl/neo4/66",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        203
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Schwanzbiss",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        },
+        {
+          "name": "Psychokinese",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "10+",
+          "text": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an das verteidigende Pokémon angelegte Energiekarte zu."
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-66"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/66/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274718",
+            "tcgplayer": "85728"
+          }
+        },
+        {
+          "id": "de/neo4/66/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/67",
+      "number": "67",
+      "name": "Skorgla",
+      "cardGroup": "intl/neo4/67",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        207
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Nervengift",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt und vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-67"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/67/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274719",
+            "tcgplayer": "85762"
+          }
+        },
+        {
+          "id": "de/neo4/67/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/68",
+      "number": "68",
+      "name": "Fukano",
+      "cardGroup": "intl/neo4/68",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        58
+      ],
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Biss",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-68"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/68/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274720",
+            "tcgplayer": "85952"
+          }
+        },
+        {
+          "id": "de/neo4/68/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/69",
+      "number": "69",
+      "name": "Nockchan",
+      "cardGroup": "intl/neo4/69",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        107
+      ],
+      "rarity": "common",
+      "illustrator": "Shin-ichi Yoshida",
+      "attacks": [
+        {
+          "name": "Ausweichen",
+          "cost": [
+            "fighting"
+          ],
+          "text": "Wirf eine Münze, wenn Nockchan durch einen Angriff im nächsten Zug deines Gegners Schaden zugefügt würde. Verhindere bei „Kopf“ den Schaden, den dieser Angriff Nockchan zufügen würde. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        },
+        {
+          "name": "Superschall-Kinnhaken",
+          "cost": [
+            "fighting",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "40"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-69"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/69/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274721",
+            "tcgplayer": "86090"
+          }
+        },
+        {
+          "id": "de/neo4/69/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/70",
+      "number": "70",
+      "name": "Larvitar",
+      "cardGroup": "intl/neo4/70",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        246
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Silberblick",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon während des nächsten Zuges deines Gegners nicht angreifen. (Kommt eins der beiden Pokémon auf die Bank oder entwickelt sich, endet dieser Effekt.)"
+        },
+        {
+          "name": "Steinwurf",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-70"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/70/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274722",
+            "tcgplayer": "86633"
+          }
+        },
+        {
+          "id": "de/neo4/70/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/71",
+      "number": "71",
+      "name": "Ledyba",
+      "cardGroup": "intl/neo4/71",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        165
+      ],
+      "rarity": "common",
+      "illustrator": "Tomokazu Komiya",
+      "attacks": [
+        {
+          "name": "Sternschauer",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Die Schadenspunkte dieses Angriffs werden nicht durch Schwäche, Resistenz, Pokémon-Powers oder andere das verteidigende Pokémon betreffende Effekte beeinflusst."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-71"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/71/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274723",
+            "tcgplayer": "86700"
+          }
+        },
+        {
+          "id": "de/neo4/71/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/72",
+      "number": "72",
+      "name": "Helles Sonnflora",
+      "cardGroup": "intl/neo4/72",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        192
+      ],
+      "evolvesFrom": "Sonnkern",
+      "rarity": "common",
+      "illustrator": "Toshinao Aoki",
+      "attacks": [
+        {
+          "name": "Reflektiertes Sonnenlicht",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "Lege bis zu zwei 2 {G}-Energiekarten aus deiner Hand an eines deiner {G}-Pokémon an."
+        },
+        {
+          "name": "Solarstrahl",
+          "cost": [
+            "grass",
+            "grass",
+            "grass"
+          ],
+          "damage": "40"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-72"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/72/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274724",
+            "tcgplayer": "86749"
+          }
+        },
+        {
+          "id": "de/neo4/72/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/73",
+      "number": "73",
+      "name": "Machollo",
+      "cardGroup": "intl/neo4/73",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        66
+      ],
+      "rarity": "common",
+      "illustrator": "Toshinao Aoki",
+      "attacks": [
+        {
+          "name": "Spaltschlag",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Boxhieb",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-73"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/73/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274725",
+            "tcgplayer": "86988"
+          }
+        },
+        {
+          "id": "de/neo4/73/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/74",
+      "number": "74",
+      "name": "Mantax",
+      "cardGroup": "intl/neo4/74",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        226
+      ],
+      "rarity": "common",
+      "illustrator": "Yukiko Baba",
+      "attacks": [
+        {
+          "name": "Riesenwelle",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "40",
+          "text": "Mantax kann während deines nächsten Zuges nicht angreifen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-74"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/74/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274726",
+            "tcgplayer": "87180"
+          }
+        },
+        {
+          "id": "de/neo4/74/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/75",
+      "number": "75",
+      "name": "Voltilamm",
+      "cardGroup": "intl/neo4/75",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        179
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Kopfnuss",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-75"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/75/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274727",
+            "tcgplayer": "87194"
+          }
+        },
+        {
+          "id": "de/neo4/75/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/76",
+      "number": "76",
+      "name": "Phanpy",
+      "cardGroup": "intl/neo4/76",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        231
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Zertreten",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "10+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-76"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/76/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274728",
+            "tcgplayer": "87997"
+          }
+        },
+        {
+          "id": "de/neo4/76/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/77",
+      "number": "77",
+      "name": "Tannza",
+      "cardGroup": "intl/neo4/77",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        204
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-77"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/77/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274729",
+            "tcgplayer": "88123"
+          }
+        },
+        {
+          "id": "de/neo4/77/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/78",
+      "number": "78",
+      "name": "Porygon",
+      "cardGroup": "intl/neo4/78",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        137
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "Schärfer",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-78"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/78/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274730",
+            "tcgplayer": "88305"
+          }
+        },
+        {
+          "id": "de/neo4/78/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/79",
+      "number": "79",
+      "name": "Enton",
+      "cardGroup": "intl/neo4/79",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        54
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "attacks": [
+        {
+          "name": "Flossenplatscher",
+          "cost": [
+            "water"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Migräne",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt. Bei „Zahl“ ist Enton jetzt verwirrt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-79"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/79/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274731",
+            "tcgplayer": "88433"
+          }
+        },
+        {
+          "id": "de/neo4/79/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/80",
+      "number": "80",
+      "name": "Remoraid",
+      "cardGroup": "intl/neo4/80",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "water"
+      ],
+      "species": [
+        223
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "Zornschläge",
+          "cost": [
+            "water"
+          ],
+          "damage": "10x",
+          "text": "Wirf drei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "neo4-80"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/80/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274732",
+            "tcgplayer": "88693"
+          }
+        },
+        {
+          "id": "de/neo4/80/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/81",
+      "number": "81",
+      "name": "Jurob",
+      "cardGroup": "intl/neo4/81",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        86
+      ],
+      "rarity": "common",
+      "illustrator": "Masako Yamashita",
+      "attacks": [
+        {
+          "name": "Bodycheck",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Jurob fügt sich selber 10 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-81"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/81/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274733",
+            "tcgplayer": "89048"
+          }
+        },
+        {
+          "id": "de/neo4/81/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/82",
+      "number": "82",
+      "name": "Schneckmag",
+      "cardGroup": "intl/neo4/82",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        218
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Glühen",
+          "cost": [
+            "fire",
+            "fire"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-82"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/82/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274734",
+            "tcgplayer": "89337"
+          }
+        },
+        {
+          "id": "de/neo4/82/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/83",
+      "number": "83",
+      "name": "Sonnkern",
+      "cardGroup": "intl/neo4/83",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        191
+      ],
+      "rarity": "common",
+      "illustrator": "Etsuya Hattori",
+      "attacks": [
+        {
+          "name": "Walzer",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Sonnenbad",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "text": "Wirf eine Münze. Entferne bei 'Kopf' alle Schadensmarken von Sonnkern. Durchsuche dein Deck nach einer Karte die aus Sonnkern entsteht und lege diese an Sonnkern an. Dies zählt als Entwickeln von Sonnkern. Mische dein Deck danach."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-83"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/83/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274735",
+            "tcgplayer": "89618"
+          }
+        },
+        {
+          "id": "de/neo4/83/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/84",
+      "number": "84",
+      "name": "Quiekel",
+      "cardGroup": "intl/neo4/84",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        220
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Kälte erzeugen",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "lightning",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-84"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/84/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274736",
+            "tcgplayer": "89699"
+          }
+        },
+        {
+          "id": "de/neo4/84/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/85",
+      "number": "85",
+      "name": "Karnimani",
+      "cardGroup": "intl/neo4/85",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        158
+      ],
+      "rarity": "common",
+      "illustrator": "Miki Tanaka",
+      "attacks": [
+        {
+          "name": "Aquaknarre",
+          "cost": [
+            "water"
+          ],
+          "damage": "10+",
+          "text": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Karnimani angelegte {W}-Energie, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wird, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-85"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/85/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274737",
+            "tcgplayer": "89993"
+          }
+        },
+        {
+          "id": "de/neo4/85/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/86",
+      "number": "86",
+      "name": "Icognito L",
+      "cardGroup": "intl/neo4/86",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "common",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Laugh [Laugh]",
+          "text": "Du kannst immer einmal in deinem Zug (vor deinem Angriff) eine Münze werfen. Bei „Kopf“ mischt jeder Spieler sein Deck. Diese Fähigkeit kann selbst dann verwendet werden, wenn Icognito [L] schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-86"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/86/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274738",
+            "tcgplayer": "90219"
+          }
+        },
+        {
+          "id": "de/neo4/86/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/87",
+      "number": "87",
+      "name": "Icognito S",
+      "cardGroup": "intl/neo4/87",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "common",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Search [Search]",
+          "text": "Du kannst immer einmal in deinem Zug (vor deinem Angriff) dir eine deiner Preiskarten ansehen. Lege die Preiskarte verdeckt wieder hin. Diese Fähigkeit kann selbst dann verwendet werden, wenn Icognito [S] schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-87"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/87/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274739",
+            "tcgplayer": "90232"
+          }
+        },
+        {
+          "id": "de/neo4/87/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/88",
+      "number": "88",
+      "name": "Icognito T",
+      "cardGroup": "intl/neo4/88",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "common",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Tell [Tell]",
+          "text": "Du kannst immer einmal in deinem Zug (vor deinem Angriff) eine Münze werfen. Schaue dir bei „Kopf“ die Karten auf der Hand deines Gegners an und zeige die Karten auf deiner Hand deinem Gegner. Diese Fähigkeit kann selbst dann verwendet werden, wenn Icognito [T] schläft, verwirrt oder gelähmt ist."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-88"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/88/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274740",
+            "tcgplayer": "90234"
+          }
+        },
+        {
+          "id": "de/neo4/88/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/89",
+      "number": "89",
+      "name": "Icognito V",
+      "cardGroup": "intl/neo4/89",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        201
+      ],
+      "rarity": "common",
+      "illustrator": "CR CG gangs",
+      "abilities": [
+        {
+          "kind": "pokemon-power",
+          "name": "Vanish [Vanish]",
+          "text": "Wenn du Icognito [V] aus deiner Hand ausspielst, kannst du eine Münze werfen. Bringe bei „Kopf“ eines deiner Pokémon, das „Icognito“ in seinem Namen hat (außer Icognito [V]) auf deine Hand zurück. (Lege alle an diese Karte angelegten Karten auf deinen Ablagestapel.)"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Kraftreserve",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-89"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/89/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274741",
+            "tcgplayer": "90238"
+          }
+        },
+        {
+          "id": "de/neo4/89/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/90",
+      "number": "90",
+      "name": "Bluzuk",
+      "cardGroup": "intl/neo4/90",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 40,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        48
+      ],
+      "rarity": "common",
+      "illustrator": "Masako Yamashita",
+      "attacks": [
+        {
+          "name": "Nagen",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "Giftpuder",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "Das verteidigende Pokémon ist jetzt vergiftet."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-90"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/90/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274742",
+            "tcgplayer": "90305"
+          }
+        },
+        {
+          "id": "de/neo4/90/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/91",
+      "number": "91",
+      "name": "Vulpix",
+      "cardGroup": "intl/neo4/91",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        37
+      ],
+      "rarity": "common",
+      "illustrator": "Masako Yamashita",
+      "attacks": [
+        {
+          "name": "Glut",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Lege eine an Vulpix angelegte {R}-Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-91"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/91/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274743",
+            "tcgplayer": "90433"
+          }
+        },
+        {
+          "id": "de/neo4/91/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/92",
+      "number": "92",
+      "name": "Broken Ground Gym*",
+      "cardGroup": "intl/neo4/92",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "illustrator": "Tomokazu Komiya",
+      "externalIds": {
+        "tcgdex": "neo4-92"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/92/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274744",
+            "tcgplayer": "83990"
+          }
+        },
+        {
+          "id": "de/neo4/92/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/93",
+      "number": "93",
+      "name": "EXP.ALL*",
+      "cardGroup": "intl/neo4/93",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "neo4-93"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/93/normal",
+          "finish": "normal",
+          "externalIds": {
+            "tcgplayer": "85367"
+          }
+        },
+        {
+          "id": "de/neo4/93/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/94",
+      "number": "94",
+      "name": "Erfindung des falschen Professor Eich",
+      "cardGroup": "intl/neo4/94",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "neo4-94"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/94/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274746",
+            "tcgplayer": "86272"
+          }
+        },
+        {
+          "id": "de/neo4/94/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/95",
+      "number": "95",
+      "name": "Radio Turm",
+      "cardGroup": "intl/neo4/95",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "externalIds": {
+        "tcgdex": "neo4-95"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/95/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274747",
+            "tcgplayer": "88497"
+          }
+        },
+        {
+          "id": "de/neo4/95/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/96",
+      "number": "96",
+      "name": "Thought Wave Machine*",
+      "cardGroup": "intl/neo4/96",
+      "supertype": "trainer",
+      "rarity": "rare",
+      "illustrator": "Sumiyoshi Kizuki",
+      "externalIds": {
+        "tcgdex": "neo4-96"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/96/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274748",
+            "tcgplayer": "89898"
+          }
+        },
+        {
+          "id": "de/neo4/96/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/97",
+      "number": "97",
+      "name": "Gegenangriffs-Klauen",
+      "cardGroup": "intl/neo4/97",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "neo4-97"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/97/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274749",
+            "tcgplayer": "84448"
+          }
+        },
+        {
+          "id": "de/neo4/97/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/98",
+      "number": "98",
+      "name": "Energie-Verstärker",
+      "cardGroup": "intl/neo4/98",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "neo4-98"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/98/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274750",
+            "tcgplayer": "85208"
+          }
+        },
+        {
+          "id": "de/neo4/98/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/99",
+      "number": "99",
+      "name": "Energie-Arena",
+      "cardGroup": "intl/neo4/99",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Hideki Kazama",
+      "externalIds": {
+        "tcgdex": "neo4-99"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/99/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274751",
+            "tcgplayer": "85251"
+          }
+        },
+        {
+          "id": "de/neo4/99/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/100",
+      "number": "100",
+      "name": "Glücksarena",
+      "cardGroup": "intl/neo4/100",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Imakuni?",
+      "externalIds": {
+        "tcgdex": "neo4-100"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/100/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274752",
+            "tcgplayer": "86893"
+          }
+        },
+        {
+          "id": "de/neo4/100/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/101",
+      "number": "101",
+      "name": "Vergrößerungsglas",
+      "cardGroup": "intl/neo4/101",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Keiji Kinebuchi",
+      "externalIds": {
+        "tcgdex": "neo4-101"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/101/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274753",
+            "tcgplayer": "87122"
+          }
+        },
+        {
+          "id": "de/neo4/101/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/102",
+      "number": "102",
+      "name": "Pokémon-Persönlichkeitstest",
+      "cardGroup": "intl/neo4/102",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Tomokazu Komiya",
+      "externalIds": {
+        "tcgdex": "neo4-102"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/102/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274754"
+          }
+        },
+        {
+          "id": "de/neo4/102/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/103",
+      "number": "103",
+      "name": "Die Übeltaten des Team Rocket",
+      "cardGroup": "intl/neo4/103",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "neo4-103"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/103/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274755",
+            "tcgplayer": "89850"
+          }
+        },
+        {
+          "id": "de/neo4/103/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/104",
+      "number": "104",
+      "name": "Heilpuder",
+      "cardGroup": "intl/neo4/104",
+      "supertype": "trainer",
+      "rarity": "common",
+      "externalIds": {
+        "tcgdex": "neo4-104"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/104/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274756",
+            "tcgplayer": "86039"
+          }
+        },
+        {
+          "id": "de/neo4/104/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/105",
+      "number": "105",
+      "name": "Post von Bill",
+      "cardGroup": "intl/neo4/105",
+      "supertype": "trainer",
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "externalIds": {
+        "tcgdex": "neo4-105"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/105/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "274757",
+            "tcgplayer": "87123"
+          }
+        },
+        {
+          "id": "de/neo4/105/normal~stamp-1-auflage",
+          "finish": "normal",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/106",
+      "number": "106",
+      "name": "Schimmerndes Celebi",
+      "cardGroup": "intl/neo4/106",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        251
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Heilendes Wasser",
+          "cost": [
+            "water"
+          ],
+          "text": "Entferne so viele Schadensmarken von einem deiner Pokémon, wie {W}-Energie an Schimmerndes Celebi angelegt sind. Wenn dieses Pokémon weniger Schadensmarken hat, entferne alle."
+        },
+        {
+          "name": "Wunderblatt",
+          "cost": [
+            "grass",
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "Wirf so viele Münzen, wie Energiekarten an das verteidigende Pokémon angelegt sind. Wenn mindestens einmal „Kopf“ fällt, wählst du, ob das verteidigende Pokémon jetzt verwirrt oder vergiftet ist oder schläft."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-106"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/106/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274758",
+            "tcgplayer": "89162"
+          }
+        },
+        {
+          "id": "de/neo4/106/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/107",
+      "number": "107",
+      "name": "Schimmerndes Glurak",
+      "cardGroup": "intl/neo4/107",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 100,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        6
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Heiße weiße Flamme",
+          "cost": [
+            "fire",
+            "fire",
+            "fire",
+            "lightning",
+            "lightning"
+          ],
+          "damage": "100",
+          "text": "Lege eine jeweils an Glurak angelegte {R}-Energiekarte und {L}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Wirf eine Münze. Bei „Zahl“ fügt sich Schimmerndes Glurak selber 30 Schadenspunkte zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "neo4-107"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/107/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274759",
+            "tcgplayer": "89163"
+          }
+        },
+        {
+          "id": "de/neo4/107/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/108",
+      "number": "108",
+      "name": "Schimmerndes Kabutops",
+      "cardGroup": "intl/neo4/108",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        141
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Blitzschnitt",
+          "cost": [
+            "fighting",
+            "fighting",
+            "lightning"
+          ],
+          "damage": "30+",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu und außerdem jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu und Schimmerndes Kabutops fügt sich selber 30 Schadenspunkte zu."
+        },
+        {
+          "name": "Wasserschlitzer",
+          "cost": [
+            "fighting",
+            "fighting",
+            "water",
+            "water"
+          ],
+          "damage": "50+",
+          "text": "Fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Schimmerndes Kabutops angelegte {W}-Energie, die nicht zum Zahlen der Angriffskosten verwendet wird, zu. Wende Resistenz nicht an."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-108"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/108/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274760",
+            "tcgplayer": "89165"
+          }
+        },
+        {
+          "id": "de/neo4/108/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/109",
+      "number": "109",
+      "name": "Schimmerndes Mewtu",
+      "cardGroup": "intl/neo4/109",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        150
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Reflektorschild",
+          "cost": [
+            "psychic",
+            "lightning"
+          ],
+          "text": "Wirf eine Münze, wenn ein Angriff im nächsten Zug deines Gegners Schimmerndes Mewtu Schaden zufügt (selbst wenn Schimmerndes Mewtu kampfunfähig wird). Verhindere bei „Kopf“ allen Schaden, der Schimmerndes Mewtu von diesem Angriff zugefügt wird (alle anderen Effekte von Angriffen behalten ihre Wirkung) und füge dann dem angreifenden Pokémon 20 Schadenspunkte zu."
+        },
+        {
+          "name": "Psyexplosion",
+          "cost": [
+            "psychic",
+            "psychic",
+            "fire"
+          ],
+          "damage": "40+",
+          "text": "Lege eine an Schimmerndes Mewtu angelegte {R}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Dieser Angriff fügt 40 Schadenspunkte plus weitere 10 Schadenspunkte für jede an das verteidigende Pokémon angelegte Energie zu."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "neo4-109"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/109/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274761",
+            "tcgplayer": "89167"
+          }
+        },
+        {
+          "id": "de/neo4/109/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/110",
+      "number": "110",
+      "name": "Schimmerndes Noctuh",
+      "cardGroup": "intl/neo4/110",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        164
+      ],
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Leuchtende Augen",
+          "cost": [
+            "psychic",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Wirf drei Münzen. Wenn genau einmal „Kopf“ fällt, schläft das verteidigende Pokémon jetzt. Wenn genau zweimal „Kopf“ fällt, ist das verteidigende Pokémon jetzt verwirrt. Wenn jedes Mal „Kopf“ fällt, ist das verteidigende Pokémon jetzt gelähmt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-110"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/110/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274762",
+            "tcgplayer": "89168"
+          }
+        },
+        {
+          "id": "de/neo4/110/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/111",
+      "number": "111",
+      "name": "Schimmerndes Raichu",
+      "cardGroup": "intl/neo4/111",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        26
+      ],
+      "rarity": "rare",
+      "illustrator": "Hironobu Yoshida",
+      "attacks": [
+        {
+          "name": "Donnernder Windstoß",
+          "cost": [
+            "lightning",
+            "lightning",
+            "water",
+            "water"
+          ],
+          "damage": "40",
+          "text": "Wenn dein Gegner mindestens ein Pokémon auf seiner Bank hat, wähle eines von diesen und dieser Angriff fügt diesem Pokémon 10 Schadenspunkte für jede an Schimmerndes Raichu angelegte {W}-Energie zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "neo4-111"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/111/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274763",
+            "tcgplayer": "89169"
+          }
+        },
+        {
+          "id": "de/neo4/111/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/112",
+      "number": "112",
+      "name": "Schimmerndes Stahlos",
+      "cardGroup": "intl/neo4/112",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        208
+      ],
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Zermalmende Erde",
+          "cost": [
+            "metal",
+            "metal",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "80",
+          "text": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff allen Pokémon auf der Bank 10 Schadenspunkte zu (deinen und denen deines Gegners). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Unabhängig davon kann Schimmerndes Stahlos während deines nächsten Zuges nicht angreifen."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 4,
+      "externalIds": {
+        "tcgdex": "neo4-112"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/112/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274764",
+            "tcgplayer": "89170"
+          }
+        },
+        {
+          "id": "de/neo4/112/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de/neo4/113",
+      "number": "113",
+      "name": "Schimmerndes Despotar",
+      "cardGroup": "intl/neo4/113",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        248
+      ],
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Bergzermalmer",
+          "cost": [
+            "darkness",
+            "fighting",
+            "fighting"
+          ],
+          "damage": "30",
+          "text": "Wirf eine Münze solange, bis 'Zahl' fällt. Für jeden geworfenen 'Kopf' legt dein gegner die oberste Karte seines Decks auf seinen Ablagestapel."
+        },
+        {
+          "name": "Zerstörendes Feuer",
+          "cost": [
+            "darkness",
+            "fire",
+            "fire",
+            "fire"
+          ],
+          "damage": "50",
+          "text": "Wirf für jede an Schimmerndes Despotar abgelegte -Energiekarte eine Münze. Lege für jedes Mal 'Kopf' eine an Schimmerndes Despotar abgelegte -Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Wähle dann für jedes Mal 'Kopf' eine an das verteidigende Pokémon angelegte Energiekarte und lege diese auf den Ablagestapel deines gegners. Wenn das verteidigende Pokémon weniger Energiekarten hat, lege sie alle ab."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "neo4-113"
+      },
+      "prints": [
+        {
+          "id": "de/neo4/113/holo",
+          "finish": "holo",
+          "externalIds": {
+            "cardmarket": "274765",
+            "tcgplayer": "89171"
+          }
+        },
+        {
+          "id": "de/neo4/113/holo~stamp-1-auflage",
+          "finish": "holo",
+          "tags": [
+            "stamp-1-auflage"
+          ]
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}

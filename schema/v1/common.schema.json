@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MPelzer/PokemonLibrary/schemas/catalog/v1/common.schema.json",
+  "title": "Catalog format v1 – shared definitions",
+  "$defs": {
+    "formatVersion": { "type": "string", "pattern": "^1\\.[0-9]+$", "description": "major.minor; this schema covers major version 1" },
+    "lang": { "type": "string", "pattern": "^[a-z]{2}$", "description": "ISO 639-1 language code" },
+    "key": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Normalized vocabulary key" },
+    "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "dateTime": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\\.[0-9]+)?Z$" },
+    "url": { "type": "string", "pattern": "^https://" },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "setId": { "type": "string", "pattern": "^[a-z]{2}/[a-z0-9-]+$" },
+    "cardId": { "type": "string", "pattern": "^[a-z]{2}/[a-z0-9-]+/[A-Za-z0-9._%-]+$" },
+    "printId": {
+      "type": "string",
+      "pattern": "^[a-z]{2}/[a-z0-9-]+/[A-Za-z0-9._%-]+/[a-z0-9-]+(\\.[a-z0-9-]+)?(~[a-z0-9-]+)*$",
+      "description": "<cardId>/<finish>[.<edition>][~<tag>]... with tags sorted alphabetically"
+    },
+    "cardGroup": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+/[A-Za-z0-9._%-]+$" },
+    "sourceId": { "$ref": "#/$defs/key" },
+    "tier": { "enum": ["S1", "S2", "S3", "S4", "S5"] },
+    "dataCategory": { "enum": ["metadata", "text", "images", "prices", "lore", "pullRates", "*"] },
+    "confidence": { "enum": ["high", "medium", "low"] },
+    "provenance": {
+      "type": "object",
+      "required": ["source", "retrievedAt", "confidence"],
+      "properties": {
+        "source": { "$ref": "#/$defs/sourceId" },
+        "via": { "$ref": "#/$defs/sourceId" },
+        "retrievedAt": { "$ref": "#/$defs/date" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "corroboratedBy": { "type": "array", "items": { "$ref": "#/$defs/sourceId" }, "uniqueItems": true },
+        "sampleSize": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "fieldProvenance": {
+      "type": "object",
+      "description": "Per-field overrides of the entity provenance",
+      "additionalProperties": { "$ref": "#/$defs/provenance" }
+    },
+    "externalIds": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "integer"] }
+    },
+    "localizedText": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/lang" },
+      "additionalProperties": { "type": "string", "minLength": 1 },
+      "minProperties": 1
+    },
+    "withdrawn": { "type": "boolean", "description": "Entity is withdrawn but kept so references stay valid" }
+  }
+}

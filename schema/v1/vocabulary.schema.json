@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MPelzer/PokemonLibrary/schemas/catalog/v1/vocabulary.schema.json",
+  "title": "Catalog vocabulary (normalized keys with display names)",
+  "type": "object",
+  "required": ["formatVersion", "rarities", "finishes", "editions", "supertypes"],
+  "properties": {
+    "formatVersion": { "$ref": "common.schema.json#/$defs/formatVersion" },
+    "rarities": { "type": "array", "items": { "$ref": "#/$defs/rankedEntry" } },
+    "finishes": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+    "editions": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+    "supertypes": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+    "dataCategories": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/dataCategory" } }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": ["key", "names"],
+      "properties": {
+        "key": { "$ref": "common.schema.json#/$defs/key" },
+        "names": { "$ref": "common.schema.json#/$defs/localizedText" }
+      }
+    },
+    "rankedEntry": {
+      "allOf": [{ "$ref": "#/$defs/entry" }],
+      "required": ["rank"],
+      "properties": { "rank": { "type": "integer", "minimum": 0, "description": "Higher = rarer; used for comparisons" } }
+    }
+  }
+}

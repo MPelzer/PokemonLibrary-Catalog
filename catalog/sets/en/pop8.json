@@ -1,0 +1,1237 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "en/pop8",
+    "code": "pop8",
+    "language": "en",
+    "name": "POP Series 8",
+    "series": "POP",
+    "abbreviation": "P8",
+    "releaseDate": "2008-09-01",
+    "cardCount": {
+      "official": 17,
+      "total": 17
+    },
+    "images": {
+      "logo": "https://assets.tcgdex.net/en/pop/pop8/logo.webp",
+      "symbol": "https://assets.tcgdex.net/univ/pop/pop8/symbol.webp"
+    },
+    "externalIds": {
+      "tcgdex": "pop8"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-06",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "en/pop8/1",
+      "number": "1",
+      "name": "Heatran",
+      "cardGroup": "intl/pop8/1",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 100,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        485
+      ],
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Body Slam",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+          "name": "Fire Spin",
+          "cost": [
+            "fire",
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "90",
+          "text": "Discard 2 basic Energy cards attached to Heatran. (If you can’t discard cards, this attack does nothing.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "+30"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/1/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/1/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-1"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/1/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278402",
+            "tcgplayer": "86049"
+          }
+        },
+        {
+          "id": "en/pop8/1/holo~foil-cosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-cosmos"
+          ],
+          "externalIds": {
+            "cardmarket": "278402",
+            "tcgplayer": "86049"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/2",
+      "number": "2",
+      "name": "Lucario",
+      "cardGroup": "intl/pop8/2",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        448
+      ],
+      "evolvesFrom": "Riolu",
+      "rarity": "rare",
+      "illustrator": "Kent Kanetsuna",
+      "attacks": [
+        {
+          "name": "Blocking Punch",
+          "cost": [
+            "metal",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "During your opponent’s next turn, any damage done to Lucario by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+          "name": "Striking Kick",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/2/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/2/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-2"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/2/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278403",
+            "tcgplayer": "86877"
+          }
+        },
+        {
+          "id": "en/pop8/2/holo~foil-cosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-cosmos"
+          ],
+          "externalIds": {
+            "cardmarket": "278403",
+            "tcgplayer": "86877"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/3",
+      "number": "3",
+      "name": "Luxray",
+      "cardGroup": "intl/pop8/3",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 120,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        405
+      ],
+      "evolvesFrom": "Luxio",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Intimidating Fang",
+          "text": "As long as Luxray is your Active Pokémon, any damage done by an opponent’s attack is reduced by 10 (before applying Weakness and Resistance)."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Thunder",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "120",
+          "text": "Flip a coin. If tails, Luxray does 40 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+30"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/3/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/3/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-3"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/3/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278404",
+            "tcgplayer": "86948"
+          }
+        },
+        {
+          "id": "en/pop8/3/holo~foil-cosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-cosmos"
+          ],
+          "externalIds": {
+            "cardmarket": "278404",
+            "tcgplayer": "86948"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/4",
+      "number": "4",
+      "name": "Probopass",
+      "cardGroup": "intl/pop8/4",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "metal"
+      ],
+      "species": [
+        476
+      ],
+      "evolvesFrom": "Nosepass",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Rock Slide",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+          "name": "Triple Nose",
+          "cost": [
+            "metal",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50+",
+          "text": "Flip 3 coins. This attack does 50 damage plus 20 more damage for each heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "+30"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 3,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/4/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/4/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-4"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/4/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278405",
+            "tcgplayer": "88376"
+          }
+        },
+        {
+          "id": "en/pop8/4/holo~foil-cosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-cosmos"
+          ],
+          "externalIds": {
+            "cardmarket": "278405",
+            "tcgplayer": "88376"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/5",
+      "number": "5",
+      "name": "Yanmega",
+      "cardGroup": "intl/pop8/5",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        469
+      ],
+      "evolvesFrom": "Yanma",
+      "rarity": "rare",
+      "illustrator": "Ken Sugimori",
+      "attacks": [
+        {
+          "name": "Supersonic",
+          "cost": [
+            "grass"
+          ],
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+          "name": "Air Slash",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "Flip a coin. If tails, discard an Energy attached to Yanmega."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+20"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 0,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/5/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/5/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-5"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/5/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278406",
+            "tcgplayer": "90691"
+          }
+        },
+        {
+          "id": "en/pop8/5/holo~foil-cosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-cosmos"
+          ],
+          "externalIds": {
+            "cardmarket": "278406",
+            "tcgplayer": "90691"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/6",
+      "number": "6",
+      "name": "Cherrim",
+      "cardGroup": "intl/pop8/6",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        421
+      ],
+      "evolvesFrom": "Cherubi",
+      "rarity": "uncommon",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Worry Seed",
+          "cost": [
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+          "name": "Magical Leaf",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "20+",
+          "text": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "+20"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "water",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/6/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/6/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-6"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/6/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278407",
+            "tcgplayer": "84253"
+          }
+        },
+        {
+          "id": "en/pop8/6/reverse~foil-cracked-ice",
+          "finish": "reverse",
+          "tags": [
+            "foil-cracked-ice"
+          ],
+          "externalIds": {
+            "cardmarket": "278407",
+            "tcgplayer": "84253"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/7",
+      "number": "7",
+      "name": "Carnivine",
+      "cardGroup": "intl/pop8/7",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        455
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Kouki Saitou",
+      "attacks": [
+        {
+          "name": "Swallow Up",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Before doing damage, count the remaining HP of the Defending Pokémon and Carnivine. If the Defending Pokémon has fewer remaining HP than Carnivine’s, this attack does 60 damage instead."
+        },
+        {
+          "name": "Wring Out",
+          "cost": [
+            "grass",
+            "grass"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "+20"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "water",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/7/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/7/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-7"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/7/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278408",
+            "tcgplayer": "84100"
+          }
+        },
+        {
+          "id": "en/pop8/7/reverse~foil-cracked-ice",
+          "finish": "reverse",
+          "tags": [
+            "foil-cracked-ice"
+          ],
+          "externalIds": {
+            "cardmarket": "278408",
+            "tcgplayer": "84100"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/8",
+      "number": "8",
+      "name": "Luxio",
+      "cardGroup": "intl/pop8/8",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        404
+      ],
+      "evolvesFrom": "Shinx",
+      "rarity": "uncommon",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Fasten Claws",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 30 more damage."
+        },
+        {
+          "name": "Thunder Fang",
+          "cost": [
+            "lightning",
+            "lightning"
+          ],
+          "damage": "30",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+20"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 0,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/8/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/8/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-8"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/8/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278409",
+            "tcgplayer": "86941"
+          }
+        },
+        {
+          "id": "en/pop8/8/holo~foil-cracked-ice",
+          "finish": "holo",
+          "tags": [
+            "foil-cracked-ice"
+          ],
+          "externalIds": {
+            "cardmarket": "278409",
+            "tcgplayer": "86941"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/9",
+      "number": "9",
+      "name": "Night Maintenance",
+      "cardGroup": "intl/pop8/9",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/9/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/9/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-9"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/9/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278410",
+            "tcgplayer": "87752"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/10",
+      "number": "10",
+      "name": "Rare Candy",
+      "cardGroup": "intl/pop8/10",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/10/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/10/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-10"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/10/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278411",
+            "tcgplayer": "88594"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/11",
+      "number": "11",
+      "name": "Roseanne’s Research",
+      "cardGroup": "intl/pop8/11",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Kanako Eo",
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/11/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/11/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-11"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/11/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278412",
+            "tcgplayer": "88816"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/12",
+      "number": "12",
+      "name": "Chimchar",
+      "cardGroup": "intl/pop8/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        390
+      ],
+      "rarity": "common",
+      "illustrator": "Kagemaru Himeno",
+      "attacks": [
+        {
+          "name": "Scratch",
+          "damage": "10"
+        },
+        {
+          "name": "Ember",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "Flip a coin. If tails, discard a Fire Energy attached to Chimchar."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "water",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/12/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/12/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-12"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/12/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278413",
+            "tcgplayer": "84287"
+          }
+        },
+        {
+          "id": "en/pop8/12/holo~foil-cracked-ice",
+          "finish": "holo",
+          "tags": [
+            "foil-cracked-ice"
+          ],
+          "externalIds": {
+            "cardmarket": "278413",
+            "tcgplayer": "84287"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/13",
+      "number": "13",
+      "name": "Croagunk",
+      "cardGroup": "intl/pop8/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        453
+      ],
+      "rarity": "common",
+      "illustrator": "Kouki Saitou",
+      "attacks": [
+        {
+          "name": "Ghastly Sound",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Flip a coin. If heads, your opponent can’t play any Supporter cards from his or her hand during his or her next turn."
+        },
+        {
+          "name": "Finger Poke",
+          "cost": [
+            "psychic",
+            "psychic"
+          ],
+          "damage": "20",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/13/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/13/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-13"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/13/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278414",
+            "tcgplayer": "84475"
+          }
+        },
+        {
+          "id": "en/pop8/13/holo~foil-cracked-ice",
+          "finish": "holo",
+          "tags": [
+            "foil-cracked-ice"
+          ],
+          "externalIds": {
+            "cardmarket": "278414",
+            "tcgplayer": "84475"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/14",
+      "number": "14",
+      "name": "Happiny",
+      "cardGroup": "intl/pop8/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        440
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "abilities": [
+        {
+          "kind": "poke-power",
+          "name": "Baby Evolution",
+          "text": "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Lively",
+          "text": "Remove 2 damage counters from 1 of your Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/14/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/14/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-14"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/14/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278415",
+            "tcgplayer": "86007"
+          }
+        },
+        {
+          "id": "en/pop8/14/holo~foil-cosmos",
+          "finish": "holo",
+          "tags": [
+            "foil-cosmos"
+          ],
+          "externalIds": {
+            "cardmarket": "278415",
+            "tcgplayer": "86007"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/15",
+      "number": "15",
+      "name": "Piplup",
+      "cardGroup": "intl/pop8/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        393
+      ],
+      "rarity": "common",
+      "illustrator": "Atsuko Nishida",
+      "attacks": [
+        {
+          "name": "Peck",
+          "damage": "10"
+        },
+        {
+          "name": "Water Splash",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20+",
+          "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "lightning",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/15/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/15/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-15"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/15/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278416",
+            "tcgplayer": "88148"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/16",
+      "number": "16",
+      "name": "Riolu",
+      "cardGroup": "intl/pop8/16",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        447
+      ],
+      "rarity": "common",
+      "illustrator": "Masakazu Fukuda",
+      "abilities": [
+        {
+          "kind": "poke-body",
+          "name": "Inner Focus",
+          "text": "Riolu can’t be Paralyzed."
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Quick Attack",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "10+",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "psychic",
+          "value": "+10"
+        }
+      ],
+      "retreatCost": 1,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/16/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/16/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-16"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/16/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278417",
+            "tcgplayer": "88755"
+          }
+        },
+        {
+          "id": "en/pop8/16/reverse~foil-cracked-ice",
+          "finish": "reverse",
+          "tags": [
+            "foil-cracked-ice"
+          ],
+          "externalIds": {
+            "cardmarket": "278417",
+            "tcgplayer": "88755"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "en/pop8/17",
+      "number": "17",
+      "name": "Turtwig",
+      "cardGroup": "intl/pop8/17",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        387
+      ],
+      "rarity": "common",
+      "illustrator": "Masakazu Fukuda",
+      "attacks": [
+        {
+          "name": "Tackle",
+          "damage": "10"
+        },
+        {
+          "name": "Razor Leaf",
+          "cost": [
+            "grass"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "+10"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "water",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "images": {
+        "small": "https://assets.tcgdex.net/en/pop/pop8/17/low.webp",
+        "large": "https://assets.tcgdex.net/en/pop/pop8/17/high.webp"
+      },
+      "externalIds": {
+        "tcgdex": "pop8-17"
+      },
+      "prints": [
+        {
+          "id": "en/pop8/17/normal",
+          "finish": "normal",
+          "externalIds": {
+            "cardmarket": "278418",
+            "tcgplayer": "90076"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-06",
+        "confidence": "high"
+      }
+    }
+  ]
+}
