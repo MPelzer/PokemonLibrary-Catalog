@@ -40,7 +40,8 @@ public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt)
             EvolvesFrom = card.EvolveFrom,
             Rarity = vocabulary.Map("rarity", "rarities", enums.Rarity ?? "None", ctx) ?? "none",
             Illustrator = card.Illustrator,
-            RegulationMark = card.RegulationMark,
+            RegulationMark = vocabulary.RegulationMark(card.RegulationMark, ctx)
+                ?? (reference is null ? null : vocabulary.RegulationMark(reference.RegulationMark, ctx)),
             Abilities = MapAbilities(card.Abilities, enums.Abilities),
             Attacks = MapAttacks(card.Attacks, enums.Attacks, ctx),
             Weaknesses = MapModifiers(enums.Weaknesses, ctx),

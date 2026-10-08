@@ -37,6 +37,22 @@ public sealed class Vocabulary
         return null;
     }
 
+    /// <summary>
+    /// Regulation marks are single upper-case letters (#33): the source also delivers lower case ("j") and the
+    /// string "None". Lower case is upper-cased, "None"/empty means no mark, anything else is a problem.
+    /// </summary>
+    public string? RegulationMark(string? raw, string context)
+    {
+        var mark = raw?.Trim();
+        if (string.IsNullOrEmpty(mark) || mark.Equals("none", StringComparison.OrdinalIgnoreCase)) return null;
+        mark = mark.ToUpperInvariant();
+        if (mark is [>= 'A' and <= 'Z']) return mark;
+
+        var problem = $"Invalid regulationMark '{raw}' (expected a single letter)";
+        _problems[problem] = _problems.TryGetValue(problem, out var known) ? (known.Count + 1, known.Example) : (1, context);
+        return null;
+    }
+
     public IReadOnlyList<string>? MapAll(string field, string section, IEnumerable<string>? raws, string context)
     {
         var keys = (raws ?? []).Select(r => Map(field, section, r, context)).OfType<string>().ToList();

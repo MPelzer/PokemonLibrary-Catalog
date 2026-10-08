@@ -29,6 +29,33 @@ public class CardMapperTests
         Assert.Empty(vocabulary.Problems);
     }
 
+    [Theory]
+    [InlineData("G", "G")]
+    [InlineData("j", "J")]
+    [InlineData(" h ", "H")]
+    [InlineData("None", null)]
+    [InlineData("", null)]
+    [InlineData(null, null)]
+    public void Regulation_marks_are_normalized(string? raw, string? expected)
+    {
+        var vocabulary = Vocabulary();
+        var card = new CardMapper(vocabulary, "2026-10-05").Map("en", "sv03", WithMark(EnglishCharizard(), raw), null);
+
+        Assert.Equal(expected, card.RegulationMark);
+        Assert.Empty(vocabulary.Problems);
+    }
+
+    [Fact]
+    public void Invalid_regulation_marks_are_dropped_and_reported_and_the_reference_mark_is_used()
+    {
+        var vocabulary = Vocabulary();
+        var mapper = new CardMapper(vocabulary, "2026-10-05");
+
+        Assert.Null(mapper.Map("en", "sv03", WithMark(EnglishCharizard(), "GH"), null).RegulationMark);
+        Assert.Equal("G", mapper.Map("de", "sv03", WithMark(GermanCharizard(), "None"), EnglishCharizard()).RegulationMark);
+        Assert.Equal(["Invalid regulationMark 'GH' (expected a single letter) – 1×, e.g. en/sv03-125"], vocabulary.Problems);
+    }
+
     [Fact]
     public void Mapped_set_file_is_valid_against_schema()
     {
@@ -55,6 +82,12 @@ public class CardMapperTests
 
         Assert.Equal("none", card.Rarity);
         Assert.Contains(vocabulary.Problems, p => p.Contains("Mythical Sparkle Rare", StringComparison.Ordinal));
+    }
+
+    private static TcgdexCard WithMark(TcgdexCard card, string? mark)
+    {
+        card.RegulationMark = mark;
+        return card;
     }
 
     private static Vocabulary Vocabulary()
