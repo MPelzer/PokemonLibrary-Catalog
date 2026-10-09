@@ -24,7 +24,7 @@ public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt)
         AddIfNotNull(subtypes, vocabulary.Map("trainerType", "subtypes", enums.TrainerType, ctx));
         AddIfNotNull(subtypes, vocabulary.Map("energyType", "subtypes", enums.EnergyType, ctx));
 
-        var prints = MapPrints(cardId, card.VariantsDetailed);
+        var prints = MapPrints(cardId, card.VariantsDetailed, vocabulary.NormalizePrint);
 
         return new CatalogCard
         {
@@ -54,17 +54,24 @@ public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt)
         };
     }
 
-    /// <summary>Distinct prints; variants that cannot be distinguished by attributes are merged (C3).</summary>
-    public static IReadOnlyList<CatalogPrint> MapPrints(string cardId, IEnumerable<TcgdexVariant>? variants)
+    /// <summary>
+    /// Distinct prints; variants that cannot be distinguished by attributes are merged (C3). The ID comes from the source
+    /// key (stable, FR-CAT-10), edition and tags from its language-independent form (<paramref name="normalize"/>).
+    /// </summary>
+    public static IReadOnlyList<CatalogPrint> MapPrints(string cardId, IEnumerable<TcgdexVariant>? variants, Func<PrintKey, PrintKey>? normalize = null)
     {
         var keys = (variants ?? []).Select(v => PrintKey.FromVariant(v.Type, v.Size, v.Stamp, v.Foil)).Distinct().ToList();
         if (keys.Count == 0) keys.Add(new PrintKey("normal", null, []));
-        return keys.Select(k => new CatalogPrint
+        return keys.Select(k =>
         {
-            Id = Ids.Print(cardId, k),
-            Finish = k.Finish,
-            Edition = k.Edition,
-            Tags = k.Tags.Count > 0 ? k.Tags : null,
+            var fields = normalize?.Invoke(k) ?? k;
+            return new CatalogPrint
+            {
+                Id = Ids.Print(cardId, k),
+                Finish = fields.Finish,
+                Edition = fields.Edition,
+                Tags = fields.Tags.Count > 0 ? fields.Tags : null,
+            };
         }).ToList();
     }
 

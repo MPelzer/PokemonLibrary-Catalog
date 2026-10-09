@@ -31,6 +31,7 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
         log.WriteLine($"  {refCards.Count} physical cards, {excludedSetIds.Count} excluded sets ({string.Join(", ", settings.ExcludedSeries)})");
 
         var marketplaceIds = options.FetchMarketplaceIds ? await FetchMarketplaceIdsAsync(refCards, ct) : null;
+        var tagsByLanguage = new Dictionary<string, HashSet<string>>(StringComparer.Ordinal);
 
         foreach (var lang in languages)
         {
@@ -77,6 +78,8 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
                     Provenance = new Provenance("tcgdex", _today, "high"),
                 }, mapped);
                 Write($"sets/{lang}/{setCode}.json", setFile);
+                var tags = tagsByLanguage.TryGetValue(lang, out var known) ? known : tagsByLanguage[lang] = new HashSet<string>(StringComparer.Ordinal);
+                tags.UnionWith(mapped.SelectMany(c => c.Prints).SelectMany(p => p.Tags ?? []));
 
                 written++;
             }
@@ -96,6 +99,12 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
             Provenance = new Provenance("pokeapi", _today, "high"),
         })]));
         WriteRaw("vocabulary.json", config.VocabularyJson);
+
+        // Catalog issue #1: a variant tag of another language that no reference print has is probably untranslated.
+        var referenceTags = tagsByLanguage.GetValueOrDefault(refLang) ?? [];
+        foreach (var (lang, tags) in tagsByLanguage.Where(t => t.Key != refLang).OrderBy(t => t.Key, StringComparer.Ordinal))
+            foreach (var tag in tags.Where(t => !referenceTags.Contains(t)).Order(StringComparer.Ordinal))
+                log.WriteLine($"  warning: tag '{tag}' ({lang}) occurs in no {refLang} print – translate it in config/pipeline.json (valueMap stamp/foil)?");
 
         return Report(vocabulary, options.Lenient);
     }

@@ -51,4 +51,28 @@ public class NormalizationTests
 
         Assert.Equal(["en/sv03/125/holo", "en/sv03/125/holo~stamp-player-rewards-program"], prints.Select(p => p.Id));
     }
+
+    [Fact]
+    public void Localized_stamps_and_foils_get_language_independent_tags_but_keep_their_print_id()
+    {
+        var translations = new Dictionary<string, string> { ["mitarbeiter"] = "staff", ["kosmos"] = "cosmos", ["1-auflage"] = "1st-edition" };
+        string Translate(string value) => translations.GetValueOrDefault(value, value);
+
+        var prints = Pipeline.CardMapper.MapPrints("de/base1/4",
+            [new() { Type = "holo", Size = "standard", Stamp = ["1. Auflage", "Mitarbeiter"], Foil = "Kosmos" }],
+            key => key.Normalize(Translate, Translate));
+
+        var print = Assert.Single(prints);
+        Assert.Equal("de/base1/4/holo~foil-kosmos~stamp-1-auflage~stamp-mitarbeiter", print.Id); // unchanged (FR-CAT-10)
+        Assert.Equal("first-edition", print.Edition);
+        Assert.Equal(["foil-cosmos", "stamp-staff"], print.Tags);
+    }
+
+    [Fact]
+    public void Untranslated_values_stay_as_they_are()
+    {
+        var key = PrintKey.FromVariant("holo", "jumbo", ["staff"], "cosmos");
+
+        Assert.Equal(key, key.Normalize(s => s, f => f));
+    }
 }

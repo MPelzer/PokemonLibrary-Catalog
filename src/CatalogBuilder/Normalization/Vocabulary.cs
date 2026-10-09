@@ -53,6 +53,15 @@ public sealed class Vocabulary
         return null;
     }
 
+    /// <summary>
+    /// Translates localized stamp and foil values of a print key (value map fields <c>stamp</c> and <c>foil</c>, keyed by
+    /// slug) – variant tags must be the same in every language (catalog issue #1).
+    /// </summary>
+    public PrintKey NormalizePrint(PrintKey key) => key.Normalize(s => Translate("stamp", s), f => Translate("foil", f));
+
+    private string Translate(string field, string slug) =>
+        _valueMap.TryGetValue(field, out var map) && map.TryGetValue(slug, out var mapped) ? mapped : slug;
+
     public IReadOnlyList<string>? MapAll(string field, string section, IEnumerable<string>? raws, string context)
     {
         var keys = (raws ?? []).Select(r => Map(field, section, r, context)).OfType<string>().ToList();
