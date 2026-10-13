@@ -16,6 +16,7 @@ Card catalog for [PokemonLibrary](https://github.com/MPelzer/PokemonLibrary) and
 | Set details (abbreviation) | TCGdex REST | S2 | ~1 per set and language |
 | Marketplace ids (Cardmarket, TCGplayer) | TCGdex REST | S2 | 1 per card, reference language only, 4 in parallel |
 | Species / lore | PokéAPI GraphQL | S2 | 2 |
+| Cross-language groups for Japanese cards | derived by the pipeline (`catalog-pipeline`) | S5 | – |
 
 Pokémon TCG Pocket (digital) is excluded (`excludedSeries`). Prices in the per-card responses are ignored; `package` refuses to run if a `catalog/prices/` folder exists.
 
@@ -41,7 +42,17 @@ The build **fails** when a source delivers a value that is not in the vocabulary
 
 ## Adding a language
 
-Add the ISO code to `languages` in `config/pipeline.json` and run `build`. International languages (fr, it, es, pt, …) work like `de`. Japanese has its own sets and numbering and needs extra work (app repo issue #31).
+Add the ISO code to `languages` in `config/pipeline.json` and run `build`. International languages (fr, it, es, pt, …) work like `de`.
+
+**Japanese** (`ja`, app decision D53) has its own sets and numbering, so it is listed in `separateNumbering` too:
+- its enumerations come from its own records (TCGdex delivers them in English); a missing species is derived from the
+  longest Japanese species name (PokéAPI) contained in the card name;
+- `CrossLanguageMatcher` puts a card into the `intl/…` group of its English counterpart – Pokémon by species, HP,
+  illustrator, attack damage and types, versions of the same card in number order, trainers/energy one-to-one by
+  illustrator and subtype within the counterpart set – with `fieldProvenance.cardGroup` (`catalog-pipeline`, S5,
+  confidence high/medium/low). Unmatched cards stay ungrouped (~8,100 of ~12,300 matched in 2026-10).
+- Gaps (images, abbreviations, untranslated names) are **not** filled from other sources: pokemon-card.com forbids
+  reusing its content, other sites grant no reuse (NFR-01). The app shows the counterpart's image instead (D53).
 
 ## Licenses and attribution
 

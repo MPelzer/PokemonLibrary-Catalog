@@ -17,7 +17,12 @@ public sealed class TcgdexClient(Http http)
         "trainerType energyType attacks { name cost damage effect } abilities { type name effect } " +
         "weaknesses { type value } resistances { type value } variants_detailed { type size stamp foil } set { id }";
 
-    private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
+    private static readonly JsonSerializerOptions JsonOptions = new()
+    {
+        PropertyNameCaseInsensitive = true,
+        // Some Japanese records have numbers as strings (e.g. dexId).
+        NumberHandling = System.Text.Json.Serialization.JsonNumberHandling.AllowReadingFromString,
+    };
 
     public async Task<IReadOnlyList<TcgdexSet>> GetSetsAsync(string lang, CancellationToken ct)
     {
@@ -34,7 +39,7 @@ public sealed class TcgdexClient(Http http)
 
     /// <summary>
     /// All cards of a language. GraphQL returns partial results with errors for a few malformed source
-    /// records; those cards are fetched again via REST.
+    /// records; those cards are fetched again via REST. Records that are <c>null</c> in the result are skipped.
     /// </summary>
     public async Task<IReadOnlyList<TcgdexCard>> GetCardsAsync(string lang, CancellationToken ct)
     {
@@ -45,17 +50,17 @@ public sealed class TcgdexClient(Http http)
             .Select(p => int.Parse(p[1], System.Globalization.CultureInfo.InvariantCulture)).Distinct().ToList();
         foreach (var index in broken)
         {
-            if (index >= cards.Count) continue;
+            if (index >= cards.Count || cards[index] is null) continue;
             try
             {
                 cards[index] = await GetCardAsync(lang, cards[index].Id, ct);
             }
-            catch (HttpRequestException ex)
+            catch (Exception ex) when (ex is HttpRequestException or JsonException)
             {
                 Console.Error.WriteLine($"  warning: could not refetch {lang}/{cards[index].Id}: {ex.Message}");
             }
         }
-        return cards;
+        return [.. cards.Where(c => c is not null)];
     }
 
     /// <summary>Full card incl. variant pricing and marketplace ids (REST).</summary>

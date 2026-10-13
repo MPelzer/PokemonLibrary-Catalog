@@ -30,19 +30,39 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
         var refById = refCards.ToDictionary(c => c.Id);
         log.WriteLine($"  {refCards.Count} physical cards, {excludedSetIds.Count} excluded sets ({string.Join(", ", settings.ExcludedSeries)})");
 
+        var refCodes = SetCodes(refSets.Where(s => !excludedSetIds.Contains(s.Id)));
+        var refReleases = refSets.ToDictionary(s => s.Id, s => s.ReleaseDate, StringComparer.Ordinal);
+
         var marketplaceIds = options.FetchMarketplaceIds ? await FetchMarketplaceIdsAsync(refCards, ct) : null;
         var tagsByLanguage = new Dictionary<string, HashSet<string>>(StringComparer.Ordinal);
+
+        log.WriteLine("Species (PokéAPI) …");
+        var species = await pokeApi.GetSpeciesAsync(languages, ct);
 
         foreach (var lang in languages)
         {
             ct.ThrowIfCancellationRequested();
             log.WriteLine($"Language {lang} …");
             var sets = (lang == refLang ? refSets : await tcgdex.GetSetsAsync(lang, ct))
-                .Where(s => !excludedSetIds.Contains(s.Id)).ToList();
+                .Where(s => !excludedSetIds.Contains(s.Id) && !settings.ExcludedSeries.Contains(s.Serie?.Id ?? "")).ToList();
             var codes = SetCodes(sets);
             var cards = lang == refLang ? refCards : await tcgdex.GetCardsAsync(lang, ct);
             var cardsBySet = cards.Where(c => c.Set is not null && codes.ContainsKey(c.Set.Id)).GroupBy(c => c.Set!.Id)
                 .ToDictionary(g => g.Key, g => g.ToList());
+            // D53: a language with its own numbering (Japanese) is grouped with its counterparts by matching card data.
+            var separate = settings.HasSeparateNumbering(lang);
+            if (separate)
+            {
+                var byName = species.Where(s => s.Names.ContainsKey(lang)).GroupBy(s => s.Names[lang], StringComparer.Ordinal)
+                    .Where(g => g.Count() == 1).ToDictionary(g => g.Key, g => g.Single().Dex, StringComparer.Ordinal);
+                log.WriteLine($"  species from the name for {CrossLanguageMatcher.FillSpecies(cardsBySet.Values.SelectMany(c => c), byName)} cards");
+            }
+            var counterparts = separate
+                ? CrossLanguageMatcher.Match([.. cardsBySet.Values.SelectMany(c => c)], refCards,
+                    sets.ToDictionary(s => s.Id, s => s.ReleaseDate, StringComparer.Ordinal), refReleases)
+                : null;
+            if (counterparts is not null)
+                log.WriteLine($"  {counterparts.Count} cards matched to {refLang} ({counterparts.Values.Count(m => m.Confidence == "high")} unique)");
             var abbreviations = await FetchAbbreviationsAsync(lang, sets.Where(s => cardsBySet.ContainsKey(s.Id)), ct);
 
             var written = 0;
@@ -52,7 +72,8 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
                 var setId = Ids.Set(lang, setCode);
                 var mapped = cardsBySet[set.Id]
                     .OrderBy(c => c.LocalId, NaturalComparer.Instance)
-                    .Select(c => mapper.Map(lang, setCode, c, lang == refLang ? null : refById.GetValueOrDefault(c.Id)))
+                    .Select(c => mapper.Map(lang, setCode, c, lang == refLang || separate ? null : refById.GetValueOrDefault(c.Id)))
+                    .Select(c => counterparts is null ? c : Regroup(c, counterparts, refById, refCodes))
                     .ToList();
 
                 mapped = marketplaceIds is null
@@ -86,8 +107,6 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
             log.WriteLine($"  {written} sets, {cardsBySet.Values.Sum(c => c.Count)} cards");
         }
 
-        log.WriteLine("Species (PokéAPI) …");
-        var species = await pokeApi.GetSpeciesAsync(languages, ct);
         Write("species.json", new SpeciesFile(CatalogJson.FormatVersion, [.. species.Select(s => new Species
         {
             Dex = s.Dex,
@@ -127,6 +146,20 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
         }
         log.WriteLine("Build OK – catalog/ is valid against schema v1.");
         return 0;
+    }
+
+    /// <summary>D53: the international card group of the matched reference card with the match as field provenance; none without a match.</summary>
+    private CatalogCard Regroup(CatalogCard card, IReadOnlyDictionary<string, CounterpartMatch> counterparts,
+        Dictionary<string, TcgdexCard> refById, Dictionary<string, string> refCodes)
+    {
+        if (counterparts.GetValueOrDefault(card.ExternalIds!["tcgdex"]) is not { } match
+            || refById.GetValueOrDefault(match.RefCardId) is not { Set: { } set } reference || !refCodes.TryGetValue(set.Id, out var code))
+            return card with { CardGroup = null };
+        return card with
+        {
+            CardGroup = Ids.InternationalGroup(code, reference.LocalId),
+            FieldProvenance = new Dictionary<string, Provenance> { ["cardGroup"] = new("catalog-pipeline", _today, match.Confidence) },
+        };
     }
 
     // ---------- Marketplace ids ----------

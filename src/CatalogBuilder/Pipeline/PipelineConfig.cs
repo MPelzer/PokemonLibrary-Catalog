@@ -10,7 +10,12 @@ public sealed record PipelineSettings(
     string ReferenceLanguage,
     IReadOnlyList<string> ExcludedSeries,
     int RequestConcurrency,
-    IReadOnlyDictionary<string, IReadOnlyDictionary<string, string>> ValueMap);
+    IReadOnlyDictionary<string, IReadOnlyDictionary<string, string>> ValueMap,
+    IReadOnlyList<string>? SeparateNumbering = null)
+{
+    /// <summary>D53: languages with their own sets and numbering (Japanese) – grouped by <see cref="CrossLanguageMatcher"/>.</summary>
+    public bool HasSeparateNumbering(string lang) => SeparateNumbering?.Contains(lang) == true;
+}
 
 /// <summary>Repository configuration: <c>config/pipeline.json</c>, <c>config/sources.json</c>, <c>config/vocabulary.json</c>.</summary>
 public sealed class PipelineConfig

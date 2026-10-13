@@ -25,11 +25,15 @@ public sealed class Vocabulary
     public IReadOnlyList<string> Problems =>
         [.. _problems.Select(p => $"{p.Key} – {p.Value.Count}×, e.g. {p.Value.Example}")];
 
-    /// <summary>Maps <paramref name="raw"/> (field <paramref name="field"/>) to a key that must exist in <paramref name="section"/>.</summary>
+    /// <summary>
+    /// Maps <paramref name="raw"/> (field <paramref name="field"/>) to a key that must exist in <paramref name="section"/>.
+    /// A value map entry with an empty key drops the value (e.g. the Japanese attack cost "Void" = no energy).
+    /// </summary>
     public string? Map(string field, string section, string? raw, string context)
     {
         if (string.IsNullOrWhiteSpace(raw)) return null;
         var key = _valueMap.TryGetValue(field, out var map) && map.TryGetValue(raw, out var mapped) ? mapped : Keys.Slug(raw);
+        if (key.Length == 0) return null;
         if (_sections.TryGetValue(section, out var keys) && keys.Contains(key)) return key;
 
         var problem = $"Unknown {field} '{raw}' (key '{key}', vocabulary section '{section}')";

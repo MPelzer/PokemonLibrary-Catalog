@@ -59,6 +59,7 @@ public sealed record CatalogCard
     public IReadOnlyDictionary<string, string>? ExternalIds { get; init; }
     public required IReadOnlyList<CatalogPrint> Prints { get; init; }
     public required Provenance Provenance { get; init; }
+    public IReadOnlyDictionary<string, Provenance>? FieldProvenance { get; init; }
 }
 
 public sealed record Ability(string? Kind, string Name, string? Text);

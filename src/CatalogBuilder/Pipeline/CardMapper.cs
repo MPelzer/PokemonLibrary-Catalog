@@ -36,7 +36,7 @@ public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt)
             Subtypes = subtypes.Count > 0 ? subtypes.Distinct().ToList() : null,
             Hp = card.Hp,
             Types = vocabulary.MapAll("types", "types", enums.Types, ctx),
-            Species = card.DexId is { Count: > 0 } ? card.DexId : null,
+            Species = card.DexId?.OfType<int>().ToList() is { Count: > 0 } dex ? dex : null, // Japanese records contain nulls
             EvolvesFrom = card.EvolveFrom,
             Rarity = vocabulary.Map("rarity", "rarities", enums.Rarity ?? "None", ctx) ?? "none",
             Illustrator = card.Illustrator,

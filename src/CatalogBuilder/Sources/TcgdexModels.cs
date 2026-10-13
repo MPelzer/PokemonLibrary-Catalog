@@ -16,7 +16,7 @@ public sealed class TcgdexCard
     public string? Illustrator { get; set; }
     public int? Hp { get; set; }
     public List<string>? Types { get; set; }
-    public List<int>? DexId { get; set; }
+    public List<int?>? DexId { get; set; }
     public string? Stage { get; set; }
     public string? Suffix { get; set; }
     public string? EvolveFrom { get; set; }
