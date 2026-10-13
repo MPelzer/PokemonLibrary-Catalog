@@ -1,0 +1,4304 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "ja/pcg1",
+    "code": "pcg1",
+    "language": "ja",
+    "name": "伝説の飛翔",
+    "series": "PCG",
+    "releaseDate": "2004-04-09",
+    "cardCount": {
+      "official": 82,
+      "total": 82
+    },
+    "externalIds": {
+      "tcgdex": "PCG1"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-13",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "ja/pcg1/001",
+      "number": "001",
+      "name": "キャタピー",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        10
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "進化の兆候",
+          "cost": [
+            "colorless"
+          ],
+          "text": "メタポッドとバタフリーカードをデッキに検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。"
+        },
+        {
+          "name": "ストリングショット",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10",
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-001"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/001/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/001/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/002",
+      "number": "002",
+      "name": "メタポッド",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        11
+      ],
+      "rarity": "uncommon",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "エネルギー保護",
+          "text": "攻撃によってメタポッドに与えられた損傷は、メタポッドに付着した各エネルギーに対して10倍に減少します。この方法で30を超えるダメージを減らすことはできません。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "シャープ",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-002"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/002/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/002/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/003",
+      "number": "003",
+      "name": "蝶",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        12
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "ほこりをなだめる",
+          "text": "バタフリーがアクティブなポカモンである限り、ターン間の各ポカモンから1つのダメージカウンターを1つのダメージカウンターを削除します。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "旋風",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "対戦相手は、ディフェンディングポケモンを1匹のベンチポケモンで切り替えます。"
+        },
+        {
+          "name": "突風",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "PCG1-003"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/003/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/003/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/004",
+      "number": "004",
+      "name": "雑草",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        13
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "家族を呼びます",
+          "cost": [
+            "colorless"
+          ],
+          "text": "デッキを検索して、最大2草の基本的なポケモンを検索し、ベンチに置きます。その後、デッキをシャッフルします。"
+        },
+        {
+          "name": "ポイズンスパート",
+          "cost": [
+            "grass"
+          ],
+          "text": "除草剤に取り付けられた草のエネルギーカードを捨てます。防御ポケモンは現在中毒になっています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-004"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/004/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/004/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/005",
+      "number": "005",
+      "name": "カクナ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        14
+      ],
+      "rarity": "uncommon",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "ポイズンの見返り",
+          "text": "カクナがあなたのアクティブなポカモンであり、相手の攻撃によって損傷を受けている場合（カクナがノックアウトされたとしても）、攻撃するポカモンは現在毒されています。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "ヘッドバット",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-005"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/005/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/005/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/006",
+      "number": "006",
+      "name": "beedrill",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 90,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        15
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "毒物",
+          "cost": [
+            "grass"
+          ],
+          "damage": "20",
+          "text": "防御ポケモンは現在中毒になっています。"
+        },
+        {
+          "name": "リンク針",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "text": "この攻撃は、50のダメージと、プレイ中のビードリル（これを除く）ごとに30ダメージを与えます。"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "PCG1-006"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/006/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/006/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/007",
+      "number": "007",
+      "name": "nidoranf",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        29
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "友達を探してください",
+          "cost": [
+            "colorless"
+          ],
+          "text": "基本的なポケモンカードを公開するまで、デッキからカードを公開してください。そのカードを相手に見せて、あなたの手に入れてください。もう一方の公開されたカードをデッキにシャッフルします。 （基本的なポケモンを明らかにしない場合は、明らかになったカードをすべてデッキに戻してください。）"
+        },
+        {
+          "name": "噛む",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-007"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/007/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/007/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/008",
+      "number": "008",
+      "name": "ニドリーナ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        30
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "傷",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "高速進化",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "デッキを最大2枚の進化カードで検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-008"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/008/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/008/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/009",
+      "number": "009",
+      "name": "nidoranm",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        32
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "家族を呼びます",
+          "cost": [
+            "colorless"
+          ],
+          "text": "デッキを検索して、Nidoran fまたはnidoran mカードを探して、ベンチに置きます。  その後、デッキをシャッフルします。"
+        },
+        {
+          "name": "二重吸い込み",
+          "cost": [
+            "colorless"
+          ],
+          "text": "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-009"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/009/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/009/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/010",
+      "number": "010",
+      "name": "ニドリーノ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        33
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "二重吸い込み",
+          "cost": [
+            "colorless"
+          ],
+          "text": "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。"
+        },
+        {
+          "name": "レンド",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "防衛ポケモンにダメージカウンターがすでにある場合、この攻撃は30のダメージと30のダメージを与えます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-010"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/010/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/010/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/011",
+      "number": "011",
+      "name": "パラ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        46
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "家族を呼びます",
+          "cost": [
+            "colorless"
+          ],
+          "text": "デッキを最大2つの基本的なポケモンを検索し、ベンチに置きます。次に、デッキをシャッフルします。"
+        },
+        {
+          "name": "有毒な胞子",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10",
+          "text": "コインをひっくり返します。頭の場合、相手のアクティブなポケモンが毒されます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-011"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/011/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/011/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/012",
+      "number": "012",
+      "name": "パラセクト",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        47
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "エネルギーパウダー",
+          "cost": [
+            "grass"
+          ],
+          "text": "デッキを最大2つの基本エネルギーカードで検索し、好きな方法でポケモン（ポケモン-Exを除く）に添付してください。その後、デッキをシャッフルします。"
+        },
+        {
+          "name": "有毒な胞子",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "防御ポケモンは現在中毒になっています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-012"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/012/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/012/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/013",
+      "number": "013",
+      "name": "ヴェノナト",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        48
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "サイコウェーブ",
+          "cost": [
+            "colorless"
+          ],
+          "text": "Venonatに取り付けられたエネルギーカードを廃棄します。防御ポケモンは今混乱しています。"
+        },
+        {
+          "name": "噛む",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-013"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/013/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/013/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/014",
+      "number": "014",
+      "name": "venomoth",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        49
+      ],
+      "rarity": "rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "保護ダスト",
+          "text": "攻撃するポカンによって毒液に与えられた損傷を除く攻撃のすべての影響を防ぎます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "眠り毒",
+          "cost": [
+            "grass"
+          ],
+          "text": "防御するポケモンは今眠っていて毒されています。"
+        },
+        {
+          "name": "かみそりの風",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "コインをひっくり返します。尾の場合、この攻撃は何もしません。"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "PCG1-014"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/014/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/014/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/015",
+      "number": "015",
+      "name": "ベルスプラウト",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        69
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "つる鞭",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-015"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/015/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/015/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/016",
+      "number": "016",
+      "name": "weepinbell",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        70
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "かみそりの葉",
+          "cost": [
+            "grass"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "腐食性酸",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "防御ポケモンは現在燃やされています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-016"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/016/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/016/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/017",
+      "number": "017",
+      "name": "Victreebel",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 110,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        71
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "酸サンプラー",
+          "text": "Victreebelがあなたのアクティブなポカモンである限り、ターンの間に防御する各ポカモンに1つのダメージカウンターを置きます。他のアクティブなPokã©MonがVictreebelではない場合、酸サンプラーは機能しなくなります。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "酸",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "ディフェンディングポケモンは、相手の次のターンの終わりまで退却することはできません。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-017"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/017/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/017/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/018",
+      "number": "018",
+      "name": "タンゲラ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        114
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "つるのいじめ",
+          "cost": [
+            "colorless"
+          ],
+          "text": "相手に見せずに賞品を見てください。賞品の1枚を選択し、デッキの一番上のカードを見ずにデッキの一番上のカードで切り替えます。デッキにカードがない場合、この攻撃は何もしません。"
+        },
+        {
+          "name": "小刻み",
+          "cost": [
+            "grass"
+          ],
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。尾の場合、防御ポケモンは現在毒されます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-018"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/018/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/018/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/019",
+      "number": "019",
+      "name": "スキスター",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        123
+      ],
+      "rarity": "rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "リーフライド",
+          "text": "Scytherにエネルギーが付着している場合、Scytherのリトリートコストは0です。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "フューリーカッター",
+          "cost": [
+            "grass",
+            "colorless"
+          ],
+          "text": "3コインをフリップします。そのうち1人がヘッドである場合、この攻撃は10ダメージに加えて10ダメージを与えます。そのうち2人がヘッドである場合、この攻撃は10ダメージに加えて20ダメージを与えます。それらのすべてがヘッドである場合、この攻撃は10ダメージに加えて40ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-019"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/019/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/019/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/020",
+      "number": "020",
+      "name": "うなり声",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        58
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "噛む",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "炎の尾",
+          "cost": [
+            "fire",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-020"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/020/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/020/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/021",
+      "number": "021",
+      "name": "アルカニン",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        59
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "フレア",
+          "cost": [
+            "fire"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "ヒートタックル",
+          "cost": [
+            "fire",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "アルカニンはそれ自体に10のダメージを与えます。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-021"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/021/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/021/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/022",
+      "number": "022",
+      "name": "ポニータ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        77
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "踏みつけ",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-022"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/022/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/022/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/023",
+      "number": "023",
+      "name": "Rapidash",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        78
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "燃えるようなオーラ",
+          "text": "RapidashがアクティブなPokã©Monである限り、ターンの間に燃やされたポカモンに2つではなく4つのダメージカウンターを入れます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "炎を焼きます",
+          "cost": [
+            "fire",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "防御ポケモンは現在燃やされています。"
+        },
+        {
+          "name": "リアキック",
+          "cost": [
+            "fire",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-023"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/023/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/023/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/024",
+      "number": "024",
+      "name": "Moltres ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 110,
+      "types": [
+        "fire"
+      ],
+      "species": [
+        146
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "伝説的な上昇",
+          "text": "ターン中に、Moltre Exを手からベンチに置くと、Moltre exでアクティブなPokã©Monの1を切り替えることができます。そうした場合、Pokã©Monに取り付けられた数の基本的な火エネルギーカードをMoltres exに移動することもできます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "炎をつぶします",
+          "cost": [
+            "fire",
+            "fire",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "Moltres Exに取り付けられたエネルギーカードを廃棄することができます。もしそうなら、防御するポケモンは混乱しています。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-024"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/024/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/024/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/025",
+      "number": "025",
+      "name": "poliwag",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        60
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "スパイラル攻撃",
+          "cost": [
+            "colorless"
+          ],
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。"
+        },
+        {
+          "name": "尾のwhap",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-025"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/025/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/025/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/026",
+      "number": "026",
+      "name": "PoliWhirl",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        61
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "エネルギーストリーム",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "廃棄物の山を検索して、基本的なエネルギーカードを調べ、PoliWhirlに添付してください。"
+        },
+        {
+          "name": "バブル",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-026"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/026/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/026/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/027",
+      "number": "027",
+      "name": "Poliwrath",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 120,
+      "types": [
+        "water"
+      ],
+      "species": [
+        62
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "スパイラル",
+          "text": "Poliwrathがあなたのアクティブなポカモンである限り、あなたの相手の混乱したポカモンは退却することはできません。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "スパイラルパンチを分割します",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "防御ポケモンは今混乱しています。"
+        },
+        {
+          "name": "メガスロー",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "text": "防御ポケモンがポケモン-Exの場合、この攻撃は50のダメージと30ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-027"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/027/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/027/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/028",
+      "number": "028",
+      "name": "シール",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        86
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "ホーンハザード",
+          "cost": [
+            "water"
+          ],
+          "damage": "30",
+          "text": "コインをひっくり返します。尾の場合、この攻撃は何もしません。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-028"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/028/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/028/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/029",
+      "number": "029",
+      "name": "デューゴン",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        87
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "保護",
+          "text": "対戦相手のPokã©Mon-ExによってDewgongに行われた損害を含む攻撃のすべての影響を防ぎます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "コールドブレス",
+          "cost": [
+            "water"
+          ],
+          "damage": "10",
+          "text": "防御ポケモンは今眠っています。"
+        },
+        {
+          "name": "オーロラビーム",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-029"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/029/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/029/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/030",
+      "number": "030",
+      "name": "シェルダー",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        90
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "最小化します",
+          "cost": [
+            "colorless"
+          ],
+          "text": "対戦相手の次のターン中、攻撃によってシェルダーに与えられた損害は20増加します（脱力と抵抗を適用した後）。"
+        },
+        {
+          "name": "波のスプラッシュ",
+          "cost": [
+            "water"
+          ],
+          "damage": "10"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-030"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/030/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/030/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/031",
+      "number": "031",
+      "name": "クロイスター",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "water"
+      ],
+      "species": [
+        91
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "外骨格",
+          "text": "攻撃によってCloysterに与えられた損害は、衰弱と抵抗を適用した後）20増加します。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "二重バブル",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。いずれかのコインがヘッドである場合、防御ポケモンは麻痺しています。"
+        },
+        {
+          "name": "シェル攻撃",
+          "cost": [
+            "water",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-031"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/031/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/031/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/032",
+      "number": "032",
+      "name": "クラビー",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "water"
+      ],
+      "species": [
+        98
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "Irongrip",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "昼寝",
+          "cost": [
+            "water"
+          ],
+          "text": "Krabbyから2つのダメージカウンターを削除します（1つしかない場合は1を削除します）。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-032"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/032/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/032/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/033",
+      "number": "033",
+      "name": "キングラー",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        99
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "塩水",
+          "cost": [
+            "colorless"
+          ],
+          "text": "デッキを最大2枚の水エネルギーカードで検索し、キングラーに取り付けます。その後、デッキをシャッフルします。"
+        },
+        {
+          "name": "ハイパーポンプ",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "text": "30のダメージに加えて、キングラーに付随する基本エネルギーごとに20のダメージがさらに20件ありますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で40以上のダメージを追加することはできません。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-033"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/033/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/033/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/034",
+      "number": "034",
+      "name": "Magikarp",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "water"
+      ],
+      "species": [
+        129
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "奇襲",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "コインをひっくり返します。尾の場合、この攻撃は何もしません。"
+        },
+        {
+          "name": "上昇",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "text": "Magikarpから進化するカードをデッキで検索し、Magikarpに置いてください。 （これは進化するMagikarpとしてカウントされます。）その後、デッキをシャッフルします。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-034"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/034/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/034/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/035",
+      "number": "035",
+      "name": "Gyarados Ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 130,
+      "types": [
+        "water"
+      ],
+      "species": [
+        130
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "ツイスター",
+          "cost": [
+            "water",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "2つのコインをフリップします。各ヘッドについて、ディフェンディングポケモンに取り付けられた1つのエネルギーを選択して、それを破棄します。両方が尾の場合、この攻撃は何もしません。"
+        },
+        {
+          "name": "ドラゴンレイジ",
+          "cost": [
+            "water",
+            "water",
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "100"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "PCG1-035"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/035/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/035/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/036",
+      "number": "036",
+      "name": "Articuno Ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 110,
+      "types": [
+        "water"
+      ],
+      "species": [
+        144
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "伝説的な上昇",
+          "text": "ターン中に、Articuno Exを手からベンチに置くと、Articuno ExでアクティブなPokã©Monの1を切り替えることができます。もしそうなら、あなたはあなたのポカモンに取り付けられた任意の数の基本的な水エネルギーカードをArticuno Exに移動することもできます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "コールドクラッシュ",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Articuno Exに取り付けられたエネルギーカードを破棄できます。もしそうなら、相手は防御ポケモンに取り付けられたエネルギーカードを破棄します。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-036"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/036/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/036/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/037",
+      "number": "037",
+      "name": "ピカチュウ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        25
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "プラズマ",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "コインをひっくり返します。頭の場合は、廃棄物のエネルギーカードを廃棄することを検索し、ピカチュウに取り付けます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-037"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/037/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/037/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/038",
+      "number": "038",
+      "name": "ライチュ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        26
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "充電",
+          "cost": [
+            "colorless"
+          ],
+          "text": "デッキを最大2枚の稲妻エネルギーカードで検索し、ライチュに添付してください。その後、デッキをシャッフルします。"
+        },
+        {
+          "name": "サンダーリフレクション",
+          "cost": [
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "Raichuに取り付けられた数の稲妻エネルギーカードを別のポケモンに移動できます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-038"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/038/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/038/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/039",
+      "number": "039",
+      "name": "マグナイト",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        81
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "超音速",
+          "cost": [
+            "colorless"
+          ],
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。"
+        },
+        {
+          "name": "スピードボール",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-039"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/039/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/039/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/040",
+      "number": "040",
+      "name": "マグネトン",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        82
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "サンダーショック",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。"
+        },
+        {
+          "name": "スピードショット",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに40のダメージを与えます。この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、またはそのポケモンに対するその他の影響の影響を受けません。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-040"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/040/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/040/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/041",
+      "number": "041",
+      "name": "Voltorb",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        100
+      ],
+      "rarity": "common",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "浮遊電子",
+          "text": "Voltorbにエネルギーが付着している限り、Voltorbのリトリートコストは0です。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "サンダーショック",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-041"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/041/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/041/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/042",
+      "number": "042",
+      "name": "電極Ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        101
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "余分なエネルギー爆弾",
+          "text": "ターン中（攻撃前）に、電極EXとそれに取り付けられたすべてのカードを破棄することができます（これは電極EXをノックアウトするとカウントされます）。そうした場合は、5枚のエネルギーカードを廃棄することを検索し、好きな方法でPokã©Mon（Pokã©Mon-Exを除く）のいずれかに添付してください。電極EXが特別な状態の影響を受ける場合、この電力は使用できません。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "押しつぶして燃やします",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "text": "プレイ中のポケモンに添付されているだけのエネルギーを捨てることができます。もしそうなら、この攻撃は30のダメージに加えて、あなたが捨てたエネルギーごとに20のダメージをさらに20回かけます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-042"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/042/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/042/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/043",
+      "number": "043",
+      "name": "Zapdos Ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 110,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        145
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "伝説的な上昇",
+          "text": "ターン中に、Zapdos Exを手からベンチに置くと、Zapdos ExでアクティブなPokã©Monの1を切り替えることができます。そうする場合は、Pokã©Monに取り付けられた数の基本的な稲妻エネルギーカードをZapdos Exに移動することもできます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "電子クラッシュ",
+          "cost": [
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "text": "Zapdos Exに取り付けられたエネルギーカードを破棄できます。そうした場合、この攻撃は50ダメージに加えて20ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-043"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/043/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/043/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/044",
+      "number": "044",
+      "name": "slowpoke",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        79
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "混乱波",
+          "cost": [
+            "colorless"
+          ],
+          "text": "SlowPokeと防御ポケモンの両方が混乱しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-044"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/044/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/044/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/045",
+      "number": "045",
+      "name": "スローブロ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 60,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        80
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "奇妙な行動",
+          "text": "ターン中に（攻撃前）が好きなように、スローブロをノックアウトしない限り、ポケモンの1から1ダメージカウンターをスローブロに移動できます。 Slowbroが特別な状態の影響を受ける場合、このパワーは使用できません。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "PsyShock",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-045"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/045/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/045/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/046",
+      "number": "046",
+      "name": "ガストリー",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        92
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "遅いトリップガス",
+          "cost": [
+            "colorless"
+          ],
+          "text": "対戦相手の次のターンの終わりに、ディフェンディングポケモンは混乱しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-046"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/046/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/046/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/047",
+      "number": "047",
+      "name": "ハンター",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        93
+      ],
+      "rarity": "rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "ヘッドトリップ",
+          "text": "ターン中（攻撃の前に）一度、Haunterがベンチにいる場合は、このパワーを使用できます。あなたのアクティブなポカンの1つが混乱しています。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "レイを混乱させます",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-047"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/047/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/047/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/048",
+      "number": "048",
+      "name": "Gengar Ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 150,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        94
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "ポルターガイスト",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "相手の手を見てください。この攻撃は、相手の手の中の各トレーナーカードに対して40のダメージと10ダメージを与えます。"
+        },
+        {
+          "name": "賞金",
+          "cost": [
+            "psychic",
+            "psychic",
+            "colorless"
+          ],
+          "text": "対戦相手よりも多くの賞品が残っている場合、この攻撃は60ダメージに加えて40ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-048"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/048/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/048/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/049",
+      "number": "049",
+      "name": "ドロージー",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        96
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "催眠",
+          "cost": [
+            "colorless"
+          ],
+          "text": "防御ポケモンは今眠っています。"
+        },
+        {
+          "name": "待ち伏せ",
+          "cost": [
+            "psychic"
+          ],
+          "text": "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-049"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/049/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/049/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/050",
+      "number": "050",
+      "name": "催眠",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        97
+      ],
+      "rarity": "rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "不気味なオーラ",
+          "text": "Hypnoがアクティブなポカモンである限り、ターンの間に眠っている各ポカモンに2つのダメージカウンターを入れます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "催眠線",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "防御ポケモンは今眠っています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-050"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/050/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/050/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/051",
+      "number": "051",
+      "name": "exeggcute",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        102
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "PSYBEAM",
+          "cost": [
+            "psychic"
+          ],
+          "damage": "10",
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。"
+        },
+        {
+          "name": "ダブルスピン",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-051"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/051/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/051/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/052",
+      "number": "052",
+      "name": "exeggutor",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        103
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "サイキック交換",
+          "cost": [
+            "colorless"
+          ],
+          "text": "あなたの手をあなたのデッキにシャッフルします。最大8枚のカードを作成します。"
+        },
+        {
+          "name": "大きな卵の幅",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "exeggutorに取り付けられた各エネルギーのコインをひっくり返します。この攻撃は、ヘッド数の40回のダメージ倍になります。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-052"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/052/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/052/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/053",
+      "number": "053",
+      "name": "Mime Ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        122
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "魔法のオッズ",
+          "text": "Mime Exが攻撃によって損傷を受けた場合、そのダメージが10、30、50、70、90、110、130、150、150、または170の場合、Mime Ex氏に対する攻撃の損傷を防ぎます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "壊す",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "相手の手にカードの数を数えます。  その多くのダメージカウンターを防御ポケモンに置きます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-053"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/053/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/053/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/054",
+      "number": "054",
+      "name": "Mime Ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        122
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "魔法のイベン",
+          "text": "Mime Exが攻撃によって損傷を受けた場合、そのダメージが20、40、60、80、100、140、160、160、または180の場合、Mime Ex氏に対する攻撃の損傷を防ぎます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "壊す",
+          "cost": [
+            "psychic",
+            "colorless"
+          ],
+          "text": "相手の手にカードの数を数えます。  その多くのダメージカウンターを防御ポケモンに置きます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-054"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/054/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/054/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/055",
+      "number": "055",
+      "name": "nidoqueen",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 120,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        31
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "家族の債券",
+          "text": "Nidoqueenがプレイしている限り、Nidoran F、Nidorina、Nidoran M、Nidorino、Nidokingのリトリートコストは0です。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "有毒",
+          "cost": [
+            "grass"
+          ],
+          "text": "防御ポケモンは現在中毒になっています。ターンの間に防御ポケモンに1つではなく2つのダメージカウンターを置きます。"
+        },
+        {
+          "name": "パワーラリアット",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "text": "40のダメージに加えて、プレイ中の進化したポケモンごとにさらに10ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-055"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/055/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/055/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/056",
+      "number": "056",
+      "name": "ニドキング",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 120,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        34
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "パワー遺伝子",
+          "text": "Nidokingが機能している限り、Nidoran F、Nidorina、Nidoqueen、Nidoran M、およびNidorinoによる攻撃は、Pokã©Monにさらに10ダメージを与えます。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "地球毒",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "防衛ポケモンにダメージカウンターがすでにある場合、防御ポケモンは現在毒されています。"
+        },
+        {
+          "name": "バウンドクラッシュ",
+          "cost": [
+            "fighting",
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "text": "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに60のダメージを与えます。 （ベンチ付きポケモンに衰弱と抵抗を適用しないでください。）Nidkingは、次のターン中にBound Crushを使用できません。"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "PCG1-056"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/056/holo",
+          "finish": "holo"
+        },
+        {
+          "id": "ja/pcg1/056/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/057",
+      "number": "057",
+      "name": "ディグレット",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        50
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "下を掘ります",
+          "cost": [
+            "colorless"
+          ],
+          "text": "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに10ダメージを与えます。この攻撃の損傷は、脱力感や抵抗の影響を受けません。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-057"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/057/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/057/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/058",
+      "number": "058",
+      "name": "Dugtrio",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        51
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "Sonicboom",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "この攻撃の損傷は、脱力感や抵抗の影響を受けません。"
+        },
+        {
+          "name": "ランブル",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "ディフェンディングポケモンは、相手の次のターンの終わりまで退却することはできません。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-058"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/058/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/058/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/059",
+      "number": "059",
+      "name": "マンキー",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        56
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "いたずら",
+          "cost": [
+            "colorless"
+          ],
+          "text": "相手のデッキをシャッフルします。"
+        },
+        {
+          "name": "軽いパンチ",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-059"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/059/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/059/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/060",
+      "number": "060",
+      "name": "プライム",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        57
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "トス",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "多くのテクニカルマシンとポケモンツールカードと同じくらい多くのテクニカルマシンとポケモンのツールカードを捨てることができます。この攻撃は、廃棄したカードの数の30回のダメージ時間を実行します。"
+        },
+        {
+          "name": "ローキック",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "PCG1-060"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/060/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/060/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/061",
+      "number": "061",
+      "name": "onix",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        95
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "ロックスロー",
+          "cost": [
+            "fighting"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "トンネリング",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "text": "対戦相手のベンチ付きポケモンを最大2つ選択します。この攻撃は、それぞれに10ダメージを与えます。 （ベンチ付きポケモンに衰弱と抵抗を適用しないでください。）Onixは次のターン中に攻撃できません。"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "PCG1-061"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/061/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/061/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/062",
+      "number": "062",
+      "name": "キューボン",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        104
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "ビート",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10"
+        },
+        {
+          "name": "線形攻撃",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "text": "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-062"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/062/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/062/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/063",
+      "number": "063",
+      "name": "マロワク",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        105
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "線形攻撃",
+          "cost": [
+            "fighting",
+            "colorless"
+          ],
+          "text": "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）"
+        },
+        {
+          "name": "復讐",
+          "cost": [
+            "fighting",
+            "colorless",
+            "colorless"
+          ],
+          "text": "基本的なポケモンごとに30のダメージに加えて、廃棄パイル内の各進化カードに対してさらに10ダメージを与えます。この方法で60以上のダメージを追加することはできません。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-063"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/063/holo.first-edition",
+          "finish": "holo",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/063/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/064",
+      "number": "064",
+      "name": "pidgeot",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 100,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        18
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "クイック検索",
+          "text": "ターン中に（攻撃の前に）、デッキから1枚のカードを選択して手に入れることができます。その後、デッキをシャッフルします。ターンごとに1つ以上のクイック検索Pokã©-Powerを使用することはできません。 Pidgeotが特別な状態の影響を受ける場合、このパワーは使用できません。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "クラッチ",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "ディフェンディングポケモンは、相手の次のターンの終わりまで退却することはできません。"
+        }
+      ],
+      "externalIds": {
+        "tcgdex": "PCG1-064"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/064/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/064/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/065",
+      "number": "065",
+      "name": "クリーフ",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        35
+      ],
+      "rarity": "common",
+      "attacks": [
+        {
+          "name": "ジェスチャー",
+          "cost": [
+            "colorless"
+          ],
+          "text": "対戦相手のベンチポケモンを1つ選択し、防御ポケモンに切り替えます。  対戦相手は、防御するポケモンを選択して切り替えます。"
+        },
+        {
+          "name": "ムーンキック",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-065"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/065/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/065/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/066",
+      "number": "066",
+      "name": "Clefable ex",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 100,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        36
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "メトロノーム",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "防御ポケモンの攻撃の1つを選択します。メトロノームは、エネルギーコストを除いて攻撃するコピーをコピーします。 （その攻撃を使用するには、他のことをまだしなければなりません。）（ポケモンがどんなタイプであっても、Clefable Exのタイプはまだ無色です。）Clefable Exはその攻撃を実行します。"
+        },
+        {
+          "name": "月の衝撃",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-066"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/066/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/066/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/067",
+      "number": "067",
+      "name": "Farfetch'd",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        83
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "買いだめ",
+          "cost": [
+            "colorless"
+          ],
+          "text": "デッキを最大2枚のポケモンツールカードで検索し、ポケモンのいずれかに添付します（ポケモンツールが既に取り付けられているポケモンを除く）。その後、デッキをシャッフルします。"
+        },
+        {
+          "name": "クロスカット",
+          "cost": [
+            "colorless"
+          ],
+          "text": "防御ポケモンが進化したポケモンである場合、この攻撃は10ダメージに加えて20ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-067"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/067/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/067/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/068",
+      "number": "068",
+      "name": "リキトゥン",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        108
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "なめる",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。"
+        },
+        {
+          "name": "舌鞭",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-068"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/068/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/068/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/069",
+      "number": "069",
+      "name": "チャンジー",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        113
+      ],
+      "rarity": "rare",
+      "attacks": [
+        {
+          "name": "歌う",
+          "cost": [
+            "colorless"
+          ],
+          "text": "防御ポケモンは今眠っています。"
+        },
+        {
+          "name": "卵の驚き",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "コインをひっくり返します。頭の場合、チャンシーは防御ポケモンに50のダメージを与えます。テールの場合、Chanseyから5つのダメージカウンターを削除します。 （5歳未満の場合はすべて5歳未満の場合）"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-069"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/069/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/069/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/070",
+      "number": "070",
+      "name": "カンガスハン",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        115
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "フェッチ",
+          "cost": [
+            "colorless"
+          ],
+          "text": "カードを描きます。"
+        },
+        {
+          "name": "ヘッドバット",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "ワンツーパンチ",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて20ダメージを与えます。"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "PCG1-070"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/070/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/070/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/071",
+      "number": "071",
+      "name": "タウロス",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        128
+      ],
+      "rarity": "holo-rare",
+      "attacks": [
+        {
+          "name": "ノックオーバー",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "プレイ中のスタジアムカードを捨てることができます。"
+        },
+        {
+          "name": "大暴れ",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "タウロスのダメージカウンターごとに20のダメージに加えて10ダメージを加えます。ダメージを与えた後、コインをひっくり返します。尾の場合、タウロスは混乱しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-071"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/071/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/071/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/072",
+      "number": "072",
+      "name": "同上",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        132
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "フォームバリエーション",
+          "text": "ターン中（攻撃の前に）一度（攻撃の前）、基本的なPokã©Mon（Pokã©Mon-ExおよびDittoを除く）を廃棄パイルを検索し、Dittoで切り替えることができます。 （同上、ダメージカウンター、特別な条件、およびその影響に添付されたカードは、現在、新しいPokã©Mon。）にあります。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "エネルギーボール",
+          "cost": [
+            "colorless"
+          ],
+          "text": "10ダメージに加えて、同上に付着した各エネルギーの10ダメージをさらに10ダメージしますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-072"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/072/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/072/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/073",
+      "number": "073",
+      "name": "ポリゴン",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        137
+      ],
+      "rarity": "uncommon",
+      "attacks": [
+        {
+          "name": "データ取得",
+          "cost": [
+            "colorless"
+          ],
+          "text": "手に4枚未満のカードがある場合は、手に4枚のカードがあるまでカードを描画します。"
+        },
+        {
+          "name": "レイを混乱させます",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "防御ポケモンは今混乱しています。"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "PCG1-073"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/073/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/073/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/074",
+      "number": "074",
+      "name": "Snorlax",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        143
+      ],
+      "rarity": "holo-rare",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "休んでください",
+          "text": "Snorlaxがターンの間に眠っている場合は、Snorlaxから2つのダメージカウンターを削除します（1つしかない場合は1を削除します）。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "崩壊",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "Snorlaxは今眠っています。"
+        },
+        {
+          "name": "投げてターンします",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "text": "Snorlaxが眠っている場合、この攻撃は30ダメージに加えて30ダメージを与えます。 （Snorlaxが眠っていても、この攻撃は使用できます。）"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "PCG1-074"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/074/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/074/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/075",
+      "number": "075",
+      "name": "素晴らしいボール",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "PCG1-075"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/075/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/075/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/076",
+      "number": "076",
+      "name": "VSシーカー",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "PCG1-076"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/076/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/076/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/077",
+      "number": "077",
+      "name": "pokedex Handy909",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "PCG1-077"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/077/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/077/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/078",
+      "number": "078",
+      "name": "オーク教授の研究",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "PCG1-078"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/078/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/078/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/079",
+      "number": "079",
+      "name": "セリオのネットワーク",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "PCG1-079"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/079/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/079/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/080",
+      "number": "080",
+      "name": "ビルのメンテナンス",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "PCG1-080"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/080/normal",
+          "finish": "normal"
+        },
+        {
+          "id": "ja/pcg1/080/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/081",
+      "number": "081",
+      "name": "exp。共有",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "PCG1-081"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/081/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/081/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/pcg1/082",
+      "number": "082",
+      "name": "山ムーン",
+      "supertype": "trainer",
+      "rarity": "uncommon",
+      "externalIds": {
+        "tcgdex": "PCG1-082"
+      },
+      "prints": [
+        {
+          "id": "ja/pcg1/082/normal.first-edition",
+          "finish": "normal",
+          "edition": "first-edition"
+        },
+        {
+          "id": "ja/pcg1/082/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    }
+  ]
+}

@@ -11,8 +11,12 @@ version="$base.$n"
 dotnet run --project src/CatalogBuilder -c Release -- build
 dotnet run --project src/CatalogBuilder -c Release -- package --version "$version"
 
-# Release notes (shown by the app before updating, UC-02 step 1): new sets since the last release.
-new_sets="$(git ls-files --others --exclude-standard catalog/sets | sort | while read -r f; do
+# Release notes (shown by the app before updating, UC-02 step 1): new sets since the last release – set files added
+# since its tag (catalog data may have been committed before the release) and files not committed yet.
+git fetch -q --tags
+last_tag="$(git tag -l 'catalog-*' --sort=-v:refname | head -n 1)"
+new_sets="$({ if [ -n "$last_tag" ]; then git diff --name-only --diff-filter=A "$last_tag" -- catalog/sets; fi
+  git ls-files --others --exclude-standard catalog/sets; } | sort -u | while read -r f; do
   jq -r '"- \(.set.name) (\(.set.language), \(.cards | length) cards)"' "$f"; done)"
 notes="Catalog format v1. Languages: $(jq -r '.languages | join(", ")' catalog/manifest.json). No prices (D27). Sources and licenses: see NOTICE.md."
 if [ -n "$new_sets" ]; then notes="$notes"$'\n\n'"New sets:"$'\n'"$new_sets"; fi

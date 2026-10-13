@@ -1,0 +1,4100 @@
+{
+  "formatVersion": "1.0",
+  "set": {
+    "id": "ja/sm9a",
+    "code": "sm9a",
+    "language": "ja",
+    "name": "ナイトユニゾン",
+    "series": "サン＆ムーン",
+    "releaseDate": "2019-01-11",
+    "cardCount": {
+      "official": 55,
+      "total": 70
+    },
+    "externalIds": {
+      "tcgdex": "SM9a"
+    },
+    "provenance": {
+      "source": "tcgdex",
+      "retrievedAt": "2026-10-13",
+      "confidence": "high"
+    }
+  },
+  "cards": [
+    {
+      "id": "ja/sm9a/001",
+      "number": "001",
+      "name": "コンパン",
+      "cardGroup": "intl/sm10/9",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        48
+      ],
+      "rarity": "common",
+      "illustrator": "kirisAki",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "レーダーアイ",
+          "cost": [
+            "grass"
+          ],
+          "text": "自分の山札を上から7枚見て、その中にあるカードを1枚、手札に加える。残りのカードは山札にもどして切る。"
+        },
+        {
+          "name": "はねまわる",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-001"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/001/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/002",
+      "number": "002",
+      "name": "モルフォンGX",
+      "cardGroup": "intl/sm10/12",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1",
+        "gx"
+      ],
+      "hp": 200,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        49
+      ],
+      "evolvesFrom": "コンパン",
+      "rarity": "double-rare",
+      "illustrator": "5ban Graphics",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "しのびのごくい",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "110+",
+          "text": "この番、手札から「キョウの罠」を出して使っていたなら、90ダメージ追加。「アンズ」を出して使っていたなら、次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。"
+        },
+        {
+          "name": "じゅうまいがえしGX",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "自分の手札をすべて山札にもどして切る。その後、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-002"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/002/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "low"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/003",
+      "number": "003",
+      "name": "マダツボミ",
+      "cardGroup": "intl/sm10/13",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        69
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "はっぱカッター",
+          "cost": [
+            "grass"
+          ],
+          "damage": "20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-003"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/003/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/004",
+      "number": "004",
+      "name": "ウツドン",
+      "cardGroup": "intl/sm10/14",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        70
+      ],
+      "evolvesFrom": "マダツボミ",
+      "rarity": "common",
+      "illustrator": "otumami",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "やけつくどく",
+          "cost": [
+            "grass"
+          ],
+          "text": "相手のバトルポケモンをどくとやけどにする。"
+        },
+        {
+          "name": "ぶつかる",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-004"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/004/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/005",
+      "number": "005",
+      "name": "ウツボット",
+      "cardGroup": "intl/sm10/15",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 140,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        71
+      ],
+      "evolvesFrom": "ウツドン",
+      "rarity": "uncommon",
+      "illustrator": "Anesaki Dynamic",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "どくへんげ",
+          "cost": [
+            "grass"
+          ],
+          "damage": "10+",
+          "text": "相手のバトルポケモンが受けている特殊状態の数x60ダメージ追加。"
+        },
+        {
+          "name": "いえき",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "90",
+          "text": "次の自分の番の終わりまで、このワザを受けたポケモンが持つ特性はなくなる。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-005"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/005/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/006",
+      "number": "006",
+      "name": "アゴジムシ",
+      "cardGroup": "intl/sm10/18",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        736
+      ],
+      "rarity": "common",
+      "illustrator": "Yuka Morii",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "エレキシグナル",
+          "cost": [
+            "colorless"
+          ],
+          "text": "自分の山札にある[雷]ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。"
+        },
+        {
+          "name": "どつく",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-006"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/006/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/007",
+      "number": "007",
+      "name": "メノクラゲ",
+      "cardGroup": "intl/sm10/40",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        72
+      ],
+      "rarity": "common",
+      "illustrator": "Shin Nagasawa",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "あわとばしのじゅつ",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "この番、手札から「アンズ」を出して使っていたなら、50ダメージ追加。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-007"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/007/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/008",
+      "number": "008",
+      "name": "ドククラゲ",
+      "cardGroup": "intl/sm10/41",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 100,
+      "types": [
+        "water"
+      ],
+      "species": [
+        73
+      ],
+      "evolvesFrom": "メノクラゲ",
+      "rarity": "common",
+      "illustrator": "Shigenori Negishi",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "いけずなしょくしゅ",
+          "cost": [
+            "colorless"
+          ],
+          "text": "相手の場のポケモンについているエネルギーを1個、相手の別のポケモンにつけ替える。その後、つけ替えたポケモンにダメカンを3個のせる。"
+        },
+        {
+          "name": "まきつく",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-008"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/008/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/009",
+      "number": "009",
+      "name": "トサキント",
+      "cardGroup": "intl/sm10/48",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        118
+      ],
+      "rarity": "common",
+      "illustrator": "Naoyo Kimura",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ゆうがにおよぐ",
+          "cost": [
+            "water"
+          ],
+          "damage": "10",
+          "text": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-009"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/009/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/010",
+      "number": "010",
+      "name": "アズマオウ",
+      "cardGroup": "intl/sm10/49",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 100,
+      "types": [
+        "water"
+      ],
+      "species": [
+        119
+      ],
+      "evolvesFrom": "トサキント",
+      "rarity": "uncommon",
+      "illustrator": "Midori Harada",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "エキサイトホーン",
+          "cost": [
+            "water"
+          ],
+          "damage": "30×",
+          "text": "コインを2回投げ、オモテの数x30ダメージ。このポケモンに「ポケモンのどうぐ」がついているなら、このワザで投げるコインの数は6回になる。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-010"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/010/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/011",
+      "number": "011",
+      "name": "キュレム",
+      "cardGroup": "intl/sm10/50",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 130,
+      "types": [
+        "water"
+      ],
+      "species": [
+        646
+      ],
+      "rarity": "rare",
+      "illustrator": "Anesaki Dynamic",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "れいきをよぶ",
+          "cost": [
+            "colorless"
+          ],
+          "text": "自分の山札にある[水]エネルギーを1枚、このポケモンにつける。そして山札を切る。"
+        },
+        {
+          "name": "ヘイルプリズン",
+          "cost": [
+            "water",
+            "water",
+            "colorless"
+          ],
+          "damage": "110",
+          "text": "このポケモンについている[水]エネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-011"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/011/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/012",
+      "number": "012",
+      "name": "ケロマツ",
+      "cardGroup": "intl/sm10/51",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "water"
+      ],
+      "species": [
+        656
+      ],
+      "rarity": "common",
+      "illustrator": "Kyoko Umemoto",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "でんこうせっか",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "コインを1回投げオモテなら、20ダメージ追加。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-012"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/012/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/013",
+      "number": "013",
+      "name": "ゲコガシラ",
+      "cardGroup": "intl/sm10/52",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "water"
+      ],
+      "species": [
+        657
+      ],
+      "evolvesFrom": "ケロマツ",
+      "rarity": "common",
+      "illustrator": "Satoshi Shirai",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ざんぞうぎり",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "20",
+          "text": "次の相手の番、このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-013"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/013/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/014",
+      "number": "014",
+      "name": "ピカチュウ",
+      "cardGroup": "intl/sm10/54",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        25
+      ],
+      "rarity": "common",
+      "illustrator": "nagimiso",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ピカボール",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-014"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/014/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/015",
+      "number": "015",
+      "name": "ライチュウ",
+      "cardGroup": "intl/sm10/55",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 120,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        26
+      ],
+      "evolvesFrom": "ピカチュウ",
+      "rarity": "uncommon",
+      "illustrator": "Shin Nagasawa",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ネバーギブアップ",
+          "cost": [
+            "colorless"
+          ],
+          "text": "このワザは、自分のサイドの残り枚数が、相手より3枚以上多いときにしか使えない。自分のトラッシュにある[雷]エネルギーをすべて、自分のポケモンに好きなようにつける。"
+        },
+        {
+          "name": "ヘッドボルト",
+          "cost": [
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "110"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-015"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/015/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/016",
+      "number": "016",
+      "name": "デデンネGX",
+      "cardGroup": "intl/sm10/57",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "gx"
+      ],
+      "hp": 160,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        702
+      ],
+      "rarity": "double-rare",
+      "illustrator": "PLANETA Igarashi",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "デデチェンジ",
+          "text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「デデチェンジ」を使っていたなら、この特性は使えない。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "バチバチ",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50"
+        },
+        {
+          "name": "ビリリターンGX",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-016"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/016/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/017",
+      "number": "017",
+      "name": "デンヂムシ",
+      "cardGroup": "intl/sm10/58",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        737
+      ],
+      "evolvesFrom": "アゴジムシ",
+      "rarity": "common",
+      "illustrator": "Sekio",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "バッテリー",
+          "text": "このカードが手札にあるなら、自分の番に1回使える。このカードを特殊エネルギーとして自分の「クワガノン（GXをふくむ）」につける。このカードは、ポケモンについているかぎり[雷]エネルギー2個ぶんとしてはたらく。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "つきさす",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 3,
+      "externalIds": {
+        "tcgdex": "SM9a-017"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/017/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/018",
+      "number": "018",
+      "name": "クワガノン",
+      "cardGroup": "intl/sm10/59",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 150,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        738
+      ],
+      "evolvesFrom": "デンヂムシ",
+      "rarity": "rare",
+      "illustrator": "Hasuno",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "ステルスボディ",
+          "text": "場にスタジアムが出ているなら、このポケモンの弱点は、すべてなくなる。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "エレキほう",
+          "cost": [
+            "lightning",
+            "lightning",
+            "lightning",
+            "colorless"
+          ],
+          "damage": "120+",
+          "text": "のぞむなら、このポケモンについている[雷]エネルギーを、すべてトラッシュする。その場合、100ダメージ追加。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-018"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/018/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/019",
+      "number": "019",
+      "name": "ゼラオラ",
+      "cardGroup": "intl/sm10/60",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 120,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        807
+      ],
+      "rarity": "rare",
+      "illustrator": "kawayoo",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "クラッシュクロー",
+          "cost": [
+            "lightning"
+          ],
+          "damage": "20",
+          "text": "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。"
+        },
+        {
+          "name": "ほうでん",
+          "cost": [
+            "lightning",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "50×",
+          "text": "このポケモンについている[雷]エネルギーをすべてトラッシュし、その枚数x50ダメージ。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-019"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/019/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/020",
+      "number": "020",
+      "name": "マーシャドー",
+      "cardGroup": "intl/sm10/81",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 80,
+      "types": [
+        "psychic"
+      ],
+      "species": [
+        802
+      ],
+      "rarity": "rare",
+      "illustrator": "chibi",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "リセットホール",
+          "text": "このポケモンがベンチにいるなら、自分の番に1回使える。場に出ているスタジアムをトラッシュする。その後、このポケモンと、ついているすべてのカードを、トラッシュする。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "レッドナックル",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "相手のバトルポケモンが「ウルトラビースト」なら、60ダメージ追加。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "darkness",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "fighting",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-020"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/020/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/021",
+      "number": "021",
+      "name": "ウパー",
+      "cardGroup": "intl/sm10/96",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 70,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        194
+      ],
+      "rarity": "common",
+      "illustrator": "tetsuya koizumi",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "どろばくだん",
+          "cost": [
+            "water",
+            "water"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-021"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/021/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/022",
+      "number": "022",
+      "name": "ヌオー",
+      "cardGroup": "intl/sm10/97",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 120,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        195
+      ],
+      "evolvesFrom": "ウパー",
+      "rarity": "uncommon",
+      "illustrator": "kirisAki",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "みずでっぽう",
+          "cost": [
+            "water"
+          ],
+          "damage": "20"
+        },
+        {
+          "name": "なみのり",
+          "cost": [
+            "water",
+            "water",
+            "water"
+          ],
+          "damage": "120"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-022"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/022/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/023",
+      "number": "023",
+      "name": "グライガー",
+      "cardGroup": "intl/sm10/98",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        207
+      ],
+      "rarity": "common",
+      "illustrator": "Ken Sugimori",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "フリーフライト",
+          "text": "このポケモンにエネルギーがついていないなら、このポケモンのにげるためのエネルギーは、すべてなくなる。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "しのびのひとつき",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "この番、手札から「アンズ」を出して使っていたなら、90ダメージ追加。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-023"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/023/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/024",
+      "number": "024",
+      "name": "グライオン",
+      "cardGroup": "intl/sm10/99",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 110,
+      "types": [
+        "fighting"
+      ],
+      "species": [
+        472
+      ],
+      "evolvesFrom": "グライガー",
+      "rarity": "common",
+      "illustrator": "Mizue",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "もってくる",
+          "cost": [
+            "colorless"
+          ],
+          "text": "自分の山札を3枚引く。"
+        },
+        {
+          "name": "どくづき",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "相手のバトルポケモンをどくにする。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-024"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/024/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/025",
+      "number": "025",
+      "name": "ゲッコウガ&ゾロアークGX",
+      "cardGroup": "intl/sm10/107",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "tag-team-gx"
+      ],
+      "hp": 250,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        658,
+        571
+      ],
+      "rarity": "double-rare",
+      "illustrator": "Mitsuhiro Arita",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "あくのはどう",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "自分の場のポケモンについている[悪]エネルギーの数x30ダメージ追加。"
+        },
+        {
+          "name": "ナイトユニゾンGX",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "text": "自分のトラッシュにある[悪]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-025"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/025/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/026",
+      "number": "026",
+      "name": "キバニア",
+      "cardGroup": "intl/sm10/110",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        318
+      ],
+      "rarity": "common",
+      "illustrator": "SATOSHI NAKAI",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "かじる",
+          "cost": [
+            "darkness"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-026"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/026/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/027",
+      "number": "027",
+      "name": "サメハダー",
+      "cardGroup": "intl/sm10/111",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 110,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        319
+      ],
+      "evolvesFrom": "キバニア",
+      "rarity": "uncommon",
+      "illustrator": "Tomokazu Komiya",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "ごうよくしんか",
+          "text": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を上から6枚見て、その中にある[悪]エネルギーを好きなだけ、このポケモンにつける。残りのカードは山札にもどして切る。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "バッドファング",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60+",
+          "text": "このポケモンについている[悪]エネルギーの数x20ダメージ追加。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-027"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/027/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/028",
+      "number": "028",
+      "name": "ゲッコウガ",
+      "cardGroup": "intl/sm10/117",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 130,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        658
+      ],
+      "evolvesFrom": "ゲコガシラ",
+      "rarity": "rare",
+      "illustrator": "Yusuke Ohmura",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "しとめる",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "text": "このポケモン以外の、おたがいの場のポケモン全員の中から、残りHPが一番少ないポケモンのうち1匹を選び、きぜつさせる。"
+        },
+        {
+          "name": "かすみぎり",
+          "cost": [
+            "darkness",
+            "darkness"
+          ],
+          "damage": "70",
+          "text": "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 0,
+      "externalIds": {
+        "tcgdex": "SM9a-028"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/028/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/029",
+      "number": "029",
+      "name": "マーイーカ",
+      "cardGroup": "intl/sm10/118",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        686
+      ],
+      "rarity": "common",
+      "illustrator": "Naoyo Kimura",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "まどわす",
+          "cost": [
+            "darkness"
+          ],
+          "text": "相手のバトルポケモンをこんらんにする。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-029"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/029/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/030",
+      "number": "030",
+      "name": "カラマネロ",
+      "cardGroup": "intl/sm10/119",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 100,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        687
+      ],
+      "evolvesFrom": "マーイーカ",
+      "rarity": "rare",
+      "illustrator": "Yusuke Ohmura",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "さいみんしはい",
+          "cost": [
+            "darkness"
+          ],
+          "text": "相手の手札を見る。のぞむなら、その中にあるポケモンを、1枚トラッシュする。その場合、そのポケモンが持っているワザ（GXワザをのぞく）を1つ選び、このワザとして使う。"
+        },
+        {
+          "name": "ダークプレッシャー",
+          "cost": [
+            "darkness",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "80",
+          "text": "相手の山札を上から1枚トラッシュする。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-030"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/030/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/031",
+      "number": "031",
+      "name": "サーナイト&ニンフィアGX",
+      "cardGroup": "intl/sm10/130",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "tag-team-gx"
+      ],
+      "hp": 260,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        282,
+        700
+      ],
+      "rarity": "double-rare",
+      "illustrator": "Mitsuhiro Arita",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ようせいのうた",
+          "cost": [
+            "colorless"
+          ],
+          "text": "自分の山札にある[妖]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。"
+        },
+        {
+          "name": "カレイドストーム",
+          "cost": [
+            "fairy",
+            "fairy",
+            "colorless"
+          ],
+          "damage": "150",
+          "text": "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。"
+        },
+        {
+          "name": "ミラクルマジカルGX",
+          "cost": [
+            "fairy",
+            "fairy",
+            "fairy"
+          ],
+          "damage": "200",
+          "text": "追加で[妖]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-031"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/031/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/032",
+      "number": "032",
+      "name": "ピッピ",
+      "cardGroup": "intl/sm10/132",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        35
+      ],
+      "rarity": "common",
+      "illustrator": "0313",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "おうふくビンタ",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10×",
+          "text": "コインを2回投げ、オモテの数x10ダメージ。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-032"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/032/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/033",
+      "number": "033",
+      "name": "ピクシー",
+      "cardGroup": "intl/sm10/133",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 110,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        36
+      ],
+      "evolvesFrom": "ピッピ",
+      "rarity": "uncommon",
+      "illustrator": "Suwama Chiaki",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "おつきみダンス",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10+",
+          "text": "自分の場の[妖]エネルギーがついているポケモンの数x30ダメージ追加。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-033"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/033/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/034",
+      "number": "034",
+      "name": "トゲピー",
+      "cardGroup": "intl/sm10/136",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 50,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        175
+      ],
+      "rarity": "common",
+      "illustrator": "Sekio",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ひるませる",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "10",
+          "text": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-034"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/034/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/035",
+      "number": "035",
+      "name": "トゲチック",
+      "cardGroup": "intl/sm10/137",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 80,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        176
+      ],
+      "evolvesFrom": "トゲピー",
+      "rarity": "common",
+      "illustrator": "sui",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "エネギフト",
+          "cost": [
+            "colorless"
+          ],
+          "text": "自分の手札にあるエネルギーを1枚、ベンチポケモンにつける。"
+        },
+        {
+          "name": "マジカルショット",
+          "cost": [
+            "fairy",
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-035"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/035/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/036",
+      "number": "036",
+      "name": "トゲキッス",
+      "cardGroup": "intl/sm10/138",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage2"
+      ],
+      "hp": 140,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        468
+      ],
+      "evolvesFrom": "トゲチック",
+      "rarity": "rare",
+      "illustrator": "Kagemaru Himeno",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "ようせいのうたげ",
+          "text": "自分の番に1回使える。自分の[妖]ポケモン全員のHPを、それぞれ「30」回復する。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "マジカルショット",
+          "cost": [
+            "fairy",
+            "colorless"
+          ],
+          "damage": "70"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-036"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/036/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/037",
+      "number": "037",
+      "name": "シュシュプ",
+      "cardGroup": "intl/sm10/141",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 60,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        682
+      ],
+      "rarity": "common",
+      "illustrator": "MAHOU",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ひとやすみ",
+          "cost": [
+            "colorless"
+          ],
+          "text": "このポケモンのHPを「20」回復する。"
+        },
+        {
+          "name": "ようせいのかぜ",
+          "cost": [
+            "fairy"
+          ],
+          "damage": "10"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-037"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/037/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/038",
+      "number": "038",
+      "name": "フレフワン",
+      "cardGroup": "intl/sm10/142",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 90,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        683
+      ],
+      "evolvesFrom": "シュシュプ",
+      "rarity": "uncommon",
+      "illustrator": "Saya Tsuruta",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "きょうれつなかおり",
+          "cost": [
+            "fairy"
+          ],
+          "text": "コインを2回投げる。1回でもオモテなら、相手の手札を見て、オモテの数ぶんのカードを、相手の山札にもどして切る。"
+        },
+        {
+          "name": "ミラクルコロン",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "コインを1回投げオモテなら、特殊状態の中から1つを選び、相手のバトルポケモンをその状態にする。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-038"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/038/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/039",
+      "number": "039",
+      "name": "コラッタ",
+      "cardGroup": "intl/sm10/143",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 30,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        19
+      ],
+      "rarity": "common",
+      "illustrator": "Eri Yamaki",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "かじる",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-039"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/039/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/040",
+      "number": "040",
+      "name": "ラッタ",
+      "cardGroup": "intl/sm10/144",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 70,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        20
+      ],
+      "evolvesFrom": "コラッタ",
+      "rarity": "common",
+      "illustrator": "Shigenori Negishi",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "とんずらまえば",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "70",
+          "text": "相手のバトルポケモンが進化ポケモンなら、このポケモンをベンチポケモンと入れ替える。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-040"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/040/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/041",
+      "number": "041",
+      "name": "ベロリンガ",
+      "cardGroup": "intl/sm10/152",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic"
+      ],
+      "hp": 90,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        108
+      ],
+      "rarity": "common",
+      "illustrator": "Yukiko Baba",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "したでなめる",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "30",
+          "text": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-041"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/041/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/042",
+      "number": "042",
+      "name": "ベロベルト",
+      "cardGroup": "intl/sm10/153",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1"
+      ],
+      "hp": 130,
+      "types": [
+        "colorless"
+      ],
+      "species": [
+        463
+      ],
+      "evolvesFrom": "ベロリンガ",
+      "rarity": "uncommon",
+      "illustrator": "sui",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "つまんでたべる",
+          "cost": [
+            "colorless",
+            "colorless"
+          ],
+          "damage": "40",
+          "text": "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。トラッシュした場合、このポケモンのHPを、すべて回復する。"
+        },
+        {
+          "name": "ベロベロハリケーン",
+          "cost": [
+            "colorless",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "60×",
+          "text": "コインを4回投げ、オモテの数x60ダメージ。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 4,
+      "externalIds": {
+        "tcgdex": "SM9a-042"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/042/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/043",
+      "number": "043",
+      "name": "電磁レーダー",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Yoshinobu Saito",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-043"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/043/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/044",
+      "number": "044",
+      "name": "びっくりボックス",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "common",
+      "illustrator": "Ryo Ueda",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-044"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/044/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/045",
+      "number": "045",
+      "name": "ポケギア3.0",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Studio Bora Inc.",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-045"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/045/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/046",
+      "number": "046",
+      "name": "隠密フード",
+      "cardGroup": "intl/sm10/186",
+      "supertype": "trainer",
+      "subtypes": [
+        "tool"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ryo Ueda",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-046"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/046/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/047",
+      "number": "047",
+      "name": "フェアリーチャーム 雷",
+      "supertype": "trainer",
+      "subtypes": [
+        "tool"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Toyste Beach",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-047"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/047/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/048",
+      "number": "048",
+      "name": "フェアリーチャーム 特性",
+      "supertype": "trainer",
+      "subtypes": [
+        "tool"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Toyste Beach",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-048"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/048/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/049",
+      "number": "049",
+      "name": "アンズ",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Ken Sugimori",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-049"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/049/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/050",
+      "number": "050",
+      "name": "キョウの罠",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Megumi Mizutani",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-050"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/050/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/051",
+      "number": "051",
+      "name": "マチスの作戦",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "uncommon",
+      "illustrator": "Megumi Mizutani",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-051"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/051/normal",
+          "finish": "normal"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/052",
+      "number": "052",
+      "name": "エレキパワー",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Ayaka Yoshida",
+      "regulationMark": "B",
+      "externalIds": {
+        "tcgdex": "SM9a-052"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/052/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/053",
+      "number": "053",
+      "name": "改造ハンマー",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Yoshinobu Saito",
+      "regulationMark": "A",
+      "externalIds": {
+        "tcgdex": "SM9a-053"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/053/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/054",
+      "number": "054",
+      "name": "まんたんのくすり",
+      "cardGroup": "intl/sm10/166",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Toyste Beach",
+      "regulationMark": "A",
+      "externalIds": {
+        "tcgdex": "SM9a-054"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/054/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/055",
+      "number": "055",
+      "name": "グズマ",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "holo-rare",
+      "illustrator": "Masakazu Fukuda",
+      "regulationMark": "A",
+      "externalIds": {
+        "tcgdex": "SM9a-055"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/055/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/056",
+      "number": "056",
+      "name": "モルフォンGX",
+      "cardGroup": "intl/sm10/193",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1",
+        "gx"
+      ],
+      "hp": 200,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        49
+      ],
+      "evolvesFrom": "コンパン",
+      "rarity": "ultra-rare",
+      "illustrator": "5ban Graphics",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "しのびのごくい",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "110+",
+          "text": "この番、手札から「キョウの罠」を出して使っていたなら、90ダメージ追加。「アンズ」を出して使っていたなら、次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。"
+        },
+        {
+          "name": "じゅうまいがえしGX",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "自分の手札をすべて山札にもどして切る。その後、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-056"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/056/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "low"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/057",
+      "number": "057",
+      "name": "デデンネGX",
+      "cardGroup": "intl/sm10/195",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "gx"
+      ],
+      "hp": 160,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        702
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "5ban Graphics",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "デデチェンジ",
+          "text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「デデチェンジ」を使っていたなら、この特性は使えない。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "バチバチ",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50"
+        },
+        {
+          "name": "ビリリターンGX",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-057"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/057/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "low"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/058",
+      "number": "058",
+      "name": "ゲッコウガ&ゾロアークGX",
+      "cardGroup": "intl/sm10/200",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "tag-team-gx"
+      ],
+      "hp": 250,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        658,
+        571
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "5ban Graphics",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "あくのはどう",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "自分の場のポケモンについている[悪]エネルギーの数x30ダメージ追加。"
+        },
+        {
+          "name": "ナイトユニゾンGX",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "text": "自分のトラッシュにある[悪]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-058"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/058/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "low"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/059",
+      "number": "059",
+      "name": "ゲッコウガ&ゾロアークGX",
+      "cardGroup": "intl/sm10/201",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "tag-team-gx"
+      ],
+      "hp": 250,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        658,
+        571
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "kodama",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "あくのはどう",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "自分の場のポケモンについている[悪]エネルギーの数x30ダメージ追加。"
+        },
+        {
+          "name": "ナイトユニゾンGX",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "text": "自分のトラッシュにある[悪]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-059"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/059/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/060",
+      "number": "060",
+      "name": "サーナイト&ニンフィアGX",
+      "cardGroup": "intl/sm10/204",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "tag-team-gx"
+      ],
+      "hp": 260,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        282,
+        700
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "5ban Graphics",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ようせいのうた",
+          "cost": [
+            "colorless"
+          ],
+          "text": "自分の山札にある[妖]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。"
+        },
+        {
+          "name": "カレイドストーム",
+          "cost": [
+            "fairy",
+            "fairy",
+            "colorless"
+          ],
+          "damage": "150",
+          "text": "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。"
+        },
+        {
+          "name": "ミラクルマジカルGX",
+          "cost": [
+            "fairy",
+            "fairy",
+            "fairy"
+          ],
+          "damage": "200",
+          "text": "追加で[妖]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-060"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/060/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "low"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/061",
+      "number": "061",
+      "name": "サーナイト&ニンフィアGX",
+      "cardGroup": "intl/sm10/205",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "tag-team-gx"
+      ],
+      "hp": 260,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        282,
+        700
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "Atsuko Nishida",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ようせいのうた",
+          "cost": [
+            "colorless"
+          ],
+          "text": "自分の山札にある[妖]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。"
+        },
+        {
+          "name": "カレイドストーム",
+          "cost": [
+            "fairy",
+            "fairy",
+            "colorless"
+          ],
+          "damage": "150",
+          "text": "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。"
+        },
+        {
+          "name": "ミラクルマジカルGX",
+          "cost": [
+            "fairy",
+            "fairy",
+            "fairy"
+          ],
+          "damage": "200",
+          "text": "追加で[妖]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-061"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/061/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/062",
+      "number": "062",
+      "name": "アンズ",
+      "cardGroup": "intl/sm10/210",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "Hideki Ishikawa",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-062"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/062/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/063",
+      "number": "063",
+      "name": "キョウの罠",
+      "cardGroup": "intl/sm10/211",
+      "supertype": "trainer",
+      "subtypes": [
+        "supporter"
+      ],
+      "rarity": "ultra-rare",
+      "illustrator": "TOKIYA",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-063"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/063/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      },
+      "fieldProvenance": {
+        "cardGroup": {
+          "source": "catalog-pipeline",
+          "retrievedAt": "2026-10-13",
+          "confidence": "medium"
+        }
+      }
+    },
+    {
+      "id": "ja/sm9a/064",
+      "number": "064",
+      "name": "モルフォンGX",
+      "supertype": "pokemon",
+      "subtypes": [
+        "stage1",
+        "gx"
+      ],
+      "hp": 200,
+      "types": [
+        "grass"
+      ],
+      "species": [
+        49
+      ],
+      "evolvesFrom": "コンパン",
+      "rarity": "hyper-rare",
+      "illustrator": "",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "しのびのごくい",
+          "cost": [
+            "grass",
+            "colorless",
+            "colorless"
+          ],
+          "damage": "110+",
+          "text": "この番、手札から「キョウの罠」を出して使っていたなら、90ダメージ追加。「アンズ」を出して使っていたなら、次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。"
+        },
+        {
+          "name": "じゅうまいがえしGX",
+          "cost": [
+            "colorless"
+          ],
+          "damage": "60",
+          "text": "自分の手札をすべて山札にもどして切る。その後、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": "x2"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-064"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/064/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/065",
+      "number": "065",
+      "name": "デデンネGX",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "gx"
+      ],
+      "hp": 160,
+      "types": [
+        "lightning"
+      ],
+      "species": [
+        702
+      ],
+      "rarity": "hyper-rare",
+      "illustrator": "",
+      "regulationMark": "C",
+      "abilities": [
+        {
+          "kind": "ability",
+          "name": "デデチェンジ",
+          "text": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「デデチェンジ」を使っていたなら、この特性は使えない。"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "バチバチ",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50"
+        },
+        {
+          "name": "ビリリターンGX",
+          "cost": [
+            "lightning",
+            "colorless"
+          ],
+          "damage": "50",
+          "text": "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "metal",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 1,
+      "externalIds": {
+        "tcgdex": "SM9a-065"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/065/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/066",
+      "number": "066",
+      "name": "ゲッコウガ&ゾロアークGX",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "tag-team-gx"
+      ],
+      "hp": 250,
+      "types": [
+        "darkness"
+      ],
+      "species": [
+        658,
+        571
+      ],
+      "rarity": "hyper-rare",
+      "illustrator": "",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "あくのはどう",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "damage": "30+",
+          "text": "自分の場のポケモンについている[悪]エネルギーの数x30ダメージ追加。"
+        },
+        {
+          "name": "ナイトユニゾンGX",
+          "cost": [
+            "darkness",
+            "colorless"
+          ],
+          "text": "自分のトラッシュにある[悪]タイプの「ポケモンGX・EX」を2枚、ベンチに出す。 追加でエネルギーが1個ついているなら、新しく出したポケモンに、トラッシュにあるエネルギーを2枚ずつつける。［対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fighting",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "psychic",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-066"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/066/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/067",
+      "number": "067",
+      "name": "サーナイト&ニンフィアGX",
+      "supertype": "pokemon",
+      "subtypes": [
+        "basic",
+        "tag-team-gx"
+      ],
+      "hp": 260,
+      "types": [
+        "fairy"
+      ],
+      "species": [
+        282,
+        700
+      ],
+      "rarity": "hyper-rare",
+      "illustrator": "",
+      "regulationMark": "C",
+      "attacks": [
+        {
+          "name": "ようせいのうた",
+          "cost": [
+            "colorless"
+          ],
+          "text": "自分の山札にある[妖]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。"
+        },
+        {
+          "name": "カレイドストーム",
+          "cost": [
+            "fairy",
+            "fairy",
+            "colorless"
+          ],
+          "damage": "150",
+          "text": "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。"
+        },
+        {
+          "name": "ミラクルマジカルGX",
+          "cost": [
+            "fairy",
+            "fairy",
+            "fairy"
+          ],
+          "damage": "200",
+          "text": "追加で[妖]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "metal",
+          "value": "x2"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "darkness",
+          "value": "-20"
+        }
+      ],
+      "retreatCost": 2,
+      "externalIds": {
+        "tcgdex": "SM9a-067"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/067/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/068",
+      "number": "068",
+      "name": "電磁レーダー",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-068"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/068/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/069",
+      "number": "069",
+      "name": "ポケギア3.0",
+      "supertype": "trainer",
+      "subtypes": [
+        "item"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "",
+      "regulationMark": "C",
+      "externalIds": {
+        "tcgdex": "SM9a-069"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/069/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ja/sm9a/070",
+      "number": "070",
+      "name": "エーテルパラダイス保護区",
+      "supertype": "trainer",
+      "subtypes": [
+        "stadium"
+      ],
+      "rarity": "secret-rare",
+      "illustrator": "",
+      "regulationMark": "A",
+      "externalIds": {
+        "tcgdex": "SM9a-070"
+      },
+      "prints": [
+        {
+          "id": "ja/sm9a/070/holo",
+          "finish": "holo"
+        }
+      ],
+      "provenance": {
+        "source": "tcgdex",
+        "retrievedAt": "2026-10-13",
+        "confidence": "high"
+      }
+    }
+  ]
+}
