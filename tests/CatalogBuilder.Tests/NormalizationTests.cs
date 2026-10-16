@@ -2,6 +2,7 @@ using System.Text.Json.Nodes;
 using CatalogBuilder.Format;
 using CatalogBuilder.Normalization;
 using CatalogBuilder.Pipeline;
+using CatalogBuilder.Sources;
 
 namespace CatalogBuilder.Tests;
 
@@ -105,6 +106,43 @@ public class NormalizationTests
         Assert.Equal("en/pl3/60/metall", prints[1].Id);
         Assert.Equal("metal", prints[1].Finish);
         Assert.Empty(vocabulary.Problems);
+    }
+
+    [Fact]
+    public void A_print_fix_sets_the_finish_and_removes_the_tag_in_its_sets_but_the_id_stays()
+    {
+        var fix = new PrintFix(["ex11"], "stamp-set-logo", Finish: "reverse", RemoveTag: true);
+        Func<string, Func<PrintKey, PrintKey>> fixIn = set => key => fix.Apply(set, key);
+        TcgdexVariant[] beedrill = [
+            new() { Type = "holo", Size = "standard" },
+            new() { Type = "holo", Size = "standard", Stamp = ["set-logo"] },
+            new() { Type = "holo", Size = "standard", Stamp = ["jeremy-scharff-kim", "set-logo"] },
+        ];
+
+        var prints = CardMapper.MapPrints("en/ex11/1", beedrill, fixIn("ex11"));
+
+        Assert.Equal(["en/ex11/1/holo", "en/ex11/1/holo~stamp-set-logo", "en/ex11/1/holo~stamp-jeremy-scharff-kim~stamp-set-logo"], prints.Select(p => p.Id)); // FR-CAT-10
+        Assert.Equal([("holo", null), ("reverse", null), ("reverse", "stamp-jeremy-scharff-kim")],
+            prints.Select(p => (p.Finish, p.Tags is null ? null : string.Join('~', p.Tags))));
+        // Other sets keep the source prints.
+        Assert.Equal(["holo", "holo", "holo"], CardMapper.MapPrints("en/sv03-5/1", beedrill, fixIn("sv03-5")).Select(p => p.Finish));
+    }
+
+    [Fact]
+    public void A_stamp_that_doubles_most_cards_of_a_set_without_reverse_is_reported()
+    {
+        CatalogCard[] cards =
+        [
+            .. Enumerable.Range(1, 6).Select(i => Card($"00{i}", "common", ("normal", null), ("normal", ["stamp-set-logo"]))),
+            .. Enumerable.Range(7, 3).Select(i => Card($"00{i}", "rare", ("holo", null), ("holo", ["foil-cosmos"]))), // special foils are no error
+            Card("010", "rare", ("holo", null), ("holo", ["foil-cosmos"])),
+            Card("011", "common", ("normal", null), ("normal", ["stamp-league"])), // a single special print
+        ];
+
+        Assert.Equal(["en/ex11: stamp 'stamp-set-logo' doubles 6 of 11 cards and the set has no reverse – reverse holos with the wrong finish? (printFixes in config/pipeline.json)"],
+            PrintChecks.TagDoubles("en/ex11", cards));
+        Assert.Empty(PrintChecks.TagDoubles("en/ex11", cards[..9])); // too few cards
+        Assert.Empty(PrintChecks.TagDoubles("en/ex11", [.. cards, Card("012", "common", ("reverse", null))])); // the set has reverses
     }
 
     [Fact]

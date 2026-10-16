@@ -20,7 +20,7 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
         var languages = options.Languages ?? settings.Languages;
         var refLang = settings.ReferenceLanguage;
         var vocabulary = config.CreateVocabulary();
-        var mapper = new CardMapper(vocabulary, _today);
+        var mapper = new CardMapper(vocabulary, _today, settings.PrintFixes);
 
         log.WriteLine($"Reference data ({refLang}) …");
         var refSets = await tcgdex.GetSetsAsync(refLang, ct);
@@ -105,6 +105,7 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
                 tags.UnionWith(mapped.SelectMany(c => c.Prints).SelectMany(p => p.Tags ?? []));
                 printWarnings.AddRange(PrintChecks.Duplicates(mapped));
                 if (lang == refLang) patternWarnings.AddRange(PrintChecks.PatternOutliers(mapped));
+                if (lang == refLang) printWarnings.AddRange(PrintChecks.TagDoubles(setId, mapped));
 
                 written++;
             }

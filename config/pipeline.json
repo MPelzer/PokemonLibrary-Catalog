@@ -12,6 +12,15 @@
     "tcgp"
   ],
   "requestConcurrency": 4,
+  "printFixes": [
+    {
+      "sets": ["ex7", "ex8", "ex9", "ex10", "ex11", "ex12", "ex13", "ex14", "ex15", "ex16"],
+      "tag": "stamp-set-logo",
+      "finish": "reverse",
+      "removeTag": true,
+      "reason": "Catalog #5: every reverse holo of EX Team Rocket Returns to EX Power Keepers carries the set logo, so the stamp is no variant; TCGdex lists the ex11-ex16 reverses as holo/normal + set-logo stamp."
+    }
+  ],
   "valueMap": {
     "rarity": {
       "Rare Holo": "rare",

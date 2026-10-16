@@ -9,7 +9,7 @@ namespace CatalogBuilder.Pipeline;
 /// stage, …) are taken from the reference-language record with the same TCGdex id, because the
 /// localized values are inconsistent in the source; texts come from the language's own record.
 /// </summary>
-public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt)
+public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt, IReadOnlyList<PrintFix>? printFixes = null)
 {
     public CatalogCard Map(string lang, string setCode, TcgdexCard card, TcgdexCard? reference)
     {
@@ -24,7 +24,8 @@ public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt)
         AddIfNotNull(subtypes, vocabulary.Map("trainerType", "subtypes", enums.TrainerType, ctx));
         AddIfNotNull(subtypes, vocabulary.Map("energyType", "subtypes", enums.EnergyType, ctx));
 
-        var prints = MapPrints(cardId, card.VariantsDetailed, key => vocabulary.NormalizePrint(key, ctx));
+        var prints = MapPrints(cardId, card.VariantsDetailed,
+            key => (printFixes ?? []).Aggregate(vocabulary.NormalizePrint(key, ctx), (k, fix) => fix.Apply(setCode, k)));
 
         return new CatalogCard
         {

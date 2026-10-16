@@ -11,7 +11,8 @@ public sealed record PipelineSettings(
     IReadOnlyList<string> ExcludedSeries,
     int RequestConcurrency,
     IReadOnlyDictionary<string, IReadOnlyDictionary<string, string>> ValueMap,
-    IReadOnlyList<string>? SeparateNumbering = null)
+    IReadOnlyList<string>? SeparateNumbering = null,
+    IReadOnlyList<PrintFix>? PrintFixes = null)
 {
     /// <summary>D53: languages with their own sets and numbering (Japanese) – grouped by <see cref="CrossLanguageMatcher"/>.</summary>
     public bool HasSeparateNumbering(string lang) => SeparateNumbering?.Contains(lang) == true;
