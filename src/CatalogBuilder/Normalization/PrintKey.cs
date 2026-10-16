@@ -29,11 +29,12 @@ public sealed record PrintKey(string Finish, string? Edition, IReadOnlyList<stri
     }
 
     /// <summary>
-    /// The language-independent form for the print's <c>edition</c> and <c>tags</c> (catalog issue #1): localized stamp
-    /// and foil values are translated (e.g. <c>kosmos</c> → <c>cosmos</c>), and a stamp that means 1st edition sets the
-    /// edition. The print ID keeps using the source key, so published IDs never change (FR-CAT-10).
+    /// The language-independent form for the print's <c>finish</c>, <c>edition</c> and <c>tags</c> (catalog issue #1):
+    /// localized stamp and foil values are translated (e.g. <c>kosmos</c> → <c>cosmos</c>), a stamp that means 1st
+    /// edition sets the edition, and a foil translated to <c>stamp-…</c> is a distribution mark, i.e. a stamp (D60:
+    /// <c>league</c> → <c>stamp-league</c>). The print ID keeps using the source key, so published IDs never change (FR-CAT-10).
     /// </summary>
-    public PrintKey Normalize(Func<string, string> stamp, Func<string, string> foil)
+    public PrintKey Normalize(Func<string, string> stamp, Func<string, string> foil, Func<string, string>? finish = null)
     {
         var edition = Edition;
         var tags = new SortedSet<string>(StringComparer.Ordinal);
@@ -45,10 +46,14 @@ public sealed record PrintKey(string Finish, string? Edition, IReadOnlyList<stri
                 if (value == FirstEditionStamp) edition = "first-edition";
                 else tags.Add(StampPrefix + value);
             }
-            else if (tag.StartsWith(FoilPrefix, StringComparison.Ordinal)) tags.Add(FoilPrefix + foil(tag[FoilPrefix.Length..]));
+            else if (tag.StartsWith(FoilPrefix, StringComparison.Ordinal))
+            {
+                var value = foil(tag[FoilPrefix.Length..]);
+                tags.Add(value.StartsWith(StampPrefix, StringComparison.Ordinal) ? value : FoilPrefix + value);
+            }
             else tags.Add(tag);
         }
-        return new PrintKey(Finish, edition, [.. tags]);
+        return new PrintKey(finish?.Invoke(Finish) ?? Finish, edition, [.. tags]);
     }
 
     public bool Equals(PrintKey? other) =>

@@ -24,7 +24,7 @@ public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt)
         AddIfNotNull(subtypes, vocabulary.Map("trainerType", "subtypes", enums.TrainerType, ctx));
         AddIfNotNull(subtypes, vocabulary.Map("energyType", "subtypes", enums.EnergyType, ctx));
 
-        var prints = MapPrints(cardId, card.VariantsDetailed, vocabulary.NormalizePrint);
+        var prints = MapPrints(cardId, card.VariantsDetailed, key => vocabulary.NormalizePrint(key, ctx));
 
         return new CatalogCard
         {

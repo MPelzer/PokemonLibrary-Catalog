@@ -9,6 +9,11 @@
     "rarities": { "type": "array", "items": { "$ref": "#/$defs/rankedEntry" } },
     "finishes": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
     "editions": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+    "variantTags": {
+      "type": "array",
+      "description": "Since 1.1 (D60): names and kinds of the print tags (special foils, stamps, sizes)",
+      "items": { "$ref": "#/$defs/variantTag" }
+    },
     "supertypes": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
     "dataCategories": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/dataCategory" } }
   },
@@ -25,6 +30,16 @@
       "allOf": [{ "$ref": "#/$defs/entry" }],
       "required": ["rank"],
       "properties": { "rank": { "type": "integer", "minimum": 0, "description": "Higher = rarer; used for comparisons" } }
+    },
+    "variantTag": {
+      "allOf": [{ "$ref": "#/$defs/entry" }],
+      "required": ["kind"],
+      "properties": {
+        "kind": {
+          "enum": ["reverse-pattern", "holo-pattern", "treatment", "stamp", "size"],
+          "description": "Pattern of the reverse or holo foil, a card treatment (gold, rainbow), a stamp or distribution mark, or a size (jumbo)"
+        }
+      }
     }
   }
 }

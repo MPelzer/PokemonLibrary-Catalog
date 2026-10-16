@@ -58,10 +58,24 @@ public sealed class Vocabulary
     }
 
     /// <summary>
-    /// Translates localized stamp and foil values of a print key (value map fields <c>stamp</c> and <c>foil</c>, keyed by
-    /// slug) – variant tags must be the same in every language (catalog issue #1).
+    /// Translates localized stamp, foil and finish values of a print key (value map fields <c>stamp</c>, <c>foil</c> and
+    /// <c>finish</c>, keyed by slug) – variant tags must be the same in every language (catalog issue #1). The finish must
+    /// be in the vocabulary's <c>finishes</c>, every tag in its <c>variantTags</c> (D60); others are problems.
     /// </summary>
-    public PrintKey NormalizePrint(PrintKey key) => key.Normalize(s => Translate("stamp", s), f => Translate("foil", f));
+    public PrintKey NormalizePrint(PrintKey key, string context)
+    {
+        var normalized = key.Normalize(s => Translate("stamp", s), f => Translate("foil", f), f => Translate("finish", f));
+        Require("finish", "finishes", normalized.Finish, context);
+        foreach (var tag in normalized.Tags) Require("tag", "variantTags", tag, context);
+        return normalized;
+    }
+
+    private void Require(string field, string section, string key, string context)
+    {
+        if (_sections.TryGetValue(section, out var keys) && keys.Contains(key)) return;
+        var problem = $"Unknown {field} '{key}' (vocabulary section '{section}')";
+        _problems[problem] = _problems.TryGetValue(problem, out var known) ? (known.Count + 1, known.Example) : (1, context);
+    }
 
     private string Translate(string field, string slug) =>
         _valueMap.TryGetValue(field, out var map) && map.TryGetValue(slug, out var mapped) ? mapped : slug;

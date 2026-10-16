@@ -6,7 +6,7 @@ namespace CatalogBuilder.Format;
 
 public static class CatalogJson
 {
-    public const string FormatVersion = "1.0";
+    public const string FormatVersion = "1.1";
 
     /// <summary>Indented, camelCase, nulls omitted, non-ASCII kept readable (diff-friendly in Git).</summary>
     public static readonly JsonSerializerOptions Options = new()

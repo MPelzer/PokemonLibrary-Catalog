@@ -35,6 +35,8 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
 
         var marketplaceIds = options.FetchMarketplaceIds ? await FetchMarketplaceIdsAsync(refCards, ct) : null;
         var tagsByLanguage = new Dictionary<string, HashSet<string>>(StringComparer.Ordinal);
+        var printWarnings = new List<string>();
+        var patternWarnings = new List<string>();
 
         log.WriteLine("Species (PokéAPI) …");
         var species = await pokeApi.GetSpeciesAsync(languages, ct);
@@ -101,6 +103,8 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
                 Write($"sets/{lang}/{setCode}.json", setFile);
                 var tags = tagsByLanguage.TryGetValue(lang, out var known) ? known : tagsByLanguage[lang] = new HashSet<string>(StringComparer.Ordinal);
                 tags.UnionWith(mapped.SelectMany(c => c.Prints).SelectMany(p => p.Tags ?? []));
+                printWarnings.AddRange(PrintChecks.Duplicates(mapped));
+                if (lang == refLang) patternWarnings.AddRange(PrintChecks.PatternOutliers(mapped));
 
                 written++;
             }
@@ -124,6 +128,11 @@ public sealed class CatalogBuild(PipelineConfig config, TcgdexClient tcgdex, Pok
         foreach (var (lang, tags) in tagsByLanguage.Where(t => t.Key != refLang).OrderBy(t => t.Key, StringComparer.Ordinal))
             foreach (var tag in tags.Where(t => !referenceTags.Contains(t)).Order(StringComparer.Ordinal))
                 log.WriteLine($"  warning: tag '{tag}' ({lang}) occurs in no {refLang} print – translate it in config/pipeline.json (valueMap stamp/foil)?");
+
+        foreach (var warning in printWarnings) log.WriteLine("  warning: " + warning);
+        // D58: a check, not data – the outliers stay in the catalog as the source delivers them.
+        log.WriteLine($"  {patternWarnings.Count} {refLang} card(s) whose regular prints differ from the usual pattern of their set and rarity:");
+        foreach (var warning in patternWarnings) log.WriteLine("    pattern: " + warning);
 
         return Report(vocabulary, options.Lenient);
     }

@@ -1,4 +1,7 @@
+using System.Text.Json.Nodes;
+using CatalogBuilder.Format;
 using CatalogBuilder.Normalization;
+using CatalogBuilder.Pipeline;
 
 namespace CatalogBuilder.Tests;
 
@@ -74,5 +77,77 @@ public class NormalizationTests
         var key = PrintKey.FromVariant("holo", "jumbo", ["staff"], "cosmos");
 
         Assert.Equal(key, key.Normalize(s => s, f => f));
+    }
+
+    private static Vocabulary VocabularyWith(Dictionary<string, Dictionary<string, string>> valueMap) => new(JsonNode.Parse("""
+        {
+          "finishes": [ { "key": "normal" }, { "key": "reverse" }, { "key": "metal" } ],
+          "variantTags": [ { "key": "foil-pokeball", "kind": "reverse-pattern" }, { "key": "stamp-league", "kind": "stamp" } ]
+        }
+        """)!, valueMap.ToDictionary(m => m.Key, m => (IReadOnlyDictionary<string, string>)m.Value));
+
+    [Fact]
+    public void A_foil_mapped_to_a_stamp_becomes_a_stamp_and_the_finish_is_translated_but_the_id_stays()
+    {
+        var vocabulary = VocabularyWith(new()
+        {
+            ["foil"] = new() { ["league"] = "stamp-league" },
+            ["finish"] = new() { ["metall"] = "metal" },
+        });
+
+        var prints = CardMapper.MapPrints("en/pl3/60", [
+            new() { Type = "reverse", Foil = "League" },
+            new() { Type = "metall" },
+        ], key => vocabulary.NormalizePrint(key, "test"));
+
+        Assert.Equal("en/pl3/60/reverse~foil-league", prints[0].Id); // unchanged (FR-CAT-10)
+        Assert.Equal(["stamp-league"], prints[0].Tags);
+        Assert.Equal("en/pl3/60/metall", prints[1].Id);
+        Assert.Equal("metal", prints[1].Finish);
+        Assert.Empty(vocabulary.Problems);
+    }
+
+    [Fact]
+    public void Finishes_and_tags_outside_the_vocabulary_are_problems()
+    {
+        var vocabulary = VocabularyWith([]);
+
+        CardMapper.MapPrints("en/x/1", [new() { Type = "metall", Foil = "Glitter" }], key => vocabulary.NormalizePrint(key, "en/x-1"));
+
+        Assert.Equal([
+            "Unknown finish 'metall' (vocabulary section 'finishes') – 1×, e.g. en/x-1",
+            "Unknown tag 'foil-glitter' (vocabulary section 'variantTags') – 1×, e.g. en/x-1",
+        ], vocabulary.Problems);
+    }
+
+    private static CatalogCard Card(string number, string rarity, params (string Finish, string[]? Tags)[] prints) => new()
+    {
+        Id = "en/sv06/" + number, Number = number, Name = "Card " + number, Supertype = "pokemon", Rarity = rarity,
+        Prints = [.. prints.Select(p => new CatalogPrint { Id = $"en/sv06/{number}/{p.Finish}{string.Concat((p.Tags ?? []).Select(t => "~" + t))}", Finish = p.Finish, Tags = p.Tags })],
+        Provenance = new Provenance("tcgdex", "2026-10-16", "high"),
+    };
+
+    [Fact]
+    public void A_card_that_breaks_the_print_pattern_of_its_rarity_is_reported()
+    {
+        CatalogCard[] cards =
+        [
+            .. Enumerable.Range(1, 5).Select(i => Card($"00{i}", "rare", ("holo", null), ("reverse", null), ("reverse", ["foil-pokeball"]))),
+            Card("006", "rare", ("normal", null), ("holo", null), ("reverse", null)),
+            Card("100", "double-rare", ("holo", null)), // too few cards for a pattern
+            Card("101", "double-rare", ("normal", null)),
+        ];
+
+        Assert.Equal(["en/sv06/006 (rare): holo+normal+reverse, usual holo+reverse (5 of 6)"], PrintChecks.PatternOutliers(cards));
+    }
+
+    [Fact]
+    public void Prints_that_became_equal_are_reported()
+    {
+        var card = Card("001", "common", ("reverse", ["stamp-league"]), ("reverse", null));
+        var duplicate = card with { Prints = [.. card.Prints, new CatalogPrint { Id = "en/sv06/001/reverse~foil-league", Finish = "reverse", Tags = ["stamp-league"] }] };
+
+        Assert.Empty(PrintChecks.Duplicates([card]));
+        Assert.Equal(["en/sv06/001: prints en/sv06/001/reverse~stamp-league, en/sv06/001/reverse~foil-league are the same print"], PrintChecks.Duplicates([duplicate]));
     }
 }

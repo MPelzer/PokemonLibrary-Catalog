@@ -39,6 +39,13 @@ The build **fails** when a source delivers a value that is not in the vocabulary
 - IDs: `<lang>/<setCode>/<number>/<finish>[.<edition>][~<tag>]…`; set code = TCGdex id lower-case with `.` → `-`.
 - Enumerations (rarity, types, stage, …) of non-reference languages are taken from the **English record with the same TCGdex id** – the localized source values are inconsistent. Texts come from the language's own record.
 - Jumbo, stamps and foil patterns become separate prints via tags (`~jumbo`, `~stamp-staff`, `~foil-cosmos`); the `1st-edition` stamp becomes the edition. Variants without distinguishing attributes are merged.
+- Every finish and tag must be in `config/vocabulary.json` (`finishes`, `variantTags` with names and kind – format 1.1,
+  app decision D60), otherwise the build fails like for other unknown values. Localized or misspelled source values are
+  mapped in `valueMap` (`finish`, `foil`, `stamp`); a foil mapped to `stamp-…` is a distribution mark and becomes a stamp
+  (`league` → `stamp-league`). Print IDs keep the source form (`…/reverse~foil-league`, `…/metall`).
+- The build log warns about prints that became equal after normalization and – as a hint for source errors (D58) –
+  about reference cards whose regular finishes differ from the usual pattern of their set and rarity (e.g. a normal
+  print of an SV rare). These are checks only; the data stays as the source delivers it.
 
 ## Adding a language
 
