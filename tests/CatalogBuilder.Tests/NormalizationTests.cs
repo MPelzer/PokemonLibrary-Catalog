@@ -73,6 +73,25 @@ public class NormalizationTests
     }
 
     [Fact]
+    public void Prints_are_written_in_a_fixed_order_whatever_the_source_order()
+    {
+        TcgdexVariant[] variants = [
+            new() { Type = "reverse", Foil = "Pokeball" },
+            new() { Type = "metal" },
+            new() { Type = "reverse" },
+            new() { Type = "holo", Stamp = ["1st-edition"] },
+            new() { Type = "holo" },
+            new() { Type = "normal" },
+        ];
+
+        var prints = CardMapper.MapPrints("en/sv03/1", variants);
+
+        string[] expected = ["normal", "holo", "holo~1st-edition", "reverse", "metal", "reverse~foil-pokeball"];
+        Assert.Equal(expected, prints.Select(p => p.Finish + (p.Edition is null ? "" : "~1st-edition") + (p.Tags is null ? "" : "~" + string.Join('~', p.Tags))));
+        Assert.Equal(prints.Select(p => p.Id), CardMapper.MapPrints("en/sv03/1", variants.Reverse()).Select(p => p.Id));
+    }
+
+    [Fact]
     public void Untranslated_values_stay_as_they_are()
     {
         var key = PrintKey.FromVariant("holo", "jumbo", ["staff"], "cosmos");
@@ -101,10 +120,10 @@ public class NormalizationTests
             new() { Type = "metall" },
         ], key => vocabulary.NormalizePrint(key, "test"));
 
-        Assert.Equal("en/pl3/60/reverse~foil-league", prints[0].Id); // unchanged (FR-CAT-10)
-        Assert.Equal(["stamp-league"], prints[0].Tags);
-        Assert.Equal("en/pl3/60/metall", prints[1].Id);
-        Assert.Equal("metal", prints[1].Finish);
+        Assert.Equal("en/pl3/60/metall", prints[0].Id); // unchanged (FR-CAT-10)
+        Assert.Equal("metal", prints[0].Finish);
+        Assert.Equal("en/pl3/60/reverse~foil-league", prints[1].Id);
+        Assert.Equal(["stamp-league"], prints[1].Tags);
         Assert.Empty(vocabulary.Problems);
     }
 

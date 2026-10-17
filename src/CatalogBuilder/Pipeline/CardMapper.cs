@@ -58,6 +58,7 @@ public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt, IReadO
     /// <summary>
     /// Distinct prints; variants that cannot be distinguished by attributes are merged (C3). The ID comes from the source
     /// key (stable, FR-CAT-10), edition and tags from its language-independent form (<paramref name="normalize"/>).
+    /// Written in a fixed order (catalog issue #2, app D56) because the source order varies between cards.
     /// </summary>
     public static IReadOnlyList<CatalogPrint> MapPrints(string cardId, IEnumerable<TcgdexVariant>? variants, Func<PrintKey, PrintKey>? normalize = null)
     {
@@ -73,8 +74,27 @@ public sealed class CardMapper(Vocabulary vocabulary, string retrievedAt, IReadO
                 Edition = fields.Edition,
                 Tags = fields.Tags.Count > 0 ? fields.Tags : null,
             };
-        }).ToList();
+        }).OrderBy(p => p, PrintOrder).ToList();
     }
+
+    private static readonly string[] FinishOrder = ["normal", "holo", "reverse"];
+
+    /// <summary>
+    /// Regular prints before variants (tags), each by finish normal → holo → reverse → others (alphabetical); ties: no
+    /// edition before an edition, then by tags and ID – the result never depends on the source order.
+    /// </summary>
+    private static readonly Comparer<CatalogPrint> PrintOrder = Comparer<CatalogPrint>.Create((a, b) =>
+    {
+        int Rank(CatalogPrint p) => Array.IndexOf(FinishOrder, p.Finish) is var i and >= 0 ? i : FinishOrder.Length;
+        string Tags(CatalogPrint p) => string.Join('~', p.Tags ?? []);
+        var order = (a.Tags is not null).CompareTo(b.Tags is not null);
+        if (order == 0) order = Rank(a).CompareTo(Rank(b));
+        if (order == 0) order = string.CompareOrdinal(a.Finish, b.Finish);
+        if (order == 0) order = (a.Edition is not null).CompareTo(b.Edition is not null);
+        if (order == 0) order = string.CompareOrdinal(a.Edition, b.Edition);
+        if (order == 0) order = string.CompareOrdinal(Tags(a), Tags(b));
+        return order != 0 ? order : string.CompareOrdinal(a.Id, b.Id);
+    });
 
     /// <summary>Ability kind ("ability", "poke-power", …) is an enumeration → taken from the reference record by position.</summary>
     private static List<Ability>? MapAbilities(List<TcgdexAbility?>? abilities, List<TcgdexAbility?>? referenceAbilities)
